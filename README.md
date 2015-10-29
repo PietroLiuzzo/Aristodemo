@@ -14,3 +14,6 @@ Aristodemus, FGrHist 104 is a good test because:
 The XML of the text will be in TEI, places annotation following pelagios cookbook, people annotation following snap.
 The manuscript, Cod. Par. Suppl. gr. 607, is preserved at the Cabinet de Manuscrits and is digitized and made available by the Bibliothéque National the France.
 The papyrus, P.Oxy 27.2469 is preserved at the British Library.
+
+LombardPress customization for EpiDoc will be used to produce PDF
+https://bitbucket.org/lombardpress/lombardpress-print
