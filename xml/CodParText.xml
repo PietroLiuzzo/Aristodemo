@@ -1,0 +1,4004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cod. Par. Suppl. Gr. 607</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename">text</idno>
+                <!--id corrispondente in driver-->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <msName type="invNo">Cod. Par. Suppl. Gr. 607</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p> ... </p>
+                                    <objectType>Manuscript</objectType><!--possono essere inseriti valori dal vocabolario Object Type di EAGLE-->
+                                    <material/>
+                                    <dimensions>
+                                        <height unit="cm"/>
+                                        <width unit="cm"/>
+                                    </dimensions>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout> </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote/>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate when="1423">1423</origDate>
+                        </origin>
+                        <provenance type="found"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">Inglese</language>
+                <language ident="it">Italiano</language>
+                <language ident="la">Latino</language>
+                <language ident="grc">Greco Antico</language>
+            </langUsage>
+            <creation>Pietro Liuzzo at the Institute of Classical Studies, University of Bologna and
+                University of Heidelberg</creation>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-12-09" who="Pietro Liuzzo">migrated LateX to prototype XML</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic n="foto1" url="https://url.della.foto/nomedelfile.estension">
+            <desc>
+                <ref type="license" target="http://licenza.della/foto">BNF</ref>
+            </desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="bibliography">
+                <!--                ids in bibl need to match the apparatus, targets in the ptrs need to match the bibliography in Zotero
+                
+                update Zotero on computer from personal account and add in there the biblatex with the latest corrections plus the stuff read afterwards
+                
+                Klio 2014, Nemeth, etc.
+                -->
+                <bibl/>
+
+            </div>
+            <div type="edition">
+                <!--                per le immagini ho inserito puntatori alle immagini in locale come previsto da tei boilerplate. 
+                    Ideale sarebbe puntare direttamente alle foto in gallica e visualizzarle con cose tipo mirador o DFG viewer-->
+                <!--        inserire anche i commenti nel manoscritti: come?
+        per ora ho usato <label>        -->
+
+                <div type="textpart" subtype="section" n="0">
+                    <pb n="81" facs="81.pdf"/>
+                    <milestone unit="section" type="filostratus" n="1a"/>
+                    <pb n="81v" facs="81v.pdf"/>
+
+                    <milestone unit="section" type="filostratus" n="1b"/>
+                    <pb n="82" facs="82.pdf"/>
+
+                    <milestone unit="section" type="filostratus" n="1c"/>
+                    <pb n="82v" facs="82v.pdf"/>
+
+                    <milestone unit="section" type="filostratus" n="1d"/>
+                    <pb n="83" facs="83.pdf"/>
+
+                    <milestone unit="section" type="recepies"/>
+                </div>
+                <div type="textpart" subtype="section" n="1">
+                    <pb n="ξζ" facs="1-ξζ.pdf"/>
+                    <label>* <w>καὶ</w>
+                        <w>τὸ</w>
+                        <w>σημειόν</w>
+                        <w>τοῦτο</w>
+                        <w>ἐστιν</w>
+                        <w>καὶ</w>
+                        <w>τὸ</w>
+                        <w>ζητούμενον</w>
+                        <w>τοῦ</w>
+                        <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/%E1%BC%88%CF%81%CE%B9%CF%83%CF%84%CF%8C%CE%B4%CE%B7%CE%BC%CE%BF%CF%82http://clas-lgpn2.classics.ox.ac.uk/name/%E1%BC%88%CF%81%CE%B9%CF%83%CF%84%CF%8C%CE%B4%CE%B7%CE%BC%CE%BF%CF%82">Ἀριστοδήμου</name></label>
+                    <!--is this ok for the marks left by the scribe? it is in facts a pointer-->
+                    <p n="1">
+                        <gap unit="lines" extent="unknown" reason="lost"/>
+                        <w>αἰτησάμενος</w>
+                        <w>γὰρ</w>
+                        <w>μίαν</w>
+                        <w>ἡμέραν</w>
+                        <w>μόνην</w>
+                        <w>ἔπεμψε</w>
+                        <w>κρύφα</w>
+                        <name>Σίκινον</name>
+                        <w>τὸν</w>
+                        <w>ἑαυτοῦ</w>
+                        <w>παιδαγωγὸν</w>
+                        <w>πρὸς</w>
+                        <name>Ξέρξην,</name>
+                        <w>ἐγκελευσάμενος</w>
+                        <w>αὐτῷ</w>
+                        <w>ἐπιτίθεσθαι</w>
+                        <w>τοῖς</w>
+                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησιν</placeName>
+                        <w>καὶ</w>
+                        <w>ναυμαχεῖν,</w>
+                        <w>δηλῶν</w>
+                        <w>τὸν</w>
+                        <w>μέλλοντα</w>
+                        <w>δρασμὸν</w>
+                        <w>ἀπὸ</w>
+                        <placeName ref="http://pleiades.stoa.org/places/580101">Σαλαμῖνος.</placeName>
+                        <w>Ὁ</w>
+                        <w>δὲ</w>
+                        <name>Ξέρξης</name>
+                        <w>νομίσας</w>
+                        <w>τὸν</w>
+                        <name>Θεμιστοκλέα</name>
+                        <w>μηδίζοντα</w>
+                        <w>ταῦτα</w>
+                        <w>ἀπεσταλκέναι,</w>
+                        <w>ἔπεμψε</w>
+                        <w>τὰς</w>
+                        <w>ναῦς</w>
+                        <w>ἐπὶ</w>
+                        <placeName ref="http://pleiades.stoa.org/places/580101">Σαλαμῖνα</placeName>
+                        <w>καὶ</w>
+                        <w>ἐκυκλώσατο</w>
+                        <w>τοὺς</w>
+                        <placeName type="ethinc" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνας</placeName>
+                        <w>εἰς</w>
+                        <w>τὸ</w>
+                        <w>μένειν</w>
+                        <w>αὐτούς.</w></p>
+                    <p n="2">
+                        <w>ἐσπούδασεν</w>
+                        <w>δὲ</w>
+                        <w>ὁ</w>
+                        <name>Ξέρξης</name>
+                        <w>ζεῦγμα</w>
+                        <w>κατασκευάσας</w>
+                        <w>πεζῇ</w>
+                        <w>ἐπιβῆναι</w>
+                        <w>ἐπὶ</w>
+                        <w>τὴν</w>
+                        <placeName ref="http://pleiades.stoa.org/places/580101">Σαλαμῖνα</placeName>
+                        <w>ὃν</w>
+                        <w>τρόπον</w>
+                        <w>διῆλθε</w>
+                        <surplus>ἐπὶ</surplus>
+                        <w>τὸν</w>
+                        <placeName ref="http://pleiades.stoa.org/places/501434">Ἑλλήσποντον,</placeName>
+                        <w>καὶ</w>
+                        <w>μέρος</w>
+                        <w>τι</w>
+                        <w>ἔχων</w>
+                        <w>ἧκεν</w>
+                        <w>κατὰ</w>
+                        <w>τὸ</w>
+                        <placeName>Ἡράκλειον·</placeName>
+                        <w>ἐπειδὴ</w>
+                        <w>δὲ</w>
+                        <w>ἀδύνατον</w>
+                        <w>ἦν</w>
+                        <w>τὸ</w>
+                        <w>πᾶν</w>
+                        <w>γεφυρωθῆναι,</w>
+                        <w>καθεζόμενος</w>
+                        <w>ἐπὶ</w>
+                        <w>τοῦ</w>
+                        <placeName ref="http://pleiades.stoa.org/places/580059">Πάρνηθος</placeName>
+                        <w>ὄρους</w>
+                        <w>(ἐγγὺς</w>
+                        <w>δὲ</w>
+                        <w>ἦν</w>
+                        <w>τοῦτο)</w>
+                        <w>ἑώρα</w>
+                        <w>τὴν</w>
+                        <w>ναυμαχίαν.</w>
+                    </p>
+                    <p n="3">
+                        <w>ἤρξαντο</w>
+                        <w>δὲ</w>
+                        <w>τοῦ</w>
+                        <w>ναυμαχεῖν</w>
+                        <name>Ἀμεινίας</name>
+                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναῖος,</placeName>
+                        <w>υἱὸς</w>
+                        <w>μὲν</w>
+                        <name>Εὐφορίωνος,</name>
+                        <w>ἀδελφὸς</w>
+                        <w>δὲ</w>
+                        <name>Κυνεγείρου</name>
+                        <w>καὶ</w>
+                        <name>Αἰσχύλου</name>
+                        <w>τοῦ</w>
+                        <w>τραγῳδοποιοῦ.</w>
+                        <w>ἐνίκων</w>
+                        <w>μὲν</w>
+                        <w>οὖν</w>
+                        <w>πάντες</w>
+                        <w>οἱ</w>
+                        <placeName type="ethinc" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνες,</placeName>
+                        <w>ἐκπρεπέστερον</w>
+                        <w>δὲ</w>
+                        <w>οἱ</w>
+                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναῖοι.</placeName>
+                    </p>
+                    <p n="4">
+                        <w>συνεστηκυίας</w>
+                        <w>δὲ</w>
+                        <w>τῆς</w>
+                        <w>μάχης</w>
+                        <w>ὁ</w>
+                        <name>Ξέρξης</name>
+                        <w>ἱκανὰς</w>
+                        <w>μυριάδας</w>
+                        <w>ἐπεβίβασεν</w>
+                        <w>εἰς</w>
+                        <w>τὴν</w>
+                        <w>πλησίον</w>
+                        <w>νησῖδα</w>
+                        <w>παρακειμένην</w>
+                        <w>τῇ</w>
+                        <placeName ref="http://pleiades.stoa.org/places/580101">Σαλαμῖνι,</placeName>
+                        <w>ὀνομαζομένην</w>
+                        <placeName ref="
+                            http://pleiades.stoa.org/places/580094">Ψυτ<supplied reason="omitted">τ</supplied>άλειαν,</placeName>
+                        <w>ἐκπληττόμενός</w>
+                        <w>τε</w>
+                        <w>τοὺς</w>
+                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνας</placeName>
+                        <w>καὶ</w>
+                        <w>βουλόμενος</w>
+                        <w>τὰ</w>
+                        <w>προσφερόμενα</w>
+                        <w>ναυάγια</w>
+                        <w>τῶν</w>
+                        <w>βαρβάρων</w>
+                        <w>ἀνασώζεσθαι.</w>
+                        <name>Ἀριστείδης</name>
+                        <w>δὲ</w>
+                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναῖος,</placeName>
+                        <w>υἱὸς</w>
+                        <name>Λυσιμάχου,</name>
+                        <w>καλούμενος</w>
+                        <w>δίκαιος,</w>
+                        <w>ἐξωστρακισμένος</w>
+                        <w>ἐκ</w>
+                        <w>τῶν</w>
+                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηνῶν</placeName>
+                        <w>καὶ</w>
+                        <w>ὑπάρχων</w>
+                        <w>ἐν</w>
+                        <placeName ref="http://pleiades.stoa.org/places/579853">Αἰγίνῃ</placeName>
+                        <w>τότε,</w>
+                        <w>συμμαχῶν</w>
+                        <w>καὶ</w>
+                        <w>αὐτὸς</w>
+                        <w>τοῖς</w>
+                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησιν</placeName>
+                        <w>παρεγένετο</w>
+                        <w>πρὸς</w>
+                        <name>Θεμιστοκλέα</name>
+                        <w>καὶ</w>
+                        <w>στρατὸν</w>
+                        <w>αὐτὸν</w>
+                        <w>ᾔτησεν</w>
+                        <w>εἰς</w>
+                        <w>τὸ</w>
+                        <w>ἀμύνασθαι</w>
+                        <w>τοὺς</w>
+                        <w>ἐν</w>
+                        <w>τῇ</w>
+                        <placeName ref="
+                            http://pleiades.stoa.org/places/580094">Ψυτ<supplied reason="omitted">τ</supplied>αλείᾳ·</placeName>
+                        <w>ὁ</w>
+                        <w>δὲ</w>
+                        <w>καίπερ</w>
+                        <w>ἐχθρὸς</w>
+                        <w>αὐτῷ</w>
+                        <w>γεγονὼς</w>
+                        <w>ὅμως</w>
+                        <w>ἔδωκε.</w>
+                        <w>Λαβὼν</w>
+                        <w>δὲ</w>
+                        <name>Ἀριστείδης</name>
+                        <w>ἐπέβη</w>
+                        <w>εἰς</w>
+                        <w>τὴν</w>
+                        <placeName ref="
+                            http://pleiades.stoa.org/places/580094">Ψυτ<supplied reason="omitted">τ</supplied>άλειαν</placeName>
+                        <w>καὶ</w>
+                        <w>πάντας</w>
+                        <w>τοὺς</w>
+                        <w>βαρβάρους</w>
+                        <w>ἐφόνευσε,</w>
+                        <w>καὶ</w>
+                        <w>μέγιστον</w>
+                        <w>τοῦτο</w>
+                        <w>τὸ</w>
+                        <w>ἔργον</w>
+                        <w>ἐπεδείξατο</w>
+                        <w>ὑπὲρ</w>
+                        <w>τῶν</w>
+                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἑλλήνων.</placeName></p>
+                    <p n="5">
+                        <w>διασημότερον</w>
+                        <w>δὲ</w>
+                        <w>ἠγωνίσα</w><surplus>ν</surplus><w>το</w>
+                        <w>τῇ</w>
+                        <w>ναυμαχίᾳ</w>
+                        <w>καὶ</w>
+                        <w>ἠρίστευσεν</w>
+                        <name>Ἀμεινίας,</name>
+                        <w>τῶν</w>
+                        <w>δὲ</w>
+                        <w>βαρβάρων</w>
+                        <w>γυνὴ</w>
+                        <placeName type="ethnic" ref=" 
+                            http://pleiades.stoa.org/places/599636">Ἁλικαρνασὶς</placeName>
+                        <w>τὸ</w>
+                        <w>γένος,</w>
+                        <w>ὄνομα</w>
+                        <w>δὲ</w>
+                        <name>Ἀρτεμισία,</name>
+                        <w>ἥτις</w>
+                        <w>διωκομένης</w>
+                        <w>τῆς</w>
+                        <w>νεὼς</w>
+                        <w>αὐτῆς</w>
+                        <w>καὶ</w>
+                        <w>κινδυνεύουσα</w>
+                        <w>ἀπολέσθαι</w>
+                        <w>τὴν</w>
+                        <w>ἔμπροσθεν</w>
+                        <w>ναῦν</w>
+                        <w>ἰδίαν</w>
+                        <w>οὖσαν</w>
+                        <w>ἐβύθισεν·</w>
+                        <w>ὁ</w>
+                        <w>δὲ</w>
+                        <name>Ἀμεινίας</name>
+                        <w>δόξας</w>
+                        <w>σύμμαχον</w>
+                        <w>εἶναι</w>
+                        <w>τῶν</w>
+                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἑλλήνων,</placeName>
+                        <w>ἀπετράπη</w>
+                        <w>τοῦ</w>
+                        <w>διώκειν.</w>
+                        <w>ὁ</w>
+                        <w>δὲ</w>
+                        <name>Ξέρξης</name>
+                        <w>θεασάμενος</w>
+                        <w>τὸ</w>
+                        <w>γενόμενον</w>
+                        <w>εἶπεν·</w>
+                        <w>οἱ</w>
+                        <w>μὲν</w>
+                        <w>ἄνδρες</w>
+                        <w>μοι</w>
+                        <w>γυναῖκες</w>
+                        <w>γεγόνασιν,</w>
+                        <w>αἱ</w>
+                        <w>δὲ</w>
+                        <w>γυναῖκες</w>
+                        <w>ἄνδρες.</w></p>
+                    <p n="6">
+                        <w>ἠρίστευσαν</w>
+                        <w>δὲ</w>
+                        <w>τῶν</w>
+                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἑλλήνων</placeName>
+                        <w>ἐκπρεπέστερον</w>
+                        <w>μετὰ</w>
+                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναίους</placeName>
+                        <placeName type="ethnic"  ref="http://pleiades.stoa.org/places/579853">Αἰγινῆται,</placeName>
+                        <w>οἵτινες</w>
+                        <w>κατὰ</w>
+                        <w>τὸ</w>
+                        <w>στενὸν</w>
+                        <w>τοῦ</w>
+                        <w>πορθμοῦ</w>
+                        <w>κατατάξαντες</w>
+                        <w>ἑαυτοὺς</w>
+                        <w>πολλὰς</w>
+                        <w>τῶν</w>
+                        <w>βαρβάρων</w>
+                        <w>νῆας</w>
+                        <w>φευγούσας</w>
+                        <w>εἰς</w>
+                        <w>τὸ</w>
+                        <w>στενὸν</w>
+                        <w>παραδεχόμενοι</w>
+                        <w>ἐβύθιζον.</w>
+                    </p>
+                    <p n="7">
+                        <w>ἡττηθέντων</w>
+                        <w>δὲ</w>
+                        <w>τῶν</w>
+                        <w>βαρβάρων</w>
+                        <w>καὶ</w>
+                        <w>φυγόντων</w>
+                        <w>οἱ</w>
+                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνες</placeName>
+                        <w>ἐβούλοντο</w>
+                        <w>λύειν</w>
+                        <w>τὸ</w>
+                        <w>ἐπὶ</w>
+                        <w>τοῦ</w>
+                        <placeName ref="http://pleiades.stoa.org/places/501434">Ἑλλησπόντου</placeName>
+                        <w>ζεῦγμα</w>
+                        <w>καὶ</w>
+                        <w>καταλαμβάνεσθαι</w>
+                        <w>Ξέρξην</w>
+                        <w>ἐν</w>
+                        <w>τῇ</w>
+                        <placeName ref="http://pleiades.stoa.org/places/1001896">Ἑλλάδι,</placeName>
+                        <name>Θεμιστοκλῆς</name>
+                        <w>δὲ</w>
+                        <w>οὐκ</w>
+                        <w>οἰόμενος</w>
+                        <w>ἀσφαλὲς</w>
+                        <w>εἶναι</w>
+                        <w>οὐδὲ</w>
+                        <w>τοῦτο,</w>
+                        <w>δεδοικὼς</w>
+                        <w>μήποτε,</w>
+                        <w>ἐὰν</w>
+                        <w>ἀπογνῶσι</w>
+                        <w>τὴν</w>
+                        <w>σωτηρίαν</w>
+                        <w>οἱ</w>
+                        <w>βάρβαροι,</w>
+                        <w>φιλοκινδυνώτερον</w>
+                        <w>ἀγωνίσονται</w>
+                        <w>ἐξ</w>
+                        <w>ὑποστροφῆς,</w>
+                        <w>ἀντέπρασσε.</w>
+                        <w>κεκυρωμένων</w>
+                        <w>δὲ</w>
+                        <w>οὐδὲν</w>
+                        <w>ἰσχύων</w>
+                        <w>ἔπεμψε</w>
+                        <w>κρύφα</w>
+                        <name>Ξέρξῃ</name>
+                        <w>δηλῶν</w>
+                        <w>ὅτι</w>
+                        <w>μέλλουσιν</w>
+                        <w>οἱ</w>
+                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνες</placeName>
+                        <w>λύειν</w>
+                        <w>τὸ</w>
+                        <w>ζεῦγμα·</w>
+                        <w>ὁ</w>
+                        <w>δὲ</w>
+                        <w>φοβηθεὶς</w>
+                        <w>ἔφευγεν.</w>
+                    </p>
+                    <p n="8">
+                        <w>ἐν</w>
+                        <w>δὲ</w>
+                        <w>τῇ</w>
+                        <w>ναυμαχίᾳ</w>
+                        <w>τῇ</w>
+                        <w>περὶ</w>
+                        <placeName ref="http://pleiades.stoa.org/places/580101">Σαλαμῖνα</placeName>
+                        <w>καὶ</w>
+                        <w>οἱ</w>
+                        <w>θεοὶ</w>
+                        <w>συνεμάχησαν</w>
+                        <w>τοῖς</w>
+                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησιν.</placeName>
+                        <name>Δίκαιος</name>
+                        <w>γὰρ</w>
+                        <w>ὁ</w>
+                        <name>Θεοκύδους,</name>
+                        <w>ἀνὴρ</w>
+                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναῖος</placeName>,
+                        <w>ἔφη</w>
+                        <w>θεάσασθαι</w>
+                        <w>ἐν</w>
+                        <w>τῷ</w>
+                        <placeName ref="http://pleiades.stoa.org/places/580122">Θριασίῳ
+                        <w>πεδίῳ</w></placeName>
+                        <w>κονιορτὸν</w>
+                        <w>ὡς</w>
+                        <w>δισμυρίων</w>
+                        <w>ἀνδρῶν</w>
+                        <w>ἀναφερόμενον</w>
+                        <w>ἀπ’</w>
+                        <placeName ref="http://pleiades.stoa.org/places/579920">Ἐλευσῖνος,</placeName>
+                        <w>βοώντων</w>
+                        <w>τὸν</w>
+                        <w>μυστικὸν</w>
+                        <w>Ἴακχον·</w>
+                        <w>τὸν</w>
+                        <w>δὲ</w>
+                        <w>κονιορτὸν</w>
+                        <w>νεφωθέντα</w>
+                        <w>ἐμπεσεῖν</w>
+                        <w>ἐς</w>
+                        <w>τὰς</w>
+                        <w>ναῦς</w>
+                        <w>τῶν</w>
+                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἑλλήνων.</placeName>
+                    </p>
+                </div>
+                <div type="textpart" subtype="section" n="2">
+                    <p n="1"><w>Φεύγοντος</w>
+                        <w>δὲ</w>
+                        <w>τοῦ</w>
+                        <w>Ξέρξου</w>
+                        <w>Μαρδόνιος,</w>
+                        <w>υἱὸς</w>
+                        <w>Γωβρύου</w>
+                        <w>τοῦ</w>
+                        <w>καὶ</w>
+                        <w>αὐτοῦ</w>
+                        <w>ἐπιθεμένου</w>
+                        <pb n="84" facs="2-84.pdf"/>
+                        <w>τοῖς</w>
+                        <supplied reason="omitted">μά</supplied><w>γοις,</w>
+                        <w>συμπ</w><supplied reason="omitted">επει</supplied><w>κὼς</w>
+                        <w>καὶ</w>
+                        <w>αὐτὸς</w>
+                        <w>Ξέρξην</w>
+                        <w>στρατεῦσαι</w>
+                        <w>ἐπὶ</w>
+                        <w>τὴν</w>
+                        <w>Ἑλλάδα,</w>
+                        <w>ᾐτιᾶτο</w>
+                        <w>τὸ</w>
+                        <w>πολὺ</w>
+                        <w>πλῆθος</w>
+                        <w>τῶν</w>
+                        <w>βαρβάρων</w>
+                        <w>ὡς</w>
+                        <w>αἴτιον</w>
+                        <w>γεγονὸς</w>
+                        <w>τῆς</w>
+                        <w>ἥττης</w>
+                        <w>ὑπέσχετό</w>
+                        <w>τε</w>
+                        <w>νικήσειν</w>
+                        <w>τοὺς</w>
+                        <w>Ἕλληνας,</w>
+                        <w>εἰ</w>
+                        <w>λάβοι</w>
+                        <w>στρατοῦ</w>
+                        <w>μυριάδας</w>
+                        <w>λ.</w>
+                    </p>
+                    <p n="2">
+                        <w>λαβὼν</w>
+                        <w>δὲ</w>
+                        <w>ὁ</w>
+                        <w>Μαρδόνιος</w>
+                        <w>ἔπεμψε</w>
+                        <w>πρῶτον</w>
+                        <w>πρὸς</w>
+                        <w>Ἀθηναίους</w>
+                        <w>Ἀλέξανδρον</w>
+                        <w>τὸν</w>
+                        <w>Μακεδόνα,</w>
+                        <w>τὸν</w>
+                        <w>Φιλίππου</w>
+                        <w>πρόγονον,</w>
+                        <w>ὑπισχνούμενος</w>
+                        <w>δώσειν</w>
+                        <w>αὐτοῖς</w>
+                        <w>μύρια</w>
+                        <w>τάλαντα</w>
+                        <w>καὶ</w>
+                        <w>γῆν</w>
+                        <w>ὅσην</w>
+                        <w>αὐτοὶ</w>
+                        <w>βούλονται</w>
+                        <w>τῆς</w>
+                        <w>Ἑλλάδος</w>
+                        <w>τηρήσειν</w>
+                        <w>τε</w>
+                        <w>ὑποσχόμενος</w>
+                        <w>καὶ</w>
+                        <w>τὴν</w>
+                        <w>ἐλευθερίαν</w>
+                        <w>αὐτοῖς</w>
+                        <w>καὶ</w>
+                        <w>τὴν</w>
+                        <w>αὐτονομίαν,</w>
+                        <w>εἰ</w>
+                        <w>ἕλοιντο</w>
+                        <w>μένειν</w>
+                        <w>ἐφ’</w>
+                        <w>ἑαυτῶν</w>
+                        <w>καὶ</w>
+                        <w>μὴ</w>
+                        <w>συμμαχεῖν</w>
+                        <w>τοῖς</w>
+                        <w>Ἕλλησιν.</w>
+                        <w>ἐπειδὴ</w>
+                        <w>δὲ</w>
+                        <w>ὁ</w>
+                        <w>Ἀλέξανδρος</w>
+                        <w>παρεγένετο</w>
+                        <w>εἰς</w>
+                        <w>τὰς</w>
+                        <w>Ἀθήνας</w>
+                        <w>καὶ</w>
+                        <w>ταῦτ’</w>
+                        <w>ἐδήλωσεν,</w>
+                        <w>οἱ</w>
+                        <w>Ἀθηναῖοι</w>
+                        <w>οὔτε</w>
+                        <w>τοὺς</w>
+                        <w>λόγους</w>
+                        <w>προσεδέξαντο</w>
+                        <w>ὑβρίσαντές</w>
+                        <w>τε</w>
+                        <w>τὸν</w>
+                        <w>Ἀλέξανδρον</w>
+                        <w>ἀπεπέμψαντο.</w></p>
+                    <p n="3">
+                        <w>ὁ</w>
+                        <w>δὲ</w>
+                        <w>Μαρδόνιος</w>
+                        <w>ἀποτυχὼν</w>
+                        <w>ἐν</w>
+                        <w>τούτοις</w>
+                        <w>ἐπῆλθεν</w>
+                        <w>εἰς</w>
+                        <w>τὰς</w>
+                        <w>Ἀθήνας</w>
+                        <w>καὶ</w>
+                        <w>τὰ</w>
+                        <w>ἔτι</w>
+                        <w>περιλειπόμενα</w>
+                        <w>μέρη</w>
+                        <w>προσενέπρησεν,</w>
+                        <w>παραγενόμενός</w>
+                        <w>τε</w>
+                        <w>εἰς</w>
+                        <w>τὰς</w>
+                        <w>Θήβας</w>
+                        <w>ἅμα</w>
+                        <w>τῷ</w>
+                        <w>στρατῷ</w>
+                        <w>ἐνταῦθα</w>
+                        <w>ἐστρατοπεδεύσατο,</w>
+                        <w>οἱ</w>
+                        <w>δὲ</w>
+                        <w>Ἕλληνες</w>
+                        <w>ἐστρατοπεδεύσαντο</w>
+                        <w>ἐν</w>
+                        <w>Πλαταιαῖς·</w>
+                        <w>τὰ</w>
+                        <w>δὲ</w>
+                        <w>μεταξὺ</w>
+                        <w>Θηβ</w><supplied reason="omitted">αι</supplied><w>ῶν</w>
+                        <w>καὶ</w>
+                        <w>Πλαταιῶν</w>
+                        <w>στάδιά</w>
+                        <w>ἐστιν</w>
+                        <w>π.</w>
+                        <w>συνπαρετάσσοντο</w>
+                        <w>δὲ</w>
+                        <w>Μαρδονίῳ</w>
+                        <w>Βοιωτῶν</w>
+                        <w>μυριάδες</w>
+                        <w>δ.</w></p>
+                    <p n="4">
+                        <w>εἶχον</w>
+                        <w>δὲ</w>
+                        <w>τὸ</w>
+                        <w>μὲν</w>
+                        <w>δεξιὸν</w>
+                        <w>κέρας</w>
+                        <w>Πέρσαι</w>
+                        <w>καὶ</w>
+                        <w>Μαρδόνιος,</w>
+                        <w>τὸ</w>
+                        <w>δὲ</w>
+                        <w>εὐώνυμον</w>
+                        <w>οἱ</w>
+                        <w>μηδίσαντες</w>
+                        <w>Ἕλληνες.</w>
+                        <w>τῶν</w>
+                        <w>δὲ</w>
+                        <w>Ἑλλήνων</w>
+                        <w>οἱ</w>
+                        <w>μὲν</w>
+                        <w>Ἀθηναῖοι</w>
+                        <w>εἶχον</w>
+                        <w>τὸ</w>
+                        <w>δεξιόν,</w>
+                        <w>τὸ</w>
+                        <w>δὲ</w>
+                        <w>εὐώνυμον</w>
+                        <w>Λακεδαιμόνιοι.</w>
+                        <w>μετέστησαν</w>
+                        <w>δὲ</w>
+                        <w>αὐτούς</w>
+                        <w>οἱ</w>
+                        <w>Λακεδαιμόνιοι,</w>
+                        <w>φήσαντες</w>
+                        <w>Ἀθηναίους</w>
+                        <w>ἐμπειροτέρους</w>
+                        <w>εἶναι</w>
+                        <w>πρὸς</w>
+                        <w>τὸ</w>
+                        <w>μάχεσθαι</w>
+                        <w>Πέρσαις.</w>
+                        <w>ἐν</w>
+                        <w>δὲ</w>
+                        <w>τούτῳ</w>
+                        <w>Μαρδόνιος</w>
+                        <w>δεδοικὼς</w>
+                        <w>μάχεσθαι</w>
+                        <w>Ἀθηναίοις</w>
+                        <w>μετέστησέ</w>
+                        <w>τε</w>
+                        <w>τὴν</w>
+                        <w>φάλαγγα,</w>
+                        <w>καὶ</w>
+                        <w>οὕτως</w>
+                        <w>συνέβη</w>
+                        <w>τοῖς</w>
+                        <w>Λακεδαιμονίοις</w>
+                        <w>καὶ</w>
+                        <w>ἀκουσίως</w>
+                        <w>μάχεσθαι</w>
+                        <w>τοῖς</w>
+                        <w>Πέρσαις.</w>
+                        <w>Ἐστρατήγει</w>
+                        <w>δὲ</w>
+                        <w>Λακεδαιμονίων</w>
+                        <w>μὲν</w>
+                        <w>Παυσανίας</w>
+                        <w>ὁ</w>
+                        <w>Κλεομβρότου,</w>
+                        <w>Ἀθηναίων</w>
+                        <w>δὲ</w>
+                        <w>Ἀριστείδης</w>
+                        <w>ὁ</w>
+                        <w>δίκαιος.</w>
+                        <w>Γενομένης</w>
+                        <w>δὲ</w>
+                        <w>τῆς</w>
+                        <w>συμβολῆς</w>
+                        <w>τῶν</w>
+                        <w>Περσῶν,</w>
+                        <w>Ἀθηναῖοι</w>
+                        <w>ἐπεβοήθησαν</w>
+                        <w>τοῖς</w>
+                        <w>Λακεδαιμονίοις</w>
+                        <w>καὶ</w>
+                        <w>ἐνίκησαν.</w></p>
+                    <p n="5">
+                        <w>ἐνταῦθα</w>
+                        <w>Μαρδόνιος</w>
+                        <w>ἔπεσεν</w>
+                        <w>γυμνῇ</w>
+                        <w>τῇ</w>
+                        <w>κεφαλῇ</w>
+                        <w>μαχόμενος,</w>
+                        <w>ἀναιρεθεὶς</w>
+                        <w>ὑπὸ</w>
+                        <w>Ἀειμνήστου</w>
+                        <w>ἀνδρὸς</w>
+                        <w>Λακεδαιμονίου.</w>
+                        <w>ἠρίστευσε</w>
+                        <w>δὲ</w>
+                        <w>ἐνταῦθα</w>
+                        <w>καὶ</w>
+                        <w>Ἀριστόδημος</w>
+                        <w>ὁ</w>
+                        <w>ὑποστρέψας</w>
+                        <w>ἀπὸ</w>
+                        <w>Θερμοπυλῶν</w>
+                        <w>καὶ</w>
+                        <w>κληθεὶς</w>
+                        <w>διὰ</w>
+                        <w>τοῦτο</w>
+                        <w>ὁ</w>
+                        <w>τρέσας</w>
+                        <w>διὸ</w>
+                        <w>Λακεδαιμόνιοι</w>
+                        <w>οὐκ</w>
+                        <w>ἔδωκαν</w>
+                        <w>αὐτῷ</w>
+                        <w>τὸ</w>
+                        <w>γέρας</w>
+                        <w>τῆς</w>
+                        <w>ἀριστείας,</w>
+                        <w>ἡγησάμενοι</w>
+                        <w>τὸ</w>
+                        <w>μὲν</w>
+                        <w>πρῶτον</w>
+                        <w>γενόμενον</w>
+                        <w>περὶ</w>
+                        <w>τὴν</w>
+                        <w>λειποταξίαν</w>
+                        <w>γνώμης</w>
+                        <w>εἶναι,</w>
+                        <w>τὸ</w>
+                        <w>τελευταῖον</w>
+                        <w>δὲ</w>
+                        <w>περὶ</w>
+                        <w>τὴν</w>
+                        <w>ἀριστείαν</w>
+                        <w>τύχης.</w>
+                    </p>
+                </div>
+                <div type="textpart" subtype="section" n="3">
+                    <p n="1"><w>Ἐπειδὴ</w>
+                        <w>δὲ</w>
+                        <w>ἔπεσεν</w>
+                        <w>ὁ</w>
+                        <w>Μαρδόνιος,</w>
+                        <w>οἱ</w>
+                        <w>Πέρσαι</w>
+                        <w>ἔφυγον</w>
+                        <w>εἰς</w>
+                        <w>τὰς</w>
+                        <w>Θήβας,</w>
+                        <w>οἱ</w>
+                        <w>δὲ</w>
+                        <w>Ἕλληνες</w>
+                        <w>ἐπελθόντες</w>
+                        <w>δώδεκα</w>
+                        <w>μυριάδας</w>
+                        <w>αὐτῶν</w>
+                        <w>ἐφόνευσαν.</w>
+                        <w>Ἑξάκις</w>
+                        <w>δὲ</w>
+                        <w>μυρίων</w>
+                        <w>ἐπιστρεφόν</w><supplied reason="omitted">των</supplied>
+                        <w>ἐπὶ</w>
+                        <w>τὴν</w>
+                        <w>οἰκείαν,</w>
+                        <w>Ἀλέξανδρος</w>
+                        <w>ὁ</w>
+                        <w>Μακεδών,</w>
+                        <w>ἴδιος</w>
+                        <w>πρεσβευσάμενος</w>
+                        <w>πρὸς</w>
+                        <w>τοὺς</w>
+                        <w>Ἀθηναίους</w>
+                        <w>περὶ</w>
+                        <w>ὧν</w>
+                        <w>ἀπεστάλη</w>
+                        <w>ὑπὸ</w>
+                        <w>Μαρδονίου,</w>
+                        <w>πάντας</w>
+                        <w>αὐτοὺς</w>
+                        <w>γενομένους</w>
+                        <w>κατὰ</w>
+                        <w>Μακεδονίαν</w>
+                        <w>ἐφόνευσεν,</w>
+                        <w>ἀπολογούμενος</w>
+                        <w>ὅτι</w>
+                        <w>ἄκων</w>
+                        <w>ἐμήδισεν.</w></p>
+                    <p n="2">
+                        <w>καὶ</w>
+                        <w>οἱ</w>
+                        <w>ἐν</w>
+                        <w>ταῖς</w>
+                        <w>ναυσὶν</w>
+                        <w>δὲ</w>
+                        <w>Ἕλληνες</w>
+                        <w>ἐδίωκον</w>
+                        <w>τὸ</w>
+                        <w>ναυτικὸν</w>
+                        <w>τὸ</w>
+                        <w>Ξέρξου,</w>
+                        <w>πλεύσαντές</w>
+                        <supplied reason="omitted">τε</supplied>
+                        <w>σταδίους</w>
+                        <w>τέσσαρας</w>
+                        <w>τοὺς</w>
+                        <w>ἀπὸ</w>
+                        <w>Σαλαμῖνος</w>
+                        <w>εἰς</w>
+                        <w>Μίλητον</w>
+                        <w>κατέλαβον</w>
+                        <w>τὰς</w>
+                        <w>ναῦς</w>
+                        <w>τῶν</w>
+                        <w>βαρβάρων</w>
+                        <w>καὶ</w>
+                        <w>ἕτοιμοι</w>
+                        <w>ἦσαν</w>
+                        <w>ναυμαχεῖν.</w>
+                        <w>οἱ</w>
+                        <w>δὲ</w>
+                        <w>βάρβαροι</w>
+                        <w>οὐ</w>
+                        <w>πιστεύοντες</w>
+                        <w>ταῖς</w>
+                        <w>ναυσὶ</w>
+                        <w>διὰ</w>
+                        <w>τὸ</w>
+                        <w>πεπειρᾶσθαι</w>
+                        <w>τῆς</w>
+                        <w>Ἀθηναίων</w>
+                        <w>ἐμπειρίας</w>
+                        <w>ἐξέβησαν</w>
+                        <w>καὶ</w>
+                        <w>ἐστρατοπεδεύσαντο</w>
+                        <w>περὶ</w>
+                        <w>Μυκάλην,</w>
+                        <w>ὅπερ</w>
+                        <w>ἐστὶν</w>
+                        <w>ὄρος</w>
+                        <w>τῆς</w>
+                        <w>Μιλησίας.</w>
+                        <w>καὶ</w>
+                        <w>οἱ</w>
+                        <w>Ἕλληνες</w>
+                        <w>δὲ</w>
+                        <w>ἀποβάντες</w>
+                        <w>συνέβαλον</w>
+                        <w>αὐτοῖς</w>
+                        <w>καὶ</w>
+                        <w>τὰς</w>
+                        <w>δ</w>
+                        <w>μυριάδας</w>
+                        <w>ἐφόνευσαν</w>
+                        <w>τάς</w>
+                        <w>τε</w>
+                        <w>ναῦς</w>
+                        <w>ἐρήμους</w>
+                        <w>παρέλαβον,</w>
+                        <w>γιγνομένης</w>
+                        <w>τε</w>
+                        <w>τῆς</w>
+                        <w>μάχης</w>
+                        <w>τῆς</w>
+                        <w>ἐν</w>
+                        <w>Πλαταιαῖς</w>
+                        <w>καὶ</w>
+                        <w>νικώντων</w>
+                        <w>τῶν</w>
+                        <w>περὶ</w>
+                        <w>Μυκάλην</w>
+                        <w>Ἑλλήνων.</w></p>
+                    <p n="3">
+                        <w>ἐστρατήγει</w>
+                        <w>δὲ</w>
+                        <supplied reason="omitted">ἐπὶ</supplied>
+                        <w>τῆς</w>
+                        <w>Μυκάλης</w>
+                        <w>Λακεδαιμονίων</w>
+                        <w>μὲν</w>
+                        <w>Λεωτυχίδας</w>
+                        <w>ὁ</w>
+                        <w>βασιλεύς,</w>
+                        <w>Ἀθηναίων</w>
+                        <w>δὲ</w>
+                        <w>Ξάνθιππος</w>
+                        <w>ὁ</w>
+                        <w>Ἀρίφρονος,</w>
+                        <w>ὁ</w>
+                        <w>Περικλέους</w>
+                        <w>πατήρ.</w>
+                    </p>
+                    <p n="4">
+                        <w>οἱ</w>
+                        <w>δὲ</w>
+                        <w>ἐν</w>
+                        <w>ταῖς</w>
+                        <w>Πλαταιαῖς</w>
+                        <w>Ἕλληνες</w>
+                        <w>μετὰ</w>
+                        <w>τὸ</w>
+                        <w>νικῆσαι</w>
+                        <w>ἔστησαν</w>
+                        <w>τρόπαια,</w>
+                        <w>καὶ</w>
+                        <w>ἑορτὴν</w>
+                        <w>ἤγαγον</w>
+                        <w>Ἐλευθέρια</w></p>
+                </div>
+                <div type="textpart" subtype="section" n="4">
+                    <p n="1"><pb n="ξη" facs="3-ξη.pdf"/><w>Ἀπὸ</w>
+                        <w>δὲ</w>
+                        <w>τῆς</w>
+                        <w>Περσικῆς</w>
+                        <w>στρατείας</w>
+                        <w>ἐπὶ</w>
+                        <w>τὸν</w>
+                        <w>Πελοποννησ</w><supplied reason="omitted" cert="low">ιακὸν πόλεμον ὑπὸ τῶν
+                            Ἑλλήνων</supplied>
+                        <w>ἐπράχθη</w>
+                        <w>τάδε.</w>
+                    </p>
+                    <p n="2">
+                        <w>ἐπειδὴ</w>
+                        <w>ἐξήλασαν</w>
+                        <w>τοὺς</w>
+                        <w>Πέρσας</w>
+                        <w>οἱ</w>
+                        <w>Ἕλληνες</w>
+                        <supplied reason="omitted">ἐκ τῆς Εὐρώπης,
+                            ἀπο</supplied><w>φυγόν</w><supplied reason="omitted">των</supplied>
+                        <w>τῶν</w>
+                        <w>ἀπολει</w><supplied reason="omitted">φθέντων
+                            β</supplied><w>α</w><supplied reason="omitted"
+                            >ρβά</supplied><w>ρωνεἰς</w>
+                        <w>Σηστόν,</w>
+                        <w>οἱ</w>
+                        <w>Ἀθηναῖοι</w>
+                        <w>προσέμενον</w>
+                        <w>προσπολεμοῦντες,</w>
+                        <gap reason="lost" quantity="2" unit="chars"/><w>καὶ</w>
+                        <w>Παυσανίας</w>
+                        <w>ὁ</w>
+                        <w>Κλεομβρότου,</w>
+                        <w>ὁ</w>
+                        <w>τῶν</w>
+                        <w>Λακεδαιμονίων</w>
+                        <w>στρατηγός,</w>
+                        <w>κατὰ</w>
+                        <w>φιλοτιμίαν</w>
+                        <w>τὴν</w>
+                        <w>ὑπὲρ</w>
+                        <w>τῶν</w>
+                        <w>Ἑλλήνων,</w>
+                        <w>ἅμα</w>
+                        <w>διὰ</w>
+                        <w>προδοσίαν·</w>
+                        <w>αὐτῷ</w>
+                        <w>τοὺς</w>
+                        <w>Ἕλληνας</w>
+                        <w>ἐπὶ</w>
+                        <w>τῷ</w>
+                        <w>λαβεῖν</w>
+                        <w>θυγατέρα</w>
+                        <w>παρ’</w>
+                        <w>αὐτοῦ</w>
+                        <w>πρὸς</w>
+                        <w>γάμον.</w>
+                        <w>Ὡς</w>
+                        <w>ἐπηρμένος</w>
+                        <w>τε</w>
+                        <w>τῇ</w>
+                        <w>ἐλπίδι</w>
+                        <w>ταύτῃ</w>
+                        <w>καὶ</w>
+                        <w>τῷ</w>
+                        <w>εὐτυχήματι</w>
+                        <w>τῷ</w>
+                        <w>ἐν</w>
+                        <w>Πλαταιαῖς</w>
+                        <w>οὐκ</w>
+                        <w>ἐμετρ</w><supplied reason="omitted">ι</supplied><w>οπάθει</w>
+                        <w>ἀλλὰ</w>
+                        <w>πρῶτον</w>
+                        <w>μὲν</w>
+                        <w>τρίποδα</w>
+                        <w>ἀναθεὶς</w>
+                        <w>τῷ</w>
+                        <w>ἐν</w>
+                        <w>Δελφοῖς</w>
+                        <w>Ἀπόλλωνι</w>
+                        <w>ἐπίγραμμα</w>
+                        <w>ἔγραψε</w>
+                        <w>πρὸς</w>
+                        <w>αὑτὸν</w>
+                        <w>τοιοῦτον·</w>
+                        <w>Ἑλλήνων</w>
+                        <w>ἀρχηγὸς</w>
+                        <w>ἐπεὶ</w>
+                        <w>στρατὸν</w>
+                        <w>ὤλεσε</w>
+                        <w>Μήδων</w>
+                        <w>Παυσανίας</w>
+                        <w>Φοίβῳ</w>
+                        <w>μνῆμ’</w>
+                        <w>ἀνέθηκε</w>
+                        <w>τόδε.</w></p>
+                    <p n="3">
+                        <w>τῶν</w>
+                        <w>δὲ</w>
+                        <w>ὑποτεταγμένων</w>
+                        <w>αὐτῷ</w>
+                        <w>πικρῶς</w>
+                        <w>ἦρχε</w>
+                        <w>καὶ</w>
+                        <w>τυραννικῶς,</w>
+                        <w>τὴν</w>
+                        <w>μὲν</w>
+                        <w>Λακωνικὴν</w>
+                        <w>δίαιταν</w>
+                        <w>ἀποτεθειμένος,</w>
+                        <w>ἐπιτετηδευκὼς</w>
+                        <w>δὲ</w>
+                        <w>τὰς</w>
+                        <w>τῶν</w>
+                        <w>Περσῶν</w>
+                        <w>ἐσθῆτας</w>
+                        <w>φορεῖν</w>
+                        <w>καὶ</w>
+                        <w>Περσικὰς</w>
+                        <w>τραπέζας</w>
+                        <w>παρατεθειμένος</w>
+                        <w>πολυτελεῖς,</w>
+                        <w>ὡς</w>
+                        <w>ἔθος</w>
+                        <w>ἐκείνοις.</w>
+                    </p>
+                </div>
+                <div type="textpart" subtype="section" n="5">
+                    <p n="1"><w>Κατὰ</w>
+                        <w>δὲ</w>
+                        <w>τοῦτον</w>
+                        <w>τὸν</w>
+                        <w>χρόνον</w>
+                        <w>Ἀθηναῖοι,</w>
+                        <w>ἐμπεπρησμένης</w>
+                        <w>αὐτῶν</w>
+                        <w>τῆς</w>
+                        <w>πόλεως</w>
+                        <w>ὑπὸ</w>
+                        <w>Ξέρξου</w>
+                        <w>καὶ</w>
+                        <w>Μαρδονίου,</w>
+                        <w>ἐβουλεύοντο</w>
+                        <w>τειχίζειν</w>
+                        <w>αὐτήν,</w>
+                        <w>οἱ</w>
+                        <w>δὲ</w>
+                        <w>Λακεδαιμόνιοι</w>
+                        <w>οὐκ</w>
+                        <w>ἐπέτρεπον</w>
+                        <w>αὐτοῖς,</w>
+                        <w>πρόφασιν</w>
+                        <w>μὲν</w>
+                        <w>ποιούμενοι</w>
+                        <w>ὁρμητήριον</w>
+                        <w>εἶναι</w>
+                        <w>τὰς</w>
+                        <w>Ἀθήνας</w>
+                        <w>τῶν</w>
+                        <w>ἐπιπλεόντων</w>
+                        <w>βαρβάρων,</w>
+                        <w>τὸ</w>
+                        <w>δὲ</w>
+                        <w>ἀληθὲς</w>
+                        <w>φθονοῦντες</w>
+                        <w>καὶ</w>
+                        <w>μὴ</w>
+                        <w>βουλόμενοι</w>
+                        <w>πάλιν</w>
+                        <w>αὐξηθῆναι·</w>
+                        <w>οὓς</w>
+                        <w>Θεμιστοκλῆς</w>
+                        <w>συνέσει</w>
+                        <w>διαφέρων</w>
+                        <w>κατεστρατήγησεν,</w>
+                        <supplied reason="omitted">γιγνώσκων</supplied>
+                        <w>αὐτῶν</w>
+                        <w>τὸν</w>
+                        <w>φθόνον.</w>
+                    </p>
+                    <p n="2">
+                        <w>ἐγκελευσάμενος</w>
+                        <w>γὰρ</w>
+                        <w>τοῖς</w>
+                        <w>Ἀθηναίοις</w>
+                        <w>τειχίζειν</w>
+                        <w>τὴν</w>
+                        <w>πόλιν</w>
+                        <w>ᾤχετο</w>
+                        <w>εἰς</w>
+                        <w>Λακεδαίμονα</w>
+                        <w>ὡς</w>
+                        <w>πρεσβεύων,</w>
+                        <w>λόγων</w>
+                        <w>τε</w>
+                        <w>γιγνομένων</w>
+                        <w>παρὰ</w>
+                        <w>τοῖς</w>
+                        <w>Λακεδαιμονίοις</w>
+                        <w>ὅτι</w>
+                        <w>Ἀθηναῖοι</w>
+                        <w>τειχίζουσι</w>
+                        <w>τὴν</w>
+                        <w>πόλιν,</w>
+                        <w>ἀντέλεγεν</w>
+                        <w>Θεμιστοκλῆς.</w>
+                        <w>ὡς</w>
+                        <w>δὲ</w>
+                        <w>οὐκ</w>
+                        <w>ἐπίστευον</w>
+                        <w>οἱ</w>
+                        <w>Λακεδαιμόνιοι,</w>
+                        <w>ἔπεισεν</w>
+                        <w>αὐτοὺς</w>
+                        <w>πρέσβεις</w>
+                        <w>πέμψαι</w>
+                        <w>τινὰς</w>
+                        <w>ἐξ</w>
+                        <w>αὐτῶν</w>
+                        <w>εἰς</w>
+                        <w>τὰς</w>
+                        <w>Ἀθήνας</w>
+                        <w>τοὺς</w>
+                        <w>γνωσομένους</w>
+                        <w>εἰ</w>
+                        <w>κτίζοιτο</w>
+                        <w>ἡ</w>
+                        <w>πόλις.</w>
+                        <w>τῶν</w>
+                        <w>δὲ</w>
+                        <w>Λακεδαιμονίων</w>
+                        <w>ἑλομένων</w>
+                        <w>ἄνδρας</w>
+                        <w>καὶ</w>
+                        <w>πεμψάντων,</w>
+                        <w>Θεμιστοκλῆς</w>
+                        <w>κρύφα</w>
+                        <w>ὑπέπεμπε</w>
+                        <w>τοῖς</w>
+                        <w>Ἀθηναίοις</w>
+                        <w>κατέχειν</w>
+                        <w>παρ’</w>
+                        <w>ἑαυτοῖς</w>
+                        <w>τοὺς</w>
+                        <w>ἀπεσταλμένους</w>
+                        <w>τῶν</w>
+                        <w>Λακεδαιμονίων</w>
+                        <w>ἄνδρας,</w>
+                        <w>ἕως</w>
+                        <w>ἂν</w>
+                        <w>αὐτὸς</w>
+                        <w>ὑποστρέψῃ</w>
+                        <w>εἰς</w>
+                        <w>τὰς</w>
+                        <w>Ἀθήνας.</w>
+                    </p>
+                    <p n="3">
+                        <w>πραξάντων</w>
+                        <w>δὲ</w>
+                        <w>τοῦτο</w>
+                        <w>τῶν</w>
+                        <w>Ἀθηναίων,</w>
+                        <w>οἱ</w>
+                        <w>Λακεδαιμόνιοι</w>
+                        <w>αἰσθόμενοι</w>
+                        <w>τὴν</w>
+                        <w>ἀπάτην</w>
+                        <w>Θεμιστοκλέους,</w>
+                        <w>οὐδὲν</w>
+                        <w>διέθεσαν</w>
+                        <w>αὐτὸν</w>
+                        <w>δεινόν,</w>
+                        <w>δεδοικότες</w>
+                        <w>περὶ</w>
+                        <w>τῶν</w>
+                        <w>ἰδίων,</w>
+                        <w>ἀλλ’ἀποδόντες</w>
+                        <w>αὐτὸν</w>
+                        <w>ἐκομίσαντο</w>
+                        <w>τοὺς</w>
+                        <w>ἰδίους.</w>
+                    </p>
+                    <p n="4">
+                        <w>ἐν</w>
+                        <w>δὲ</w>
+                        <w>τῷ</w>
+                        <w>μεταξὺ</w>
+                        <w>χρόνῳ</w>
+                        <w>ἐτειχίσθησαν</w>
+                        <w>αἱ</w>
+                        <w>Ἀθῆναι</w>
+                        <w>τὸν</w>
+                        <w>τρόπον</w>
+                        <w>τοῦτον.</w>
+                        <w>ὁ</w>
+                        <w>μὲν</w>
+                        <w>τοῦ</w>
+                        <w>ἄστεως</w>
+                        <w>περίβολος</w>
+                        <w>ἑξήκοντα</w>
+                        <w>σταδίων</w>
+                        <w>ἐτειχίσθη,</w>
+                        <w>τὰ</w>
+                        <w>δὲ</w>
+                        <w>μακρὰ</w>
+                        <w>τείχη</w>
+                        <w>φέροντα</w>
+                        <w>ἐπὶ</w>
+                        <w>τὸν</w>
+                        <w>Πειραιᾶ</w>
+                        <w>ἐξ</w>
+                        <w>ἑκατέρου</w>
+                        <w>μέρους</w>
+                        <w>σταδίων</w>
+                        <w>μ,</w>
+                        <w>ὁ</w>
+                        <w>δὲ</w>
+                        <w>τοῦ</w>
+                        <w>Πειραιῶς</w>
+                        <w>περίβολος</w>
+                        <w>σταδίων</w>
+                        <w>π</w>
+                        <w>(ἔστι</w>
+                        <w>δὲ</w>
+                        <w>ὁ</w>
+                        <w>Πειραιεὺς</w>
+                        <w>λιμὴν</w>
+                        <w>εἰς</w>
+                        <w>δύο</w>
+                        <w>διῃρημένος,</w>
+                        <w>κέκληται</w>
+                        <w>δὲ</w>
+                        <w>αὐτοῦ</w>
+                        <w>τὸ</w>
+                        <w>μέν</w>
+                        <w>τι</w>
+                        <w>μέρος</w>
+                        <w>Μουνυχία,</w>
+                        <w>τὰ</w>
+                        <w>δεξιὰ</w>
+                        <w>δὲ</w>
+                        <w>ἄκρα</w>
+                        <w>τοῦ</w>
+                        <w>Πειραιῶς</w>
+                        <w>ᾑ</w>
+                        <w>ἐστιν</w>
+                        <w>ἔτι</w>
+                        <w>νῦν</w>
+                        <w>Δία</w>
+                        <w>καλεῖται·</w>
+                        <w>ὄχθος</w>
+                        <w>δέ</w>
+                        <w>ἐστιν</w>
+                        <w>ἐν</w>
+                        <w>Πειραιεῖ,</w>
+                        <w>ἐφ’</w>
+                        <w>ὅν</w>
+                        <w>τὸ</w>
+                        <w>τῆς</w>
+                        <w>Ἀρτέμιδος</w>
+                        <w>ἱερὸν</w>
+                        <w>ἵδρυται).</w>
+                        <w>τὸ</w>
+                        <w>δὲ</w>
+                        <w>Φαληρικὸν</w>
+                        <w>τεῖχος</w>
+                        <w>ἐκτίσθη</w>
+                        <w>σταδίων</w>
+                        <w>λ·</w>
+                        <w>πλατὺ</w>
+                        <w>δὲ</w>
+                        <w>ὥστε</w>
+                        <w>δύο</w>
+                        <w>ἅρματα</w>
+                        <w>ἀλλήλοις</w>
+                        <w>συναντᾶν.</w>
+                        <w>καὶ</w>
+                        <w>ἡ</w>
+                        <w>μὲν</w>
+                        <w>τῶν</w>
+                        <w>Ἀθηναίων</w>
+                        <w>πόλις</w>
+                        <w>οὕτως</w>
+                        <w>ἐτειχίσθη.</w>
+                    </p>
+                </div>
+                <div type="textpart" subtype="section" n="6">
+                    <p n="1"><w>Ὁ</w>
+                        <w>δὲ</w>
+                        <w>Θεμιστοκλῆς</w>
+                        <w>διὰ</w>
+                        <w>τὴν</w>
+                        <w>ὑπερβάλλουσαν</w>
+                        <w>σύνεσιν</w>
+                        <w>καὶ</w>
+                        <w>ἀρετὴν</w>
+                        <w>φθονηθεὶς</w>
+                        <w>ἐξεδιώχθη</w>
+                        <w>ὑπὸ</w>
+                        <w>τῶν</w>
+                        <w>Ἀθηναίων</w>
+                        <w>καὶ</w>
+                        <w>παρεγένετο</w>
+                        <w>εἰς</w>
+                        <w>Ἄργος.</w>
+                    </p>
+                    <p n="2">
+                        <w>Λακεδαιμόνιοι</w>
+                        <w>δὲ</w>
+                        <w>ἀκούσαντες</w>
+                        <w>τὰ</w>
+                        <w>περὶ</w>
+                        <w>τῆς</w>
+                        <w>ἐγκεχειρισμένης</w>
+                        <w>προδοσίας</w>
+                        <w>Παυσανίαι,</w>
+                        <w>πέμψαντες</w>
+                        <w>αὐτῷ</w>
+                        <w>τὴν</w>
+                        <w>σκυτάλην</w>
+                        <w>μετεκαλοῦντο</w>
+                        <w>αὐτὸν</w>
+                        <w>ὡς</w>
+                        <w>ἀπο</w>
+                        <w>λογησόμενον.</w></p>
+                    <p n="3">
+                        <w>ὁ</w>
+                        <w>δὲ</w>
+                        <w>Παυσανίας</w>
+                        <w>ἐλθὼν</w>
+                        <w>εἰς</w>
+                        <w>τὴν</w>
+                        <w>Σπάρτην</w>
+                        <w>ἀπελογήσατο,</w>
+                        <w>καὶ</w>
+                        <w>ἀπατήσας</w>
+                        <w>τοὺς</w>
+                        <w>Λακεδαιμονίους,</w>
+                        <w>ἀπολυθεὶς</w>
+                        <w>τῆς</w>
+                        <w>αἰτίας</w>
+                        <w>ὑπεξῆλθεν</w>
+                        <w>καὶ</w>
+                        <w>πάλιν</w>
+                        <w>ἐνήργει</w>
+                        <w>τὴν</w>
+                        <w>προδοσίαν.</w>
+                    </p>
+                </div>
+                <div type="textpart" subtype="section" n="7">
+                    <p n="1"><w>Ἐν</w>
+                        <w>δὲ</w>
+                        <w>τούτῳ</w>
+                        <w>οἱ</w>
+                        <w>Ἕλληνες</w>
+                        <w>ἀφιστάμενοι</w>
+                        <w>ἀπὸ</w>
+                        <w>τῶν</w>
+                        <w>Λακεδαιμονίων</w>
+                        <w>διὰ</w>
+                        <w>τὸ</w>
+                        <w>πικρῶς</w>
+                        <w>τυραννεῖσθαι</w>
+                        <w>ὑπὸ</w>
+                        <w>τοῦ</w>
+                        <w>Παυσανίου</w>
+                        <w>προσετίθεντο</w>
+                        <w>τοῖς</w>
+                        <w>Ἀθηναίοις,</w>
+                        <w>καὶ</w>
+                        <w>οὕτως</w>
+                        <w>ἤρξαντο</w>
+                        <w>πάλιν</w>
+                        <w>οἱ</w>
+                        <w>Ἀθηναῖοι</w>
+                        <w>φόρους</w>
+                        <w>λαμβάνοντες</w>
+                        <w>αὔξεσθαι·</w>
+                        <w>ναῦς</w>
+                        <w>τε</w>
+                        <w>γὰρ</w>
+                        <w>κατεσκεύαζον</w><pb n="85" facs="4-85.pdf"/>
+                        <supplied reason="omitted">καὶ κοινὸν τῶν Ἑλληνικῶν
+                            χ</supplied><w>ρημάτων</w>
+                        <w>θησαυροφυλάκιον</w>
+                        <w>ἐποιήσαντο</w>
+                        <w>ἐν</w>
+                        <w>Δήλῳ,</w>
+                        <supplied reason="omitted" cert="low">ὕστερον δὲ</supplied>
+                        <gap reason="lost" unit="chars" quantity="12"/>
+                        <w>τάλαντα</w>
+                        <w>ἐκ</w>
+                        <w>τῆς</w>
+                        <w>Δήλου</w>
+                        <w>τὰ</w>
+                        <w>συναχθέντα</w>
+                        <w>μετεκόμισαν</w>
+                        <w>εἰς</w>
+                        <w>τὰς</w>
+                        <w>Ἀθήνας</w>
+                        <w>καὶ</w>
+                        <w>κατέθεντο</w>
+                        <w>ἐντὸς</w>
+                        <w>ἐν</w>
+                        <w>ἀκροπόλει.</w>
+                    </p>
+                </div>
+                <div type="textpart" subtype="section" n="8">
+                    <p n="1"><w>῾Ο</w>
+                        <w>δὲ</w>
+                        <w>Παυσανίας</w>
+                        <w>ὑπάρχων</w>
+                        <w>ἐν</w>
+                        <w>Βυζαντίῳ</w>
+                        <w>ἀναφανδὸν</w>
+                        <w>ἐμήδιζεν</w>
+                        <w>καὶ</w>
+                        <w>κακὰ</w>
+                        <w>διετίθει</w>
+                        <w>τοὺς</w>
+                        <w>Ἕλληνας.</w>
+                        <w>διεπράξατο</w>
+                        <w>δέ</w>
+                        <w>τι</w>
+                        <w>καὶ</w>
+                        <w>τοιοῦτον.</w>
+                        <w>ἦν</w>
+                        <w>ἐπιχωρίου</w>
+                        <w>τινὸς</w>
+                        <w>θυγάτηρ</w>
+                        <w>Κορωνίδου</w>
+                        <w>ὄνομα,</w>
+                        <w>ἐφ’</w>
+                        <w>ἣν</w>
+                        <w>ἔπεμψεν</w>
+                        <w>ὁ</w>
+                        <w>Παυσανίας</w>
+                        <w>ἐξαιτῶν</w>
+                        <w>τὸν</w>
+                        <w>πατέρα·</w>
+                        <w>ὁ</w>
+                        <w>δὲ</w>
+                        <w>Κορωνίδης</w>
+                        <w>δεδοικὼς</w>
+                        <w>τὴν</w>
+                        <w>ὠμότητα</w>
+                        <w>τοῦ</w>
+                        <w>Παυσανίου</w>
+                        <w>ἔπεμψεν</w>
+                        <w>αὐτῷ</w>
+                        <w>τὴν</w>
+                        <w>παῖδα.</w>
+                        <w>ἧς</w>
+                        <w>καὶ</w>
+                        <w>παραγενομένης</w>
+                        <w>νυκτὸς</w>
+                        <w>ἐς</w>
+                        <w>τὸ</w>
+                        <w>οἴκημα,</w>
+                        <w>κοιμωμένου</w>
+                        <w>τοῦ</w>
+                        <w>Παυσανίου,</w>
+                        <w>καὶ</w>
+                        <w>παραστάσης,</w>
+                        <w>περίυπνος</w>
+                        <w>γενόμενος</w>
+                        <w>ὁ</w>
+                        <w>Παυσανίας</w>
+                        <w>δόξας</w>
+                        <w>τε</w>
+                        <w>κατ’</w>
+                        <w>ἐπιβουλήν</w>
+                        <w>τινα</w>
+                        <w>εἰσεληλυθέναι</w>
+                        <w>ἐπαράμενος</w>
+                        <w>τὸ</w>
+                        <w>ξιφίδιον</w>
+                        <w>ἐπερόνησε</w>
+                        <w>τὴν</w>
+                        <w>κόρην</w>
+                        <w>καὶ</w>
+                        <w>ἀπέκτεινε.</w>
+                        <w>καὶ</w>
+                        <w>διὰ</w>
+                        <w>τοῦτο</w>
+                        <w>εἰς</w>
+                        <w>μανίαν</w>
+                        <w>περιέστη,</w>
+                        <w>καὶ</w>
+                        <w>γενόμενος</w>
+                        <w>φρενομανὴς</w>
+                        <w>ἐκεκράγει,</w>
+                        <w>ὡς</w>
+                        <w>δὴ</w>
+                        <w>μαστιγούμενος</w>
+                        <w>ὑπὸ</w>
+                        <w>τῆς</w>
+                        <w>κόρης·</w>
+                        <w>πολλοῦ</w>
+                        <w>δὲ</w>
+                        <w>χρόνου</w>
+                        <w>διαγενομένου</w>
+                        <w>ἐξιλάσατο</w>
+                        <w>τοὺς</w>
+                        <w>δαίμονας</w>
+                        <w>τῆς</w>
+                        <w>παιδὸς</w>
+                        <w>καὶ</w>
+                        <w>οὕτως</w>
+                        <w>ἀποκατέστη.</w></p>
+                    <p n="2">
+                        <w>τῆς</w>
+                        <w>δὲ</w>
+                        <w>προδοσίας</w>
+                        <w>οὐκ</w>
+                        <w>ἐπαύετο</w>
+                        <w>ἀλλὰ</w>
+                        <w>γράψας</w>
+                        <w>ἐπιστολὰς</w>
+                        <w>Ξέρξῃ</w>
+                        <w>Ἀργιλίῳ</w>
+                        <w>ἀγαπωμένῳ</w>
+                        <w>ἑαυτοῦ</w>
+                        <w>δίδωσι</w>
+                        <w>ταύτας,</w>
+                        <w>ἐγκελευσάμενος</w>
+                        <w>κομίζειν</w>
+                        <w>πρὸς</w>
+                        <w>Ξέρξην.</w>
+                        <w>ὁ</w>
+                        <w>δὲ</w>
+                        <w>Ἀργίλιος</w>
+                        <w>δεδοικὼς</w>
+                        <w>περὶ</w>
+                        <w>αὑτοῦ,</w>
+                        <w>ἐπειδὴ</w>
+                        <w>γὰρ</w>
+                        <w>οὐδὲ</w>
+                        <w>οἱ</w>
+                        <w>πρότεροι</w>
+                        <w>πεμφθέντες</w>
+                        <w>ἀπενόστησαν,</w>
+                        <w>πρὸς</w>
+                        <w>Ξέρξην</w>
+                        <w>οὐ</w>
+                        <w>παρεγένετο,</w>
+                        <w>ἐλθὼν</w>
+                        <w>δὲ</w>
+                        <w>εἰς</w>
+                        <w>Σπάρτην</w>
+                        <w>τοῖς</w>
+                        <w>ἐφόροις</w>
+                        <w>ἐμήνυσε</w>
+                        <w>τὴν</w>
+                        <w>προδοσίαν,</w>
+                        <w>ὑπέσχετο</w>
+                        <w>δὲ</w>
+                        <w>κατάφωρον</w>
+                        <w>δείξειν</w>
+                        <w>τὸν</w>
+                        <w>Παυσανίαν.</w>
+                        <w>καὶ</w>
+                        <w>συνθέμενος</w>
+                        <w>περὶ</w>
+                        <w>τούτων</w>
+                        <w>ἦλθεν</w>
+                        <w>εἰς</w>
+                        <w>Ταίναρον</w>
+                        <w>ἔν</w>
+                        <w>τε</w>
+                        <w>τῷ</w>
+                        <w>τοῦ</w>
+                        <w>Ποσειδῶνος</w>
+                        <w>τεμένει</w>
+                        <milestone unit="section" type="filostratus" n="2"/>
+                        <!--not sure. how to say here there is another text before the page breaks? 
+                        Perhaps divs are better here? but I will not give this text so I only want to say its here-->
+                        <pb n="ξθ" facs="5-ξθ.pdf"/>
+                        <milestone unit="section" type="filostratus" n="3"/>
+                        <pb n="86" facs="6-86.pdf"/>
+                        <milestone unit="section" type="filostratus" n="4"/>
+                        <space unit="lines" quantity="6" cert="medium"/>
+                        <pb n="ο" facs="7-ο.pdf"/>
+                        <label>τοῦτο ἐστιν τὸ ζη</label>
+                        <w>ἱκέτευεν·</w>
+                        <w>οἱ</w>
+                        <w>δὲ</w>
+                        <w>ἔφοροι</w>
+                        <w>παραγενόμενοι</w>
+                        <w>καὶ</w>
+                        <w>αὐτοὶ</w>
+                        <w>εἰς</w>
+                        <w>τὸ</w>
+                        <w>αὐτὸ</w>
+                        <w>τέμενος</w>
+                        <w>καὶ</w>
+                        <w>διπλῆν</w>
+                        <w>σκηνὴν</w>
+                        <w>κατασκευάσαντες</w>
+                        <w>ἐν</w>
+                        <w>αὐτῇ</w>
+                        <w>ἔκρυψαν</w>
+                        <w>ἑαυτούς.</w>
+                    </p>
+                    <p n="3">
+                        <w>οὐκ</w>
+                        <w>ἐπιστάμενος</w>
+                        <w>δὲ</w>
+                        <w>ὁ</w>
+                        <w>Παυσανίας</w>
+                        <w>ταῦτα,</w>
+                        <w>ἀκούσας</w>
+                        <w>δὲ</w>
+                        <w>τὸν</w>
+                        <w>Ἀργίλιον</w>
+                        <w>ἱκετεύοντα,</w>
+                        <w>παρεγένετο</w>
+                        <w>πρὸς</w>
+                        <w>αὐτὸν</w>
+                        <w>καὶ</w>
+                        <w>ἀπεμέμφετο</w>
+                        <w>ἐπὶ</w>
+                        <w>τῷ</w>
+                        <w>μὴ</w>
+                        <w>κομίσαι</w>
+                        <w>τὰς</w>
+                        <w>ἐπιστολὰς</w>
+                        <w>πρὸς</w>
+                        <w>Ξέρξην,</w>
+                        <w>ἄλλα</w>
+                        <w>τέ</w>
+                        <w>τινα</w>
+                        <w>τεκμήρια</w>
+                        <w>διεξῄει</w>
+                        <w>τῆς</w>
+                        <w>προδοσίας.</w>
+                        <w>οἱ</w>
+                        <w>δὲ</w>
+                        <w>ἔφοροι</w>
+                        <w>ἀκούσαντες</w>
+                        <w>τῶν</w>
+                        <w>ῥηθέντων</w>
+                        <w>παραχρῆμα</w>
+                        <w>μὲν</w>
+                        <w>οὐ</w>
+                        <w>συνελάβοντο</w>
+                        <w>αὐτὸν</w>
+                        <w>διὰ</w>
+                        <w>τὸ</w>
+                        <w>εἶναι</w>
+                        <w>ἅγιον</w>
+                        <w>τὸ</w>
+                        <w>τέμενος</w>
+                        <w>ἀλλ’</w>
+                        <w>εἴασαν</w>
+                        <w>ἀπελθεῖν,</w>
+                        <w>ὕστερον</w>
+                        <w>δὲ</w>
+                        <w>αὐτὸν</w>
+                        <w>ἐλθόντα</w>
+                        <w>εἰς</w>
+                        <w>Σπάρτην</w>
+                        <w>ἐβούλοντο</w>
+                        <w>συλλαμβάνεσθαι·</w>
+                        <w>ὁ</w>
+                        <w>δὲ</w>
+                        <w>ὑπονοήσας</w>
+                        <w>εἰσέδραμεν</w>
+                        <w>εἰς</w>
+                        <w>τὸ</w>
+                        <w>τῆς</w>
+                        <w>Χαλκιοίκου</w>
+                        <w>Ἀθηνᾶς</w>
+                        <w>τέμενος</w>
+                        <w>καὶ</w>
+                        <w>ἱκέτευεν.</w>
+                    </p>
+                    <p n="4">
+                        <w>τῶν</w>
+                        <w>δὲ</w>
+                        <w>Λακεδαιμονίων</w>
+                        <w>ἐν</w>
+                        <w>ἀπόρῳ</w>
+                        <w>ὄντων</w>
+                        <w>διὰ</w>
+                        <w>τὴν</w>
+                        <w>εἰς</w>
+                        <w>τὸν</w>
+                        <w>θεὸν</w>
+                        <w>θρησκείαν,</w>
+                        <w>ἡ</w>
+                        <w>μήτηρ</w>
+                        <w>τοῦ</w>
+                        <w>Παυσανίου</w>
+                        <w>βαστάσασα</w>
+                        <w>πλίνθον</w>
+                        <w>ἔθηκεν</w>
+                        <w>ἐπὶ</w>
+                        <w>τῆς</w>
+                        <w>εἰσόδου</w>
+                        <w>τοῦ</w>
+                        <w>τεμένους,</w>
+                        <w>προκαταρχομένη</w>
+                        <w>τῆς</w>
+                        <w>κατὰ</w>
+                        <w>τοῦ</w>
+                        <w>παιδὸς</w>
+                        <w>κολάσεως·</w>
+                        <w>οἱ</w>
+                        <w>δὲ</w>
+                        <w>Λακεδαιμόνιοι</w>
+                        <w>κατακολουθήσαντες</w>
+                        <w>αὐτῇ</w>
+                        <w>ἐνῳκοδόμησαν</w>
+                        <w>τὸ</w>
+                        <w>τέμενος,</w>
+                        <w>καὶ</w>
+                        <w>λιμῷ</w>
+                        <w>διαφθαρέντος</w>
+                        <w>τοῦ</w>
+                        <w>Παυσανίου,</w>
+                        <w>ἀνελόντες</w>
+                        <w>τὴν</w>
+                        <w>στέγην,</w>
+                        <w>ἐξείλκυσαν</w>
+                        <w>τοῦ</w>
+                        <w>ναοῦ</w>
+                        <w>ἔτι</w>
+                        <w>ἐμπνέοντα</w>
+                        <w>τὸν</w>
+                        <w>Παυσανίαν</w>
+                        <w>καὶ</w>
+                        <w>ἐξέρριψαν.</w>
+                    </p>
+                    <p n="5">
+                        <w>διὰ</w>
+                        <w>δὲ</w>
+                        <w>τοῦτο</w>
+                        <w>λοιμὸς</w>
+                        <w>αὐτοὺς</w>
+                        <w>κατέσχεν·</w>
+                        <w>θεοῦ</w>
+                        <w>δὲ</w>
+                        <w>χρήσαντος,</w>
+                        <w>ἐπὰν</w>
+                        <w>ἐξιλάσωνται</w>
+                        <w>τοὺς</w>
+                        <w>δαίμονας</w>
+                        <w>τοῦ</w>
+                        <w>Παυσανίου,</w>
+                        <w>παύσασθαι</w>
+                        <w>τὸν</w>
+                        <w>λοιμόν,</w>
+                        <w>ἀνδριάντα</w>
+                        <w>αὐτῷ</w>
+                        <w>ἀνέστησαν,</w>
+                        <w>καὶ</w>
+                        <w>ἐπαύσατο</w>
+                        <w>ὁ</w>
+                        <w>λοιμός</w>
+                    </p>
+                </div>
+                <div type="textpart" subtype="section" n="9">
+                    <p n="1"><w>Ζητήσεως</w>
+                        <w>δὲ</w>
+                        <w>οὔσης</w>
+                        <w>παρὰ</w>
+                        <w>τοῖς</w>
+                        <w>Ἕλλησι</w>
+                        <w>τίνας</w>
+                        <w>δεῖ</w>
+                        <w>προγραφῆναι</w>
+                        <w>αὐτῶν</w>
+                        <w>τῶν</w>
+                        <w>συμμεμαχηκότων</w>
+                        <w>ἐν</w>
+                        <w>τῷ</w>
+                        <w>Μηδικῷ</w>
+                        <w>πολέμῳ,</w>
+                        <w>ἐξεῦρον</w>
+                        <w>οἱ</w>
+                        <w>Λακεδαιμόνιοι</w>
+                        <w>τὸν</w>
+                        <w>δίσκον,</w>
+                        <w>ἐφ’</w>
+                        <w>οὗ</w>
+                        <w>κυκλοτερῶς</w>
+                        <w>ἐπέγραψαν</w>
+                        <w>τὰς</w>
+                        <w>ἠγωνισμένας</w>
+                        <w>πόλεις,</w>
+                        <w>ὡς</w>
+                        <w>μήτε</w>
+                        <w>πρώτους</w>
+                        <w>τινὰς</w>
+                        <w>γεγράφθαι</w>
+                        <w>μήθ’</w>
+                        <w>ὑστέρους.</w>
+                    </p>
+                </div>
+                <div type="textpart" subtype="section" n="10">
+                    <p n="1"><w>Λακεδαιμόνιοι</w>
+                        <w>δέ,</w>
+                        <w>ἐπειδὴ</w>
+                        <w>τὰ</w>
+                        <w>τοῦ</w>
+                        <w>Παυσανίου</w>
+                        <w>ἐπονειδίστως</w>
+                        <w>ἐκεχωρήκει,</w>
+                        <w>τοὺς</w>
+                        <w>Ἀθηναίους</w>
+                        <w>ἔπειθον</w>
+                        <w>λέγοντες</w>
+                        <w>ἐν</w>
+                        <w>ταῖς</w>
+                        <w>Παυσανίου</w>
+                        <w>ἐπιστολαῖς</w>
+                        <w>κοινωνὸν</w>
+                        <w>εὑρηκέναι</w>
+                        <w>τῆς</w>
+                        <w>προδοσίας</w>
+                        <w>Θεμιστοκλέα.</w>
+                        <w>ὁ</w>
+                        <w>δὲ</w>
+                        <w>Θεμιστοκλῆς</w>
+                        <w>δεδοικὼς</w>
+                        <w>τοὺς</w>
+                        <w>Λακεδαιμονίους</w>
+                        <w>οὐκ</w>
+                        <w>ἔμεινεν</w>
+                        <w>ἐν</w>
+                        <w>τῷ</w>
+                        <w>Ἄργει</w>
+                        <w>ἀλλὰ</w>
+                        <w>παρεγένετο</w>
+                        <w>εἰς</w>
+                        <w>Κέρκυραν</w>
+                        <w>κἀκεῖθεν</w>
+                        <w>εἰς</w>
+                        <w>Μολοσσοὺς</w>
+                        <w>πρὸς</w>
+                        <w>Ἄδμητον</w>
+                        <w>βασιλεύοντα</w>
+                        <w>καὶ</w>
+                        <w>ἐχθρὸν</w>
+                        <w>αὐτῷ</w>
+                        <w>πρότερον.</w>
+                    </p>
+                    <p n="2">
+                        <w>τῶν</w>
+                        <w>δὲ</w>
+                        <w>Λακεδαιμονίων</w>
+                        <w>παραγενομένων</w>
+                        <w>πρὸς</w>
+                        <w>τὸν</w>
+                        <w>Ἄδμητον</w>
+                        <w>καὶ</w>
+                        <w>ἐξαιτούντων</w>
+                        <w>αὐτόν,</w>
+                        <w>ἡ</w>
+                        <w>γυνὴ</w>
+                        <w>τοῦ</w>
+                        <w>Ἀδμήτου</w>
+                        <w>ὑπέθετο</w>
+                        <w>Θεμιστοκλεῖ</w>
+                        <w>ἁρπάσαι</w>
+                        <w>τὸν</w>
+                        <w>τοῦ</w>
+                        <w>βασιλέως</w>
+                        <w>παῖδα</w>
+                        <w>καὶ</w>
+                        <w>καθεσθῆναι</w>
+                        <w>ἐπὶ</w>
+                        <w>τῆς</w>
+                        <w>ἑστίας</w>
+                        <w>ἱκετεύοντα.</w>
+                        <w>πράξαντος</w>
+                        <w>δὲ</w>
+                        <w>τοῦ</w>
+                        <w>Θεμιστοκλέους,</w>
+                        <w>ὁ</w>
+                        <w>Ἄδμητος</w>
+                        <w>κατελεήσας</w>
+                        <w>αὐτὸν</w>
+                        <w>οὐκ</w>
+                        <w>ἐξέδωκεν</w>
+                        <w>ἀλλ’</w>
+                        <w>ἀπεκρίθη</w>
+                        <w>τοῖς</w>
+                        <w>Πελοποννησίοις</w>
+                        <w>μὴ</w>
+                        <w>ὅσιον</w>
+                        <w>εἶναι</w>
+                        <w>ἐκδοῦναι</w>
+                        <w>τὸν</w>
+                        <w>ἱκέτην.</w>
+                    </p>
+                    <p n="3">
+                        <w>ὁ</w>
+                        <w>δὲ</w>
+                        <w>Θεμιστοκλῆς</w>
+                        <w>οὐκ</w>
+                        <w>ἔχων</w>
+                        <w>ὅπου</w>
+                        <w>ὑποστρέψει</w>
+                        <w>ἐπὶ</w>
+                        <w>τὴν</w>
+                        <w>Περσίδα</w>
+                        <w>ἔπλει.</w>
+                        <w>ἐκινδύνευσε</w>
+                        <w>δὲ</w>
+                        <w>καὶ</w>
+                        <w>πλέων</w>
+                        <w>ἁλῶναι</w>
+                        <w>καὶ</w>
+                        <w>παραληφθῆναι.</w>
+                        <w>Νάξον</w>
+                        <w>γὰρ</w>
+                        <w>πολεμούντων</w>
+                        <w>τῶν</w>
+                        <w>Ἀθηναίων</w>
+                        <w>ἡ</w>
+                        <w>ναῦς</w>
+                        <w>τοῦ</w>
+                        <w>Θεμιστοκλέους</w>
+                        <w>χειμῶνος</w>
+                        <w>ἐπιγενομένου</w>
+                        <w>προσήγετο</w>
+                        <w>τῇ</w>
+                        <w>Νάξῳ·</w>
+                        <w>ὁ</w>
+                        <w>δὲ</w>
+                        <w>Θεμιστοκλῆς</w>
+                        <w>δεδοικὼς</w>
+                        <w>μήποτε</w>
+                        <w>συλληφθῇ</w>
+                        <w>ὑπὸ</w>
+                        <w>τῶν</w>
+                        <w>Ἀθηναίων</w>
+                        <w>ἠπείλησε</w>
+                        <w>τῷ</w>
+                        <w>κυβερνήτῃ</w>
+                        <w>ἀναιρήσειν</w>
+                        <w>αὐτόν,</w>
+                        <w>εἰ</w>
+                        <w>μὴ</w>
+                        <w>ἀντέχοι</w>
+                        <w>τοῖς</w>
+                        <w>πνεύμασιν.</w>
+                        <w>ὁ</w>
+                        <w>δὲ</w>
+                        <w>κυβερνήτης</w>
+                        <w>δείσας</w>
+                        <w>τὴν</w>
+                        <w>ἀπειλὴν</w>
+                        <w>ὥρμησεν</w>
+                        <w>ἐπὶ</w>
+                        <w>σάλου</w>
+                        <w>νύκτα</w>
+                        <w>καὶ</w>
+                        <w>ἡμέραν</w>
+                        <w>καὶ</w>
+                        <w>ἀντέσχε</w>
+                        <w>τοῖς</w>
+                        <w>ἀνέμοις·</w>
+                        <w>καὶ</w>
+                        <w>οὕτω</w>
+                        <w>Θεμιστοκλῆς</w>
+                        <w>διασωθεὶς</w>
+                        <w>παρεγένετο</w>
+                        <w>εἰς</w>
+                        <w>τὴν</w>
+                        <w>Περσίδα.</w></p>
+                    <p n="4">
+                        <w>καὶ</w>
+                        <w>Ξέρξην</w>
+                        <w>μὲν</w>
+                        <w>οὐ</w>
+                        <w>κατέλαβε</w>
+                        <w>ζῶντα,</w>
+                        <w>Ἀρταξέρξην</w>
+                        <w>δὲ</w>
+                        <w>τὸν</w>
+                        <w>υἱὸν</w>
+                        <w>αὐτοῦ·</w>
+                        <w>ᾧ</w>
+                        <w>οὐκ</w>
+                        <w>ἐνεφανίσθη</w>
+                        <w>ἀλλὰ</w>
+                        <w>διατρίψας</w>
+                        <w>ἐνιαυτὸν</w>
+                        <w>καὶ</w>
+                        <w>μαθὼν</w>
+                        <w>τὴν</w>
+                        <w>Περσικὴν</w>
+                        <w>γλῶσσαν,</w>
+                        <w>τότε</w>
+                        <w>παρεγένετο</w>
+                        <w>πρὸς</w>
+                        <w>τὸν</w>
+                        <w>Ἀρταξέρξην,</w>
+                        <w>καὶ</w>
+                        <w>ὑπέμνησεν</w>
+                        <w>αὐτὸν</w>
+                        <w>τῶν</w>
+                        <w>εὐεργεσιῶν,</w>
+                        <w>ἃς</w>
+                        <w>ἐδόκει</w>
+                        <w>κατατεθεῖσθαι</w>
+                        <w>εἰς</w>
+                        <w>τὸν</w>
+                        <w>πατέρα</w>
+                        <w>αὐτοῦ</w>
+                        <w>Ξέρξην,</w>
+                        <w>λέγων</w>
+                        <w>καὶ</w>
+                        <w>τῆς</w>
+                        <w>σωτηρίας</w>
+                        <w>αὐτῷ</w>
+                        <w>γεγενῆσθαι</w>
+                        <w>αἴτιος,</w><pb n="87" facs="8-87.pdf"/>
+                        <unclear>ὑπο</unclear><w>δείξας</w>
+                        <w>λύ</w><supplied reason="omitted">σο</supplied><w>ντας</w>
+                        <w>τοὺς</w>
+                        <supplied reason="omitted">Ἕλλ</supplied><w>ηνας</w>
+                        <w>τὸ</w>
+                        <w>ζεῦγμα.</w>
+                        <w>ὑπέσχετο</w>
+                        <w>δέ,</w>
+                        <w>εἰ</w>
+                        <w>λάβοι</w>
+                        <w>στρατὸν</w>
+                        <w>παρ’</w>
+                        <w>αὐτοῦ,</w>
+                        <w>χειρώσασθαι</w>
+                        <w>τοὺς</w>
+                        <w>Ἕλληνας.</w></p>
+                    <p n="5">
+                        <w>ὁ</w>
+                        <w>δὲ</w>
+                        <w>Ἀρταξέρξης</w>
+                        <w>προσσχὼν</w>
+                        <w>τοῖς</w>
+                        <w>εἰρημένοις</w>
+                        <w>ἔδωκεν</w>
+                        <w>αὐτῷ</w>
+                        <w>στρατὸν</w>
+                        <w>καὶ</w>
+                        <w>τρεῖς</w>
+                        <w>πόλεις</w>
+                        <w>εἰς</w>
+                        <w>χορηγίαν,</w>
+                        <w>Μαγνησίαν</w>
+                        <w>μὲν</w>
+                        <w>εἰς</w>
+                        <w>σῖτον,</w>
+                        <w>Λάμψακον</w>
+                        <w>δὲ</w>
+                        <w>εἰς</w>
+                        <w>οἶνον,</w>
+                        <w>Μυοῦντα</w>
+                        <w>δὲ</w>
+                        <w>εἰς</w>
+                        <w>ὄψον.</w>
+                        <w>λαβὼν</w>
+                        <w>δὲ</w>
+                        <w>Θεμιστοκλῆς</w>
+                        <w>καὶ</w>
+                        <w>παραγενόμενος</w>
+                        <w>εἰς</w>
+                        <w>Μαγνησίαν,</w>
+                        <w>ἐγγὺς</w>
+                        <w>ἤδη</w>
+                        <w>γενόμενος</w>
+                        <w>τῆς</w>
+                        <w>Ἑλλάδος</w>
+                        <w>μετενόησεν,</w>
+                        <w>οὐχ</w>
+                        <w>ἡγησάμενος</w>
+                        <w>δεῖν</w>
+                        <w>πολεμεῖν</w>
+                        <w>τοῖς</w>
+                        <w>ὁμοφύλοις·</w>
+                        <w>θύων</w>
+                        <w>δὲ</w>
+                        <w>τῇ</w>
+                        <w>Λευκοφρύνῃ</w>
+                        <w>Ἀρτέμιδι,</w>
+                        <w>σφαττομένου</w>
+                        <w>ταύρου</w>
+                        <w>ὑποσχὼν</w>
+                        <w>φιάλην</w>
+                        <w>καὶ</w>
+                        <w>πληρώσας</w>
+                        <w>αἵματος</w>
+                        <w>ἔπιεν</w>
+                        <w>καὶ</w>
+                        <w>ἐτελεύτησεν.</w></p>
+                </div>
+                <div type="textpart" subtype="section" n="11">
+                    <p n="1"><w>Οἱ</w>
+                        <w>δὲ</w>
+                        <w>Ἕλληνες</w>
+                        <supplied reason="omitted">οὐ</supplied>
+                        <w>γνόντες</w>
+                        <w>ταῦτα</w>
+                        <w>ἐξεδίωκον</w>
+                        <w>τὸν</w>
+                        <w>στρατὸν</w>
+                        <w>τὸν</w>
+                        <w>ἅμα</w>
+                        <w>τῷ</w>
+                        <w>Θεμιστοκλεῖ,</w>
+                        <w>καὶ</w>
+                        <w>παραγενόμενοι</w>
+                        <w>δὲ</w>
+                        <w>ἔγνωσαν</w>
+                        <w>καὶ</w>
+                        <w>ἀντεπεστράτευον</w>
+                        <w>τῷ</w>
+                        <w>Ἀρταξέρξῃ</w>
+                        <w>εὐθέως</w>
+                        <w>τε</w>
+                        <w>τὰς</w>
+                        <w>Ἰωνικὰς</w>
+                        <w>καὶ</w>
+                        <w>τὰς</w>
+                        <w>λοιπὰς</w>
+                        <w>πόλεις</w>
+                        <w>Ἑλληνίδας</w>
+                        <w>ἠλευθέρουν</w>
+                        <w>Ἀθηναῖοι.</w></p>
+                    <p n="2">
+                        <w>Κίμωνος</w>
+                        <w>δὲ</w>
+                        <w>τοῦ</w>
+                        <w>Μιλτιάδου</w>
+                        <w>στρατηγοῦντος</w>
+                        <w>ἀνέπλευσαν</w>
+                        <w>ἐπὶ</w>
+                        <w>τὴν</w>
+                        <w>Παμφυλίαν</w>
+                        <w>κατὰ</w>
+                        <w>τὸν</w>
+                        <w>λεγόμενον</w>
+                        <w>Εὐρυμέδοντα</w>
+                        <w>ποταμὸν</w>
+                        <w>καὶ</w>
+                        <w>ἐναυμάχησαν</w>
+                        <w>Φοίνιξι</w>
+                        <w>καὶ</w>
+                        <w>Πέρσαις</w>
+                        <w>καὶ</w>
+                        <w>λαμπρὰ</w>
+                        <w>ἔργα</w>
+                        <w>ἐπεδείξαντο,</w>
+                        <w>ἑκατόν</w>
+                        <w>τε</w>
+                        <w>ναῦς</w>
+                        <w>ἑλόντες</w>
+                        <w>αὐτάνδρους</w>
+                        <w>ἐπεζομάχησαν·</w>
+                        <w>καὶ</w>
+                        <w>δύο</w>
+                        <w>τρόπαια</w>
+                        <w>ἔστησαν,</w>
+                        <w>τὸ</w>
+                        <w>μὲν</w>
+                        <w>κατὰ</w>
+                        <w>γῆν</w>
+                        <w>τὸ</w>
+                        <w>δὲ</w>
+                        <w>κατὰ</w>
+                        <w>θάλατταν.</w></p>
+                    <p n="3">
+                        <w>ἔπλευσαν</w>
+                        <w>δὲ</w>
+                        <w>καὶ</w>
+                        <w>κατὰ</w>
+                        <w>Κύπρον</w>
+                        <w>καὶ</w>
+                        <w>ἐπ’</w>
+                        <w>Αἴγυπτον.</w>
+                        <w>ἐβασίλευσε</w>
+                        <w>δὲ</w>
+                        <w>τῆς</w>
+                        <w>Αἰγύπτου</w>
+                        <w>Ἴναρος</w>
+                        <w>υἱὸς</w>
+                        <w>Ψαμμητίχου,</w>
+                        <w>ὃς</w>
+                        <w>ἀποστὰς</w>
+                        <w>Ἀρταξέρξου</w>
+                        <w>βοηθοὺς</w>
+                        <w>ἐπηγάγετο</w>
+                        <w>αὑτῷ</w>
+                        <w>τοὺς</w>
+                        <w>Ἀθηναίους,</w>
+                        <w>οἵτινες</w>
+                        <w>ἔχοντες</w>
+                        <w>ς</w>
+                        <w>ναῦς</w>
+                        <w>ἐπολέμησαν</w>
+                        <w>ἐπὶ</w>
+                        <w>ἔτη</w>
+                        <w>ἓξ</w>
+                        <w>τοῖς</w>
+                        <w>βαρβάροις.</w></p>
+                    <p n="4">
+                        <w>μετὰ</w>
+                        <w>δὲ</w>
+                        <w>ταῦτα</w>
+                        <w>Μεγάβυξος</w>
+                        <w>ὁ</w>
+                        <w>Ζωπύρου</w>
+                        <w>καταπεμφθεὶς</w>
+                        <w>ὑπὸ</w>
+                        <w>Ἀρταξέρξου,</w>
+                        <w>ὡρμημένων</w>
+                        <w>τῶν</w>
+                        <w>Ἀθηναίων</w>
+                        <w>ἐν</w>
+                        <w>τῇ</w>
+                        <w>καλουμένῃ</w>
+                        <w>Προσωπίτιδι</w>
+                        <w>νήσῳ</w>
+                        <w>ἐπί</w>
+                        <w>τινος</w>
+                        <w>ποταμοῦ,</w>
+                        <w>ἐκτρέπει</w>
+                        <w>τὸ</w>
+                        <w>ῥεῖθρον</w>
+                        <w>τοῦ</w>
+                        <w>ποταμοῦ</w>
+                        <w>ἐποίησέ</w>
+                        <w>τε</w>
+                        <w>τὰς</w>
+                        <w>ναῦς</w>
+                        <w>ἐπὶ</w>
+                        <w>τῆς</w>
+                        <w>γῆς</w>
+                        <w>ἀπολειφθῆναι.</w>
+                        <w>ἐκτραπεισῶν</w>
+                        <w>δὲ</w>
+                        <w>ν</w>
+                        <w>νεῶν</w>
+                        <w>Ἀττικῶν</w>
+                        <w>προσπλεουσῶν</w>
+                        <w>τῇ</w>
+                        <w>Αἰγύπτῳ</w>
+                        <w>οἱ</w>
+                        <w>περὶ</w>
+                        <w>τὸν</w>
+                        <w>Μεγάβυξον</w>
+                        <w>καὶ</w>
+                        <w>ταύτας</w>
+                        <w>παρέλαβον</w>
+                        <w>καὶ</w>
+                        <w>ἃς</w>
+                        <w>μὲν</w>
+                        <w>διέφθειραν,</w>
+                        <w>ἃς</w>
+                        <w>δὲ</w>
+                        <w>κατέσχον.</w>
+                        <w>τῶν</w>
+                        <w>δὲ</w>
+                        <w>ἀνδρῶν</w>
+                        <w>οἱ</w>
+                        <w>μὲν</w>
+                        <w>πλείους</w>
+                        <w>διεφθάρησαν,</w>
+                        <w>ὀλίγοι</w>
+                        <w>δὲ</w>
+                        <w>παντάπασιν</w>
+                        <w>ὑπέστρεψαν</w>
+                        <w>εἰς</w>
+                        <w>τὴν</w>
+                        <w>οἰκείαν.</w>
+                    </p>
+                </div>
+                <div type="textpart" subtype="section" n="12">
+                    <p n="1"><w>Μετὰ</w>
+                        <w>δὲ</w>
+                        <w>ταῦτα</w>
+                        <w>Ἑλληνικὸς</w>
+                        <w>πόλεμος</w>
+                        <w>ἐγένετο</w>
+                        <w>Ἀθηναίων</w>
+                        <w>καὶ</w>
+                        <w>Λακεδαιμονίων</w>
+                        <w>ἐν</w>
+                        <w>Τανάγραι.</w>
+                        <w>καὶ</w>
+                        <w>οἱ</w>
+                        <w>μὲν</w>
+                        <w>Λακεδαιμόνιοι</w>
+                        <w>ἦσαν</w>
+                        <w>τὸν</w>
+                        <w>ἀριθμὸν</w>
+                        <w>μύριοι</w>
+                        <w>τρισχίλιοι,</w>
+                        <w>οἱ</w>
+                        <w>δὲ</w>
+                        <w>Ἀθηναῖοι</w>
+                        <w>μύριοι</w>
+                        <w>ἑξακισχίλιοι·</w>
+                        <w>καὶ</w>
+                        <w>νικῶσιν</w>
+                        <w>Ἀθηναῖοι.</w>
+                    </p>
+                    <p n="2">
+                        <w>παραταξάμενοι</w>
+                        <w>δὲ</w>
+                        <w>πάλιν</w>
+                        <w>ἐν</w>
+                        <w>Οἰνοφύτοις,</w>
+                        <w>στρατηγοῦντος</w>
+                        <w>αὐτῶν</w>
+                        <w>Τολμίδου</w>
+                        <w>καὶ</w>
+                        <w>Μυρωνίδου,</w>
+                        <w>ἐνίκησαν</w>
+                        <w>Βοιωτοὺς</w>
+                        <w>καὶ</w>
+                        <w>κατέσχον</w>
+                        <w>Βοιωτίαν.</w>
+                    </p>
+                </div>
+                <div type="textpart" subtype="section" n="13">
+                    <p n="1"><w>Εὐθὺς</w>
+                        <w>ἐστράτευσαν</w>
+                        <w>ἐπὶ</w>
+                        <w>Κύπρον,</w>
+                        <w>στρατηγοῦντος</w>
+                        <w>αὐτῶν</w>
+                        <w>Κίμωνος</w>
+                        <w>τοῦ</w>
+                        <w>Μιλτιάδου.</w>
+                        <w>ἐνταῦθα</w>
+                        <w>λιμῷ</w>
+                        <w>συνεσχέθησαν,</w>
+                        <w>καὶ</w>
+                        <w>Κίμων</w>
+                        <w>νοσήσας</w>
+                        <w>ἐν</w>
+                        <w>Κιτίῳ</w>
+                        <w>πόλει</w>
+                        <w>τῆς</w>
+                        <w>Κύπρου</w>
+                        <w>τελευτᾶι.</w>
+                        <w>οἱ</w>
+                        <w>δὲ</w>
+                        <w>Πέρσαι</w>
+                        <w>ὁρῶντες</w>
+                        <w>κεκακωμένους</w>
+                        <w>τοὺς</w>
+                        <w>Ἀθηναίους,</w>
+                        <w>περιφρονήσαντες</w>
+                        <w>αὐτῶν</w>
+                        <w>ἐπῆλθον</w>
+                        <w>ταῖς</w>
+                        <w>ναυσίν·</w>
+                        <w>καὶ</w>
+                        <w>ἀγὼν</w>
+                        <w>γίνεται</w>
+                        <w>κατὰ</w>
+                        <w>θάλατταν,</w>
+                        <w>ἐν</w>
+                        <w>ᾧ</w>
+                        <w>νικῶσιν</w>
+                        <w>Ἀθηναῖοι.</w></p>
+                    <p n="2">
+                        <w>καὶ</w>
+                        <w>στρατηγὸν</w>
+                        <w>αἱροῦνται</w>
+                        <w>Καλλίαν</w>
+                        <w>τὸν</w>
+                        <w>ἐπίκλην</w>
+                        <w>Λακκόπλουτον,</w>
+                        <w>ἐπεὶ</w>
+                        <w>θησαυρὸν</w>
+                        <w>εὑρὼν</w>
+                        <w>ἐν</w>
+                        <w>Μαραθῶνι</w>
+                        <w>ἀνελόμενος</w>
+                        <w>αὐτὸν</w>
+                        <w>ἐπλούτησεν.</w>
+                        <w>οὗτος</w>
+                        <w>ὁ</w>
+                        <w>Καλλίας</w>
+                        <w>ἐσπείσατο</w>
+                        <w>πρὸς</w>
+                        <w>Ἀρταξέρξην</w>
+                        <w>καὶ</w>
+                        <w>τοὺς</w>
+                        <w>λοιποὺς</w>
+                        <w>Πέρσας.</w>
+                        <w>ἐγένοντο</w>
+                        <w>δὲ</w>
+                        <w>αἱ</w>
+                        <w>σπονδαὶ</w>
+                        <w>ἐπὶ</w>
+                        <w>τοῖσδε·</w>
+                        <w>ἐφ’</w>
+                        <w>ᾧ</w>
+                        <w>ἐντὸς</w>
+                        <w>Κυανέων</w>
+                        <w>καὶ</w>
+                        <w>Νέσσου</w>
+                        <w>(?)</w>
+                        <w>ποταμοῦ</w>
+                        <w>καὶ</w>
+                        <w>Φασηλίδος,</w>
+                        <w>ἥτις</w>
+                        <w>ἐστὶν</w>
+                        <w>πόλις</w>
+                        <w>Παμφυλίας,</w>
+                        <w>καὶ</w>
+                        <w>Χελιδονέων</w>
+                        <w>μὴ</w>
+                        <w>μακροῖς</w>
+                        <w>πλοίοις</w>
+                        <w>καταπλέωσι</w>
+                        <w>Πέρσαι,</w>
+                        <w>καὶ</w>
+                        <w>ἐντὸς</w>
+                        <w>τριῶν</w>
+                        <w>ἡμερῶν</w>
+                        <w>ὁδόν,</w>
+                        <w>ἣν</w>
+                        <w>ἂν</w>
+                        <w>ἵππος</w>
+                        <w>ἀνύσῃ</w>
+                        <w>διωκόμενος,</w>
+                        <w>μὴ</w>
+                        <w>κατιῶσιν.</w>
+                        <w>καὶ</w>
+                        <w>σπονδαὶ</w>
+                        <w>οὖν</w>
+                        <w>ἐγένοντο</w>
+                        <w>τοιαῦται.</w></p>
+                </div>
+                <div type="textpart" subtype="section" n="14">
+                    <p n="1"><w>Μετὰ</w>
+                        <w>δὲ</w>
+                        <w>ταῦτα</w>
+                        <w>Ἑλληνικὸς</w>
+                        <w>πόλεμος</w>
+                        <w>ἐγένετο</w>
+                        <w>ἐξ</w>
+                        <w>αἰτίας</w>
+                        <w>τοιαύτης</w>
+                        <w>Λακεδαιμόνιοι</w>
+                        <w>ἀφελόμενοι</w>
+                        <w>Φωκέων</w>
+                        <w>τὸ</w>
+                        <w>ἐν</w>
+                        <w>Δελφοῖς</w>
+                        <w>ἱερὸν</w>
+                        <w>παρέδοσαν</w>
+                        <w>Λοκροῖς,</w>
+                        <w>καὶ</w>
+                        <supplied reason="omitted">Ἀθηναῖοι</supplied>
+                        <w>ἀφελόμενοι</w>
+                        <w>αὐτοὺς</w>
+                        <w>ἀπέδοσαν</w>
+                        <w>πάλιν</w>
+                        <w>τοῖς</w>
+                        <w>Φωκεῦσιν.</w>
+                    </p>
+                    <p n="2"><w>ὑποστρεφόντων</w>
+                        <w>δὲ</w>
+                        <w>τῶν</w>
+                        <w>Ἀθηναίων</w>
+                        <w>ἀπὸ</w>
+                        <w>τῆς</w>
+                        <w>μάχης,</w>
+                        <w>στρατηγοῦντος</w>
+                        <w>αὐτῶν</w>
+                        <w>Τολμίδου,</w>
+                        <w>καὶ</w>
+                        <w>γενομένων</w>
+                        <w>κατὰ</w>
+                        <w>Κορώνειαν,</w>
+                        <w>ἐπιθέμενοι</w>
+                        <pb n="οα" facs="9-οα.pdf"/>
+                        <w>αὐτοῖς</w>
+                        <w>ἄφνω</w>
+                        <w>Βοιωτοὶ</w>
+                        <w>οὖσιν</w>
+                        <w>ἀπαρασκεύοις</w>
+                        <w>ἐτρέψαντο</w>
+                        <w>αὐτοὺς</w>
+                        <w>καί</w>
+                        <w>τινας</w>
+                        <w>ἐξ</w>
+                        <w>αὐτῶν</w>
+                        <w>ἐζώγρησαν,</w>
+                        <w>οὕστινας</w>
+                        <w>ἀπαιτούντων</w>
+                        <w>Ἀθηναίων</w>
+                        <w>οὐ</w>
+                        <w>πρότερον</w>
+                        <w>ἀπέδοσαν</w>
+                        <w>ἢ</w>
+                        <w>τὴν</w>
+                        <w>Βοιωτίαν</w>
+                        <w>ἀπολαβεῖν.</w></p>
+                </div>
+                <div type="textpart" subtype="section" n="15">
+                    <p n="1"><w>Καὶ</w>
+                        <w>μετὰ</w>
+                        <w>ταῦτα</w>
+                        <w>εὐθὺς</w>
+                        <w>Ἀθηναῖοι</w>
+                        <w>περιπλεύσαντες</w>
+                        <w>τὴν</w>
+                        <w>Πελοπόννησον</w>
+                        <w>Γύθειον</w>
+                        <w>εἷλον·</w>
+                        <w>καὶ</w>
+                        <w>Τολμίδης</w>
+                        <w>χιλίους</w>
+                        <w>ἔχων</w>
+                        <w>Ἀθηναίους</w>
+                        <w>ἐπιλέκτους</w>
+                        <w>διῆλθε</w>
+                        <w>τὴν</w>
+                        <w>Πελοπόννησον.</w></p>
+                    <p n="2">
+                        <w>καὶ</w>
+                        <w>πάλιν</w>
+                        <w>Εὔβοιαν</w>
+                        <w>ἀποστᾶσαν</w>
+                        <w>εἷλον</w>
+                        <w>Ἀθηναῖοι.</w></p>
+                    <p n="3">
+                        <w>ἐν</w>
+                        <w>δὲ</w>
+                        <w>τούτῳ</w>
+                        <w>τοῖς</w>
+                        <w>Ἕλλησι</w>
+                        <w>σπονδαὶ</w>
+                        <w>τριακοντούτεις</w>
+                        <w>ἐγένοντο.</w></p>
+                    <p n="4">
+                        <w>τῷ</w>
+                        <w>τεσσαρεσκαιδεκάτῳ</w>
+                        <w>δὲ</w>
+                        <w>ἔτει</w>
+                        <w>Ἀθηναῖοι</w>
+                        <w>Σάμον</w>
+                        <w>πολιορκήσαντες</w>
+                        <w>εἷλον,</w>
+                        <w>στρατηγοῦντος</w>
+                        <w>αὐτῶν</w>
+                        <w>Περικλέους</w>
+                        <w>καὶ</w>
+                        <w>Σοφοκλέους.</w>
+                        <w>Ἐν</w>
+                        <w>δὲ</w>
+                        <w>τῷ</w>
+                        <w>αὐτῷ</w>
+                        <w>ἔτει</w>
+                        <w>οὕτω</w>
+                        <w>λύονται</w>
+                        <w>αἱ</w>
+                        <w>τῶν</w>
+                        <w>λ</w>
+                        <w>ἐτῶν</w>
+                        <w>σπονδαί,</w>
+                        <w>καὶ</w>
+                        <w>ἐνίσταται</w>
+                        <w>ὁ</w>
+                        <w>Πελοποννησιακὸς</w>
+                        <w>πόλεμος.</w>
+                    </p>
+                </div>
+                <div type="textpart" subtype="section" n="16">
+                    <p n="1"><w>Αἰτίαι</w>
+                        <w>δὲ</w>
+                        <w>καὶ</w>
+                        <w>πλείονες</w>
+                        <w>φέρονται</w>
+                        <w>περὶ</w>
+                        <w>τοῦ</w>
+                        <w>πολέμου·</w>
+                        <w>πρώτη</w>
+                        <w>δὲ</w>
+                        <w>ἡ</w>
+                        <w>κατὰ</w>
+                        <w>Περικλέα.</w>
+                        <w>φασὶ</w>
+                        <w>γὰρ</w>
+                        <w>ὅτι</w>
+                        <w>τῶν</w>
+                        <w>Ἀθηναίων</w>
+                        <w>κατασκευαζόντων</w>
+                        <w>τὴν</w>
+                        <w>ἐλεφαντίνην</w>
+                        <w>Ἀθηνᾶν</w>
+                        <w>καὶ</w>
+                        <w>ἀποδειξάντων</w>
+                        <w>ἐργεπιστάτην</w>
+                        <w>τὸν</w>
+                        <w>Περικλέα,</w>
+                        <w>τεχνίτην</w>
+                        <w>δὲ</w>
+                        <w>Φειδίαν,</w>
+                        <w>ἁλόντος</w>
+                        <w>τοῦ</w>
+                        <w>Φειδίου</w>
+                        <w>ἐπὶ</w>
+                        <w>νοσφισμῷ,</w>
+                        <w>εὐλαβηθεὶς</w>
+                        <w>ὁ</w>
+                        <w>Περικλῆς</w>
+                        <w>μὴ</w>
+                        <w>καὶ</w>
+                        <w>αὐτὸς</w>
+                        <w>εὐθύνας</w>
+                        <w>ἀπαιτηθῇ,</w>
+                        <w>βουλόμενος</w>
+                        <w>ἐκκλῖναι</w>
+                        <w>τὰς</w>
+                        <w>κρίσεις</w>
+                        <w>ἐπολιτεύσατο</w>
+                        <w>τὸν</w>
+                        <w>πόλεμον</w>
+                        <w>τοῦτον,</w>
+                        <w>γράψας</w>
+                        <w>τὸ</w>
+                        <w>κατὰ</w>
+                        <w>Μεγαρέων</w>
+                        <w>ψήφισμα.</w></p>
+                    <p n="2">
+                        <w>διαπιστοῦται</w>
+                        <w>δὲ</w>
+                        <w>ταῦτα</w>
+                        <w>καὶ</w>
+                        <w>ὁ</w>
+                        <w>τῆς</w>
+                        <w>ἀρχαίας</w>
+                        <w>κωμῳδίας</w>
+                        <w>ποιητὴς</w>
+                        <w>λέγων</w>
+                        <w>οὕτως·</w>
+                        <quote>
+                            <lg>
+                                <l>ὦ <supplied reason="omitted">λι</supplied>περνῆτες γεωργοί, τἀμὰ
+                                    δὴ συνίετε ῥημάτια εἰ βούλοισθ’ ἀκοῦσαι τήνδ’ ὅπωςἀπώλετο.
+                                    πρῶτον μὲν γὰρ ἤρξατ’αὐτῆς Φειδίας πράξας κακῶς· εἶτα Περικλέης
+                                    φοβηθεὶς μὴ μετάσχοι τῆς τύχης, τὰς φύσεις ὑμῶν δεδοικὼς καὶ τὸν
+                                    αὐθάδη τρόπον, ἐμβαλὼν σπινθῆρα μικρὸν Μεγαρικοῦ ψηφίσματος
+                                    ἐξεφύσησεν τοσοῦτον πόλεμον ὥστ’ ἐκ τοῦ καπνοῦ πάντας Ἕλληνας
+                                    δακρῦσαι τούς τ’ ἐκεῖ τούς τ’ ἐνθάδε.</l>
+                            </lg></quote><!--LINES NOT ENTERED!!! needs to be checked -->
+                    </p>
+                    <p n="3">
+                        <w>καὶ</w>
+                        <w>πάλιν</w>
+                        <w>ὑποβάς·</w>
+                        <quote><lg>
+                                <l>πόρνην εἰς μέθην ἰοῦσαν Μεγαρίδα νεανίαι κλέπτουσι
+                                    μεθυσοκότταβοι· κἄιπειθ’ οἱ Μεγαρῆς ὀδύναις πεφυσιγγωμένοι
+                                        ἀντ<surplus>ἐξ</surplus>έκλεψαν Ἀσπασίας πόρνας δύο.
+                                    ἐνθένδ’ὁ πόλεμος ἐμφανῶς κατερράγη Ἕλλησι πᾶσιν ἐκ τριῶν
+                                    λαικαστριῶν. ἐνθένδε μέντοι Περικλέης Ὀλύμπιος ἤστραπτ’,
+                                    ἐβρόντα, συνεκύκα τὴν Ἑλλάδα, ἐτίθει νόμους ὥσπερ σκόλια
+                                    γεγραμμένους, ὡς χρὴ Μεγαρέας μήτ’ ἐν ἀγορᾷ μήτ’ ἐν ἠπείρῳ
+                                    μένειν. </l>
+                            </lg></quote><!--LINES NOT ENTERED!!! needs to be checked --></p>
+                    <p n="4">
+                        <w>φασὶ</w>
+                        <w>δὲ</w>
+                        <w>ὅτι</w>
+                        <w>τοῦ</w>
+                        <w>Περικλέους</w>
+                        <w>σκεπτομένου</w>
+                        <w>περὶ</w>
+                        <w>τῆς</w>
+                        <w>ἀποδόσεως</w>
+                        <w>τῶν</w>
+                        <w>λόγων</w>
+                        <w>ὑπὲρ</w>
+                        <w>τῆς</w>
+                        <w>ἐργεπιστασίας</w>
+                        <w>Ἀλκιβιάδης</w>
+                        <w>ὁ</w>
+                        <w>Κλεινίου,</w>
+                        <w>ἐπιτροπευόμενος</w>
+                        <w>ὑπ’</w>
+                        <w>αὐτοῦ</w>
+                        <w>εἶπεν·</w>
+                        <w>‘μὴ</w>
+                        <w>σκέπτου</w>
+                        <w>πῶς</w>
+                        <w>ἀποδῷς</w>
+                        <w>τοὺς</w>
+                        <w>λόγους</w>
+                        <w>Ἀθηναίοις,</w>
+                        <w>ἀλλὰ</w>
+                        <w>πῶς</w>
+                        <w>μὴ</w>
+                        <w>ἀποδῷς.</w>
+                    </p>
+                </div>
+                <div type="textpart" subtype="section" n="17">
+                    <p n="1"><w>Δευτέρα</w>
+                        <w>δὲ</w>
+                        <w>αἰτία</w>
+                        <w>φέρεται</w>
+                        <w>καὶ</w>
+                        <w>Κερκυραίων</w>
+                        <w>καὶ</w>
+                        <w>Ἐπιδαμνίων</w>
+                        <w>τοιαύτη.</w>
+                        <w>Ἐπίδαμνος</w>
+                        <w>ἦν</w>
+                        <w>πόλις</w>
+                        <w>Κερκυραίων</w>
+                        <w>ἄποικος,</w>
+                        <w>ἡ</w>
+                        <w>δὲ</w>
+                        <w>Κέρκυρα</w>
+                        <w>Κορινθίων.</w>
+                        <w>πλημμελούμενοι</w>
+                        <w>οὖν</w>
+                        <w>κατ’</w>
+                        <w>ἐκεῖνον</w>
+                        <w>τὸν</w>
+                        <w>καιρὸν</w>
+                        <w>καὶ</w>
+                        <w>ὑπερηφανευόμενοι</w>
+                        <w>ὑπὸ</w>
+                        <w>τῶν</w>
+                        <w>Κερκυραίων</w>
+                        <w>οἱ</w>
+                        <w>Ἐπιδάμνιοι,</w>
+                        <w>προσποιησάμενοι</w>
+                        <w>συμμάχους</w>
+                        <w>τοὺς</w>
+                        <w>Κορινθίους</w>
+                        <w>ὡς</w>
+                        <w>μητροπολίτας,</w>
+                        <w>ἐστράτευσαν</w>
+                        <w>ἐπὶ</w>
+                        <w>Κέρκυραν</w>
+                        <w>καὶ</w>
+                        <w>ἐπολέμουν.</w></p>
+                    <p n="2">
+                        <w>πιεζόμενοι</w>
+                        <w>δὲ</w>
+                        <w>Κερκυραῖοι</w>
+                        <w>τῷ</w>
+                        <w>πολέμῳ</w>
+                        <w>ἔπεμψαν</w>
+                        <w>περὶ</w>
+                        <w>συμμαχίας</w>
+                        <w>πρὸς</w>
+                        <w>Ἀθηναίους,</w>
+                        <w>ἔχοντες</w>
+                        <w>πολὺ</w>
+                        <w>ναυτικόν.</w>
+                        <w>ὁμοίως</w>
+                        <w>δὲ</w>
+                        <w>καὶ</w>
+                        <w>οἱ</w>
+                        <w>Κορίνθιοι</w>
+                        <w>ἔπεμψαν</w>
+                        <w>πρὸς</w>
+                        <w>Ἀθηναίους,</w>
+                        <w>ἀξιοῦντες</w>
+                        <w>ἑαυτοῖς</w>
+                        <w>καὶ</w>
+                        <w>μὴ</w>
+                        <w>τοῖς</w>
+                        <w>Κερκυραίοις</w>
+                        <w>βοηθεῖν</w>
+                        <w>αὐτούς.</w>
+                        <w>οἱ</w>
+                        <w>δὲ</w>
+                        <w>Ἀθηναῖοι</w>
+                        <w>εἵλοντο</w>
+                        <w>μᾶλλον</w>
+                        <w>βοηθεῖν</w>
+                        <w>τοῖς</w>
+                        <w>Κερκυραίοις·</w>
+                        <w>καὶ</w>
+                        <w>ἐναυμάχησαν</w>
+                        <w>τοῖς</w>
+                        <w>Κορινθίοις</w>
+                        <w>οὖσιν</w>
+                        <w>ἐνσπόνδοις.</w>
+                        <w>καὶ</w>
+                        <w>διὰ</w>
+                        <w>τοῦτο</w>
+                        <w>αἱ</w>
+                        <w>σπονδαὶ</w>
+                        <w>ἐλύθησαν.</w></p>
+                </div>
+                <div type="textpart" subtype="section" n="18">
+                    <p n="1">
+                        <w>Τρίτη</w>
+                        <w>αἰτία</w>
+                        <w>φέρεται</w>
+                        <w>τοιαύτη.</w>
+                        <w>Ποτίδαια</w>
+                        <w>πόλις</w>
+                        <w>ἄποικος</w>
+                        <w>Κορινθίων</w>
+                        <w>ἦν</w>
+                        <w>ἐπὶ</w>
+                        <w>Θρᾴκης.</w>
+                        <w>ἐπὶ</w>
+                        <w>ταύτην</w>
+                        <w>ἔπεμψαν</w>
+                        <w>Ἀθηναῖοι,</w>
+                        <w>βουλόμενοι</w>
+                        <w>παραλαβεῖν</w>
+                        <w>αὐτήν.</w>
+                        <w>οἱ</w>
+                        <w>δὲ</w>
+                        <w>Ποτιδαιᾶται</w>
+                        <w>προσέθεντο</w>
+                        <w>τοῖς</w>
+                        <w>Κορινθίοις,</w>
+                        <w>καὶ</w>
+                        <w>διὰ</w>
+                        <w>τοῦτο</w>
+                        <w>μάχη</w>
+                        <w>ἐγένετο</w>
+                        <w>Ἀθηναίων</w>
+                        <w>καὶ</w>
+                        <w>Κορινθίων,</w>
+                        <w>καὶ</w>
+                        <w>ἐξεπολιόρκησαν</w>
+                        <supplied reason="omitted">τὴν Ποτίδαιαν</supplied>
+                        <w>οἱ</w>
+                        <w>Ἀθηναῖοι.</w>
+                    </p>
+                </div>
+                <div type="textpart" subtype="section" n="19">
+                    <p n="1"><w>Τετάρτη</w>
+                        <w>αἰτία</w>
+                        <w>φέρεται</w>
+                        <w>ἡ</w>
+                        <w>καὶ</w>
+                        <w>ἀληθεστάτη.</w>
+                        <w>οἱ</w>
+                        <w>Λακεδαιμόνιοι</w>
+                        <w>ὁρῶντες</w>
+                        <w>αὐξανομένους</w>
+                        <w>τοὺς</w>
+                        <w>Ἀθηναίους</w>
+                        <w>καὶ</w>
+                        <w>ναυσὶ</w>
+                        <w>καὶ</w>
+                        <w>χρήμασι</w>
+                        <w>καὶ</w>
+                        <w>ξυμμάχοις</w>
+                        <gap reason="lost" extent="unknown" unit="lines"/>
+                    </p>
+                </div>
+            </div>
+
+
+            <div type="apparatus" xml:lang="grc">
+                <!--                enter in the biblioraphy the references for the apparatus 
+                P for the manuscript
+                We is wescher
+                
+                -->
+
+                <!--                anche in NOTE AL TESTO c'è materiale che va in apparato-->
+
+                <listApp>
+
+                    <app loc="1 1">
+                        <rdg resp="#Jac">μίαν ἡμέραν μόνην</rdg>
+                        <rdg resp="#Mül">μιᾶς ἡμέρας μονήν <foreign xml:lang="la">vel</foreign> μίαν
+                            ἡμέραν μένειν</rdg>
+                    </app>
+
+                    <app loc="1 2">
+                        <rdg resp="#Mül"><supplied reason="omitted">ἐπὶ</supplied></rdg>
+                    </app>
+                    <app loc="1 2">
+                        <rdg resp="#Jac">ἔχων</rdg>
+                        <rdg resp="#Jac">Ἔχων <supplied reason="omitted" cert="low">τῶν
+                                νεῶν</supplied></rdg>
+                    </app>
+
+                    <app loc="1 2">
+                        <rdg resp="#Jac">τὸ πᾶν</rdg>
+                        <rdg resp="#Mül"> τὸ πᾶν <supplied reason="omitted">τὸν
+                            πόρον</supplied></rdg>
+                    </app>
+
+
+                    <app loc="1 4">
+                        <rdg resp="#Jac"> συνεστηκυίας</rdg>
+                        <rdg resp="#Mül" cert="low">ἐνεστεκυίας</rdg>
+                    </app>
+                    <app loc="1 4">
+                        <rdg resp="#Jac">ἐκπληττόμενός </rdg>
+                        <rdg resp="#Büch">Ἐκπλήττων</rdg>
+                        <rdg resp="#Mül" cert="low"> ἐκπληξόμενος <foreign xml:lang="la"
+                                >vel</foreign> ἐκβληθησομένους τε τοὺς Ἕλληνες καίνειν βουλόμενος
+                            καὶ</rdg>
+                    </app>
+                    <app loc="1 4">
+                        <rdg resp="#We #Jac">ᾔτησεν</rdg>
+                        <rdg resp="#P">ἢτησαν</rdg>
+                    </app>
+
+
+                    <app loc="1 5">
+                        <rdg resp="#Jac">ἠγωνίσα<surplus>ν</surplus>το</rdg>
+                        <rdg resp="#Mül">ἠγωνίσαντο <supplied reason="omitted"
+                            >Ἀθηναίους</supplied></rdg>
+                    </app>
+
+
+
+                    <app loc="1 8">
+                        <rdg resp="#Jac"> Δίκαιος </rdg>
+                        <rdg resp="#P">ϊνεος </rdg>
+                    </app>
+
+                    <app loc="2 1">
+                        <rdg resp="#Jac"><supplied reason="omitted">μά</supplied>γοις, συμπ<supplied
+                                reason="omitted">επει</supplied>κὼς</rdg>
+                        <rdg resp="#Mül"> συμ<supplied reason="omitted">πεπει</supplied>κὼς</rdg>
+                    </app>
+
+                    <app loc="2 2">
+                        <rdg resp="#Jac">βούλονται</rdg>
+                        <rdg resp="#Mül">ἄν αὐτοι βούλοιντο</rdg>
+                    </app>
+                    <app loc="2 2">
+                        <rdg resp="#Jac"> Ὑποσχόμενος</rdg>
+                        <rdg resp="#Büch">ὑποδεχόμενος</rdg>
+                    </app>
+
+                    <app loc="2 3">
+                        <rdg resp="#Jac #Büch #Mül">Θήβας </rdg>
+                        <rdg resp="#Π"><supplied reason="omitted">ἔπειτα δὲ περὶ Θή</supplied>βας
+                                ἐστρα<supplied reason="omitted">τοπεδεύσατο</supplied></rdg>
+                        <rdg resp="#P"> εἰς τὰς Ἀθήνας</rdg>
+                    </app>
+                    <app loc="2 3">
+                        <rdg resp="#Jac">Θηβ<supplied reason="omitted">αι</supplied>ῶν</rdg>
+                        <rdg resp="#Mül">Θηβῶν </rdg>
+                    </app>
+
+                    <app loc="2 4">
+                        <rdg resp="#Mül">μετέστησαν δὲ αὐτούς οἱ Λακεδαιμόνιοι,φήσαντες Ἀθηναίους </rdg>
+                        <rdg resp="#P">μετέσσαν δὲ αὐτούς οἱΛακεδαιμόνιοι, φήσαντες
+                                <del>αὐτοὺς</del> Ἀθηναίους</rdg>
+                        <rdg resp="#Jac">δὲ<surplus>αὐτοὺς</surplus>
+                            <supplied reason="omitted">Ἀθηναίους</supplied> οἱ Λακεδαιμόνιοι,
+                            φήσαντες <surplus>αὐτοὺςἈθηναίους</surplus></rdg>
+                        <rdg resp="#Mül">μετέστησαν δὲ τοὺς Ἀθηναίους οἱΛακεδαιμόνιοι, φήσαντες
+                            αὐτοὺς</rdg>
+                        <rdg resp="#Jac">ἐμπειροτέρος</rdg>
+                        <rdg resp="#Mül">ἐμπ<surplus>ει</surplus>ροτέρος</rdg>
+                    </app>
+                    <app loc="2 4">
+                        <rdg resp="#P">φάλαγγα</rdg>
+                        <rdg resp="#Mül #Jac">φάλαγγα<supplied reason="omitted">καὶ
+                            αὐτός</supplied></rdg>
+                    </app>
+                    <app loc="2 4">
+                        <rdg resp="#P">Ἀκουσίως</rdg>
+                        <rdg resp="#Mül #Jac">ἀκουσίοις </rdg>
+                        <rdg resp="#Jac"/>
+                    </app>
+
+                    <app loc="2 5">
+                        <rdg resp="#Jac"> τρέσας </rdg>
+                        <rdg resp="#P">τρεσσᾶς</rdg>
+                    </app>
+
+                    <app loc="3 1">
+                        <rdg resp="#We">ἐπιστρεφόν<supplied reason="omitted">των</supplied></rdg>
+                    </app>
+                    <app loc="3 1">
+                        <rdg resp="#Jac"> Ἰδίαι (?) πρεσβευσάμενος</rdg>
+                        <rdg resp="#Mül"><supplied reason="omitted">ὁ</supplied> ἰδίαι <foreign
+                                xml:lang="la">vel</foreign>, ὀ διαπρεσβευσάμενος </rdg>
+                    </app>
+
+                    <app loc="3 2">
+                        <rdg resp="#P"> τέσσαρας</rdg>
+                        <rdg resp="#Mül">δ<supplied reason="omitted"><hi rend="subscript"
+                                >'</hi></supplied><!--this is a supplied numeric marker-->
+                        </rdg>
+                    </app>
+                    <app loc="3 2">
+                        <rdg resp="#We #Jac">οὐ</rdg>
+                        <rdg resp="#P">οἱ</rdg>
+                    </app>
+                    <app loc="3 2">
+                        <rdg resp="#P">τὰς δ μυριάσας </rdg>
+                        <rdg resp="#Jac"><supplied reason="omitted">ὑπὲρ</supplied> τὰς δ
+                            μυριάσας</rdg>
+                    </app>
+                    <app loc="3 2">
+                        <rdg resp="#P">γιγνομένης</rdg>
+                        <rdg resp="#Jac"><supplied reason="omitted">κατὰτὴν αὐτὴν ἡμέραν</supplied>
+                            γιγνομένης </rdg>
+                        <rdg resp="#Mül">
+                            <supplied reason="omitted">ἡ αὐτὴ δὲ ἡμέραἠν</supplied> γιγνομένης
+                        </rdg>
+                    </app>
+
+                    <app loc="3 3">
+                        <rdg resp="#Mül"><supplied reason="omitted">ἐπὶ</supplied> τῆς</rdg>
+                        <rdg resp="#Büch">
+                            <supplied reason="omitted">ἐν</supplied> τῇ Μυκάλῃ </rdg>
+                        <rdg resp="#Jac" cert="low"><supplied reason="omitted">ἐπὶ</supplied>
+                            Μυκάλης</rdg>
+                    </app>
+                    <app loc="3 4">
+                        <rdg resp="#Büch #Mül #Jac"> Ἐλευθέρια </rdg>
+                        <rdg resp="#P"> -ίαν </rdg>
+                        <rdg resp="#Jac">προσαγορεύσαντες, Θηβαίους τε, καθὼς
+                            ὤμοσαν,ἐδεκάτευσαν.τέλος τοῦ ** τὸ </rdg>
+                        <rdg resp="#We">Τέλος τοῦ Δ' + ἀρχὴ </rdg>
+                        <rdg resp="#Prinz">τοῦ Α' oΔ' o Λ' + ἀρ ........ ο (oppureυ) Ἀριστοδήμου </rdg>
+                        <rdg resp="#Mül"> τοῦ Σ'</rdg>
+                    </app>
+
+                    <app loc="4 1">
+                        <rdg resp="#Mül" cert="low"> Πελοποννησ<supplied reason="omitted">ιακὸν
+                                πόλεμον ὑπὸ τῶνἙλλήνων</supplied>(?)</rdg>
+                        <rdg resp="#Büch"> κατὰ τὴν Ἑλλάδα ἔργα </rdg>
+                    </app>
+
+                    <app loc="4 2">
+                        <rdg resp="#Büch #Prinz">
+                            <supplied reason="omitted">ἐκ τῆς Εὐρώπης, ἀπο</supplied>φυγόν<supplied
+                                reason="omitted">των</supplied> τῶν ἀπολει<supplied reason="omitted"
+                                >φθέντων β</supplied>α<supplied reason="omitted">ρβά</supplied>ρων </rdg>
+                        <rdg resp="#Mül"><supplied reason="omitted">τῆς Ιωνίας πλεύσαντες στόλῳ ξ'
+                                τριή</supplied>ρων</rdg>
+                    </app>
+                    <app loc="4 2">
+                        <rdg resp="#Jac"><supplied reason="omitted">ἀφίκετο δὲ</supplied> καὶ
+                            ?</rdg>
+                    </app>
+                    <app loc="4 2">
+                        <rdg resp="#Jac"> προσπολεμοῦντες </rdg>
+                        <rdg resp="#Mül">προσπολιορκοῦντες </rdg>
+                    </app>
+                    <app loc="4 2">
+                        <rdg resp="#Jac" cert="low">
+                            <supplied reason="omitted">οὐ</supplied> κατὰ φιλοτιμίαντὴν ὑπὲρ τῶν
+                            Ἑλλήνων, ἀλλὰ διὰ προδοσίαν· <foreign xml:lang="la">vel</foreign>
+                            κατὰφιλοτιμίαν τὴν ὑπὲρ τῶν Ἑλλήνων, ἅμα <supplied reason="omitted"
+                                >δὲ</supplied> διὰ προδοσίαν</rdg>
+                        <rdg resp="#Mül">
+                            <supplied reason="omitted">οὐ</supplied> ἀλλὰ διὰ προδώσειν </rdg>
+                        <rdg resp="#Büch"> κατὰφιλοτιμίαν τὴν ὑπὲρ τῶν ἔργων </rdg>
+                        <rdg resp="#P"> συντεθειμένος γὰρἦν Ξέρξῃ προδώσεσθαιπροδώσεσθαι </rdg>
+                        <rdg resp="#Mül" cert="low">προδώσειν</rdg>
+                    </app>
+                    <app loc="4 2">
+                        <rdg resp="#P">Ὡς</rdg>
+                        <rdg resp="#Mül">ὃς </rdg>
+                    </app>
+                    <app loc="4 2">
+                        <rdg resp="#P"> τε τῇ </rdg>
+                        <rdg resp="#Büch #Mül"> τῇ τε </rdg>
+                    </app>
+                    <app loc="4 2">
+                        <rdg resp="#We"> τῷ ἐν</rdg>
+                        <rdg resp="#P">τὸ ἐν </rdg>
+                    </app>
+                    <app loc="4 2">
+                        <rdg resp="#We">ἐμετρ<supplied reason="omitted">ι</supplied>οπάθει </rdg>
+                    </app>
+
+                    <app loc="4 3">
+                        <rdg resp="#Büch #Mül"> παρατεθειμένος </rdg>
+                        <rdg resp="#P"> παρατεθημένας</rdg>
+                    </app>
+
+
+                    <app loc="5 1">
+                        <rdg resp="#Mül">οἱ δὲ Λακεδαιμόνιοι </rdg>
+                        <rdg resp="#P">Λακεδαιμόνιοι· οἱ δὲ </rdg>
+                    </app>
+                    <app loc="5 1">
+                        <rdg resp="#Jac"> οὓς</rdg>
+                        <rdg resp="#Büch #Mül">ὁ δὲ </rdg>
+                    </app>
+                    <app loc="5 1">
+                        <rdg resp="#Jac"><supplied reason="omitted">Ἀκριβῶς γιγνώσκων</supplied>
+                        </rdg>
+                    </app>
+
+
+                    <app loc="5 2">
+                        <rdg resp="#Jac">ὡς δὲ </rdg>
+                        <rdg resp="#P">ὡς τε</rdg>
+                    </app>
+                    <app loc="5 2">
+                        <rdg resp="#P"> κτίζοιτο</rdg>
+                        <rdg resp="#Mül" cert="low"> τειχίζοιτο </rdg>
+                    </app>
+                    <app loc="5 2">
+                        <rdg resp="#P"> τῶν Λακεδαιμονίων</rdg>
+                        <rdg resp="#Jac" cert="low"><supplied reason="omitted">παρὰ</supplied> τῶν
+                            Λ. </rdg>
+                    </app>
+
+                    <app loc="5 3">
+                        <rdg resp="#P">Θεμιστοκλέους </rdg>
+                        <rdg resp="#Jac">τὴν Θεμιστοκλέους </rdg>
+                    </app>
+
+                    <app loc="5 4">
+                        <rdg resp="#Jac"> Πειραιεὺς </rdg>
+                        <rdg resp="#P">πειρευς</rdg>
+                    </app>
+                    <app loc="5 4">
+                        <rdg resp="#Jac"> τὸ μέν τι μέρος</rdg>
+                        <rdg resp="#Schäfer"> τὸ μὲν λαιὸν μέρος</rdg>
+                    </app>
+                    <app loc="5 4">
+                        <rdg resp="#Jac"> Μουνυχία</rdg>
+                        <rdg resp="#P">μουνουχία</rdg>
+                    </app>
+                    <app loc="5 4">
+                        <rdg resp="#We">ἔτι νῦν Δία </rdg>
+                        <rdg resp="#Jac #Büch #Mül">Ἠετιώνεια </rdg>
+                        <rdg resp="#Schäfer"> ἡ δεξιὰ δὲ ἄκρα τοῦ Πειραιῶς, ᾗ ἑστιν <supplied
+                                reason="omitted">ὁ εἴσπλους</supplied>, Ἠετιωνεία καλεῖται</rdg>
+                        <rdg resp="#P"> ηετινετινυνδια</rdg>
+                    </app>
+                    <app loc="5 4">
+                        <rdg resp="#Jac"> Πειραιεῖ</rdg>
+                        <rdg resp="#P">πειραεῖ </rdg>
+                    </app>
+                    <app loc="5 4">
+                        <rdg resp="#P">ἐφ’ὅν </rdg>
+                        <rdg resp="#Jac #Mül">οὗ </rdg>
+                        <rdg resp="#Schäfer">ᾧ</rdg>
+                    </app>
+
+                    <app loc="7 1">
+                        <rdg resp="#Jac #Mül">
+                            <supplied reason="omitted">καὶκοινὸν τῶν Ἑλληνικῶν
+                            χρημάτων</supplied></rdg>
+                        <rdg resp="#Büch"><supplied reason="omitted">καὶ στρατὸν συνέλεγον
+                                καὶ</supplied>
+                        </rdg>
+                    </app>
+                    <app loc="7 1">
+                        <rdg resp="#Jac">
+                            <supplied reason="omitted">ὕστερον δὲ</supplied> (?)<gap reason="lost"
+                                unit="chars" quantity="12"/> τάλαντα </rdg>
+                        <rdg resp="#Büch"><supplied reason="omitted">ὑστέρῳ δὲ χρόνῳ
+                            π</supplied>άντα </rdg>
+                        <rdg resp="#Mül"><supplied reason="omitted">εἰς ὃ κατ'ἔτος συνῆγον υξ'
+                                τάλ</supplied>αντα <supplied reason="omitted">εἷτα</supplied>
+                                (<foreign xml:lang="la">vel</foreign> ὕστερον δὲ) </rdg>
+                    </app>
+
+                    <app loc="8 1">
+                        <rdg resp="#Jac"> ἀναφανδὸν </rdg>
+                        <rdg resp="#P">αναφανδων</rdg>
+                    </app>
+                    <app loc="8 1">
+                        <rdg resp="#Mül">Κορωνίδου ὄνομα</rdg>
+                        <rdg resp="#Jac" cert="low"><supplied reason="omitted">ἀνδρὸς</supplied>
+                            Κορωνίδου ὄνομα</rdg>
+                    </app>
+                    <app loc="8 1">
+                        <rdg resp="#Jac">γενόμενος</rdg>
+                        <rdg resp="#P">γενομενομενος </rdg>
+                    </app>
+                    <app loc="8 1">
+                        <rdg resp="#Jac">ἐπερόνησε</rdg>
+                        <rdg resp="#P">ἐπερώνησε</rdg>
+                    </app>
+                    <app loc="8 1">
+                        <rdg resp="#Jac">ἀποκατέστη </rdg>
+                        <rdg resp="#P">ἀπεκατέστη</rdg>
+                    </app>
+
+                    <app loc="8 2">
+                        <rdg resp="#P">ἐπειδὴ γὰρ</rdg>
+                        <rdg resp="#Büch #Mül"><surplus>γὰρ</surplus>
+                        </rdg>
+                    </app>
+                    <app loc="8 2">
+                        <rdg resp="#Jac">πρότεροι </rdg>
+                        <rdg resp="#Büch #Mül">πρότερον</rdg>
+                    </app>
+                    <app loc="8 2">
+                        <rdg resp="#Büch #Mül">Κατάφωρον</rdg>
+                        <rdg resp="#P">κατάφορον </rdg>
+                    </app>
+
+
+                    <app loc="8 3">
+                        <rdg resp="#Büch #Mül">τῷ </rdg>
+                        <rdg resp="#P">ιὸ</rdg>
+                    </app>
+                    <app loc="8 3">
+                        <rdg resp="#We">διεξήιει </rdg>
+                        <rdg resp="#P">διεξείη</rdg>
+                    </app>
+
+                    <app loc="8 4">
+                        <rdg resp="#P">τὸν θεὸν </rdg>
+                        <rdg resp="#We">τὴν θεὸν</rdg>
+                    </app>
+                    <app loc="8 4">
+                        <rdg resp="#Büch #Mül">ἀνελόντες</rdg>
+                        <rdg resp="#P">ἀνελθόντες</rdg>
+                    </app>
+
+                    <app loc="8 5">
+                        <rdg resp="#Jac">Παύσασθαι </rdg>
+                        <rdg resp="#Büch"> παύσεσθαι</rdg>
+                    </app>
+
+                    <app loc="10 1">
+                        <rdg resp="#P">βασιλεύοντα</rdg>
+                        <rdg resp="#Jac">βασιλέα, ὄντα </rdg>
+                        <rdg resp="#Mül">βασιλεύοντα, καὶ <supplied reason="omitted">τοι</supplied>
+                                ἐχθρὸν<supplied reason="omitted">ὄντα</supplied></rdg>
+                    </app>
+
+
+                    <app loc="10 2">
+                        <rdg resp="#Büch #Mül"> Θεμιστοκλεῖ</rdg>
+                        <rdg resp="#P">-εα</rdg>
+                    </app>
+
+                    <app loc="10 3">
+                        <rdg resp="#P"> Πολεμούντων</rdg>
+                        <rdg resp="#Büch #Mül #Jac">πολιορκούντων</rdg>
+                    </app>
+                    <app loc="10 3">
+                        <rdg resp="#We"> νύκτα</rdg>
+                        <rdg resp="#P"> νύκταν </rdg>
+                    </app>
+
+                    <app loc="10 4">
+                        <rdg resp="#P"> οὐκ ἐνεφανίσθη </rdg>
+                        <rdg resp="#Mül">οὐκ<supplied reason="omitted">τότε μὲν</supplied>
+                            ἐνεφανίσθη <foreign xml:lang="la">vel</foreign> οὐκ <supplied
+                                reason="omitted">παραχρῆμα</supplied>ἐνεφανίσθη </rdg>
+                    </app>
+                    <app loc="10 4">
+                        <rdg resp="#Büch #Mül"> ὑπέμνησεν αὐτὸν</rdg>
+                        <rdg resp="#P"> ἐπέμνησεν αὐτῶ</rdg>
+                    </app>
+
+                    <app loc="10 4">
+                        <rdg resp="#Büch #Mül"> γεγενῆσθαι </rdg>
+                        <rdg resp="#P"> γενήσεσθαι </rdg>
+                    </app>
+                    <app loc="10 4">
+                        <rdg resp="#Prinz"><unclear>ὑπο</unclear>δείξας λύ<supplied reason="omitted"
+                                >σο</supplied>ντας τοὺς<supplied reason="omitted">Ἕλλ</supplied>ηνας
+                        </rdg>
+                    </app>
+                    <app loc="10 4">
+                        <rdg resp="#Büch">χειρώσασθαι </rdg>
+                    </app>
+
+                    <app loc="10 5">
+                        <rdg resp="#Jac">προσσχὼν </rdg>
+                        <rdg resp="#P">προσχὼν</rdg>
+                    </app>
+                    <app loc="10 5">
+                        <rdg resp="#Büch #Mül"> ἔδωκεν </rdg>
+                        <rdg resp="#P">δέδωκεν</rdg>
+                    </app>
+                    <app loc="10 5">
+                        <rdg resp="#Büch #Mül">Λευκοφρύνῃ</rdg>
+                        <rdg resp="#P"> λευκοφρύνι</rdg>
+                    </app>
+
+                    <app loc="11 1">
+                        <rdg resp="#Mül">
+                            <supplied reason="omitted">οὐ</supplied>
+                        </rdg>
+                    </app>
+                    <app loc="11 1">
+                        <rdg resp="#P"> καὶ</rdg>
+                        <rdg resp="#Mül"><surplus>καὶ</surplus></rdg>
+                    </app>
+                    <app loc="11 1">
+                        <rdg resp="#Jac"> ἀντεπεστράτευον </rdg>
+                        <rdg resp="#Büch">παραγενόμενοι δὲ εἰς Μαγνεσίαν ἀντεπεστράτευον</rdg>
+                    </app>
+
+                    <app loc="11 3">
+                        <rdg resp="#We"> Ἴναρος </rdg>
+                        <rdg resp="#Mül">Ἰνάρως</rdg>
+                    </app>
+                    <app loc="11 3">
+                        <rdg resp="#We"> Ψαμμητίχου</rdg>
+                        <rdg resp="#P">Ψαμμιτείχου</rdg>
+                    </app>
+
+                    <app loc="11 4">
+                        <rdg resp="#Jac"> Ὡρμημένων</rdg>
+                        <rdg> ὡρμηκότων <ref target="10 3"/></rdg>
+                        <rdg resp="#Büch"> ὡρμισμένων</rdg>
+                    </app>
+                    <app loc="11 4">
+                        <rdg resp="#P"> ἐκτραπεισῶν</rdg>
+                        <rdg resp="#Büch" cert="low">οὐκἐντραπεισῶν δὲ ν νεῶν</rdg>
+                        <rdg resp="#Jac" cert="low"><g type="cross"/> ἐκτραπεισῶν,
+                            ἐκπεμφθεισῶν</rdg>
+                    </app>
+                    <app loc="11 4">
+                        <rdg resp="#Jac"> διεφθάρησαν</rdg>
+                        <rdg resp="#We">διέφθειραν </rdg>
+                        <rdg resp="#P">διέφθαρον</rdg>
+                    </app>
+
+                    <app loc="13 1">
+                        <rdg resp="#P"> Εὐθὺς</rdg>
+                        <rdg resp="#Jac">Εὐθὺς <supplied reason="omitted">Μετὰ δὲ
+                            ταῦτα</supplied></rdg>
+                    </app>
+
+
+                    <app loc="13 2">
+                        <rdg resp="#Büch #Mül">ἐπίκλην </rdg>
+                        <rdg resp="#We">τὸν ἐπίκλησιν </rdg>
+                        <rdg resp="#P"> τὸν ἐπίκλιν </rdg>
+                    </app>
+                    <app loc="13 2">
+                        <rdg resp="#Jac">ἐσπείσατο</rdg>
+                        <rdg resp="#P">ἑσπήσατο </rdg>
+                    </app>
+                    <app loc="13 2">
+                        <rdg resp="#P"> ἐπὶ τοῖσδε </rdg>
+                        <rdg resp="#Mül"><surplus>ἐπὶτοῖσδε</surplus>
+                        </rdg>
+                    </app>
+                    <app loc="13 2">
+                        <rdg resp="#Büch #Mül">Ἀνύσῃ </rdg>
+                        <rdg resp="#P">ἀνοισῃ </rdg>
+                    </app>
+
+                    <app loc="14 1">
+                        <rdg resp="#Büch">καὶ <supplied reason="omitted">Ἀθηναῖοι</supplied>
+                            ἀφελόμενοι αὐτοὺς ἀπέδοσαν πάλιν τοῖς Φωκεῦσιν </rdg>
+                        <rdg resp="#Mül"><supplied reason="omitted">ὕστερονἈθηναῖοι</supplied>
+                        </rdg>
+                        <rdg resp="#SH">εἷτα πάλιν Λοχροὺς ἀφελόμενοι παρέσχον Φωκεῦσιν </rdg>
+                    </app>
+
+
+                    <app loc="14 2">
+                        <rdg resp="#P">ἀπὸ τῆς μάχης</rdg>
+                        <rdg resp="#SH">ἀπὸ τῶν πρὸς Ἀρταξέρξην σπονδῶν</rdg>
+                    </app>
+                    <app loc="14 2">
+                        <rdg resp="#P"> ἐτρέψαντο</rdg>
+                        <rdg resp="#SH">ἔτρεψάν τε</rdg>
+                    </app>
+                    <app loc="14 2">
+                        <rdg resp="#P">ἐζώγρησαν</rdg>
+                        <rdg resp="#SH"> καὶ ἐζώγρησαν </rdg>
+                    </app>
+
+
+                    <app loc="15 1">
+                        <rdg resp="#Jac"> Γύθειον</rdg>
+                        <rdg resp="#SH"> Γύγιον</rdg>
+                        <rdg resp="#P">θύγιον </rdg>
+                    </app>
+
+
+
+                    <app loc="15 3">
+                        <rdg resp="#P"> τοῖς Ἕλλησι </rdg>
+                        <rdg resp="#SH">καὶ ἐπὶ τούτοις Ἀθηναίοις καὶ Πελοποννησίοις </rdg>
+                    </app>
+
+                    <app loc="15 4">
+                        <rdg resp="#P">τῷ τεσσαρεσκαιδεκάτῳ</rdg>
+                        <rdg resp="#SH"> Ἃς τεσσαρεσκαιδεκάτῳ κτλ. </rdg>
+                    </app>
+                    <app loc="15 4">
+                        <rdg resp="#SH">Σοφοκλέους </rdg>
+                        <rdg resp="#P">Θεμιστοκλέους</rdg>
+                    </app>
+                    <app loc="15 4">
+                        <rdg resp="#P">οὕτω </rdg>
+                        <rdg resp="#Mül">
+                            <surplus>οὕτω</surplus></rdg>
+                    </app>
+
+                    <app loc="16 1">
+                        <rdg resp="#Jac">τεχνίτην</rdg>
+                        <rdg resp="#P"> τειχνήτην</rdg>
+                    </app>
+                    <app loc="16 1">
+                        <rdg resp="#Jac"> Ἁλόντος</rdg>
+                        <rdg resp="#P"> ἁλῶντος </rdg>
+                    </app>
+
+                    <!--                   how to give the difference between a lection in a differente tradition and the reading of an editor? @source and CTS URN to Perseus?-->
+                    <app loc="16 2">
+                        <rdg source="Diod">ὦ λιπερνῆτες</rdg>
+                        <rdg source="Ar"> ὦ σοφώτατοι</rdg>
+                        <rdg resp="#P">ῶπερνθητες </rdg>
+                    </app>
+                    <app loc="16 2">
+                        <rdg resp="#P">δὴ συνίετε </rdg>
+                        <rdg source="Ar"> Δὴ ξυνίετε</rdg>
+                        <rdg source="Diod">τις ξυνιέτω </rdg>
+                    </app>
+                    <app loc="16 2">
+                        <rdg resp="#P">ρηματια βούλοισθ' </rdg>
+                        <rdg source="Ar Diod">ῥήματ’, εἰ βούλεσθ’</rdg>
+                    </app>
+
+                    <app loc="16 2">
+                        <rdg resp="#P">πρῶτον</rdg>
+                        <rdg source="Ar Diod">Πρῶτα</rdg>
+                    </app>
+                    <!--                           I have used here below and above once or twice g[@type='cross'] for cruces desperationis but I bet there is an element for that in TEI!-->
+                    <app loc="16 2">
+                        <rdg resp="#P"> ἤρξατ’αὐτῆς</rdg>
+                        <rdg source="Ar"><g type="cross"/>αὐτῆς ἦρξε<g type="cross"/></rdg>
+                        <rdg source="Diod"> αὐτῆς ἦρχε</rdg>
+                    </app>
+                    <app loc="16 2">
+                        <rdg resp="#P">αὐθάδη </rdg>
+                        <rdg source="Ar">Αὐτοδὰξ</rdg>
+                        <note source="Diod">v.607 omittit</note>
+                    </app>
+                    <app loc="16 2">
+                        <!--This is an important note, because Diod and the manuscript agree, but is the only case 
+                           in this apparatus in which I have in a @source both P which I typically handle has a reference in resp and Diod 
+                           which I instead use in @source -->
+                        <note source="Diod P">v. 608 om</note>
+                        <rdg source="Ar">πρὶν παθεῖν τι δεινὸναὐτός, ἐξέφλεξε τὴν πόλιν </rdg>
+                    </app>
+                    <app loc="16 2">
+                        <rdg resp="#P">ἐκ τοῦ καπνοῦ </rdg>
+                        <rdg source="Ar Diod">Ὥστε τῷκαπνῷ</rdg>
+                    </app>
+
+                    <app loc="16 3">
+                        <rdg resp="#P">καὶ πάλιν ὑποβάς </rdg>
+                        <rdg resp="Diod">Καὶ πάλιν ἐν ἄλλοις</rdg>
+                    </app>
+                    <app loc="16 3">
+                        <rdg resp="#P">εἰς μέθην ἰοῦσαν Μεγαρίδα </rdg>
+                        <rdg source="Ar">δὲ Σιμαίθαν ἰόντες Μέγαράδε</rdg>
+                    </app>
+                    <app loc="16 3">
+                        <rdg resp="#P">κἄιπειθ’ </rdg>
+                        <rdg source="Ar">κᾆθ’</rdg>
+                    </app>
+                    <app loc="16 3">
+                        <rdg resp="#P">ἐνθένδ’ ὁ πόλεμος ἐμφανῶς</rdg>
+                        <rdg source="Ar">κἀντεῦθεν ἀρχὴ τοῦ πολέμου</rdg>
+                    </app>
+                    <app loc="16 3">
+                        <rdg source="Ar">λαικαστριῶν</rdg>
+                        <rdg resp="#P">Δεκαστριων</rdg>
+                    </app>
+                    <app loc="16 3">
+                        <rdg resp="#P">ἐνθένδε μέντοι</rdg>
+                        <rdg source="Ar"> Ἐντεῦθεν ὀργῇ</rdg>
+                    </app>
+                    <app loc="16 3">
+                        <rdg resp="#P"> Ὀλύμπιος</rdg>
+                        <rdg source="Ar">Οὑλύμπιος</rdg>
+                    </app>
+
+                    <app loc="16 3">
+                        <!--  here the same as above, aristophanes and the manuscript agree-->
+                        <rdg resp="#P Ar">ἤστραπτ’</rdg>
+                        <rdg source="Diod">Ἤστραπτεν</rdg>
+                    </app>
+                    <app loc="16 3">
+                        <rdg resp="#P">μήτ’ ἐν ἀγορᾷ μήτ’ ἐν ἠπείρῳ</rdg>
+                        <rdg source="Ar">μήτε γῇ μήτ’ἐν ἀγορᾷ μήτ’ἐν θαλάττῃ μήτ’ἐν ἠπείρῳ</rdg>
+                        <rdg resp="#Jac">μήτ’ ἐν ἀγορᾷ <supplied reason="omitted">μήτε γῇ μήτ’ ἐν
+                                θαλάττῃ</supplied> μήτ’ἐν ἠπείρῳ</rdg>
+                        <rdg resp="#Büch">μήτ’ἐν ἀγορᾷ <supplied reason="omitted">μήτε γῇ</supplied>
+                            μήτ’ἐν ἠπείρῳ</rdg>
+                    </app>
+
+
+                    <app loc="17 1">
+                        <rdg resp="#Jac"> Κερκυραίων ἄποικος, ἡ δὲ Κέρκυρα </rdg>
+                        <rdg resp="#P">Κερκυραίων ἄποικος, δὲ ἡ </rdg>
+                        <rdg resp="#Büch"><supplied reason="omitted">ἄποικος</supplied>κερκυραίων
+                        </rdg>
+                    </app>
+
+                    <app loc="18 1">
+                        <lem resp="#We">Ποτίδαια</lem>
+                        <rdg resp="P">πολιτιδαια</rdg>
+                    </app>
+                    <app loc="18 1">
+                        <rdg resp="#Büch"><supplied reason="omitted">τὴν Ποτίδαιαν</supplied> o οἱ
+                            Ἀθηναῖοι <supplied reason="omitted">τὴν πόλιν</supplied></rdg>
+                    </app>
+
+                </listApp>
+            </div>
+
+
+
+            <div type="translation" xml:lang="it">
+                <div type="textpart" subtype="section" n="1">
+                    <p n="1"> ... chiesto almeno un altro giorno, spedì di nascosto Sicinno, il suo
+                        pedagogo, da Serse consigliandogli di attaccare i Greci e di combattere per
+                        mare, rivelandogli l'imminente fuga da Salamina. Serse, credendo che
+                        Temistocle avesse mandato a dire queste cose poiché medizzava, inviò le navi
+                        verso Salamina e fece circondare i Greci affinché restassero. </p>
+                    <p n="2"> Si affrettò poi Serse a costruire un ponte per far passare l'esercito
+                        a Salamina così come aveva fatto per attraversare l'Ellesponto e assieme ad
+                        alcuni raggiunse l'Eracleion. Ma poiché era del tutto impossibile costruire
+                        il ponte, sedutosi sul Parnete, lì vicino, guardava la battaglia navale. </p>
+                    <p n="3"> Diede inizio alla battaglia navale Amenia l'Ateniese, figlio di
+                        Euforione, fratello di Cinegiro e di Eschilo il tragediografo. Vinsero tutti
+                        i Greci, ma si distinsero gli Ateniesi. </p>
+                    <p n="4">Iniziata la battaglia Serse fece sbarcare alcune decine di migliaia di
+                        uomini su di una vicina isoletta nei pressi di Salamina, chiamata Psittalea,
+                        per intimorire i Greci e volendo recuperare i relitti dei barbari che vi
+                        fossero trascinati. Aristide figlio di Lisimaco, detto il giusto,
+                        ostracizzato dagli Ateniesi e quella volta a capo degli Egineti, essendo
+                        alleato dei Greci, andò da Temistocle e gli chiese un esercito per
+                        soccorrere quelli di Psittalea. Pur essendo stato un suo nemico, ugualmente
+                        glielo diede. Ottenuto ciò, Aristide andò a Psittalea e uccise tutti i
+                        barbari che c'erano, e questa è la più grande impresa a difesa dei Greci che
+                        si ricordi. </p>
+                    <p n="5"> Si distinse più di tutti e combatté nel modo migliore Amenia, mentre
+                        tra i barbari una donna di Alicarnasso, chiamata Artemisia, la quale, visto
+                        che la sua nave era inseguita e correva il pericolo di essere distrutta,
+                        affondò la nave davanti a sé, che pure era della sua parte. Amenia, pensando
+                        allora che si trattasse di un alleato dei Greci, abbandonò l'inseguimento.
+                        Serse visto l'accaduto disse: "Gli uomini mi son diventati donne e le donne
+                        uomini". </p>
+                    <p n="6">I migliori a farsi valere tra i Greci, dopo gli Ateniesi, furono gli
+                        Egineti, i quali dispostisi presso lo stretto del passaggio affondavano mano
+                        a mano che arrivavano molte navi di barbari che scappavano verso quello
+                        stretto. </p>
+                    <p n="7">Poiché i barbari sconfitti fuggivano, i Greci volevano sciogliere il
+                        ponte all'Ellesponto per catturare Serse in Grecia, ma Temistocle, non
+                        credendo che questo fosse sicuro, temendo che, se i barbari si fossero visti
+                        tolta la speranza della salvezza, tornando indietro avrebbero combattuto
+                        senza paura, si oppose. Non prevalendo alcuna decisione, mandò a Serse di
+                        nascosto un inviato che gli rendesse noto che i Greci volevano slegare il
+                        ponte. Serse, spaventato, fuggì. </p>
+                    <p n="8">Nella battaglia di Salamina combatterono anche gli Dei accanto ai
+                        Greci. Diceo figlio di Teocide, Ateniese, disse di aver visto, nella pianura
+                        di Triasia un polverone come di 20.000 uomini che giungevano da Eleusi
+                        cantando il mistico Iacco. Il polverone annuvolatosi si posò sulle navi dei
+                        Greci. </p>
+                </div>
+                <div type="textpart" subtype="section" n="2">
+                    <p n="1">Fuggito Serse, Mardonio, figlio di quel Gobria che aveva combattuto i
+                        Magi, lo stesso che aveva convinto Serse a combattere contro la Grecia,
+                        addusse come causa della sconfitta avvenuta la gran moltitudine di Barbari e
+                        promise di vincere i Greci, se gli fosse stato dato un esercito di 300.000
+                        uomini. </p>
+                    <p n="2">Ottenuto ciò Mardonio inviò per prima cosa agli Ateniesi, Alessandro il
+                        Macedone, l'antenato di Filippo, promettendo che avrebbe dato loro 10.000
+                        talenti e la terra che avessero voluto prendere della Grecia e sostenendo la
+                        loro libertà e autonomia, se avessero preferito starsene tra di loro e non
+                        allearsi con i Greci. Quando Alessandro giunse ad Atene e dichiarò queste
+                        cose gli Ateniesi non accolsero i suoi discorsi e mandarono via Alessandro
+                        con supponenza. </p>
+                    <p n="3"> Avendo fallito in ciò, Mardonio mosse verso Atene e diede alle fiamme
+                        anche la parte che era rimasta, giunto poi a Tebe assieme all'esercito vi
+                        dispose l'accampamento, mentre i Greci si disposero a Platea. Tra Tebe e
+                        Platea vi sono 80 stadi. Mardonio cooptò anche 40.000 Beoti. </p>
+                    <p n="4">Avevano la colonna destra i Persiani di Mardonio, la sinistra i Greci
+                        medizzanti. Tra i Greci gli Ateniesi avevano la destra, la sinistra gli
+                        Spartani. Gli Spartani cambiarono però posto, dicendo che gli Ateniesi erano
+                        più esperti nel combattere coi Persiani. In quel momento, Mardonio temendo
+                        di combattere con gli Ateniesi invertì lo schieramento e così capitò agli
+                        Spartani di combattere coi Persiani per di più involontariamente. Comandava
+                        gli Spartani Pausania figlio di Cleombroto, gli Ateniesi Aristide il giusto.
+                        Cominciato lo scontro, gli Ateniesi aiutarono gli Spartani e vinsero. </p>
+                    <p n="5"> Durante lo scontro Mardonio cadde combattendo a testa scoperta,
+                        colpito da Aeimnesto, uomo spartano. Si distinse in quest'occasione
+                        Aristodemo il sopravvissuto delle Termopili e per questo chiamato il
+                        fuggitivo. Per questo motivo gli Spartani non attribuirono a lui il premio
+                        per il valore, ritenendo che il primo fatto, circa l'aver abbandonato lo
+                        schieramento, fosse questione di decisione, quest'ultimo, circa la sua
+                        virtù, fosse invece questione di fortuna. </p>
+                </div>
+                <div type="textpart" subtype="section" n="3">
+                    <p n="1"> Dopo che Mardonio cadde, i Persiani fuggirono verso Tebe, i Greci
+                        allora inseguendoli ne uccisero 120.000. 60.000 che stavano scappando verso
+                        casa invece, Alessandro il Macedone, lo stesso che aveva fatto da
+                        ambasciatore presso gli Ateniesi quando lo aveva inviato Mardonio, li uccise
+                        tutti quanti quando giunsero in Macedonia, giustificandosi dicendo che aveva
+                        medizzato sotto costrizione. </p>
+                    <p n="2">Anche i Greci sulle navi inseguirono la flotta di Serse: navigando 4000
+                        stadi da Salamina verso Mileto raggiunsero le navi dei Persiani ed erano
+                        pronti alla battaglia navale. I Persiani non confidando sulle navi poiché
+                        avevano provato la perizia degli Ateniesi, sbarcarono e si accamparono
+                        presso Micale, che è il monte di Mileto. Sbarcati pure i Greci si
+                        scontrarono con loro e ne uccisero 40.000, e presero le navi lasciate vuote:
+                        avveniva la battaglia nelle piane di Platea mentre vincevano i Greci presso
+                        Micale. </p>
+                    <p n="3">Era comandante dei Lacedemoni a Micale il Re Leotichida, degli Ateniesi
+                        Santippo, figlio di Arifrone, padre di Pericle. </p>
+                    <p n="4">I Greci di Platea dopo la vittoria dedicarono dei trofei, e indissero
+                        una festa chiamandola Eleutheria, i Tebani invece, avendo giurato, pagarono
+                        la decima. </p>
+                </div>
+                <div type="textpart" subtype="section" n="4">
+                    <p n="1">Dopo le guerre persiane e prima della guerra del Peloponneso tra i
+                        Greci furono compiute queste cose. </p>
+                    <p n="2">Dopo che i Greci ebbero scacciato i Persiani fuori dall'Europa, e che i
+                        Persiani superstiti si furono rifugiati a Sesto, gli Ateniesi erano rimasti,
+                        vogliosi di combattere e anche Pausania, figlio di Cleombroto, stratego dei
+                        Lacedemoni, per la bramosia di potere sui Greci e insieme per tradimento:
+                        era d'accordo con Serse di tradire i Greci prendendo in cambio una sua
+                        figlia in moglie. Come esaltato da questa speranza e dalla buona sorte
+                        ottenuta a Platea non controllava più i suoi sentimenti ma per prima cosa
+                        pose a Delfi un tripode ad Apollo con sopra scritto questo Epigramma:
+                        Pausania, comandante dei Greci, dopo aver distrutto l'esercito Medo, ha
+                        dedicato questo monumento a Febo. </p>
+                    <p n="3"> Guidò coloro che gli erano sottoposti con violenza e tiranneggiando,
+                        dimentico dei modi Laconici, ormai volto a portare i costumi dei Persiani e
+                        a farsi preparare sontuosi banchetti, come loro abitudine. </p>
+                </div>
+                <div type="textpart" subtype="section" n="5">
+                    <p n="1">In quel tempo gli Ateniesi, la cui città era stata data alle fiamme da
+                        Serse e da Mardonio, volevano munirla di mura, ma i Lacedemoni non lo
+                        permisero loro, portando come scusa che Atene sarebbe stata una roccaforte
+                        per i Barbari che fossero giunti navigando, ma in verità essendo invidiosi e
+                        non volendo che si innalzassero nuovamente; distinguendosi per perspicacia
+                        Temistocle li vinse con l'inganno, consapevole della loro invidia. </p>
+                    <p n="2"> Dopo aver incitato gli Ateniesi a circondare di mura la città, partì
+                        come ambasciatore verso Lacedemone, e quando gli Spartani vennero a sapere
+                        che gli Ateniesi circondavano di mura la città, Temistocle negò. Ma visto
+                        che i Lacedemoni non si fidavano, li convinse a mandare dei loro
+                        ambasciatori ad Atene per sapere se la città fosse in ricostruzione. Mentre
+                        i Lacedemoni sceglievano gli uomini e li inviavano, Temistocle mandò un
+                        messaggio segreto agli Ateniesi di trattenere presso di loro gli uomini
+                        mandati dai Lacedemoni, fino a che non fosse tornato ad Atene. </p>
+                    <p n="3">Avendo gli Ateniesi fatto ciò, i Lacedemoni capirono l'inganno di
+                        Temistocle, non gli fecero nulla di male, temendo per i loro ambasciatori,
+                        ma rimandatolo indietro, si ripresero i loro. </p>
+                    <p n="4">Nel frattempo gli Ateniesi avevano circondato con mura la città in
+                        siffatto modo. Costruirono un muro di 60 stadi attorno alla cittadella, e
+                        anche un grande muro che portava al Pireo per entrambe le parti lungo 40
+                        stadi, mentre quello intorno al Pireo è di 80 stadi e il porto era diviso in
+                        due, ed era chiamata una parte Munichia, mentre il promontorio a destra del
+                        Pireo è chiamato anche ora Divino: c'è infatti un'altura al Pireo, sulla
+                        quale è collocato il santuario di Artemide. Il muro al Falero fu costruito
+                        di 30 stadi, largo tanto quanto bastava per due carri che si incrociassero.
+                        In questo modo la città di Atene venne fortificata. </p>
+                </div>
+                <div type="textpart" subtype="section" n="6">
+                    <p n="1">Temistocle, invidiato per la sua superiore perspicacia e per il suo
+                        valore fu cacciato dagli Ateniesi e giunse ad Argo.</p>
+                    <p n="2"> I Lacedemoni intanto, sentite le accuse riguardo all'imminente
+                        tradimento di Pausania, gli mandarono la scitale richiamandolo perché si
+                        spiegasse.</p>
+                    <p n="3"> Pausania giunto a Sparta si difese, e ingannati i Lacedemoni,
+                        prosciolto dalle accuse, si allontanò e nuovamente tornò a mettere in atto
+                        il tradimento. </p>
+                </div>
+                <div type="textpart" subtype="section" n="7">
+                    <p n="1"> Nel frattempo i Greci si separarono dai Lacedemoni per il violento
+                        tiranneggiare subìto da Pausania, e si accostarono agli Ateniesi, così che
+                        gli Ateniesi ricominciarono, raccogliendo il tributo, ad esserne accresciuti
+                        in potere: preparavano navi e i beni comuni erano protetti a Delo, poi... i
+                        talenti raccolti a Delo furono trasportati ad Atene e riposti sull'acropoli.
+                    </p>
+                </div>
+                <div type="textpart" subtype="section" n="8">
+                    <p n="1">Pausania ora, come governatore di Bisanzio medizzava apertamente e
+                        trattava male i Greci. Fece anche questo. C'era la figlia di un indigeno,
+                        Coronide, di nome ... , che Pausania mandò a richiedere dal padre: Coronide
+                        timoroso della ferocia di Pausania gli mandò la figlia. Giunta essa di notte
+                        alla casa, mentre Pausania dormiva, e avvicinatasi, Pausania si svegliò e
+                        pensando ad un tentativo di ribellione imprecando trafisse con il pugnale la
+                        ragazza e la uccise. Per questo motivo divenne matto e delirando gracchiava,
+                        tormentato dalla ragazza; trascorso molto tempo placò i demoni della
+                        fanciulla e rinsavì. </p>
+                    <p n="2">Non cessò di tradire, ma scrisse lettere a Serse che affidò ad Argilio,
+                        suo amato, chiedendogli di portarle a Serse. Argilio temendo per se stesso,
+                        poiché coloro che erano stati inviati prima non erano tornati, non andò da
+                        Serse ma a Sparta dove denunciò il tradimento e si impegnò a cogliere
+                        Pausania sul fatto. Presi accordi circa queste cose andò sul Tanaro, nel
+                        santuario di Poseidone come supplice. Gli efori giunti anche essi allo
+                        stesso santuario prepararono una doppia parete e in quella si nascosero. </p>
+                    <p n="3"> Non sapendo ciò Pausania, sentito che Argilio era supplice, lo
+                        raggiunse e lo rimproverò per non aver portato le lettere a Serse, peraltro
+                        fornendo ulteriori prove del tradimento. Gli efori sentendo i discorsi sul
+                        momento non lo catturarono, poiché il luogo era sacro, ma lo lasciarono
+                        andare, e decisero di catturarlo poi una volta arrivato a Sparta; egli,
+                        sospettando, corse al santuario di Atena Calcieca e si fece supplice. </p>
+                    <p n="4">Trovandosi i Lacedemoni in una situazione imbarazzante rispetto
+                        all'onorare la divinità, la madre di Pausania, sollevata una pietra, la pose
+                        all'uscita del recinto sacro, dando inizio alla punizione del figlio: i
+                        Lacedemoni seguendola racchiusero il recinto sacro, e Pausania si consumò
+                        con la fame, ma tolsero il tetto, e tirarono fuori Pausania che ancora
+                        respirava e lo gettarono giù. </p>
+                    <p n="5">Per questo avvenne una carestia. Interrogata la divinità su come
+                        liberarsi dei demoni di Pausania, per interrompere la carestia, dedicarono
+                        delle statue e fermarono la carestia. </p>
+                </div>
+                <div type="textpart" subtype="section" n="9">
+                    <p n="1">Interrogandosi poi i Greci su chi bisognasse scrivere per primo di
+                        coloro che avevano combattuto come alleati nella guerra contro i Medi, i
+                        Lacedemoni tirarono fuori l'idea del disco, sul quale a cerchio sarebbero
+                        state scritte le città che avevano combattuto, così che nessuno sarebbe
+                        stato scritto per primo e nessuno per ultimo. </p>
+                </div>
+                <div type="textpart" subtype="section" n="10">
+                    <p n="1">I Lacedemoni, dopo che si furono occupati in modo riprovevole dei fatti
+                        di Pausania, convinsero gli Ateniesi, dicendo di aver trovato nelle lettere
+                        di Pausania la complicità nel tradimento da parte di Temistocle. Temistocle,
+                        temendo i Lacedemoni non restò ad Argo, ma si mosse verso Corcira e poi
+                        verso i Molossi, presso Admeto che era Re e già da prima gli era nemico. </p>
+                    <p n="2">Essendo giunti dei Lacedemoni presso Admeto e chiedendo di lui, la
+                        moglie di Admeto consigliò a Temistocle di rapire il figlio del Re e di
+                        rifugiarsi al focolare domestico come supplice. Avendo Temistocle fatto ciò,
+                        Admeto ebbe compassione di lui e non gli fece del male ma rispose ai
+                        Peloponnesiaci che non era corretto consegnare un supplice. </p>
+                    <p n="3">Temistocle, non avendo dove andare, navigò verso la Persia. Mentre
+                        navigava corse il pericolo di essere catturato e portato indietro. Infatti
+                        mentre gli Ateniesi stavano combattendo a Nasso, la nave di Temistocle
+                        colpita da una tempesta era stata portata a Nasso. Temistocle, temendo di
+                        essere catturato dagli Ateniesi minacciò il comandante di ucciderlo, se non
+                        avesse opposto resistenza ai venti. Il comandante, temendo la minaccia si
+                        diede da fare contro l'ondeggiamento per tutta la notte e il giorno
+                        successivo e procedette contro vento: così Temistocle giunse salvo in
+                        Persia. </p>
+                    <p n="4"> Ma non trovò Serse in vita, bensì il figlio Artaserse; non gli si
+                        presentò subito ma, attendendo un anno, apprese la lingua Persiana, poi si
+                        presentò da Artaserse, e gli ricordò i suoi meriti, che presentò come
+                        compiuti per il padre di lui, Serse, dicendo anche di essere stato
+                        responsabile della sua salvezza, rivelando che i Greci andavano a sciogliere
+                        i ponti. Si impegnò anche, se avesse ottenuto un esercito da lui, a
+                        sottomettere i Greci. </p>
+                    <p n="5"> Artaserse appoggiando le sue richieste gli diede un esercito e tre
+                        città in incarico, Magnesia per il grano, Lampsaco per il vino, Miunte per
+                        la carne. Ottenuto ciò Temistocle, giunto a Magnesia essendo vicino alla
+                        Grecia mutò pensiero, non ritenendo giusto che bisognasse darsi guerra tra
+                        consanguinei. Sacrificando ad Artemide Leucofrone, sgozzando un toro mise
+                        sotto una coppa e riempitala di sangue, bevve e morì. </p>
+                </div>
+                <div type="textpart" subtype="section" n="11">
+                    <p n="1">I Greci <supplied reason="subaudible">non</supplied> sapendo di tutto
+                        ciò volevano scacciare l'esercito insieme a Temistocle, e quando arrivarono
+                        e appresero tutto, portarono subito guerra ad Artaserse così che gli
+                        Ateniesi liberarono le città della Ionia e le restanti città greche. </p>
+                    <p n="2">Cimone figlio di Milziade essendo stratego, navigò verso la Pamfilia
+                        presso il fiume detto Eurimedonte e diede battaglia navale a Fenici e
+                        Persiani compiendo meravigliose gesta: 100 navi con tutti gli uomini furono
+                        distrutte quando combatterono a terra e due trofei furono innalzati, uno per
+                        la [vittoria] di terra e uno per quella sul mare. </p>
+                    <p n="3">Navigarono poi verso Cipro e l'Egitto. Regnava in Egitto Inaro, figlio
+                        di Psammetico, il quale, ribellatosi ad Artaserse, si era procurato in aiuto
+                        gli Ateniesi, i quali avevano 200 navi e combatterono per sei anni contro i
+                        Persiani. </p>
+                    <p n="4"> Poi però Megabizo figlio di Zopiro, inviato da Artaserse, mentre gli
+                        Ateniesi erano ormeggiati in un'isola chiamata Prosopitide, lungo il fiume,
+                        fece deviare la corrente del fiume e le navi restarono a secco. Le 50 navi
+                        attiche che pure erano state deviate mentre navigavano verso l'Egitto, gli
+                        uomini di Megabizo le intercettarono e alcune le distrussero, altre le
+                        trattennero. Degli uomini i più furono annientati, pochi in tutto invece
+                        tornarono a casa. </p>
+                </div>
+                <div type="textpart" subtype="section" n="12">
+                    <p n="1">Dopo ciò vi fu la guerra Greca tra Ateniesi e Lacedemoni a Tanagra. I
+                        Lacedemoni erano 13.000 di numero, gli Ateniesi 16.000: vinsero gli
+                        Ateniesi. </p>
+                    <p n="2">Schieratisi di nuovo a Oenofita, con gli strateghi Tolmide e Mironide,
+                        vinsero sui Beoti e sottomisero la Beozia. </p>
+                </div>
+                <div type="textpart" subtype="section" n="13">
+                    <p n="1"> Subito portarono guerra verso Cipro, con lo stratega Cimone figlio di
+                        Milziade. In questa furono presi da una carestia, e Cimone ammalatosi a
+                        Chition di Cipro, lì morì. I Persiani vedendo gli Ateniesi messi male,
+                        pensarono di raggiungere le loro navi: ne venne uno scontro in mare, nel
+                        quale vinsero gli Ateniesi. </p>
+                    <p n="2"> Fu scelto come stratego Callia, detto Laccoplutos, poiché avendo
+                        trovato un tesoro a Maratona, impossessatosene si era arricchito. Questo
+                        Callia fece un trattato con Artaserse e i rimanenti Persiani. Vennero dunque
+                        presi questi accordi, secondo cui i Persiani non potevano navigare con
+                        grandi navi oltre Kuaneon e il fiume Nesso e Faselis, che è una città della
+                        Pamfilia, e Calidoneo, nè potevano percorrere la strada verso l'interno che
+                        un cavallo correndo potesse effettuare in tre giorni senza sosta. Questi
+                        dunque gli accordi che vennero presi. </p>
+                </div>
+                <div type="textpart" subtype="section" n="14">
+                    <p n="1">Dopo di ciò ci fu una guerra greca, per questo motivo: i Lacedemoni
+                        tolsero ai Focesi il santuario di Delfi affidandolo ai Locresi, e gli
+                        Ateniesi tolto a questi lo ridiedero ai Focesi. </p>
+                    <p n="2"> Mentre gli Ateniesi rientravano dalla battaglia, con Tolmide stratego,
+                        giunti presso Coronea, i Beoti attaccandoli di sorpresa mentre non erano
+                        preparati li volsero in fuga e fecero alcuni prigionieri, che pur essendo
+                        stati richiesti dagli Ateniesi non furono restituiti prima che la Beozia
+                        fosse ripresa. </p>
+                </div>
+                <div type="textpart" subtype="section" n="15">
+                    <p n="1">Subito dopo ciò gli Ateniesi fecero il giro del Peloponneso e
+                        distrussero Gition. Tolmide, avendo 1.000 Ateniesi scelti percorse il
+                        Peloponneso. </p>
+                    <p n="2">Gli Ateniesi distrussero L'Eubea che si era nuovamente ribellata. </p>
+                    <p n="3"> Nel frattempo, si fecero i patti di 30 anni tra i Greci.</p>
+                    <p n="4"> Dopo 14 anni di assedio gli Ateniesi presero Samo, con gli strateghi
+                        Pericle e Sofocle. Nello stesso anno così si sciolsero i patti di 30 anni e
+                        la guerra del Peloponneso era alle porte. </p>
+                </div>
+                <div type="textpart" subtype="section" n="16">
+                    <p n="1">Si possono portare molte cause per questa guerra. La prima riguarda
+                        Pericle. Si dice infatti che mentre gli Ateniesi costruivano l'Atena
+                        Crisoelefantina incaricarono Pericle sovrintendente, Fidia ingegnere. Preso
+                        Fidia con accusa di furto, Pericle prese precauzioni per non essere
+                        richiesto di rendiconti, e volendo far deviare l'opinione pubblica, rese
+                        questa guerra politica, scrivendo la legge contro i Megaresi. </p>
+                    <p n="2"> Tali cose crede anche la commedia antica, visto che il poeta dice
+                        così: o sciocchi contadini, radunatevi qui insieme, se volete sentire
+                        qualche storiella su com'è stata distrutta questa [città]. In primo luogo
+                        Fidia ha dato inizio ai fatti malamente, poi Pericle temendo che mutasse la
+                        sorte, preoccupato per la vostra natura e i vostri modi testardi, lanciando
+                        una piccola scintilla con il decreto di Megara ha fatto nascere tutta questa
+                        guerra che per il fumo fa piangere tutta la Grecia sia di là che di qua. </p>
+                    <p n="3"> E di nuovo poco oltre: alcuni ragazzi rapiscono una prostituta che
+                        andava ad ubriacarsi a Megara; allora quelli di Megara furibondi per
+                        l'affronto rubano a loro volta due prostitute di Aspasia. Ed ecco che la
+                        guerra tra Greci è scoppiata apertamente per via di tre prostitute. Infatti
+                        proprio allora Pericle l'Olimpio lanciava fulmini, tuonava, metteva
+                        sottosopra la Grecia, stabiliva leggi come se stesse scrivendo canzonette su
+                        come bisognava che Megara non restasse né nei mercati né sul territorio. </p>
+                    <p n="4">Si dice anche che mentre Pericle si interrogava riguardo a come
+                        spiegare la rendicontazione della sua sovrintendenza, Alcibiade figlio di
+                        Clinia, essendo sotto il suo tutorato disse: ''non cercare come si possa
+                        rendere conto agli Ateniesi, ma come non rendere conto”. </p>
+                </div>
+                <div type="textpart" subtype="section" n="17">
+                    <p n="1">La seconda causa è quella di Corcira ed Epidamno. Epidamno era una
+                        città fondata dai Corciresi, mentre Corcira dai Corinzi. Comportandosi male
+                        fra di loro in quel momento, gli Epidamni trattati con arroganza dai
+                        Corciresi si fecero alleati i Corinzi, come madrepatria, combatterono contro
+                        Corcira e vi fu una guerra. </p>
+                    <p n="2"> I Corciresi tormentati dalla guerra spedirono ambasciatori ad Atene
+                        per un'alleanza, poiché essi avevano molte navi. Allo stesso modo i Corinzi
+                        mandarono ambasciatori ad Atene chiedendo che essi non aiutassero i
+                        Corciresi. Gli Ateniesi credettero meglio aiutare i Corciresi: così
+                        combatterono in mare i Corinzi, pur essendo in vigore dei patti. In questo
+                        modo i patti erano sciolti. </p>
+                </div>
+                <div type="textpart" subtype="section" n="18">
+                    <p n="1"> Come terza causa si porta questa. Potidea era una città fondata dai
+                        Corinzi in Tracia. Gli Ateniesi le mandarono ambasciatori volendo prenderla
+                        con sé. I Potideati si associarono ai Corinzi e da questo ebbe origine una
+                        battaglia tra Ateniesi e Corinzi e gli Ateniesi assediarono Potidea. </p>
+                </div>
+                <div type="textpart" subtype="section" n="19">
+                    <p n="1">La quarta causa di cui si parla è la più vera. I Lacedemoni vedendo
+                        innalzarsi gli Ateniesi e per navi e per ricchezze e per alleati *** </p>
+                </div>
+
+            </div>
+        </body>
+    </text>
+</TEI>
