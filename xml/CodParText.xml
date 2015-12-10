@@ -118,7 +118,7 @@
                         <w>τὸ</w>
                         <w>ζητούμενον</w>
                         <w>τοῦ</w>
-                        <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/%E1%BC%88%CF%81%CE%B9%CF%83%CF%84%CF%8C%CE%B4%CE%B7%CE%BC%CE%BF%CF%82http://clas-lgpn2.classics.ox.ac.uk/name/%E1%BC%88%CF%81%CE%B9%CF%83%CF%84%CF%8C%CE%B4%CE%B7%CE%BC%CE%BF%CF%82">Ἀριστοδήμου</name></label>
+                        <name nymRef="Ἀριστοδήμος" ref="http://clas-lgpn2.classics.ox.ac.uk/name/%E1%BC%88%CF%81%CE%B9%CF%83%CF%84%CF%8C%CE%B4%CE%B7%CE%BC%CE%BF%CF%82http://clas-lgpn2.classics.ox.ac.uk/name/%E1%BC%88%CF%81%CE%B9%CF%83%CF%84%CF%8C%CE%B4%CE%B7%CE%BC%CE%BF%CF%82">Ἀριστοδήμου</name></label>
                     <!--is this ok for the marks left by the scribe? it is in facts a pointer-->
                     <p n="1">
                         <gap unit="lines" extent="unknown" reason="lost"/>
@@ -129,17 +129,17 @@
                         <w>μόνην</w>
                         <w>ἔπεμψε</w>
                         <w>κρύφα</w>
-                        <name>Σίκινον</name>
+                        <name nymRef="Σίκινος">Σίκινον</name>
                         <w>τὸν</w>
                         <w>ἑαυτοῦ</w>
                         <w>παιδαγωγὸν</w>
                         <w>πρὸς</w>
-                        <name>Ξέρξην,</name>
+                        <name nymRef="Ξέρξης">Ξέρξην</name>,
                         <w>ἐγκελευσάμενος</w>
                         <w>αὐτῷ</w>
                         <w>ἐπιτίθεσθαι</w>
                         <w>τοῖς</w>
-                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησιν</placeName>
+                        <placeName nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησιν</placeName>
                         <w>καὶ</w>
                         <w>ναυμαχεῖν,</w>
                         <w>δηλῶν</w>
@@ -150,10 +150,10 @@
                         <placeName ref="http://pleiades.stoa.org/places/580101">Σαλαμῖνος.</placeName>
                         <w>Ὁ</w>
                         <w>δὲ</w>
-                        <name>Ξέρξης</name>
+                        <name nymRef="Ξέρξης">Ξέρξης</name>
                         <w>νομίσας</w>
                         <w>τὸν</w>
-                        <name>Θεμιστοκλέα</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://clas-lgpn2.classics.ox.ac.uk/name/%CE%98%CE%B5%CE%BC%CE%B9%CF%83%CF%84%CE%BF%CE%BA%CE%BB%E1%BF%86%CF%82">Θεμιστοκλέα</name>
                         <w>μηδίζοντα</w>
                         <w>ταῦτα</w>
                         <w>ἀπεσταλκέναι,</w>
@@ -165,7 +165,7 @@
                         <w>καὶ</w>
                         <w>ἐκυκλώσατο</w>
                         <w>τοὺς</w>
-                        <placeName type="ethinc" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνας</placeName>
+                        <placeName nymRef="Ἑλλάς" type="ethinc" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνας</placeName>
                         <w>εἰς</w>
                         <w>τὸ</w>
                         <w>μένειν</w>
@@ -174,7 +174,7 @@
                         <w>ἐσπούδασεν</w>
                         <w>δὲ</w>
                         <w>ὁ</w>
-                        <name>Ξέρξης</name>
+                        <name nymRef="Ξέρξης">Ξέρξης</name>
                         <w>ζεῦγμα</w>
                         <w>κατασκευάσας</w>
                         <w>πεζῇ</w>
@@ -238,7 +238,7 @@
                         <w>οὖν</w>
                         <w>πάντες</w>
                         <w>οἱ</w>
-                        <placeName type="ethinc" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνες,</placeName>
+                        <placeName nymRef="Ἑλλάς" type="ethinc" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνες,</placeName>
                         <w>ἐκπρεπέστερον</w>
                         <w>δὲ</w>
                         <w>οἱ</w>
@@ -250,7 +250,7 @@
                         <w>τῆς</w>
                         <w>μάχης</w>
                         <w>ὁ</w>
-                        <name>Ξέρξης</name>
+                        <name nymRef="Ξέρξης">Ξέρξης</name>
                         <w>ἱκανὰς</w>
                         <w>μυριάδας</w>
                         <w>ἐπεβίβασεν</w>
@@ -267,7 +267,7 @@
                         <w>ἐκπληττόμενός</w>
                         <w>τε</w>
                         <w>τοὺς</w>
-                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνας</placeName>
+                        <placeName nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνας</placeName>
                         <w>καὶ</w>
                         <w>βουλόμενος</w>
                         <w>τὰ</w>
@@ -296,10 +296,10 @@
                         <w>καὶ</w>
                         <w>αὐτὸς</w>
                         <w>τοῖς</w>
-                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησιν</placeName>
+                        <placeName  nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησιν</placeName>
                         <w>παρεγένετο</w>
                         <w>πρὸς</w>
-                        <name>Θεμιστοκλέα</name>
+                        <name  nymRef="Θεμιστοκλῆς">Θεμιστοκλέα</name>
                         <w>καὶ</w>
                         <w>στρατὸν</w>
                         <w>αὐτὸν</w>
@@ -341,7 +341,7 @@
                         <w>ἐπεδείξατο</w>
                         <w>ὑπὲρ</w>
                         <w>τῶν</w>
-                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἑλλήνων.</placeName></p>
+                        <placeName  nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἑλλήνων.</placeName></p>
                     <p n="5">
                         <w>διασημότερον</w>
                         <w>δὲ</w>
@@ -383,13 +383,13 @@
                         <w>σύμμαχον</w>
                         <w>εἶναι</w>
                         <w>τῶν</w>
-                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἑλλήνων,</placeName>
+                        <placeName  nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἑλλήνων,</placeName>
                         <w>ἀπετράπη</w>
                         <w>τοῦ</w>
                         <w>διώκειν.</w>
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <name>Ξέρξης</name>
+                        <name nymRef="Ξέρξης">Ξέρξης</name>
                         <w>θεασάμενος</w>
                         <w>τὸ</w>
                         <w>γενόμενον</w>
@@ -408,7 +408,7 @@
                         <w>ἠρίστευσαν</w>
                         <w>δὲ</w>
                         <w>τῶν</w>
-                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἑλλήνων</placeName>
+                        <placeName  nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἑλλήνων</placeName>
                         <w>ἐκπρεπέστερον</w>
                         <w>μετὰ</w>
                         <placeName type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναίους</placeName>
@@ -440,7 +440,7 @@
                         <w>καὶ</w>
                         <w>φυγόντων</w>
                         <w>οἱ</w>
-                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνες</placeName>
+                        <placeName  nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνες</placeName>
                         <w>ἐβούλοντο</w>
                         <w>λύειν</w>
                         <w>τὸ</w>
@@ -453,8 +453,8 @@
                         <w>Ξέρξην</w>
                         <w>ἐν</w>
                         <w>τῇ</w>
-                        <placeName ref="http://pleiades.stoa.org/places/1001896">Ἑλλάδι,</placeName>
-                        <name>Θεμιστοκλῆς</name>
+                        <placeName nymRef="Ἑλλάς" ref="http://pleiades.stoa.org/places/1001896">Ἑλλάδι,</placeName>
+                        <name  nymRef="Θεμιστοκλῆς">Θεμιστοκλῆς</name>
                         <w>δὲ</w>
                         <w>οὐκ</w>
                         <w>οἰόμενος</w>
@@ -481,12 +481,12 @@
                         <w>ἰσχύων</w>
                         <w>ἔπεμψε</w>
                         <w>κρύφα</w>
-                        <name>Ξέρξῃ</name>
+                        <name nymRef="Ξέρξης">Ξέρξῃ</name>
                         <w>δηλῶν</w>
                         <w>ὅτι</w>
                         <w>μέλλουσιν</w>
                         <w>οἱ</w>
-                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνες</placeName>
+                        <placeName nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνες</placeName>
                         <w>λύειν</w>
                         <w>τὸ</w>
                         <w>ζεῦγμα·</w>
@@ -508,7 +508,7 @@
                         <w>θεοὶ</w>
                         <w>συνεμάχησαν</w>
                         <w>τοῖς</w>
-                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησιν.</placeName>
+                        <placeName  nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησιν.</placeName>
                         <name>Δίκαιος</name>
                         <w>γὰρ</w>
                         <w>ὁ</w>
@@ -541,7 +541,7 @@
                         <w>τὰς</w>
                         <w>ναῦς</w>
                         <w>τῶν</w>
-                        <placeName type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἑλλήνων.</placeName>
+                        <placeName nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἑλλήνων.</placeName>
                     </p>
                 </div>
                 <div type="textpart" subtype="section" n="2">
