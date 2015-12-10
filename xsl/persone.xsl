@@ -205,7 +205,7 @@ meant to be run in a folder with other data locally referred
 
 
                <!-- START THE FEATURETTES -->
-               <!--               the first one needs the attribute id to be the same as in the link in the navigation bar-->
+               <!--               The first is just a list of occurrences and number of them, the second is instead more hierarcical-->
                   <hr class="featurette-divider" id="persone"/>
                   <div class="row featurette">
                      <div class="col-md-7">
