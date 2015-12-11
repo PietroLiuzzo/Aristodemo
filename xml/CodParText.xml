@@ -92,23 +92,23 @@
         per ora ho usato <label>        -->
 
                 <div type="textpart" subtype="section" n="0">
-                    <pb n="81" facs="81.pdf"/>
+                    <pb n="81" facs="171"/>
                     <milestone unit="section" type="filostratus" n="1a"/>
-                    <pb n="81v" facs="81v.pdf"/>
+                    <pb n="81v" facs="172"/>
 
                     <milestone unit="section" type="filostratus" n="1b"/>
-                    <pb n="82" facs="82.pdf"/>
+                    <pb n="82" facs="173"/>
 
                     <milestone unit="section" type="filostratus" n="1c"/>
-                    <pb n="82v" facs="82v.pdf"/>
+                    <pb n="82v" facs="174"/>
 
                     <milestone unit="section" type="filostratus" n="1d"/>
-                    <pb n="83" facs="83.pdf"/>
+                    <pb n="83" facs="175"/>
 
                     <milestone unit="section" type="recepies"/>
                 </div>
                 <div type="textpart" subtype="section" n="1">
-                    <pb n="ξζ" facs="1-ξζ.pdf"/>
+                    <pb n="ξζ" facs="176"/>
                     <label>* <w>καὶ</w>
                         <w>τὸ</w>
                         <w>σημειόν</w>
@@ -556,7 +556,7 @@
                         <w>καὶ</w>
                         <w>αὐτοῦ</w>
                         <w>ἐπιθεμένου</w>
-                        <pb n="84" facs="2-84.pdf"/>
+                        <pb n="84" facs="177"/>
                         <w>τοῖς</w>
                         <supplied reason="omitted">μά</supplied><w>γοις,</w>
                         <w>συμπ</w><supplied reason="omitted">επει</supplied><w>κὼς</w>
@@ -1021,7 +1021,7 @@
                         <w>Ἐλευθέρια</w></p>
                 </div>
                 <div type="textpart" subtype="section" n="4">
-                    <p n="1"><pb n="ξη" facs="3-ξη.pdf"/><w>Ἀπὸ</w>
+                    <p n="1"><pb n="ξη" facs="178"/><w>Ἀπὸ</w>
                         <w>δὲ</w>
                         <w>τῆς</w>
                         <w>Περσικῆς</w>
@@ -1503,7 +1503,7 @@
                         <w>ναῦς</w>
                         <w>τε</w>
                         <w>γὰρ</w>
-                        <w>κατεσκεύαζον</w><pb n="85" facs="4-85.pdf"/>
+                        <w>κατεσκεύαζον</w><pb n="85" facs="179"/>
                         <supplied reason="omitted">καὶ κοινὸν τῶν Ἑλληνικῶν
                             χ</supplied><w>ρημάτων</w>
                         <w>θησαυροφυλάκιον</w>
@@ -1699,12 +1699,12 @@
                         <milestone unit="section" type="filostratus" n="2"/>
                         <!--not sure. how to say here there is another text before the page breaks? 
                         Perhaps divs are better here? but I will not give this text so I only want to say its here-->
-                        <pb n="ξθ" facs="5-ξθ.pdf"/>
+                        <pb n="ξθ" facs="180"/>
                         <milestone unit="section" type="filostratus" n="3"/>
-                        <pb n="86" facs="6-86.pdf"/>
+                        <pb n="86" facs="181"/>
                         <milestone unit="section" type="filostratus" n="4"/>
                         <space unit="lines" quantity="6" cert="medium"/>
-                        <pb n="ο" facs="7-ο.pdf"/>
+                        <pb n="ο" facs="182"/>
                         <label>τοῦτο ἐστιν τὸ ζη</label>
                         <w>ἱκέτευεν·</w>
                         <w>οἱ</w>
@@ -2142,7 +2142,7 @@
                         <w>σωτηρίας</w>
                         <w>αὐτῷ</w>
                         <w>γεγενῆσθαι</w>
-                        <w>αἴτιος,</w><pb n="87" facs="8-87.pdf"/>
+                        <w>αἴτιος,</w><pb n="87" facs="183"/>
                         <unclear>ὑπο</unclear><w>δείξας</w>
                         <w>λύ</w><supplied reason="omitted">σο</supplied><w>ντας</w>
                         <w>τοὺς</w>
@@ -2607,7 +2607,7 @@
                         <w>κατὰ</w>
                         <w>Κορώνειαν,</w>
                         <w>ἐπιθέμενοι</w>
-                        <pb n="οα" facs="9-οα.pdf"/>
+                        <pb n="οα" facs="184"/>
                         <w>αὐτοῖς</w>
                         <w>ἄφνω</w>
                         <w>Βοιωτοὶ</w>
