@@ -110,9 +110,9 @@
                 <div type="textpart" subtype="section" n="1">
                     <pb n="ξζ" facs="176"/>
                     <label>* <w>καὶ</w>
-                        <w>τὸ</w>
-                        <w>σημειόν</w>
-                        <w>τοῦτο</w>
+                        <w lemma="ὁ">τὸ</w>
+                        <w lemma="σημειόνσημειόν">σημειόν</w>
+                        <w lemma="">τοῦτο</w>
                         <w>ἐστιν</w>
                         <w>καὶ</w>
                         <w>τὸ</w>
