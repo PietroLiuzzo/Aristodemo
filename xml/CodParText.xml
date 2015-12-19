@@ -118,35 +118,14 @@
                         <w>τὸ</w>
                         <w>ζητούμενον</w>
                         <w>τοῦ</w>
-                        <name nymRef="Ἀριστοδήμος" ref="http://clas-lgpn2.classics.ox.ac.uk/name/%E1%BC%88%CF%81%CE%B9%CF%83%CF%84%CF%8C%CE%B4%CE%B7%CE%BC%CE%BF%CF%82http://clas-lgpn2.classics.ox.ac.uk/name/%E1%BC%88%CF%81%CE%B9%CF%83%CF%84%CF%8C%CE%B4%CE%B7%CE%BC%CE%BF%CF%82">Ἀριστοδήμου</name></label>
+                        <name nymRef="http://clas-lgpn2.classics.ox.ac.uk/name/Ἀριστοδήμος">Ἀριστοδήμου</name></label>
                     <!--is this ok for the marks left by the scribe? it is in facts a pointer-->
-                    <p n="1">
-                        <gap unit="lines" extent="unknown" reason="lost"/>
-                        <w>αἰτησάμενος</w>
-                        <w>γὰρ</w>
-                        <w>μίαν</w>
-                        <w>ἡμέραν</w>
-                        <w>μόνην</w>
-                        <w>ἔπεμψε</w>
-                        <w>κρύφα</w>
-                        <name nymRef="Σίκινος">Σίκινον</name>
-                        <w>τὸν</w>
-                        <w>ἑαυτοῦ</w>
-                        <w>παιδαγωγὸν</w>
-                        <w>πρὸς</w>
-                        <name nymRef="Ξέρξης">Ξέρξην</name>,
-                        <w>ἐγκελευσάμενος</w>
-                        <w>αὐτῷ</w>
-                        <w>ἐπιτίθεσθαι</w>
-                        <w>τοῖς</w>
-                        <placeName nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησιν</placeName>
-                        <w>καὶ</w>
-                        <w>ναυμαχεῖν,</w>
-                        <w>δηλῶν</w>
-                        <w>τὸν</w>
-                        <w>μέλλοντα</w>
-                        <w>δρασμὸν</w>
-                        <w>ἀπὸ</w>
+                    <p n="1"><gap unit="lines" extent="unknown" reason="lost"/> <w>αἰτησάμενος</w> <w>γὰρ</w> <w>μίαν</w> <w>ἡμέραν</w> 
+                        <w>μόνην</w> <w>ἔπεμψε</w> <w>κρύφα</w> <name nymRef="Σίκινος">Σίκινον</name> <w>τὸν</w> <w>ἑαυτοῦ</w> 
+                        <w>παιδαγωγὸν</w> <w>πρὸς</w> <name nymRef="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης">Ξέρξην</name>, 
+                        <w>ἐγκελευσάμενος</w> <w>αὐτῷ</w> <w>ἐπιτίθεσθαι</w> <w>τοῖς</w> <placeName nymRef="Ἑλλάς" 
+                            type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησιν</placeName> <w>καὶ</w> <w>ναυμαχεῖν,</w> 
+                        <w>δηλῶν</w> <w>τὸν</w> <w>μέλλοντα</w> <w>δρασμὸν</w> <w>ἀπὸ</w> 
                         <placeName ref="http://pleiades.stoa.org/places/580101">Σαλαμῖνος.</placeName>
                         <w>Ὁ</w>
                         <w>δὲ</w>

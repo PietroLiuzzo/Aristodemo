@@ -87,10 +87,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>/Users/pietro/Documents/bootstrap-3.3.6-dist/bootstrap-3.3.6/docs/examples/carousel/aris.html</File>
+                                    <File>${pd}/html/aris.html</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>/Users/pietro/Documents/bootstrap-3.3.6-dist/bootstrap-3.3.6/docs/examples/carousel/aris.html</String>
+                                    <String>${pd}/html/aris.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -438,6 +438,7 @@
         </options>
     </meta>
     <projectTree name="aristodemo.xpr">
+        <folder path="html/"/>
         <folder path="xml/"/>
         <folder path="xsl/"/>
         <folder path="../bootstrap-3.3.6-dist/"/>
