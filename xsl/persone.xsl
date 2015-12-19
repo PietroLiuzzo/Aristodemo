@@ -79,7 +79,7 @@ meant to be run in a folder with other data locally referred
                                          <a href="index.html#indexes">Indici</a>
                                      </li>
                                      <li>
-                                         <a href="biblio.html">Bibliografia</a>
+                                         <a href="https://www.zotero.org/pietroliuzzo/items/collectionKey/APXN4VU6">Bibliografia</a>
                                      </li>
                                      <li>
                                          <a href="https://github.com/PietroLiuzzo/Aristodemo">GIT repo</a>
