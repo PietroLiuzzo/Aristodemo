@@ -29,7 +29,7 @@ meant to be run in a folder with other data locally referred
             <title>FGrHist 104 [Aristodemus]</title>
 
             <!-- Bootstrap core CSS -->
-            <link href="../../dist/css/bootstrap.min.css" rel="stylesheet"/>
+            <link href="dist/css/bootstrap.min.css" rel="stylesheet"/>
 
             <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
             <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
@@ -66,7 +66,7 @@ meant to be run in a folder with other data locally referred
                                      <span class="icon-bar"/>
                                      <span class="icon-bar"/>
                                  </button>
-                                 <a class="navbar-brand" href="aris.html">Edizione Digitale di FGrHist 104
+                                 <a class="navbar-brand" href="index.html">Edizione Digitale di FGrHist 104
                                      [Aristodemo]</a>
                              </div>
                              <div id="navbar" class="navbar-collapse collapse">
@@ -76,7 +76,7 @@ meant to be run in a folder with other data locally referred
                                      </li>
                                      <!--pagina da creare con template simile-->
                                      <li>
-                                         <a href="aris.html#indexes">Indici</a>
+                                         <a href="index.html#indexes">Indici</a>
                                      </li>
                                      <li>
                                          <a href="biblio.html">Bibliografia</a>
@@ -94,114 +94,13 @@ meant to be run in a folder with other data locally referred
                  </div>
              </div>
 
-            <!-- Carousel
-    ================================================== -->
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-               <!-- Indicators -->
-               <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"/>
-                  <li data-target="#myCarousel" data-slide-to="1"/>
-                  <li data-target="#myCarousel" data-slide-to="2"/>
-               </ol>
-               <div class="carousel-inner" role="listbox">
-                  <div class="item active">
-                     <img class="first-slide" src="images/firstslide.jpg"
-                        alt="First lines of the so called Aristodemus"/>
-                     <div class="container">
-                        <div class="carousel-caption">
-                           <h1>One Manuscript</h1>
-                           <p>
-                              <a class="btn btn-lg btn-primary" href="#" role="button">See the
-                                 facsimle</a>
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="item">
-                     <img class="second-slide"
-                        src="images/secondslide.pdf"
-                        alt="Section of P.Oxy 27.2469"/>
-                     <div class="container">
-                        <div class="carousel-caption">
-                           <h1>One Papyrus (for now)</h1>
-                           <p>
-                              <a class="btn btn-lg btn-primary" href="#" role="button">See the
-                                 edition</a>
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="item">
-                     <img class="third-slide" src="images/firstslide.pdf"
-                        alt="Third slide"/>
-                     <!--needs to be changed-->
-                     <div class="container">
-                        <div class="carousel-caption">
-                           <h1>No Ancient Greek otherwise Unknown Author</h1>
-                           <p>
-                              <a class="btn btn-lg btn-primary" href="#" role="button">See the
-                                 arguments in the Introduction</a>
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"/>
-                  <span class="sr-only">Previous</span>
-               </a>
-               <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"/>
-                  <span class="sr-only">Next</span>
-               </a>
-            </div>
-            <!-- /.carousel -->
-
+        
 
             <!-- Marketing messaging and featurettes
     ================================================== -->
             <!-- Wrap the rest of the page in another container to center all the content. -->
 
             <div class="container marketing">
-
-               <!-- Three columns of text below the carousel -->
-               <div class="row" id="indexes">
-
-                  <div class="col-lg-4">
-                     <img class="img-circle"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                        alt="Generic placeholder image" width="140" height="140"/>
-                     <h2>Places in the text</h2>
-                     <p>A list and a map of the places mentioned in the text</p>
-                     <p>
-                        <a class="btn btn-default" href="#" role="button">View details </a>
-                     </p>
-                  </div>
-                  <!-- /.col-lg-4 -->
-                  <div class="col-lg-4">
-                     <img class="img-circle"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                        alt="Generic placeholder image" width="140" height="140"/>
-                     <h2>People in the text</h2>
-                     <p>Who is mentioned in the text</p>
-                     <p>
-                        <a class="btn btn-default" href="#" role="button">View details </a>
-                     </p>
-                  </div>
-                  <!-- /.col-lg-4 -->
-                  <div class="col-lg-4">
-                     <img class="img-circle"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                        alt="Generic placeholder image" width="140" height="140"/>
-                     <h2>Timeline of the events</h2>
-                     <p>What happens</p>
-                     <p>
-                        <a class="btn btn-default" href="#" role="button">View details </a>
-                     </p>
-                  </div>
-                  <!-- /.col-lg-4 -->
-               </div>
-               <!-- /.row -->
 
 
                <!-- START THE FEATURETTES -->
@@ -227,7 +126,7 @@ meant to be run in a folder with other data locally referred
                                      <xsl:value-of select="@type"/>
                                      <xsl:text>) </xsl:text> </xsl:if>
                                      <xsl:variable name="sectionparagraphid" select="ancestor::t:div[@type='textpart']/@n"/>
-                                     <a href="aris.html#{concat('edition', $sectionparagraphid)}"></a>
+                                     <a href="index.html#{concat('edition', $sectionparagraphid)}"></a>
                                  </li>
                             
                          </xsl:for-each> 
@@ -254,7 +153,7 @@ meant to be run in a folder with other data locally referred
                                 <xsl:for-each-group select="current-group()" group-by="text()">
                                     <div data-role="collapsible"><h4><xsl:apply-templates select="."/></h4>
                                         <ul data-role="listview"><xsl:for-each select="current-group()"><li><a target="_blank"
-                                            href="{concat('aris.html#edition',ancestor::t:div[@type='textpart']/@n)}">
+                                            href="{concat('index.html#edition',ancestor::t:div[@type='textpart']/@n)}">
                                             
                                             <xsl:value-of
                                                 select="text()"/> 
@@ -268,7 +167,45 @@ meant to be run in a folder with other data locally referred
                     </div>
                     
                     
-                    <a href="#backtotop"><button>back to top</button></a>
+                    
+                    <!-- Three columns of text below the carousel -->
+                    <div class="row" id="indexes">
+                        
+                        <div class="col-lg-4">
+                            <img class="img-circle"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                alt="Generic placeholder image" width="140" height="140"/>
+                            <h2>Places in the text</h2>
+                            <p>A list and a map of the places mentioned in the text</p>
+                            <p>
+                                <a class="btn btn-default" href="#" role="button">View details </a>
+                            </p>
+                        </div>
+                        <!-- /.col-lg-4 -->
+                        <div class="col-lg-4">
+                            <img class="img-circle"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                alt="Generic placeholder image" width="140" height="140"/>
+                            <h2>People in the text</h2>
+                            <p>Who is mentioned in the text</p>
+                            <p>
+                                <a class="btn btn-default" href="#" role="button">View details </a>
+                            </p>
+                        </div>
+                        <!-- /.col-lg-4 -->
+                        <div class="col-lg-4">
+                            <img class="img-circle"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                                alt="Generic placeholder image" width="140" height="140"/>
+                            <h2>Timeline of the events</h2>
+                            <p>What happens</p>
+                            <p>
+                                <a class="btn btn-default" href="#" role="button">View details </a>
+                            </p>
+                        </div>
+                        <!-- /.col-lg-4 -->
+                    </div>
+                    <!-- /.row -->
                     
                     
                 </div>

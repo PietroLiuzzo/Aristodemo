@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.1//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-2.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>AWLD Test Page</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<script src="lib/requirejs/require.min.js" type="text/javascript"></script>
+        <script src="awld.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            awld.init();
+        </script>
+        <style type="text/css">
+            /* leave a wide margin to give popups room at r. and l. */
+            body { margin: 3em; }
+        </style>
+<style type="text/css">
+body {
+	margin:auto;
+	width:70%;
+	}
+</style>
+</head>
+
+<body>
+  <h1 style="text-align:center">Ancient World Linked Data<br/>Javascript Library (awld.js) Test Page</h1>
+  <h2 style="text-align:center"><a href="http://isawnyu.github.com/awld-js">About</a></h2>
+
+ <div style="margin-top:2em;" class="awld-scope">
+ 
+ <h2>Pause while things load... Is it working?</h2>
+ <p>Move your mouse over the links in this table. If you see "popups" with further info, things are working well. You may have to wait a few seconds for the popups to load.</p>
+
+   <table style="font-family:sans-serif; font-size:smaller" cellpadding="5" id="roman_emperors">
+  <tr style="background-color:gray">
+   <td>Roman Emperor</td>
+   <td>Born</td>
+   <td>Died</td>
+  </tr>
+  
+  <tr>
+   <td><a class="awld-type-person" href="http://en.wikipedia.org/wiki/Augustus">Augustus</a> [<a href="http://numismatics.org/collection/1937.158.409">denarius</a>]</td>
+   <td><a href="http://en.wikipedia.org/wiki/63_BC">63 BCE</a> <a href="http://pleiades.stoa.org/places/423025">Rome</a></td>
+   <td><a href="http://en.wikipedia.org/wiki/14">14 CE</a> <a href="http://pleiades.stoa.org/places/423025">Rome</a></td>
+  </tr>
+  
+  <tr>
+   <td><a class="awld-type-person" href="http://en.wikipedia.org/wiki/Nero">Nero</a> [<a href="http://numismatics.org/collection/1957.172.1533">aureus</a>]</td>
+   <td><a href="http://pleiades.stoa.org/places/422837">Antium</a></td>
+   <td><a href="http://pleiades.stoa.org/places/423025">Rome</a></td>
+  </tr>
+
+   <tr>
+   <td><a class="awld-type-person" href="http://en.wikipedia.org/wiki/Trajan">Trajan</a> [<a href="http://numismatics.org/collection/1954.203.241">sestertius</a>]</td>
+   <td><a href="http://pleiades.stoa.org/places/256231">Italica, Hispania</a></td>
+   <td><a href="http://pleiades.stoa.org/places/648772">Selinus, Cilicia</a></td>
+  </tr>
+  
+   <tr>
+   <td><a class="awld-type-person" href="http://en.wikipedia.org/wiki/Hadrian">Hadrian</a> [<a href="http://numismatics.org/collection/1955.21.14">cistophorus</a>]</td>
+   <td><a href="http://pleiades.stoa.org/places/256231">Italica, Hispania</a></td>
+   <td><a href="http://pleiades.stoa.org/places/432716">Baiae</a></td>
+  </tr>
+  
+   <tr>
+   <td><a class="awld-type-person" href="http://en.wikipedia.org/wiki/Aurelian">Aurelian</a> [<a href="http://ecatalogue.art.yale.edu/detail.htm?objectId=126464">antoninianus</a>]</td>
+   <td><a href="http://pleiades.stoa.org/places/207439">Serdica</a></td>
+   <td><a href="http://pleiades.stoa.org/places/511199">Caenophrurium</a></td>
+  </tr>
+
+  <tr>
+   <td><a class="awld-type-person" href="http://en.wikipedia.org/wiki/Constantine_XI_Palaiologos">Constantine XI</a> [<a href="http://numismatics.org/collection/1992.19.2">hyperpyron</a>]</td>
+   <td><a href="http://pleiades.stoa.org/places/520998">Constantinople</a></td>
+   <td><a href="http://pleiades.stoa.org/places/520998">Constantinople</a></td>
+  </tr>
+  </table>
+
+<div style="margin-top:2em">Auto-generated widget collects links to "ancient world" websites and organizes them by type and source:<br/><br/>
+  <div class="awld-index"></div>
+  <p>If the widget doesn't appear after a few seconds, and the links in the table above aren't doing anything special, then the library didn't load properly. We're working to support more browsers but many combinations of Chrome, FireFox and Safari with OS X, Windows and Linux work already. Internet Explorer trails these other browsers in support for the relevant web-standards and may behave erratically.</p>
+ </div>
+ 
+
+<h2>About</h2>
+
+<p>The general idea is that awld.js enables user interactions when you hover over links. Moving your mouse over "Troy" in the next section should show you a map on the basis of data pulled from the Pleiades, a geographic gazetteer for the ancient world. "Achilles" will show the opening paragraph of the Wikipedia page.  See <a target="_new" href="http://github.com/isawnyu/awld-js">http://github.com/isawnyu/awld-js</a> for the main code repository. And yes, this project is  in the proof-of-concept, pre-alpha, use-at-your-own-risk stage.</p>
+
+  <h2>Text with all links working</h2>
+ <p><i>Note: the following paragraphs are in a div marked 'class="awld-scope"'. When such an element is present, the library will restrict its work to that part of a document. At the bottom of this page is a link to Wikipedia that is outside the marked div so that it is ignored by awld.js.</i></p>
+ 
+  <p id="pleiades"><a href="http://pleiades.stoa.org/places/550595">Troy</a> is the setting of Homer's Iliad, a story that may well reflect "geopolitical" circumstances in the Late Bronze Age. <a class="awld-type-person" href="http://en.wikipedia.org/wiki/Achilles">Achilles</a> is a major character.  The links in the snippets that appear for Wikipedia references aren't working yet because they're relative web addresses. I'm sure we'll fix that soon enough.</p>
+
+  <p>For less ancient places, Pleiades may not have content. For this use case, AWLD-js also supports GeoNames URLs (e.g., <a href="http://www.geonames.org/2988507/paris.html">Paris</a>).</p>
+
+  <p id="homer">First, the <a href="http://data.perseus.org/citations/urn:cts:greekLang:tlg0012.tlg001.perseus-eng1">beginning</a> of the Iliad in English. Now in <a href="http://data.perseus.org/citations/urn:cts:greekLang:tlg0012.tlg001.perseus-grc1">Greek</a> (but it needs line breaks). Here's the Odyssey in <a href="http://data.perseus.org/citations/urn:cts:greekLang:tlg0012.tlg002.perseus-eng1">English</a>.</p>
+  
+  <p id="pelagios">The version of awld.js running on this page will format links to the <a href="http://pelagios-project.blogspot.com">Pelagios project</a>. As in, <a href="http://pleiades.stoa.org/places/433032">Pompeii</a>.</p>
+
+ <p id="ukpas">The UK's Portable Antiquities Scheme has registered many thousands of objects, many of them coins: some high-value (<a href="http://finds.org.uk/database/artefacts/record/id/495315">Aureus</a>),  some less so (<a href="http://finds.org.uk/database/artefacts/record/id/412455">Radiate</a>).</p>
+
+  <p id="loc">Classical historiography is a well-established discipline.<sup><a href="http://lccn.loc.gov/a55003923">loc link</a></sup> The Library of Congress works well with awld.js. The title displayed in the widget is pulled from the LOC website.</p>
+  
+  <p id="worldcat">Petra excavation report citation.<sup><a title="M. Sharp Joukowsky, Petra Great Temple (1998)" href="http://www.worldcat.org/oclc/84948065">worldcat link</a></sup> Worldcat goes to great lengths to block mashups so awld.js uses the contents of the html title attribute for display in the widget.</p>
+
+  <p id="nomisma">The mint at <a href="http://nomisma.org/id/athens">Athens</a> was a prolific producer of silver coins that appear in many Archaic through Hellenistic hoards. Click through to the Nomisma page to see a map of hoards with coins of Athens in them. Nomisma also hosts a representation of <a href="http://lccn.loc.gov/77164450">Crawford</a>'s typology of Roman Republican coins: e.g. <a href="http://nomisma.org/id/rrc-525.4a">RRC 525/4a</a>.</p>
+
+  <p id="roman_pottery">The ongoing export of <a class="awld-type-description" href="http://en.wikipedia.org/wiki/African_red_slip">African red-slip</a> (ARS) is an indicator of Late Roman economic vitality. <a class="awld-type-object" href="http://opencontext.org/subjects/73221A18-7A7C-44C4-36CD-0CECF8F7A725">This sherd published by OpenContext.org</a> shows that ARS was carried to Petra in Jordan.  In the Eastern Mediterranean, <a class="awld-type-concept" href="http://wikipedia.org/wiki/Eastern_sigillata_C">Eastern Sigillata C</a>, produced at ancient <a href="http://pleiades.stoa.org/places/550833">Pitane (modern Candarli)</a> from the early Imperial period into the 4th Century AD, was succeeded by <a href="http://wikipedia.org/wiki/Phocaean_red_slip">Phocaean Red Slip</a>, produced at <a href="http://pleiades.stoa.org/places/550823">Phocaea</a> until the 7th century.</p>
+
+  <p id="transport">In the high imperial period <a href="http://arachne.uni-koeln.de/item/objekt/1460">small ships</a> carried goods along navigable rivers.</p>
+
+  <p>There are many Alexanders in the ancient world, both <a class="awld-type-person" href="http://en.wikipedia.org/wiki/Alexander_the_Great">great</a> and <a href="http://data.perseus.org/people/smith:alexander-3">not so great</a>.</p>
+
+ <p id="trismegistos">A <a href="http://www.trismegistos.org/text/13">text</a> in Trismegistos.  Another from <a href="http://www.papyri.info/hgv/1357">Papyri.info</a>. These should display more information about the cited text.</p>
+
+  <h2>Other links with comments</h2>
+
+ <p>EOL: <a href="http://eol.org/pages/328699">Cow</a>.</p>
+ <p>Yale Art Gallery: <a href="http://ecatalogue.art.yale.edu/detail.htm?objectId=139601">Posthumous Alexander</a>.</p>
+
+  <p>French language wikipedia link: <a class="awld-type-person noise" href="http://fr.wikipedia.org/wiki/Alexandre_le_Grand">Alexander the Great</a>. This is a fun foible as the popover shows the blurb for the French romance!</p>
+ <p><a href="http://data.perseus.org/people/smith:maecenas-c-cilnius-1">Maecenas</a>.</p>
+  
+  <h2>Installing</h2>
+   <p>View the source of this page to see what you should add to your 'head' element and then add <code>'&lt;div class="awld-index"&gt;&lt;/div&gt;'</code> to the 'body' element. Wherever you put that <code>div</code>, that's where the widget will appear. No <code>div</code>, no widget if that suits your use-case.</p>
+  
+  </div>
+  <hr/>
+  <p>awld.js is a project of the <a href="http://isaw.nyu.edu">Institute for the Study of the Ancient World</a> overseen by Sebastian Heath &lt;sebastian.heath - nyu.edu&gt;. Nick Rabinowitz (<a href="http://nickrabinowitz.com">website</a>) wrote the initial implementation of the library.</p>
+  <p>p.s. This text is outside of the div marked 'class="awld-scope"' so that <a href="http://en.wikipedia.org/wiki/Augustus">this link</a> isn't affected. Also, in an ideal world, this page will be <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fsfsheath.github.com%2Fawld-js-sfsheath%2Fawld-test.html&amp;charset=utf-8&amp;doctype=Inline&amp;group=0&amp;user-agent=W3C_Validator%2F1.3">valid xhtml</a>. But since it gets edited a lot you mind find it in a non-valid state.</p>
+  
+</body>
+</html>

@@ -14,7 +14,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>CodParText</String>
+                                        <String>luoghi</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -195,10 +195,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>/Users/pietro/Documents/bootstrap-3.3.6-dist/bootstrap-3.3.6/docs/examples/carousel/luoghi.html</File>
+                                    <File>${pd}/luoghi.html</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>/Users/pietro/Documents/bootstrap-3.3.6-dist/bootstrap-3.3.6/docs/examples/carousel/luoghi.html</String>
+                                    <String>${pd}/luoghi.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
