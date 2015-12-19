@@ -443,6 +443,7 @@
         <folder path="../example-p5-xsltpietro/"/>
         <file name="carousel.css"/>
         <file name="contact.html"/>
+        <file name="eventi.html"/>
         <file name="index.html"/>
         <file name="luoghi.html"/>
         <file name="persone.html"/>
