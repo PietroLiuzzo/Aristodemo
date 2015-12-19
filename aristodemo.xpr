@@ -10,6 +10,21 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>xml/poxy2469.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>poxy2469</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>xml/CodParText.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -23,21 +38,6 @@
                                     <list>
                                         <String>XSL</String>
                                         <String>XSL</String>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>xml/poxy2469.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>poxy2469</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
                                         <String>XSL</String>
                                     </list>
                                 </field>
@@ -371,10 +371,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>/Users/pietro/Documents/bootstrap-3.3.6-dist/bootstrap-3.3.6/docs/examples/carousel/poxy2469.html</File>
+                                    <File>${pd}/textpap.html</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>/Users/pietro/Documents/bootstrap-3.3.6-dist/bootstrap-3.3.6/docs/examples/carousel/poxy2469.html</String>
+                                    <String>${pd}/textpap.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -402,6 +402,27 @@
                                 </field>
                                 <field name="xsltParams">
                                     <list>
+                                        <transformationParameter>
+                                            <field name="paramDescription">
+                                                <paramDescriptor>
+                                                    <field name="localName">
+                                                        <String>bibliography</String>
+                                                    </field>
+                                                    <field name="prefix">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="namespace">
+                                                        <null/>
+                                                    </field>
+                                                </paramDescriptor>
+                                            </field>
+                                            <field name="value">
+                                                <String>zotero</String>
+                                            </field>
+                                            <field name="hasXPathValue">
+                                                <Boolean>false</Boolean>
+                                            </field>
+                                        </transformationParameter>
                                         <transformationParameter>
                                             <field name="paramDescription">
                                                 <paramDescriptor>

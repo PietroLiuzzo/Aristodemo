@@ -4,51 +4,48 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Cod. Par. Suppl. Gr. 607</title>
+                <title>P.Oxy 27.2469</title>
             </titleStmt>
             <publicationStmt>
                 <authority>Università di Bologna</authority>
-                <idno type="filename">text</idno>
+                <idno type="filename">textpap</idno>
                 <!--id corrispondente in driver-->
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <msName type="invNo">Cod. Par. Suppl. Gr. 607</msName>
+                        <msName type="invNo">P.Oxy 27.2469</msName>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support><p>
-                                    Rinvenuto ad Oxyrynchos (Bahnasa), il papiro,\footnote{Altezza: 19,2 cm. Larghezza:
-                                    3,5-4,5 cm. Margine destro: 1,6 cm.}
+                                    Rinvenuto ad Oxyrynchos (Bahnasa), il papiro, )Altezza: 19,2 cm. Larghezza:
+                                    3,5-4,5 cm. Margine destro: 1,6 cm.)
                                     composto di quattro frammenti combacianti, è datato al II secolo d.C. sulla base della
-                                    stretta somiglianza\footnote{''Ben oltre le pur accentuate
-                                    concordanze stilistiche'', secondo \cite[32]{Cavallo1975}.} con P. Fay. 87\index[pap]{P. Fay. 87}, del 155 d.C. (l.1-2:
-                                    \textgreek{ἔτους ιη' Αὐτοκράτορος  Καίσαρος  Τίτου  Αἰλί[ο]υ | Ἁδριανοῦ Ἀντωνείνου Σεβαστοῦ Εὐσεβοῦς}). Cavallo, nel suo prospetto cronologico
-                                    (\cite*[50]{Cavallo1975}) indica P.Oxy. 2469\index[pap]{P.Oxy.!00272469 @27.2469} prima di P. Fay. 87:
+                                    stretta somiglianza. ''Ben oltre le pur accentuate
+                                    concordanze stilistiche'', secondo Cavallo1975. con P. Fay. 87P. Fay. 87, del 155 d.C. (l.1-2:
+                                    ἔτους ιη' Αὐτοκράτορος  Καίσαρος  Τίτου  Αἰλί[ο]υ | Ἁδριανοῦ Ἀντωνείνου Σεβαστοῦ Εὐσεβοῦς). Cavallo, nel suo prospetto cronologico
+                                    Cavallo1975 indica P.Oxy. 2469 prima di P. Fay. 87:
                                     quest'ultimo sarà dunque da
-                                    ritenere come \textit{terminus ante
-                                    quem}.\footnote{Ed.:
-                                    Rea, P.Oxy. 27.2469 1962, 141-145; \cite[15-16]{Mette1978}; MP\textsuperscript{3} 137;
-                                    \cite[658-677]{Zuntz1938}, \cite[32s]{Cavallo1975}. LDAB n°4733.}
-                                    
+                                    ritenere come <emph>terminus ante
+                                    quem</emph>. 
                                     
                                 </p><p> Il papiro riporta dunque una versione del testo molto più ristretta del codice, mancando di
-                                    interi sintagmi e frasi, come \textgreek{τὸν Φιλίππου πρόγονον} al primo
-                                    rigo, \textgreek{τὴν ἐλευθερίαν αὐτοῖς καὶ τὴν αὐτονομίαν} al quinto
-                                    \textgreek{μετέστησαν δὲ αὐτούς οἱ Λακεδαιμόνιοι}, in
-                                    quest'ultimo caso anche a detrimento del senso.
+                                    interi sintagmi e frasi, come τὸν Φιλίππου πρόγονον} al primo
+                                    rigo, τὴν ἐλευθερίαν αὐτοῖς καὶ τὴν αὐτονομίαν} al quinto
+                                    μετέστησαν δὲ αὐτούς οἱ Λακεδαιμόνιοι, in
+                                    quest'ultimo caso anche a detrimento del senso.</p>
                                     
                                     
-                                    Vi sono poi due luoghi del papiro che forniscono una versione leggermente più
-                                    dilatata, quando al rigo 22 si parla dei {\textquotedbl}Greci
-                                    medizzanti{\textquotedbl} assieme ai Beoti, e con
-                                    l'\textgreek{ἤδη} del trentaduesimo rigo.
+                                    <p>Vi sono poi due luoghi del papiro che forniscono una versione leggermente più
+                                    dilatata, quando al rigo 22 si parla dei "Greci
+                                    medizzanti" assieme ai Beoti, e con
+                                    l'ἤδη del trentaduesimo rigo.</p>
                                     
                                     
-                                    Al quinto rigo l'integrazione con \textgreek{αὐτονομίαν} o
-                                    \textgreek{ἐλευθερίαν} resta arbitraria, ma non c'è posto comunque
+                                    <p>Al quinto rigo l'integrazione con αὐτονομίαν o
+                                    ἐλευθερίαν resta arbitraria, ma non c'è posto comunque
                                     per il verbo.  </p>
                                     
                                     
@@ -70,8 +67,7 @@
                                         codice un'austerità maggiore. Ecco come la descriveva:
                                         
                                         
-                                        \begin{quotation}
-                                        \small{La scrittura, rigorosamente verticale, mostra nel complesso
+                                       <quote> La scrittura, rigorosamente verticale, mostra nel complesso
                                         spiccata tendenza al disegno fluido e ricurvo e alle occhiellature corpose,
                                         sostituite, in certe manifestazioni, da grossi ispessimenti; gli effetti
                                         chiaroscurali sono dovuti, quindi, non tanto ad un particolare angolo di
@@ -82,26 +78,26 @@
                                         (di regola arcuati) ad allungarsi, sì da dar vita ad un vero e proprio
                                         sistema di pseudolegature che creano l'illusione di teorie
                                         di lettere allacciate l'una
-                                        all'altra. (\cite[30]{Cavallo1975})}
-                                        \end{quotation}
+                                        all'altra. (Cavallo1975)
+                                       </quote>
                                     </p>
                                     <p>
                                         Si possono sicuramente osservare, anche nel nostro caso, il tratto orizzontale
-                                        lungo fino ad estendere il modulo al rettangolo, gli ''\textit{heavy bloblike
-                                        serifs}'' (Rea 1962, 141) con cui le lettere sono rifinite e la tendenza a
+                                        lungo fino ad estendere il modulo al rettangolo, gli ''heavy bloblike
+                                        serifs'' (Rea 1962, 141) con cui le lettere sono rifinite e la tendenza a
                                         prolungare i tratti obliqui discendenti sul rigo di base. 
                                         
                                         Per quel che riguarda l'aspetto del
-                                        supporto,\footnote{Ho preso visione del papiro alla British Library nel 2009.} un lungo e profondo solco percorre il papiro verticalmente e
+                                        supporto,  un lungo e profondo solco percorre il papiro verticalmente e
                                         parallelamente al suo margine destro, probabilmente segno di una piegatura.
                                         Il testo è sul
-                                        \emph{recto}, il
-                                        \emph{verso} è bianco. Le righe dalla 25 alla 30 sono ben conservate per la quasi
+                                        <emph>recto</emph>, il
+                                        <emph>verso</emph> è bianco. Le righe dalla 25 alla 30 sono ben conservate per la quasi
                                         totale interezza, quindi offrono un buon riferimento per la larghezza delle
                                         precedenti e permettono scelte congetturali molto
                                         calibrate. La
-                                        ricostruzione sulla base di FGrHist 104\index[n]{FGrHist 104} (2.2\indexp{FGrHist 104!00020002 @2.2} e
-                                        2.4\indexp{FGrHist 104!00020004 @2.4}) è legittima, come si può notare mettendo i
+                                        ricostruzione sulla base di FGrHist 104 (2.2 e
+                                        2.4) è legittima, come si può notare mettendo i
                                         testi a fronte l'uno dell'altro.
                                         Penso sia innegabile
                                         l'appartenenza dei testi alla medesima tradizione, sebbene
@@ -149,45 +145,54 @@
     <text>
         <body>
             <div type="bibliography">
-                 <bibl/>
+                 <bibl>
+                     Rea, P.Oxy. 27.2469 1962 <citedRange unit="page">141-145</citedRange></bibl> 
+                
+                <bibl><ptr target="#Mette1978"/><citedRange unit="page">15-16</citedRange></bibl>
+                <bibl>MP 137;</bibl>
+                <bibl><ptr target="#Zuntz1938"/> <citedRange unit="page">658-677</citedRange></bibl>
+                <bibl><ptr target="#Cavallo1975"/> <citedRange unit="page">32s</citedRange></bibl>
+                <bibl>LDAB n°4733.</bibl>
+                
+                
 
             </div>
         <div type="edition">
             <ab>
-                \textgreek{\lbrkὁ Μαρδόνιος ἔπε\rbrkμψ\lbrkεν}\footnote{\textgreek{ἔπε\rbrkμψ\lbrkεν} Rea; \textgreek{...\lbrkλαβὼν δὲ ὁ Μαρδόνιος πρῶτον ἔπε\rbrkμψ\lbrkεν} Mette} \\
-                \textgreek{\lbrkἈλέξανδρον τὸν\rbrk Μακεδ\lbrkό-\rbrk}\\
-                \textgreek{\lbrkνα εἰς Ἀθήνας ὑπισ\rbrkχνού\lbrkμε-\rbrk}\\
-                \textgreek{\lbrkνος δώσειν μ\rbrkύρια τάλα\lbrkν-\rbrk}\\
-                \textgreek{\lbrkτα καὶ ἐλευθερ\rbrkίαν αὐτ\lbrkοις κα\rbrk}\footnote{\textgreek{\lbrkτα καὶ αὐτονομ\rbrkίαν αὐτ\lbrkοῖ-\rbrk\|\lbrkς τηρήσειν, εἰ\rbrk} Rea; \textgreek{\lbrkκαὶ\rbrk \| \lbrkἐλευθερίαν καὶ αὐτονομ\rbrkίαν αὐτ\lbrkοῖς\rbrk \| \lbrkτηρήσειν, εἰ\rbrk} Mette.}\\
-                \textgreek{\lbrkὶ αὐτονομίαν, εἰ\rbrk μένοιεν}\footnote{Corretta da un \textgreek{η}.}\\
-                \textgreek{\lbrkἐφ’ ἑαυτῶν κα\rbrkὶ μὴ συμ-}\\
-                \textgreek{\lbrkμαχοῖεν τοῖς\rbrk Ἕλλησ\d{ι}\lbrkν\rbrk}\footnote{\textgreek{\lbrkμαχοῖεν τοῖς\rbrk Ἕλλησιν} Rea, \textgreek{\lbrkμαχ\rbrk\Ladd{οῖεν} \lbrkτοῖς\rbrk Ἕλλησιν} Mette.}\\
-                \textgreek{\lbrkοἱ δὲ Ἀθηναῖοι\rbrk ἐξέβαλον} \\
-                \textgreek{\lbrkτὸν ἄνδρα. διόπ\rbrkερ Μαρδό-}\footnote{\textgreek{διόπ\rbrkερ ὁ Μαρδό-} Rea, Mette}\\
-                \textgreek{\lbrkνιος εἰς Ἀθήνας ἐνέ\rbrkβαλεν}\\
-                \textgreek{\lbrkτὴν στρατιὰν κ\rbrkαὶ τὰ λε\lbrkι-\rbrk}\footnote{\textgreek{\lbrkτὴν στρατιὰν κ\rbrkαὶ τὰ λει-} Rea;  \textgreek{\lbrkτὴν στρατιὰν\rbrk \lbrkκ\rbrkαὶ τὰ \Ladd{περι}λει} Mette.}\\
-                \textgreek{\lbrkπόμενα μέρη ἐ\rbrkνέπρησεν.}\footnote{\textgreek{\lbrkπόμενα προσενέ\rbrkπρησεν} Rea, Mette.}\\
-                \textgreek{\lbrkἔπειτα δὲ περὶ Θ\rbrkήβας ἐστρα-}\\
-                \textgreek{\lbrkτοπεδεύσατο, οἱ δ\rbrkὲ Ἕλλη-}\\
-                \textgreek{\lbrkνες ἐστρατ\rbrkοπεδεύσαν}\\
-                \textgreek{\lbrkτο περὶ Πλαται\rbrkάς. μεταξὺ}\\ 
-                \textgreek{\lbrkδὲ τούτων ἔστιν\rbrk ἐν μέσω\Ladd{ι}}\footnote{Mette}\\
-                \textgreek{\lbrkστάδια .......\rbrkήκοντα.}\footnote{\textgreek{\lbrkστάδια ὀγδο\rbrkήκοντα} Rea, Mette.}\\ 
-                \textgreek{\lbrkσυνπαρετάσσον\rbrkτο δὲ Μαρ-}\\
-                \textgreek{\lbrkδονίῳ Βοιωτῶ\rbrkν καὶ τῶν}\\
-                \textgreek{\lbrkἙλλήνων τ\rbrkῶν μηδισάν-}\\
-                \textgreek{\lbrkτων μυρ\rbrkιάδες τέσσαρες}\footnote{Rea; \textgreek{\lbrkτων\rbrk \lbrkμυρ\rbrkιάδες τέσσαρες} Mette.}. \\
-                \textgreek{\lbrkεἶχον δὲ\rbrk τὸ μὲν δεξιὸν}\\
-                \textgreek{\lbrkκέρας Πέρσ\rbrk\d{α}\d{ι}, τὸ δὲ εὐώνυ-}\\
-                \textgreek{\lbrkμον οἱ μ\rbrkηδείσαντες}\footnote{Mette.} \textgreek{Ἕλ-}\\
-                \textgreek{\lbrkληνες. τῶ\rbrkν δὲ Ἑλλήνων}\\
-                \textgreek{\lbrkτὸ μὲν δε\rbrk\d{ξ}ιὸν κέρας Ἀθη-}\\
-                \textgreek{\lbrkναῖοι κα\rbrkτεῖχον, Λακε-}\\
-                \textgreek{\lbrkδαιμόνιο\rbrkι δὲ θάτερον, φή-}\footnote{Rea. \textgreek{\Ladd{μετέστησαν δὲ Ἀθηναίους οἱ Λακεδαιμόνιοι} φή-}}\\
-                \textgreek{\lbrkσαντες Ἀθ\rbrkηναίους ἐμπε\lbrkί-\rbrk}\\
-                \textgreek{\lbrkροτέρους\rbrk εἶν\Ladd{αι}}\footnote{Mette; \textgreek{ἐμπεί\lbrkρους ὑπάρχ\rbrkειν} Rea.} \textgreek{ἤδη πρὸς}\\
-                \textgreek{\lbrkτὸ μάχεσθα\rbrkι τοῖς Πέρσαις.}\\
-                \textgreek{ἐν δὲ τούτῳ\rbrk  Μαρδόνιος \lbrk\ ...\rbrk}\\
+                \lbrkὁ Μαρδόνιος ἔπε\rbrkμψ\lbrkεν}\footnote{ἔπε\rbrkμψ\lbrkεν} Rea; ...\lbrkλαβὼν δὲ ὁ Μαρδόνιος πρῶτον ἔπε\rbrkμψ\lbrkεν} Mette} \\
+                \lbrkἈλέξανδρον τὸν\rbrk Μακεδ\lbrkό-\rbrk}\\
+                \lbrkνα εἰς Ἀθήνας ὑπισ\rbrkχνού\lbrkμε-\rbrk}\\
+                \lbrkνος δώσειν μ\rbrkύρια τάλα\lbrkν-\rbrk}\\
+                \lbrkτα καὶ ἐλευθερ\rbrkίαν αὐτ\lbrkοις κα\rbrk}\footnote{\lbrkτα καὶ αὐτονομ\rbrkίαν αὐτ\lbrkοῖ-\rbrk\|\lbrkς τηρήσειν, εἰ\rbrk} Rea; \lbrkκαὶ\rbrk \| \lbrkἐλευθερίαν καὶ αὐτονομ\rbrkίαν αὐτ\lbrkοῖς\rbrk \| \lbrkτηρήσειν, εἰ\rbrk} Mette.}\\
+                \lbrkὶ αὐτονομίαν, εἰ\rbrk μένοιεν}\footnote{Corretta da un η}.}\\
+                \lbrkἐφ’ ἑαυτῶν κα\rbrkὶ μὴ συμ-}\\
+                \lbrkμαχοῖεν τοῖς\rbrk Ἕλλησ\d{ι}\lbrkν\rbrk}\footnote{\lbrkμαχοῖεν τοῖς\rbrk Ἕλλησιν} Rea, \lbrkμαχ\rbrk\Ladd{οῖεν} \lbrkτοῖς\rbrk Ἕλλησιν} Mette.}\\
+                \lbrkοἱ δὲ Ἀθηναῖοι\rbrk ἐξέβαλον} \\
+                \lbrkτὸν ἄνδρα. διόπ\rbrkερ Μαρδό-}\footnote{διόπ\rbrkερ ὁ Μαρδό-} Rea, Mette}\\
+                \lbrkνιος εἰς Ἀθήνας ἐνέ\rbrkβαλεν}\\
+                \lbrkτὴν στρατιὰν κ\rbrkαὶ τὰ λε\lbrkι-\rbrk}\footnote{\lbrkτὴν στρατιὰν κ\rbrkαὶ τὰ λει-} Rea;  \lbrkτὴν στρατιὰν\rbrk \lbrkκ\rbrkαὶ τὰ \Ladd{περι}λει} Mette.}\\
+                \lbrkπόμενα μέρη ἐ\rbrkνέπρησεν.}\footnote{\lbrkπόμενα προσενέ\rbrkπρησεν} Rea, Mette.}\\
+                \lbrkἔπειτα δὲ περὶ Θ\rbrkήβας ἐστρα-}\\
+                \lbrkτοπεδεύσατο, οἱ δ\rbrkὲ Ἕλλη-}\\
+                \lbrkνες ἐστρατ\rbrkοπεδεύσαν}\\
+                \lbrkτο περὶ Πλαται\rbrkάς. μεταξὺ}\\ 
+                \lbrkδὲ τούτων ἔστιν\rbrk ἐν μέσω\Ladd{ι}}\footnote{Mette}\\
+                \lbrkστάδια .......\rbrkήκοντα.}\footnote{\lbrkστάδια ὀγδο\rbrkήκοντα} Rea, Mette.}\\ 
+                \lbrkσυνπαρετάσσον\rbrkτο δὲ Μαρ-}\\
+                \lbrkδονίῳ Βοιωτῶ\rbrkν καὶ τῶν}\\
+                \lbrkἙλλήνων τ\rbrkῶν μηδισάν-}\\
+                \lbrkτων μυρ\rbrkιάδες τέσσαρες}\footnote{Rea; \lbrkτων\rbrk \lbrkμυρ\rbrkιάδες τέσσαρες} Mette.}. \\
+                \lbrkεἶχον δὲ\rbrk τὸ μὲν δεξιὸν}\\
+                \lbrkκέρας Πέρσ\rbrk\d{α}\d{ι}, τὸ δὲ εὐώνυ-}\\
+                \lbrkμον οἱ μ\rbrkηδείσαντες}\footnote{Mette.} Ἕλ-}\\
+                \lbrkληνες. τῶ\rbrkν δὲ Ἑλλήνων}\\
+                \lbrkτὸ μὲν δε\rbrk\d{ξ}ιὸν κέρας Ἀθη-}\\
+                \lbrkναῖοι κα\rbrkτεῖχον, Λακε-}\\
+                \lbrkδαιμόνιο\rbrkι δὲ θάτερον, φή-}\footnote{Rea. \Ladd{μετέστησαν δὲ Ἀθηναίους οἱ Λακεδαιμόνιοι} φή-}}\\
+                \lbrkσαντες Ἀθ\rbrkηναίους ἐμπε\lbrkί-\rbrk}\\
+                \lbrkροτέρους\rbrk εἶν\Ladd{αι}}\footnote{Mette; ἐμπεί\lbrkρους ὑπάρχ\rbrkειν} Rea.} ἤδη πρὸς}\\
+                \lbrkτὸ μάχεσθα\rbrkι τοῖς Πέρσαις.}\\
+                ἐν δὲ τούτῳ\rbrk  Μαρδόνιος \lbrk\ ...\rbrk}\\
                 }
             </ab>
         </div> 
