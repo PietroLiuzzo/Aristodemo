@@ -438,11 +438,14 @@
         </options>
     </meta>
     <projectTree name="aristodemo.xpr">
-        <folder path="html/"/>
         <folder path="xml/"/>
         <folder path="xsl/"/>
-        <folder path="../bootstrap-3.3.6-dist/"/>
         <folder path="../example-p5-xsltpietro/"/>
         <file name="carousel.css"/>
+        <file name="contact.html"/>
+        <file name="index.html"/>
+        <file name="luoghi.html"/>
+        <file name="persone.html"/>
+        <file name="poxy2469.html"/>
     </projectTree>
 </project>

@@ -29,13 +29,13 @@ meant to be run in a folder with other data locally referred
             <title>FGrHist 104 [Aristodemus]</title>
 
             <!-- Bootstrap core CSS -->
-            <link href="../../dist/css/bootstrap.min.css" rel="stylesheet"/>
+            <link href="dist/css/bootstrap.min.css" rel="stylesheet"/>
 
             <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-            <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+            <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
             <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
             <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-            <script src="../../assets/js/ie-emulation-modes-warning.js"/>
+            <script src="assets/js/ie-emulation-modes-warning.js"/>
              <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
              <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
             <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -66,7 +66,7 @@ meant to be run in a folder with other data locally referred
                                      <span class="icon-bar"/>
                                      <span class="icon-bar"/>
                                  </button>
-                                 <a class="navbar-brand" href="aris.html">Edizione Digitale di FGrHist 104
+                                 <a class="navbar-brand" href="index.html">Edizione Digitale di FGrHist 104
                                      [Aristodemo]</a>
                              </div>
                              <div id="navbar" class="navbar-collapse collapse">
@@ -76,7 +76,7 @@ meant to be run in a folder with other data locally referred
                                      </li>
                                      <!--pagina da creare con template simile-->
                                      <li>
-                                         <a href="aris.html#indexes">Indici</a>
+                                         <a href="index.html#indexes">Indici</a>
                                      </li>
                                      <li>
                                          <a href="biblio.html">Bibliografia</a>
@@ -105,7 +105,7 @@ meant to be run in a folder with other data locally referred
                </ol>
                <div class="carousel-inner" role="listbox">
                   <div class="item active">
-                     <img class="first-slide" src="../../../../../Aristodemo/images/firstslide.jpg"
+                     <img class="first-slide" src="images/firstslide.jpg"
                         alt="First lines of the so called Aristodemus"/>
                      <div class="container">
                         <div class="carousel-caption">
@@ -119,7 +119,7 @@ meant to be run in a folder with other data locally referred
                   </div>
                   <div class="item">
                      <img class="second-slide"
-                        src="../../../../../Aristodemo/images/secondslide.pdf"
+                        src="images/secondslide.pdf"
                         alt="Section of P.Oxy 27.2469"/>
                      <div class="container">
                         <div class="carousel-caption">
@@ -132,7 +132,7 @@ meant to be run in a folder with other data locally referred
                      </div>
                   </div>
                   <div class="item">
-                     <img class="third-slide" src="../../../../../Aristodemo/images/firstslide.pdf"
+                     <img class="third-slide" src="images/firstslide.pdf"
                         alt="Third slide"/>
                      <!--needs to be changed-->
                      <div class="container">
@@ -222,7 +222,7 @@ meant to be run in a folder with other data locally referred
                             	<xsl:for-each-group select="current-group()" group-by="text()">
                             		<div data-role="collapsible"><h4><xsl:apply-templates select="@nymRef"/></h4>
                             			<ul data-role="listview"><xsl:for-each select="current-group()"><li><a target="_blank"
-                            				href="{concat('aris.html#edition',ancestor::t:div[@type='textpart']/@n)}">
+                            				href="{concat('index.html#edition',ancestor::t:div[@type='textpart']/@n)}">
                             				
                             				<xsl:value-of
                             					select="text()"/> 
@@ -256,7 +256,7 @@ meant to be run in a folder with other data locally referred
             				<xsl:for-each-group select="current-group()" group-by="text()">
             					<div data-role="collapsible"><h4><xsl:apply-templates select="@nymRef"/></h4>
             						<ul data-role="listview"><xsl:for-each select="current-group()"><li><a target="_blank"
-            							href="{concat('aris.html#edition',ancestor::t:div[@type='textpart']/@n)}">
+            							href="{concat('index.html#edition',ancestor::t:div[@type='textpart']/@n)}">
             							
             							<xsl:value-of
             								select="text()"/> 
@@ -297,7 +297,7 @@ meant to be run in a folder with other data locally referred
     ================================================== -->
             <!-- Placed at the end of the document so the pages load faster -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"/>
-            <script>window.jQuery || document.write('&lt;script src="../../assets/js/vendor/jquery.min.js"&gt;&lt;/script&gt;')</script>
+            <script>window.jQuery || document.write('&lt;script src="assets/js/vendor/jquery.min.js"&gt;&lt;/script&gt;')</script>
             
             <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
             <!-- Just to make our placeholder images work. Don't actually copy the next line! -->

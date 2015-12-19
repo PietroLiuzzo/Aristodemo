@@ -32,10 +32,10 @@ meant to be run in a folder with other data locally referred
             <link href="../../dist/css/bootstrap.min.css" rel="stylesheet"/>
 
             <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-            <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+            <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
             <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
             <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-            <script src="../../assets/js/ie-emulation-modes-warning.js"/>
+            <script src="assets/js/ie-emulation-modes-warning.js"/>
              <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
              <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
             <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -105,7 +105,7 @@ meant to be run in a folder with other data locally referred
                </ol>
                <div class="carousel-inner" role="listbox">
                   <div class="item active">
-                     <img class="first-slide" src="../../../../../Aristodemo/images/firstslide.jpg"
+                     <img class="first-slide" src="images/firstslide.jpg"
                         alt="First lines of the so called Aristodemus"/>
                      <div class="container">
                         <div class="carousel-caption">
@@ -119,7 +119,7 @@ meant to be run in a folder with other data locally referred
                   </div>
                   <div class="item">
                      <img class="second-slide"
-                        src="../../../../../Aristodemo/images/secondslide.pdf"
+                        src="images/secondslide.pdf"
                         alt="Section of P.Oxy 27.2469"/>
                      <div class="container">
                         <div class="carousel-caption">
@@ -132,7 +132,7 @@ meant to be run in a folder with other data locally referred
                      </div>
                   </div>
                   <div class="item">
-                     <img class="third-slide" src="../../../../../Aristodemo/images/firstslide.pdf"
+                     <img class="third-slide" src="images/firstslide.pdf"
                         alt="Third slide"/>
                      <!--needs to be changed-->
                      <div class="container">
