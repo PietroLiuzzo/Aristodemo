@@ -87,10 +87,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${pd}/html/aris.html</File>
+                                    <File>${pd}/index.html</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/html/aris.html</String>
+                                    <String>${pd}/index.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
