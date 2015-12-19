@@ -443,5 +443,6 @@
         <folder path="xsl/"/>
         <folder path="../bootstrap-3.3.6-dist/"/>
         <folder path="../example-p5-xsltpietro/"/>
+        <file name="carousel.css"/>
     </projectTree>
 </project>
