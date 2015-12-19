@@ -178,18 +178,7 @@ meant to be run in a folder with other data locally referred
                             <h2>Places in the text</h2>
                             <p>A list and a map of the places mentioned in the text</p>
                             <p>
-                                <a class="btn btn-default" href="#" role="button">View details </a>
-                            </p>
-                        </div>
-                        <!-- /.col-lg-4 -->
-                        <div class="col-lg-4">
-                            <img class="img-circle"
-                                src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                alt="Generic placeholder image" width="140" height="140"/>
-                            <h2>People in the text</h2>
-                            <p>Who is mentioned in the text</p>
-                            <p>
-                                <a class="btn btn-default" href="#" role="button">View details </a>
+                                <a class="btn btn-default" href="luoghi.html" role="button">View details </a>
                             </p>
                         </div>
                         <!-- /.col-lg-4 -->
@@ -200,7 +189,7 @@ meant to be run in a folder with other data locally referred
                             <h2>Timeline of the events</h2>
                             <p>What happens</p>
                             <p>
-                                <a class="btn btn-default" href="#" role="button">View details </a>
+                                <a class="btn btn-default" href="eventi.html" role="button">View details </a>
                             </p>
                         </div>
                         <!-- /.col-lg-4 -->
