@@ -102,7 +102,7 @@
          <hr class="featurette-divider">
          <div class="row featurette" id="occorrenze">
             <div class="col-md-7">
-               <h2 class="featurette-heading">Popolazioni attestate e link alle occorrenze</h2><a href="#backtotop"><button>Torna all'inizio</button></a><h3><a href="http://pleiades.stoa.org/places/579853">Αἴγινα</a></h3>
+               <h2 class="featurette-heading">Popolazioni attestate e link alle occorrenze</h2><a href="#backtotop"><button>back to top</button></a><h3><a href="http://pleiades.stoa.org/places/579853">Αἴγινα</a></h3>
                <ul data-role="listview">
                   <li><a target="_blank" href="index.html#edition1">Αἰγινῆται, (1.6)</a></li>
                </ul>
@@ -152,20 +152,20 @@
                <ul data-role="listview">
                   <li><a target="_blank" href="index.html#edition1">Ἕλλησιν. (1.8)</a></li>
                </ul>
-            </div><a href="#backtotop"><button>Torna all'inizio</button></a></div>
+            </div><a href="#backtotop"><button>back to top</button></a></div>
          <hr class="featurette-divider">
          <div class="row" id="indexes">
-            <div class="col-lg-4"><img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"><h2>Lista di Nomi di persona</h2>
-               <p>Lista di nomi e occorrenze</p>
-               <p><a class="btn btn-default" href="persone.html" role="button">Vai all'indice</a></p>
+            <div class="col-lg-4"><img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"><h2>People in the text</h2>
+               <p>Who is mentioned in the text</p>
+               <p><a class="btn btn-default" href="persone.html" role="button">View details </a></p>
             </div>
-            <div class="col-lg-4"><img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"><h2>Cronologia</h2>
-               <p>Cronologia interna</p>
-               <p><a class="btn btn-default" href="eventi.html" role="button">Vai alla cronologia</a></p>
+            <div class="col-lg-4"><img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"><h2>Timeline of the events</h2>
+               <p>What happens</p>
+               <p><a class="btn btn-default" href="eventi.html" role="button">View details </a></p>
             </div>
          </div>
          <footer>
-            <p class="pull-right"><a href="#">Torna all'inzio</a></p>
+            <p class="pull-right"><a href="#">Back to top</a></p>
             <p> 2015 Company, Inc. <a href="#">Privacy</a><a href="#">Terms</a></p>
          </footer>
       </div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"></script>')</script><script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script><script src="assets/js/ie10-viewport-bug-workaround.js"></script><script>$(document).ready(function () {

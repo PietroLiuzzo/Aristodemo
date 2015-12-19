@@ -16,8 +16,8 @@
          <div class="container">
             <nav class="navbar navbar-inverse navbar-static-top">
                <div class="container">
-                  <div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="#">Edizione digitale di FGrHist 104
-                        [Aristodemo]</a></div>
+                  <div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="#">The Digital Edition of FGrHist 104
+                        [Aristodemus]</a></div>
                   <div id="navbar" class="navbar-collapse collapse">
                      <ul class="nav navbar-nav">
                         <li class="active"><a href="Introduction.html">Introduzione</a></li>
@@ -78,22 +78,25 @@
          <div class="carousel-inner" role="listbox">
             <div class="item active"><img class="first-slide" src="images/firstslide.jpg" alt="First lines of the so called Aristodemus"><div class="container">
                   <div class="carousel-caption">
-                     <h1>Un Manoscritto</h1>
-                     <p><a class="btn btn-lg btn-primary" href="http://gallica.bnf.fr/ark:/12148/btv1b8593585j" role="button">Facsimle</a></p>
+                     <h1>One Manuscript</h1>
+                     <p><a class="btn btn-lg btn-primary" href="http://gallica.bnf.fr/ark:/12148/btv1b8593585j" role="button">See the
+                           facsimle</a></p>
                   </div>
                </div>
             </div>
             <div class="item"><img class="second-slide" src="images/secondslide.png" alt="sezione of P.Oxy 27.2469"><div class="container">
                   <div class="carousel-caption">
-                     <h1>Un papiro (per ora)</h1>
-                     <p><a class="btn btn-lg btn-primary" href="textpap.html" role="button">Edizione</a></p>
+                     <h1>One Papyrus (for now)</h1>
+                     <p><a class="btn btn-lg btn-primary" href="textpap.html" role="button">See the
+                           edition</a></p>
                   </div>
                </div>
             </div>
             <div class="item"><img class="third-slide" src="images/thirdslide.png" alt="Third slide"><div class="container">
                   <div class="carousel-caption">
-                     <h1>Nessun "nuovo" storico</h1>
-                     <p><a class="btn btn-lg btn-primary" href="introduction.html" role="button">Introduzione</a></p>
+                     <h1>No Ancient Greek otherwise Unknown Author</h1>
+                     <p><a class="btn btn-lg btn-primary" href="introduction.html" role="button">See the
+                           arguments in the Introduction</a></p>
                   </div>
                </div>
             </div>
@@ -103,15 +106,15 @@
          <div class="row" id="indexes">
             <div class="col-lg-4"><img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"><h2>Luoghi</h2>
                <p>Una lista di luoghi nominati nel testo e una Mappa</p>
-               <p><a class="btn btn-default" href="luoghi.html" role="button">Vai all'indice</a></p>
+               <p><a class="btn btn-default" href="luoghi.html" role="button">View details </a></p>
             </div>
             <div class="col-lg-4"><img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"><h2>Persone</h2>
-               <p>Lista di nomi e occorrenze</p>
-               <p><a class="btn btn-default" href="persone.html" role="button">Vai all'indice</a></p>
+               <p>lista di nomi e occorrenze</p>
+               <p><a class="btn btn-default" href="persone.html" role="button">View details </a></p>
             </div>
             <div class="col-lg-4"><img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"><h2>Linea del tempo</h2>
-               <p>Gli eventi, visualizzati</p>
-               <p><a class="btn btn-default" href="eventi.html" role="button">Vai alla Cronologia</a></p>
+               <p>gli eventi, visualizzati</p>
+               <p><a class="btn btn-default" href="eventi.html" role="button">View details </a></p>
             </div>
          </div>
          <hr class="featurette-divider" id="0">

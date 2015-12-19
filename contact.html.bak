@@ -70,22 +70,25 @@
         <div class="carousel-inner" role="listbox">
           <div class="item active"><img class="first-slide" src="images/firstslide.jpg" alt="First lines of the so called Aristodemus"><div class="container">
             <div class="carousel-caption">
-              <h1>Un Manoscritto</h1>
-              <p><a class="btn btn-lg btn-primary" href="http://gallica.bnf.fr/ark:/12148/btv1b8593585j" role="button">Facsimle</a></p>
+              <h1>One Manuscript</h1>
+              <p><a class="btn btn-lg btn-primary" href="http://gallica.bnf.fr/ark:/12148/btv1b8593585j" role="button">See the
+                facsimle</a></p>
             </div>
           </div>
           </div>
           <div class="item"><img class="second-slide" src="images/secondslide.png" alt="sezione of P.Oxy 27.2469"><div class="container">
             <div class="carousel-caption">
-              <h1>Un papiro, per ora</h1>
-              <p><a class="btn btn-lg btn-primary" href="textpap.html" role="button">Edizione</a></p>
+              <h1>One Papyrus (for now)</h1>
+              <p><a class="btn btn-lg btn-primary" href="textpap.html" role="button">See the
+                edition</a></p>
             </div>
           </div>
           </div>
           <div class="item"><img class="third-slide" src="images/thirdslide.png" alt="Third slide"><div class="container">
             <div class="carousel-caption">
-              <h1>Nessuno "nuovo" storico</h1>
-              <p><a class="btn btn-lg btn-primary" href="introduction.html" role="button">Introduzione</a></p>
+              <h1>No Ancient Greek otherwise Unknown Author</h1>
+              <p><a class="btn btn-lg btn-primary" href="introduction.html" role="button">See the
+                arguments in the Introduction</a></p>
             </div>
           </div>
           </div>
@@ -100,17 +103,17 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="images/firstslide.png" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
           <h2>Mail</h2>
-          <p><a class="btn btn-default" href="mailto:pietro.liuzzo@gmail.com" role="button">Scrivi</a></p>
+          <p><a class="btn btn-default" href="mailto:pietro.liuzzo@gmail.com" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="images/secondslide.png" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
           <h2>Academia</h2>
             <p><a class="btn btn-default" href="https://uni-heidelberg.academia.edu/PietroMariaLiuzzo" role="button">View profile</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="images/thirdslide.png" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
           <h2>LinkedIn</h2>
             <p><a class="btn btn-default" href="https://uk.linkedin.com/in/pietroliuzzo" role="button">View profile</a></p>
         </div><!-- /.col-lg-4 -->
