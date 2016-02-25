@@ -49,7 +49,7 @@ meant to be run in a folder with other data locally referred
 
             <!-- Custom styles for this template -->
             <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-            
+             
             <link href="carousel.css" rel="stylesheet"/>
          </head>
          <!-- NAVBAR
@@ -109,7 +109,7 @@ meant to be run in a folder with other data locally referred
                <!-- START THE FEATURETTES -->
                <!--               The first is just a list of occurrences and number of them, the second is instead more hierarcical-->
                   <hr class="featurette-divider" id="persone"/>
-                  <div class="row featurette">
+                  <div class="row featurette" id="occorrenze">
                      <div class="col-md-7">
 
                         <h2 class="featurette-heading">Nomi di persona nel testo
@@ -151,8 +151,8 @@ meant to be run in a folder with other data locally referred
                         
                       
                             <xsl:for-each-group select="//t:name" group-by="@nymRef">
-                                <xsl:sort order="ascending" select="lower-case(@nymRef)"/>
-                                <h3><xsl:value-of select="@nymRef"/></h3>
+                                <xsl:sort order="descending" select="lower-case(@nymRef)"/>
+                                <h3><a href="{@ref}"><xsl:value-of select="@nymRef"/></a></h3>
                                 <xsl:for-each-group select="current-group()" group-by="text()">
                                     <div data-role="collapsible"><h4><xsl:apply-templates select="."/></h4>
                                         <ul data-role="listview"><xsl:for-each select="current-group()"><li><a target="_blank"
@@ -171,7 +171,11 @@ meant to be run in a folder with other data locally referred
                     
                     
                     
-                   
+                    <script src="awdl/lib/requirejs/require.min.js" type="text/javascript"></script>
+                    <script src="awdl/awld.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                        awld.init();
+                    </script>
                     
                     
                 </div>

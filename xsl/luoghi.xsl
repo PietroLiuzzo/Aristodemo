@@ -19,22 +19,30 @@ meant to be run in a folder with other data locally referred
 
 <!--this document is the leaflet script which creates the map and is called by the div[@id='map']-->
 <xsl:result-document href="js/map.js" method="text">
-    var map = L.map('map',
+    L.mapbox.accessToken = 'pk.eyJ1IjoicGlldHJvbGl1enpvIiwiYSI6ImNpbDB6MjE0bDAwOGl4MW0wa2JvMDd0cHMifQ.wuV3-VuvmCzY69kWRf6CHA';
+    
+    var 
+    ancientworld = L.mapbox.tileLayer('isawnyu.map-knmctlkh')
+    grayscale   = L.mapbox.tileLayer('mapbox.light'),
+    streets  = L.mapbox.tileLayer('mapbox.streets'),
+    roads = L.mapbox.tileLayer('isawnyu.awmc-roads');
+    
+    
+    var map = L.map('map', 
     {
+    center: [40, 11],
+    zoom: 4,
+    layers: [roads, ancientworld, grayscale, streets],
     fullscreenControl: true,
     // OR
     fullscreenControl: {
     pseudoFullscreen: false // if true, fullscreen to page width and height
     }
     }
-    ).setView([40.68, 19.53], 4);
+    );
     
-    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-    attribution: 'Map data © OpenStreetMap contributors, CC-BY-SA, Imagery © Mapbox',
-    maxZoom: 18,
-    id: 'pietroliuzzo.p884hjpg',
-    accessToken: 'pk.eyJ1IjoicGlldHJvbGl1enpvIiwiYSI6ImNpbDB6MjE0bDAwOGl4MW0wa2JvMDd0cHMifQ.wuV3-VuvmCzY69kWRf6CHA'
-    }).addTo(map);
+    
+    
     
     
     function onEachFeature(feature, layer) {
@@ -47,41 +55,102 @@ meant to be run in a folder with other data locally referred
     }
     
     
-    
-    <xsl:for-each select="//t:placeName[@ref]">
-    
+    <xsl:for-each-group select="//t:placeName" group-by="@ref">
       
+        <xsl:variable name="pleiadesid"><xsl:value-of select="substring-after(@ref,'http://pleiades.stoa.org/places/')"/></xsl:variable>
+                <xsl:variable name="pleaidesjson"><xsl:value-of select="unparsed-text(concat(normalize-space(@ref),'/json'))"/></xsl:variable>
+                <xsl:variable name="varnNme"><xsl:text>geojsonFeature</xsl:text><xsl:value-of select="$pleiadesid"/></xsl:variable>
+        
+        <xsl:choose>
+                    
+                    <xsl:when test="contains($pleaidesjson, 'Polygon')">
+                        var <xsl:value-of select="$varnNme"/> =
+                        <xsl:value-of select="$pleaidesjson"/>
+                        
+                        ;
+                        
+                        var v<xsl:value-of select="$pleiadesid"/> = L.geoJson(<xsl:value-of select="$varnNme"/>).addTo(map);
+                        
+                    </xsl:when>
+                    
+                    <xsl:otherwise>
+                        
+                        var <xsl:value-of select="$varnNme"/> =
+                        <xsl:value-of select="$pleaidesjson"/>
+                        
+                        ;
+                        
+                        var v<xsl:value-of select="$pleiadesid"/> =  L.geoJson(<xsl:value-of select="$varnNme"/>, {
+                        
+                        
+                        onEachFeature: onEachFeature,
+                        
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, {
+                        radius: 8,
+                        fillColor: "green",
+                        color: "#000",
+                        weight: 1,
+                        opacity: 0.3,
+                        fillOpacity: 0.2
+                        });
+                        }
+                        }).addTo(map);  
+                    </xsl:otherwise></xsl:choose>
+        
+        
+           </xsl:for-each-group>
+            
+            var points = L.layerGroup([
+    <xsl:for-each-group select="//t:placeName" group-by="@ref"> 
+        
+        <xsl:variable name="pleiadesid"><xsl:value-of select="substring-after(@ref,'http://pleiades.stoa.org/places/')"/></xsl:variable>
         <xsl:variable name="pleaidesjson"><xsl:value-of select="unparsed-text(concat(normalize-space(@ref),'/json'))"/></xsl:variable>
+        <xsl:variable name="varnNme"><xsl:text>geojsonFeature</xsl:text><xsl:value-of select="substring-after(@ref,'http://pleiades.stoa.org/places/')"/></xsl:variable>
         <xsl:choose>
             
-            <xsl:when test="contains($pleaidesjson, 'Polygon')"/>
+            <xsl:when test="contains($pleaidesjson, 'Polygon')">
+                
+            </xsl:when>
             
-            <xsl:otherwise>var geojsonFeature =
-      <xsl:value-of select="$pleaidesjson"/>
-            
-          ;
-      
-      L.geoJson(geojsonFeature, {
-      
-      
-      onEachFeature: onEachFeature,
-      
-      pointToLayer: function (feature, latlng) {
-      return L.circleMarker(latlng, {
-      radius: 8,
-      fillColor: "green",
-      color: "#000",
-      weight: 1,
-      opacity: 0.3,
-      fillOpacity: 0.2
-      });
-      }
-      }).addTo(map);  
-            </xsl:otherwise></xsl:choose>
-      
-            
-    </xsl:for-each>
+            <xsl:otherwise>
+                <xsl:text>v</xsl:text><xsl:value-of select="$pleiadesid"/><xsl:if test="not(position()=last())"><xsl:text>, </xsl:text></xsl:if>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:for-each-group> 
+        ]);
     
+    var poligons = L.layerGroup([
+    <xsl:for-each-group select="//t:placeName" group-by="@ref"> 
+        
+        <xsl:variable name="pleiadesid"><xsl:value-of select="substring-after(@ref,'http://pleiades.stoa.org/places/')"/></xsl:variable>
+        <xsl:variable name="pleaidesjson"><xsl:value-of select="unparsed-text(concat(normalize-space(@ref),'/json'))"/></xsl:variable>
+        <xsl:variable name="varnNme"><xsl:text>geojsonFeature</xsl:text><xsl:value-of select="substring-after(@ref,'http://pleiades.stoa.org/places/')"/></xsl:variable>
+        <xsl:choose>
+            
+            <xsl:when test="contains($pleaidesjson, 'Polygon')">
+                
+                <xsl:text>v</xsl:text><xsl:value-of select="$pleiadesid"/><xsl:if test="not(position()=last())"><xsl:text>, </xsl:text></xsl:if>
+            </xsl:when>
+            </xsl:choose>
+    </xsl:for-each-group> 
+    ]);
+   
+   var baseMaps ={
+   "Grayscale": grayscale,
+   "Streets": streets,
+   "ancient world": ancientworld
+   
+   
+   }
+   var overlayMaps = {
+   "places": points,
+   "regions": poligons,
+   "roads": roads
+   };
+   
+   L.control.layers(baseMaps, overlayMaps).addTo(map);
+   
 </xsl:result-document>
 
       <html lang="en">
@@ -99,18 +168,18 @@ meant to be run in a folder with other data locally referred
 
             <!-- Bootstrap core CSS -->
             <link href="dist/css/bootstrap.min.css" rel="stylesheet"/>
-             <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
-             
+<!--             leaflet js call-->
+             <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+             <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css"/>
+<!--                 mapbox for loading data from ISAW tiles -->
+                 <script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
+                 <link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
             <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
             <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
             <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
             <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
             <script src="assets/js/ie-emulation-modes-warning.js"/>
-            <script src="awdl/lib/requirejs/require.min.js" type="text/javascript"></script>
-            <script src="awdl/awld.js" type="text/javascript"></script>
-            <script type="text/javascript">
-               awld.init();
-            </script>
+            
             <link href="carousel.css" rel="stylesheet"/>
          </head>
          <!-- NAVBAR
@@ -168,7 +237,6 @@ meant to be run in a folder with other data locally referred
 
 <!--calls leaflet javascript and makes the map div on top-->
                 <hr class="featurette-divider"/>
-                    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
                 <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
                 <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
                     <div class="row featurette" id="map"></div>
@@ -234,7 +302,11 @@ meant to be run in a folder with other data locally referred
             			</xsl:for-each-group>
             		</div>
             		
-            		
+            	    <script src="awdl/lib/requirejs/require.min.js" type="text/javascript"></script>
+            	    <script src="awdl/awld.js" type="text/javascript"></script>
+            	    <script type="text/javascript">
+            	        awld.init();
+            	    </script>
             		
             		<a href="#backtotop"><button>Torna all'inizio</button></a>
             		

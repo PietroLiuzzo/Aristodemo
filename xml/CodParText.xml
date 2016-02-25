@@ -118,11 +118,11 @@
                         <w>τὸ</w>
                         <w>ζητούμενον</w>
                         <w>τοῦ</w>
-                        <name nymRef="http://clas-lgpn2.classics.ox.ac.uk/name/Ἀριστοδήμος">Ἀριστοδήμου</name></label>
+                        <name nymRef="Ἀριστοδήμος" ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ἀριστοδήμος">Ἀριστοδήμου</name></label>
                     <!--is this ok for the marks left by the scribe? it is in facts a pointer-->
                     <p n="1"><gap unit="lines" extent="unknown" reason="lost"/> <w>αἰτησάμενος</w> <w>γὰρ</w> <w>μίαν</w> <w>ἡμέραν</w> 
-                        <w>μόνην</w> <w>ἔπεμψε</w> <w>κρύφα</w> <name nymRef="Σίκινος">Σίκινον</name> <w>τὸν</w> <w>ἑαυτοῦ</w> 
-                        <w>παιδαγωγὸν</w> <w>πρὸς</w> <name nymRef="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης">Ξέρξην</name>, 
+                        <w>μόνην</w> <w>ἔπεμψε</w> <w>κρύφα</w> <name ref="http://www.lgpn.ox.ac.uk/id/V1-53770" nymRef="Σίκινος">Σίκινον</name> <w>τὸν</w> <w>ἑαυτοῦ</w> 
+                        <w>παιδαγωγὸν</w> <w>πρὸς</w> <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξην</name>, 
                         <w>ἐγκελευσάμενος</w> <w>αὐτῷ</w> <w>ἐπιτίθεσθαι</w> <w>τοῖς</w> <placeName nymRef="Ἑλλάς" 
                             type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησιν</placeName> <w>καὶ</w> <w>ναυμαχεῖν,</w> 
                         <w>δηλῶν</w> <w>τὸν</w> <w>μέλλοντα</w> <w>δρασμὸν</w> <w>ἀπὸ</w> 
@@ -132,7 +132,7 @@
                         <name nymRef="Ξέρξης">Ξέρξης</name>
                         <w>νομίσας</w>
                         <w>τὸν</w>
-                        <name nymRef="Θεμιστοκλῆς" ref="http://clas-lgpn2.classics.ox.ac.uk/name/%CE%98%CE%B5%CE%BC%CE%B9%CF%83%CF%84%CE%BF%CE%BA%CE%BB%E1%BF%86%CF%82">Θεμιστοκλέα</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλέα</name>
                         <w>μηδίζοντα</w>
                         <w>ταῦτα</w>
                         <w>ἀπεσταλκέναι,</w>
