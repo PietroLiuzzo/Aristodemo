@@ -10,11 +10,28 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xml/poxy2469.xml</String>
+                                    <String>xml/CodParText.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>poxy2469</String>
+                                        <String>CodParText</String>
+                                        <String>luoghi</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>xsl/luoghi.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>luoghi</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -25,19 +42,30 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xml/CodParText.xml</String>
+                                    <String>xml/Aristodemo.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>luoghi</String>
-                                        <String>persone</String>
-                                        <String>CodParText</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
-                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>xml/poxy2469.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>poxy2469</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
                                         <String>XSL</String>
                                     </list>
                                 </field>
@@ -91,10 +119,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${pd}/index.html</File>
+                                    <null/>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/index.html</String>
+                                    <null/>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -463,6 +491,8 @@
         </options>
     </meta>
     <projectTree name="aristodemo.xpr">
+        <folder path="assets/"/>
+        <folder path="js/"/>
         <folder path="xml/"/>
         <folder path="xsl/"/>
         <folder path="../example-p5-xsltpietro/"/>

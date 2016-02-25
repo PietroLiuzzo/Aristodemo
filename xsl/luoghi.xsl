@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:t="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="t" version="2.0">
+    xmlns:t="http://www.tei-c.org/ns/1.0" 
+    xmlns:pleiades="http://pleiades.stoa.org/places/vocab#"
+    xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+    exclude-result-prefixes="t" version="2.0">
+    
     <xsl:key name="g" match="t:name" use="node()"/>
-<xsl:template match="/">
+
+    <xsl:template match="/">
     
    <!-- 
  WORK IN PROGRESS file structure for EAGLE / Epidoc Workshop 
@@ -12,8 +17,63 @@ meant to be run in a folder with other data locally referred
    <!-- Called from htm-tpl-structure.xsl -->
 
 
-
-
+<!--this document is the leaflet script which creates the map and is called by the div[@id='map']-->
+<xsl:result-document href="js/map.js" method="text">
+    var map = L.map('map').setView([40.68, 19.53], 4);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data © OpenStreetMap contributors, CC-BY-SA, Imagery © Mapbox',
+    maxZoom: 18,
+    id: 'pietroliuzzo.p884hjpg',
+    accessToken: 'pk.eyJ1IjoicGlldHJvbGl1enpvIiwiYSI6ImNpbDB6MjE0bDAwOGl4MW0wa2JvMDd0cHMifQ.wuV3-VuvmCzY69kWRf6CHA'
+    }).addTo(map);
+    
+    
+    function onEachFeature(feature, layer) {
+    
+    var popupContent = "See more information about Pleaides place " + feature.properties.snippet + feature.properties.link ;
+    
+    
+    
+    layer.bindPopup(popupContent);
+    }
+    
+    
+    
+    <xsl:for-each select="//t:placeName[@ref]">
+    
+      
+        <xsl:variable name="pleaidesjson"><xsl:value-of select="unparsed-text(concat(normalize-space(@ref),'/json'))"/></xsl:variable>
+        <xsl:choose>
+            
+            <xsl:when test="contains($pleaidesjson, 'Polygon')"/>
+            
+            <xsl:otherwise>var geojsonFeature =
+      <xsl:value-of select="$pleaidesjson"/>
+            
+          ;
+      
+      L.geoJson(geojsonFeature, {
+      
+      
+      onEachFeature: onEachFeature,
+      
+      pointToLayer: function (feature, latlng) {
+      return L.circleMarker(latlng, {
+      radius: 8,
+      fillColor: "green",
+      color: "#000",
+      weight: 1,
+      opacity: 0.3,
+      fillOpacity: 0.2
+      });
+      }
+      }).addTo(map);  
+            </xsl:otherwise></xsl:choose>
+      
+            
+    </xsl:for-each>
+    
+</xsl:result-document>
 
       <html lang="en">
          <head>
@@ -30,7 +90,8 @@ meant to be run in a folder with other data locally referred
 
             <!-- Bootstrap core CSS -->
             <link href="dist/css/bootstrap.min.css" rel="stylesheet"/>
-
+             <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+             
             <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
             <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
             <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -92,10 +153,16 @@ meant to be run in a folder with other data locally referred
             <!-- Marketing messaging and featurettes
     ================================================== -->
             <!-- Wrap the rest of the page in another container to center all the content. -->
-
+             
+             
             <div class="container marketing">
 
-           
+<!--calls leaflet javascript and makes the map div on top-->
+                <hr class="featurette-divider"/>
+                    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+                    <div class="row featurette" id="map"></div>
+                    <script src="js/map.js"></script>
+                        
 
                <!-- START THE FEATURETTES -->
                <!--               the first one needs the attribute id to be the same as in the link in the navigation bar-->
@@ -217,12 +284,7 @@ meant to be run in a folder with other data locally referred
             <!--<script src="assets/js/vendor/holder.min.js"/>   REMOVED, CONFLICTING WITH WIDGETS
             --><!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
             <script src="assets/js/ie10-viewport-bug-workaround.js"/>
-            <script>$(document).ready(function () {
-               $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-               $('a[data-toggle="tab"]').find('.glyphicon').next().hide();
-               $(this).find('i').show();
-               })
-               });</script>
+            <script src="js/ready.js"></script>
          </body>
       </html>
 

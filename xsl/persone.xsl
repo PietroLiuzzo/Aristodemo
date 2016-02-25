@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:t="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="t" version="2.0">
+    
+    
     <xsl:key name="g" match="t:name" use="node()"/>
-<xsl:template match="/">
+
+    <xsl:template match="/">
     
    <!-- 
  WORK IN PROGRESS file structure for EAGLE / Epidoc Workshop 
@@ -230,12 +233,7 @@ meant to be run in a folder with other data locally referred
             <script src="../../assets/js/vendor/holder.min.js"/>
             <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
             <script src="../../assets/js/ie10-viewport-bug-workaround.js"/>
-            <script>$(document).ready(function () {
-               $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-               $('a[data-toggle="tab"]').find('.glyphicon').next().hide();
-               $(this).find('i').show();
-               })
-               });</script>
+            <script src="js/ready.js"></script>
          </body>
       </html>
 
