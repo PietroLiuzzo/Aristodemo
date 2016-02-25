@@ -19,7 +19,16 @@ meant to be run in a folder with other data locally referred
 
 <!--this document is the leaflet script which creates the map and is called by the div[@id='map']-->
 <xsl:result-document href="js/map.js" method="text">
-    var map = L.map('map').setView([40.68, 19.53], 4);
+    var map = L.map('map',
+    {
+    fullscreenControl: true,
+    // OR
+    fullscreenControl: {
+    pseudoFullscreen: false // if true, fullscreen to page width and height
+    }
+    }
+    ).setView([40.68, 19.53], 4);
+    
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data © OpenStreetMap contributors, CC-BY-SA, Imagery © Mapbox',
     maxZoom: 18,
@@ -160,6 +169,8 @@ meant to be run in a folder with other data locally referred
 <!--calls leaflet javascript and makes the map div on top-->
                 <hr class="featurette-divider"/>
                     <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+                <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+                <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
                     <div class="row featurette" id="map"></div>
                     <script src="js/map.js"></script>
                         

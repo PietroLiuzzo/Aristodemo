@@ -1,5 +1,14 @@
 
-    var map = L.map('map').setView([40.68, 19.53], 4);
+    var map = L.map('map',
+    {
+    fullscreenControl: true,
+    // OR
+    fullscreenControl: {
+    pseudoFullscreen: false // if true, fullscreen to page width and height
+    }
+    }
+    ).setView([40.68, 19.53], 4);
+    
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data © OpenStreetMap contributors, CC-BY-SA, Imagery © Mapbox',
     maxZoom: 18,
