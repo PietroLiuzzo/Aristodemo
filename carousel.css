@@ -13,12 +13,12 @@ body {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 
-#map { height: 280px; }
+#map { height: 380px; }
 
 #occorrenze {
--webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
+-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
     }
 
 .navbar-wrapper {

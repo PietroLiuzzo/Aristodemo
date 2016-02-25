@@ -47,7 +47,7 @@ meant to be run in a folder with other data locally referred
     
     function onEachFeature(feature, layer) {
     
-    var popupContent = "See more information about Pleaides place " + feature.properties.snippet + feature.properties.link ;
+    var popupContent = "See more information about Pleaides place " + feature.properties.snippet +" " + feature.properties.link ;
     
     
     
@@ -168,12 +168,6 @@ meant to be run in a folder with other data locally referred
 
             <!-- Bootstrap core CSS -->
             <link href="dist/css/bootstrap.min.css" rel="stylesheet"/>
-<!--             leaflet js call-->
-             <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-             <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css"/>
-<!--                 mapbox for loading data from ISAW tiles -->
-                 <script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
-                 <link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
             <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
             <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
             <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -237,8 +231,12 @@ meant to be run in a folder with other data locally referred
 
 <!--calls leaflet javascript and makes the map div on top-->
                 <hr class="featurette-divider"/>
-                <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
-                <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+                <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+                <script src="https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js"></script>
+                <link href="https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css" rel="stylesheet"/>
+                    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css"/>
+                        <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
+                        <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet"/>
                     <div class="row featurette" id="map"></div>
                     <script src="js/map.js"></script>
                         

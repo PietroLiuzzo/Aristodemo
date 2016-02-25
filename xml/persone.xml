@@ -1,2 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<?xml-stylesheet type="text/xsl" href="../xslt/tei-to-html.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aristodemopersone">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">Nomi e persone del testo di FGrHist104</title>
+                <author xml:id="pl">Pietro Liuzzo</author>
+            </titleStmt>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Tesi di dottorato e laurea magistrale.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+<listPerson type="historical">
+    
+    <personGrp xml:id="PXXX"/>
+<person xml:id="pers173">
+    
+    <persName xml:lang="grc">Χαρίτου</persName>
+    <persName xml:lang="en">Charito
+        <surname>Hancock</surname>
+        <forename>Antony</forename>
+        <forename>Aloysius</forename>
+        <forename>St John</forename>
+    </persName>
+    <floruit notBefore="0401"> Fifth-sixth century or later </floruit>
+    <affiliation ref="http://pleiades.stoa.org/places/638753">Aphrodisias</affiliation>
+    <listBibl>
+        <bibl corresp="http://insaph.kcl.ac.uk/ala2004/inscription/eAla170.html">ALA 170</bibl>
+        <relation ref="snap:WifeOf" active="#pers173" passive="#pers124">
+            <desc>wife of Narses</desc>
+        </relation>
+    </listBibl>
+    <idno type="ala">http://insaph.kcl.ac.uk/ala2004/search/alist/prosop/charito1.html</idno>
+    <idno type="lgpn-hr">V.B Χαρίτω 1</idno>
+    <idno type="lgpn">http://www.lgpn.ox.ac.uk/id/V5b-13550</idno>
+    <residence notAfter="1959">
+        <address>
+            <street>Railway Cuttings</street>
+            <settlement>East Cheam</settlement>
+        </address>
+    </residence>
+    <occupation>comedian</occupation>
+    
+   
+</person>
+    
+ <listRelation>
+        <relation type="personal" name="spouse"
+            mutual="#P1234 #P4332"/>
+    </listRelation>
+    
+</listPerson>
+               
+<listPerson type="mythological">
+    <person>
+        
+    </person>
+    
+</listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+<text>    
+    <body>
+        <ab/>
+    </body>
+</text>
+</TEI>

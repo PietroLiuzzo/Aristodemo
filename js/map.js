@@ -27,7 +27,7 @@
     
     function onEachFeature(feature, layer) {
     
-    var popupContent = "See more information about Pleaides place " + feature.properties.snippet + feature.properties.link ;
+    var popupContent = "See more information about Pleaides place " + feature.properties.snippet +" " + feature.properties.link ;
     
     
     
@@ -206,13 +206,237 @@
                         }
                         }).addTo(map);  
                     
+                        var geojsonFeature981531 =
+                        {"connectsWith": [], "recent_changes": [{"modified": "2012-02-15T23:44:13Z", "principal": "admin"}], "description": "An ancient place, cited: BAtlas 100 L3 Macedonia", "title": "Macedonia", "reprPoint": [22.5, 42.5], "features": [{"geometry": {"type": "Polygon", "coordinates": [[[20.0, 40.0], [20.0, 45.0], [25.0, 45.0], [25.0, 40.0], [20.0, 40.0]]]}, "type": "Feature", "properties": {"snippet": "Unknown", "link": "http://pleiades.stoa.org/places/981531/batlas-location", "description": "", "location_precision": "rough", "title": "Barrington Atlas location"}, "id": "batlas-location"}], "names": ["Macedonia"], "type": "FeatureCollection", "id": "981531", "bbox": [20.0, 40.0, 25.0, 45.0]}
+                        
+                        ;
+                        
+                        var v981531 = L.geoJson(geojsonFeature981531).addTo(map);
+                        
+                    
+                        
+                        var geojsonFeature541138 =
+                        {"connectsWith": ["540689"], "recent_changes": [{"modified": "2015-10-27T14:49:49Z", "principal": "jbecker"}, {"modified": "2012-10-20T20:58:06Z", "principal": "sgillies"}], "description": "The ancient city of Thebes in Boeotia (modern Greece).", "title": "Thebai/Thebae", "reprPoint": [23.317798999999997, 38.319076000000003], "features": [{"geometry": {"type": "Point", "coordinates": [23.317799000000001, 38.319076000000003]}, "type": "Feature", "properties": {"snippet": "Settlement; 750 BC - AD 640", "link": "http://pleiades.stoa.org/places/541138/dare-location", "description": "Representative point location, site precision", "location_precision": "precise", "title": "DARE Location"}, "id": "dare-location"}, {"geometry": {"type": "Point", "coordinates": [23.317354999999999, 38.319235999999997]}, "type": "Feature", "properties": {"snippet": "Unknown; 750 BC - AD 640", "link": "http://pleiades.stoa.org/places/541138/darmc-location-24220", "description": "5M scale point location", "location_precision": "precise", "title": "DARMC location 24220"}, "id": "darmc-location-24220"}], "names": ["Thebae", "\u0398\u03ae\u03b2\u03b1", "Thebes", "\u0398\u1fc6\u03b2\u03b1\u03b9"], "type": "FeatureCollection", "id": "541138", "bbox": [23.317799000000001, 38.319076000000003, 23.317799000000001, 38.319076000000003]}
+                        
+                        ;
+                        
+                        var v541138 =  L.geoJson(geojsonFeature541138, {
+                        
+                        
+                        onEachFeature: onEachFeature,
+                        
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, {
+                        radius: 8,
+                        fillColor: "green",
+                        color: "#000",
+                        weight: 1,
+                        opacity: 0.3,
+                        fillOpacity: 0.2
+                        });
+                        }
+                        }).addTo(map);  
+                    
+                        
+                        var geojsonFeature541063 =
+                        {"connectsWith": [], "recent_changes": [{"modified": "2015-10-28T14:33:16Z", "principal": "thomase"}, {"modified": "2015-10-27T15:07:54Z", "principal": "jbecker"}], "description": "Plataea is an ancient city of Boeotia, located south of Thebes. In 479 BC Plataea was the site of the Battle of Plataea, in which an allied Greek army defeated the Persians. Plataea was destroyed in the Peloponnesian War by Thebes and Sparta in 427 BC and rebuilt in 386 BC.", "title": "Plataea", "reprPoint": [23.273344999999996, 38.221257000000001], "features": [{"geometry": {"type": "Point", "coordinates": [23.273344999999999, 38.221257000000001]}, "type": "Feature", "properties": {"snippet": "Settlement; 750 BC - AD 640", "link": "http://pleiades.stoa.org/places/541063/dare-location", "description": "Representative point location, site precision", "location_precision": "precise", "title": "DARE Location"}, "id": "dare-location"}, {"geometry": {"type": "Point", "coordinates": [23.27486, 38.213999000000001]}, "type": "Feature", "properties": {"snippet": "Unknown; 750 BC - AD 640", "link": "http://pleiades.stoa.org/places/541063/darmc-location-5554", "description": "500K scale point location", "location_precision": "precise", "title": "DARMC location 5554"}, "id": "darmc-location-5554"}, {"geometry": {"type": "Point", "coordinates": [23.267337000000001, 38.211934999999997]}, "type": "Feature", "properties": {"snippet": "Unknown; 750 BC - AD 640", "link": "http://pleiades.stoa.org/places/541063/darmc-location-11744", "description": "TIB point location", "location_precision": "precise", "title": "DARMC location 11744"}, "id": "darmc-location-11744"}], "names": ["Plataea", "\u03a0\u03bb\u03ac\u03c4\u03b1\u03b9\u03b1\u03b9"], "type": "FeatureCollection", "id": "541063", "bbox": [23.273344999999999, 38.221257000000001, 23.273344999999999, 38.221257000000001]}
+                        
+                        ;
+                        
+                        var v541063 =  L.geoJson(geojsonFeature541063, {
+                        
+                        
+                        onEachFeature: onEachFeature,
+                        
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, {
+                        radius: 8,
+                        fillColor: "green",
+                        color: "#000",
+                        weight: 1,
+                        opacity: 0.3,
+                        fillOpacity: 0.2
+                        });
+                        }
+                        }).addTo(map);  
+                    
+                        
+                        var geojsonFeature540689 =
+                        {"connectsWith": ["540987", "540787", "541146", "540791", "541179", "543884", "809327743", "540801", "580114", "541138", "540913"], "recent_changes": [{"modified": "2015-10-28T16:18:15Z", "principal": "jbecker"}, {"modified": "2015-09-07T11:52:41Z", "principal": "pmotylewicz"}], "description": "A region of central Greece inhabited since prehistoric times. ", "title": "Boeotia", "reprPoint": [23.1835855, 38.345856133333328], "features": [], "names": ["Boeotia", "\u0392\u03bf\u03b9\u03c9\u03c4\u03af\u03b1"], "type": "FeatureCollection", "id": "540689", "bbox": [22.746666999999999, 38.256503000000002, 23.586234000000001, 38.493319]}
+                        
+                        ;
+                        
+                        var v540689 =  L.geoJson(geojsonFeature540689, {
+                        
+                        
+                        onEachFeature: onEachFeature,
+                        
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, {
+                        radius: 8,
+                        fillColor: "green",
+                        color: "#000",
+                        weight: 1,
+                        opacity: 0.3,
+                        fillOpacity: 0.2
+                        });
+                        }
+                        }).addTo(map);  
+                    
+                        var geojsonFeature922698 =
+                        {"connectsWith": [], "recent_changes": [{"modified": "2012-02-15T09:38:23Z", "principal": "admin"}], "description": "An ancient place, cited: BAtlas 94 B3 Persis/Pars", "title": "Persis/Pars", "reprPoint": [51.5, 30.5], "features": [{"geometry": {"type": "Polygon", "coordinates": [[[51.0, 30.0], [51.0, 31.0], [52.0, 31.0], [52.0, 30.0], [51.0, 30.0]]]}, "type": "Feature", "properties": {"snippet": "Unknown; 550 BC - AD 640", "link": "http://pleiades.stoa.org/places/922698/batlas-location", "description": "", "location_precision": "rough", "title": "Barrington Atlas location"}, "id": "batlas-location"}], "names": ["Persis", "Pars"], "type": "FeatureCollection", "id": "922698", "bbox": [51.0, 30.0, 52.0, 31.0]}
+                        
+                        ;
+                        
+                        var v922698 = L.geoJson(geojsonFeature922698).addTo(map);
+                        
+                    
+                        var geojsonFeature570406 =
+                        {"connectsWith": ["570561", "570706", "570248", "570685"], "recent_changes": [{"modified": "2015-10-30T22:04:26Z", "principal": "jbecker"}, {"modified": "2012-02-15T06:30:45Z", "principal": "admin"}], "description": "Lacedaemon/Laconia is a region comprising the south-eastern part of the Peloponnese.", "title": "Lacedaemon/Laconia", "reprPoint": [22.371002200000003, 37.065926733333335], "features": [{"geometry": {"type": "Polygon", "coordinates": [[[22.0, 37.0], [22.0, 37.5], [22.5, 37.5], [22.5, 37.0], [22.0, 37.0]]]}, "type": "Feature", "properties": {"snippet": "Unknown; 750 BC - AD 300", "link": "http://pleiades.stoa.org/places/570406/batlas-location", "description": "", "location_precision": "rough", "title": "Barrington Atlas location"}, "id": "batlas-location"}], "names": ["Lacedaemon", "Laconia"], "type": "FeatureCollection", "id": "570406", "bbox": [22.333493099999998, 36.953544000000001, 22.435455000000001, 37.161519699999999]}
+                        
+                        ;
+                        
+                        var v570406 = L.geoJson(geojsonFeature570406).addTo(map);
+                        
+                    
+                        
+                        var geojsonFeature541140 =
+                        {"connectsWith": ["540929"], "recent_changes": [{"modified": "2015-06-22T21:42:47Z", "principal": "jbecker"}, {"modified": "2012-10-20T20:58:11Z", "principal": "sgillies"}], "description": "Thermopylae is the name of a narrow pass leading from Thessaly into Locris. It was the site of a pivotal battle during the Graeco-Persian wars in 480 BC.", "title": "Thermopylae", "reprPoint": [22.538293999999997, 38.796511000000002], "features": [{"geometry": {"type": "Point", "coordinates": [22.538294, 38.796511000000002]}, "type": "Feature", "properties": {"snippet": "Fort", "link": "http://pleiades.stoa.org/places/541140/dare-location", "description": "Representative point location, site precision", "location_precision": "precise", "title": "DARE Location"}, "id": "dare-location"}, {"geometry": {"type": "Point", "coordinates": [22.548994, 38.795489000000003]}, "type": "Feature", "properties": {"snippet": "Unknown", "link": "http://pleiades.stoa.org/places/541140/darmc-location-8365", "description": "500K scale point location", "location_precision": "precise", "title": "DARMC location 8365"}, "id": "darmc-location-8365"}], "names": ["\u0398\u03b5\u03c1\u03bc\u03bf\u03c0\u03cd\u03bb\u03b1\u03b9", "Thermopylae"], "type": "FeatureCollection", "id": "541140", "bbox": [22.538294, 38.796511000000002, 22.538294, 38.796511000000002]}
+                        
+                        ;
+                        
+                        var v541140 =  L.geoJson(geojsonFeature541140, {
+                        
+                        
+                        onEachFeature: onEachFeature,
+                        
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, {
+                        radius: 8,
+                        fillColor: "green",
+                        color: "#000",
+                        weight: 1,
+                        opacity: 0.3,
+                        fillOpacity: 0.2
+                        });
+                        }
+                        }).addTo(map);  
+                    
+                        
+                        var geojsonFeature599799 =
+                        {"connectsWith": ["599777", "599668", "599671"], "recent_changes": [{"modified": "2013-08-22T16:35:49Z", "principal": "admin"}, {"modified": "2013-05-17T00:16:02Z", "principal": "jbecker"}], "description": "A major city in Caria", "title": "Miletus", "reprPoint": [27.2774885, 37.5292362], "features": [{"geometry": {"type": "Point", "coordinates": [27.2774885, 37.5292362]}, "type": "Feature", "properties": {"snippet": "Settlement; 750 BC - AD 640", "link": "http://pleiades.stoa.org/places/599799/dare-location", "description": "Representative point location, site precision", "location_precision": "precise", "title": "DARE Location"}, "id": "dare-location"}, {"geometry": {"type": "Point", "coordinates": [27.275676399999998, 37.531213100000002]}, "type": "Feature", "properties": {"snippet": "Theatre, ; 550 BC - AD 640", "link": "http://pleiades.stoa.org/places/599799/location-of-theater-of-miletus", "description": "Location based on OpenStreetMap", "location_precision": "precise", "title": "location of theater of Miletus"}, "id": "location-of-theater-of-miletus"}, {"geometry": {"type": "Point", "coordinates": [27.279561000000001, 37.531525999999999]}, "type": "Feature", "properties": {"snippet": "Unknown; 750 BC - AD 640", "link": "http://pleiades.stoa.org/places/599799/darmc-location-4819", "description": "500K scale point location", "location_precision": "precise", "title": "DARMC location 4819"}, "id": "darmc-location-4819"}, {"geometry": {"type": "Point", "coordinates": [27.277901, 37.507952000000003]}, "type": "Feature", "properties": {"snippet": "Unknown; 750 BC - AD 640", "link": "http://pleiades.stoa.org/places/599799/darmc-location-24087", "description": "5M scale point location", "location_precision": "precise", "title": "DARMC location 24087"}, "id": "darmc-location-24087"}, {"geometry": {"type": "Point", "coordinates": [27.277901, 37.507952000000003]}, "type": "Feature", "properties": {"snippet": "Unknown; 750 BC - AD 640", "link": "http://pleiades.stoa.org/places/599799/darmc-location-24020", "description": "1M scale point location", "location_precision": "precise", "title": "DARMC location 24020"}, "id": "darmc-location-24020"}], "names": ["Milet", "Palatia", "Amtal\u0131n", "Balat", "Balat", "Miletos", "Mil\u0113tos, Miletos", "Am\u1e6dalin, Amtalin", "Miletus"], "type": "FeatureCollection", "id": "599799", "bbox": [27.2774885, 37.5292362, 27.2774885, 37.5292362]}
+                        
+                        ;
+                        
+                        var v599799 =  L.geoJson(geojsonFeature599799, {
+                        
+                        
+                        onEachFeature: onEachFeature,
+                        
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, {
+                        radius: 8,
+                        fillColor: "green",
+                        color: "#000",
+                        weight: 1,
+                        opacity: 0.3,
+                        fillOpacity: 0.2
+                        });
+                        }
+                        }).addTo(map);  
+                    
+                        
+                        var geojsonFeature599805 =
+                        {"connectsWith": ["599905"], "recent_changes": [{"modified": "2013-02-25T20:08:56Z", "principal": "jbecker"}, {"modified": "2012-02-15T07:01:56Z", "principal": "admin"}], "description": "An ancient place, cited: BAtlas 61 E2 Mycale M.", "title": "Mycale M.", "reprPoint": [27.083333, 37.666666999999997], "features": [{"geometry": {"type": "Point", "coordinates": [27.083333, 37.666666999999997]}, "type": "Feature", "properties": {"snippet": "Mountain, ; AD 1700 - AD 2100", "link": "http://pleiades.stoa.org/places/599805/location-of-mycale-m", "description": "verified in Google Earth 2013.", "location_precision": "precise", "title": "location of Mycale M."}, "id": "location-of-mycale-m"}], "names": ["Mycale M."], "type": "FeatureCollection", "id": "599805", "bbox": [27.083333, 37.666666999999997, 27.083333, 37.666666999999997]}
+                        
+                        ;
+                        
+                        var v599805 =  L.geoJson(geojsonFeature599805, {
+                        
+                        
+                        onEachFeature: onEachFeature,
+                        
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, {
+                        radius: 8,
+                        fillColor: "green",
+                        color: "#000",
+                        weight: 1,
+                        opacity: 0.3,
+                        fillOpacity: 0.2
+                        });
+                        }
+                        }).addTo(map);  
+                    
+                        var geojsonFeature1001887 =
+                        {"connectsWith": [], "recent_changes": [{"modified": "2012-02-15T02:07:31Z", "principal": "admin"}], "description": "An ancient place, cited: BAtlas 102 E3 no. 1 (Europe)", "title": "Europe", "reprPoint": [27.5, 42.5], "features": [{"geometry": {"type": "Polygon", "coordinates": [[[25.0, 40.0], [25.0, 45.0], [30.0, 45.0], [30.0, 40.0], [25.0, 40.0]]]}, "type": "Feature", "properties": {"snippet": "Unknown", "link": "http://pleiades.stoa.org/places/1001887/batlas-location", "description": "", "location_precision": "rough", "title": "Barrington Atlas location"}, "id": "batlas-location"}], "names": ["Europe"], "type": "FeatureCollection", "id": "1001887", "bbox": [25.0, 40.0, 30.0, 45.0]}
+                        
+                        ;
+                        
+                        var v1001887 = L.geoJson(geojsonFeature1001887).addTo(map);
+                        
+                    
+                        
+                        var geojsonFeature501609 =
+                        {"connectsWith": [], "recent_changes": [{"modified": "2013-11-17T03:28:36Z", "principal": "jbecker"}, {"modified": "2012-02-15T05:43:57Z", "principal": "admin"}], "description": "An ancient place, cited: BAtlas 51 G4 Sestos", "title": "Sestos", "reprPoint": [26.417224999999998, 40.228355999999998], "features": [{"geometry": {"type": "Point", "coordinates": [26.417224999999998, 40.228355999999998]}, "type": "Feature", "properties": {"snippet": "Unknown; 750 BC - AD 300", "link": "http://pleiades.stoa.org/places/501609/darmc-location-9525", "description": "500K scale point location", "location_precision": "precise", "title": "DARMC location 9525"}, "id": "darmc-location-9525"}], "names": ["Sestos"], "type": "FeatureCollection", "id": "501609", "bbox": [26.417224999999998, 40.228355999999998, 26.417224999999998, 40.228355999999998]}
+                        
+                        ;
+                        
+                        var v501609 =  L.geoJson(geojsonFeature501609, {
+                        
+                        
+                        onEachFeature: onEachFeature,
+                        
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, {
+                        radius: 8,
+                        fillColor: "green",
+                        color: "#000",
+                        weight: 1,
+                        opacity: 0.3,
+                        fillOpacity: 0.2
+                        });
+                        }
+                        }).addTo(map);  
+                    
+                        
+                        var geojsonFeature540726 =
+                        {"connectsWith": ["203037083", "707804475", "513711610", "333036424", "333036425", "333036426", "464482219"], "recent_changes": [{"modified": "2015-03-20T17:47:25Z", "principal": "jbecker"}, {"modified": "2015-03-13T21:05:26Z", "principal": "thomase"}], "description": "The ancient pan-Hellenic sanctuary of Delphi in Greece, seat of the oracle of Apollo.", "title": "Delphi", "reprPoint": [22.501169000000001, 38.482289000000002], "features": [{"geometry": {"type": "Point", "coordinates": [22.501169000000001, 38.482289000000002]}, "type": "Feature", "properties": {"snippet": "Settlement; 750 BC - AD 640", "link": "http://pleiades.stoa.org/places/540726/dare-location", "description": "Representative point location, site precision", "location_precision": "precise", "title": "DARE Location"}, "id": "dare-location"}], "names": ["Delphi", "\u0394\u03b5\u03bb\u03c6\u03bf\u03af", "\u062f\u0644\u0641\u064a", "Delfos", "Delfi"], "type": "FeatureCollection", "id": "540726", "bbox": [22.501169000000001, 38.482289000000002, 22.501169000000001, 38.482289000000002]}
+                        
+                        ;
+                        
+                        var v540726 =  L.geoJson(geojsonFeature540726, {
+                        
+                        
+                        onEachFeature: onEachFeature,
+                        
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, {
+                        radius: 8,
+                        fillColor: "green",
+                        color: "#000",
+                        weight: 1,
+                        opacity: 0.3,
+                        fillOpacity: 0.2
+                        });
+                        }
+                        }).addTo(map);  
+                    
+                        var geojsonFeature903080 =
+                        {"connectsWith": [], "recent_changes": [{"modified": "2013-05-20T18:45:07Z", "principal": "jbecker"}, {"modified": "2012-02-15T09:29:56Z", "principal": "admin"}], "description": "Media/Mad(aya) was a region of northwestern Iran.", "title": "Media/Mad(aya)", "reprPoint": [46.5, 34.5], "features": [{"geometry": {"type": "Polygon", "coordinates": [[[46.0, 34.0], [46.0, 35.0], [47.0, 35.0], [47.0, 34.0], [46.0, 34.0]]]}, "type": "Feature", "properties": {"snippet": "Unknown; 750 BC - AD 640", "link": "http://pleiades.stoa.org/places/903080/batlas-location", "description": "", "location_precision": "rough", "title": "Barrington Atlas location"}, "id": "batlas-location"}], "names": ["Media", "Madaya", "Mad"], "type": "FeatureCollection", "id": "903080", "bbox": [46.0, 34.0, 47.0, 35.0]}
+                        
+                        ;
+                        
+                        var v903080 = L.geoJson(geojsonFeature903080).addTo(map);
+                        
+                    
             
             var points = L.layerGroup([
-    v580101, v501434, v579885, v579853, v599636, v579920 
+    v580101, v501434, v579885, v579853, v599636, v579920, v541138, v541063, v540689, v541140, v599799, v599805, v501609, v540726,  
         ]);
     
     var poligons = L.layerGroup([
-    v1001896, v580059, v580094, v580122,  
+    v1001896, v580059, v580094, v580122, v981531, v922698, v570406, v1001887, v903080 
     ]);
    
    var baseMaps ={
