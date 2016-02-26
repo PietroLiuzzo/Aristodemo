@@ -353,8 +353,7 @@ meant to be run in a folder with other data locally referred
                   <p class="pull-right">
                      <a href="#">Torna all'inzio</a>
                   </p>
-                  <p> 2015 Company, Inc. <a href="#">Privacy</a>
-                     <a href="#">Terms</a></p>
+                   <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Edizione Digitale di FGrHist 104 [Aristodemo]</span> di<span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName"> Pietro Maria Liuzzo</span> è distribuito con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.
                </footer>
 
             </div>

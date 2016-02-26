@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
     <teiHeader>
         <fileDesc>
@@ -144,7 +144,7 @@
                         <w>καὶ</w>
                         <w>ἐκυκλώσατο</w>
                         <w>τοὺς</w>
-                        <placeName nymRef="Ἑλλάς" type="ethinc" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνας</placeName>
+                        <placeName nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνας</placeName>
                         <w>εἰς</w>
                         <w>τὸ</w>
                         <w>μένειν</w>
@@ -217,7 +217,7 @@
                         <w>οὖν</w>
                         <w>πάντες</w>
                         <w>οἱ</w>
-                        <placeName nymRef="Ἑλλάς" type="ethinc" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνες,</placeName>
+                        <placeName nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνες,</placeName>
                         <w>ἐκπρεπέστερον</w>
                         <w>δὲ</w>
                         <w>οἱ</w>
@@ -726,7 +726,7 @@
                         <w>πρὸς</w>
                         <w>τὸ</w>
                         <w>μάχεσθαι</w>
-                        <placeName nymRef="Πέρσις " type="ethinc" ref="http://pleiades.stoa.org/places/922698">Πέρσαις</placeName>.
+                        <placeName nymRef="Πέρσις " type="ethnic" ref="http://pleiades.stoa.org/places/922698">Πέρσαις</placeName>.
                         <w>ἐν</w>
                         <w>δὲ</w>
                         <w>τούτῳ</w>
@@ -747,7 +747,7 @@
                         <w>ἀκουσίως</w>
                         <w>μάχεσθαι</w>
                         <w>τοῖς</w>
-                        <placeName nymRef="Πέρσις " type="ethinc" ref="http://pleiades.stoa.org/places/922698">Πέρσαις</placeName>.
+                        <placeName nymRef="Πέρσις " type="ethnic" ref="http://pleiades.stoa.org/places/922698">Πέρσαις</placeName>.
                         <w>Ἐστρατήγει</w>
                         <w>δὲ</w>
                         <placeName ref="http://pleiades.stoa.org/places/570406" type="ethnic" nymRef="Λακεδαίμων">Λακεδαιμονίων</placeName>
@@ -766,7 +766,7 @@
                         <w>τῆς</w>
                         <w>συμβολῆς</w>
                         <w>τῶν</w>
-                        <placeName nymRef="Πέρσις " type="ethinc" ref="http://pleiades.stoa.org/places/922698">Περσῶν</placeName>,
+                        <placeName nymRef="Πέρσις " type="ethnic" ref="http://pleiades.stoa.org/places/922698">Περσῶν</placeName>,
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναῖοι</placeName>
                         <w>ἐπεβοήθησαν</w>
                         <w>τοῖς</w>
@@ -1006,8 +1006,7 @@
                     <p n="1"><pb n="ξη" facs="178"/><w>Ἀπὸ</w>
                         <w>δὲ</w>
                         <w>τῆς</w>
-                        
-                        <placeName nymRef="Πέρσις " ref="http://pleiades.stoa.org/places/922698">Περσικῆς</placeName>
+                        <w>Περσικῆς</w>
                         <w>στρατείας</w>
                         <w>ἐπὶ</w>
                         <w>τὸν</w>
@@ -2017,7 +2016,7 @@
                         <w>ἐπὶ</w>
                         <w>τὴν</w>
                         
-                            <placeName nymRef="Πέρσις " type="ethinc" ref="http://pleiades.stoa.org/places/922698">Περσίδα</placeName>
+                            <placeName nymRef="Πέρσις " type="ethnic" ref="http://pleiades.stoa.org/places/922698">Περσίδα</placeName>
                         <w>ἔπλει.</w>
                         <w>ἐκινδύνευσε</w>
                         <w>δὲ</w>
@@ -2083,7 +2082,7 @@
                         <w>εἰς</w>
                         <w>τὴν</w>
                         
-                        <placeName nymRef="Πέρσις " type="ethinc" ref="http://pleiades.stoa.org/places/922698">Περσίδα</placeName>.</p>
+                        <placeName nymRef="Πέρσις " type="ethnic" ref="http://pleiades.stoa.org/places/922698">Περσίδα</placeName>.</p>
                     <p n="4">
                         <w>καὶ</w>
                         <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξην</name>
@@ -2105,7 +2104,7 @@
                         <w>καὶ</w>
                         <w>μαθὼν</w>
                         <w>τὴν</w>
-                        <placeName nymRef="Πέρσις " type="ethinc" ref="http://pleiades.stoa.org/places/922698">Περσικὴν</placeName>
+                        <placeName nymRef="Πέρσις " type="ethnic" ref="http://pleiades.stoa.org/places/922698">Περσικὴν</placeName>
                         <w>γλῶσσαν,</w>
                         <w>τότε</w>
                         <w>παρεγένετο</w>
@@ -2265,7 +2264,7 @@
                         <w>ἐναυμάχησαν</w>
                         <w>Φοίνιξι</w>
                         <w>καὶ</w>
-                        <placeName nymRef="Πέρσις " type="ethinc" ref="http://pleiades.stoa.org/places/922698">Πέρσαις</placeName>
+                        <placeName nymRef="Πέρσις " type="ethnic" ref="http://pleiades.stoa.org/places/922698">Πέρσαις</placeName>
                         <w>καὶ</w>
                         <w>λαμπρὰ</w>
                         <w>ἔργα</w>
@@ -2466,7 +2465,7 @@
                         <w>τελευτᾶι.</w>
                         <w>οἱ</w>
                         <w>δὲ</w>
-                        <placeName nymRef="Πέρσις " type="ethinc" ref="http://pleiades.stoa.org/places/922698">Πέρσαι</placeName>
+                        <placeName nymRef="Πέρσις " type="ethnic" ref="http://pleiades.stoa.org/places/922698">Πέρσαι</placeName>
                         <w>ὁρῶντες</w>
                         <w>κεκακωμένους</w>
                         <w>τοὺς</w>
@@ -2537,7 +2536,7 @@
                         <w>μακροῖς</w>
                         <w>πλοίοις</w>
                         <w>καταπλέωσι</w>
-                        <placeName nymRef="Πέρσις " type="ethinc" ref="http://pleiades.stoa.org/places/922698">Πέρσαι</placeName>,
+                        <placeName nymRef="Πέρσις " type="ethnic" ref="http://pleiades.stoa.org/places/922698">Πέρσαι</placeName>,
                         <w>καὶ</w>
                         <w>ἐντὸς</w>
                         <w>τριῶν</w>
@@ -2878,7 +2877,7 @@
                     <p n="2">
                         <w>πιεζόμενοι</w>
                         <w>δὲ</w>
-                        <placeName ref="http://pleiades.stoa.org/places/530835" nymRef="Κέρκυρα">Κερκυραῖοι</placeName>
+                        <placeName ref="http://pleiades.stoa.org/places/530835" nymRef="Κέρκυρα" type="ethnic">Κερκυραῖοι</placeName>
                         <w>τῷ</w>
                         <w>πολέμῳ</w>
                         <w>ἔπεμψαν</w>
