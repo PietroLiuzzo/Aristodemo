@@ -30,8 +30,8 @@ meant to be run in a folder with other data locally referred
     
     var map = L.map('map', 
     {
-    center: [40, 11],
-    zoom: 4,
+    center: [35.92464, 36.60645],
+    zoom: 5,
     layers: [roads, ancientworld, grayscale, streets],
     fullscreenControl: true,
     // OR
@@ -150,6 +150,12 @@ meant to be run in a folder with other data locally referred
    };
    
    L.control.layers(baseMaps, overlayMaps).addTo(map);
+   
+   function onMapClick(e) {
+   alert("You clicked the map at " + e.latlng);
+   }
+   
+   map.on('click', onMapClick);
    
 </xsl:result-document>
 

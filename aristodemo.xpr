@@ -15,10 +15,14 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>luoghi</String>
+                                        <String>CodParText</String>
+                                        <String>persone</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
                                         <String>XSL</String>
                                     </list>
                                 </field>

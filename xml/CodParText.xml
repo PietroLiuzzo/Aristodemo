@@ -1006,7 +1006,8 @@
                     <p n="1"><pb n="ξη" facs="178"/><w>Ἀπὸ</w>
                         <w>δὲ</w>
                         <w>τῆς</w>
-                        <w>Περσικῆς</w>
+                        
+                        <placeName nymRef="Πέρσις " ref="http://pleiades.stoa.org/places/922698">Περσικῆς</placeName>
                         <w>στρατείας</w>
                         <w>ἐπὶ</w>
                         <w>τὸν</w>
@@ -1119,7 +1120,8 @@
                         <w>δὲ</w>
                         <w>τὰς</w>
                         <w>τῶν</w>
-                        <w>Περσῶν</w>
+                        
+                        <placeName nymRef="Πέρσις " type="ethnic" ref="http://pleiades.stoa.org/places/922698">Περσῶν</placeName>
                         <w>ἐσθῆτας</w>
                         <w>φορεῖν</w>
                         <w>καὶ</w>
@@ -1146,7 +1148,7 @@
                         <w>ὑπὸ</w>
                         <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξου</name>
                         <w>καὶ</w>
-                        <w>Μαρδονίου,</w>
+                        <name>Μαρδονίου,</name>
                         <w>ἐβουλεύοντο</w>
                         <w>τειχίζειν</w>
                         <w>αὐτήν,</w>
@@ -1176,7 +1178,7 @@
                         <w>πάλιν</w>
                         <w>αὐξηθῆναι·</w>
                         <w>οὓς</w>
-                        <w>Θεμιστοκλῆς</w>
+                        <name>Θεμιστοκλῆς</name>
                         <w>συνέσει</w>
                         <w>διαφέρων</w>
                         <w>κατεστρατήγησεν,</w>
@@ -1210,7 +1212,7 @@
                         <w>τὴν</w>
                         <w>πόλιν,</w>
                         <w>ἀντέλεγεν</w>
-                        <w>Θεμιστοκλῆς.</w>
+                        <name>Θεμιστοκλῆς.</name>
                         <w>ὡς</w>
                         <w>δὲ</w>
                         <w>οὐκ</w>
@@ -1240,7 +1242,7 @@
                         <w>ἄνδρας</w>
                         <w>καὶ</w>
                         <w>πεμψάντων,</w>
-                        <w>Θεμιστοκλῆς</w>
+                        <name>Θεμιστοκλῆς</name>
                         <w>κρύφα</w>
                         <w>ὑπέπεμπε</w>
                         <w>τοῖς</w>
@@ -1272,7 +1274,7 @@
                         <w>αἰσθόμενοι</w>
                         <w>τὴν</w>
                         <w>ἀπάτην</w>
-                        <w>Θεμιστοκλέους,</w>
+                        <name>Θεμιστοκλέους,</name>
                         <w>οὐδὲν</w>
                         <w>διέθεσαν</w>
                         <w>αὐτὸν</w>
@@ -1314,7 +1316,7 @@
                         <w>φέροντα</w>
                         <w>ἐπὶ</w>
                         <w>τὸν</w>
-                        <w>Πειραιᾶ</w>
+                        <placeName ref="http://pleiades.stoa.org/places/580062" nymRef="Πειραιεύς">Πειραιᾶ</placeName>
                         <w>ἐξ</w>
                         <w>ἑκατέρου</w>
                         <w>μέρους</w>
@@ -1323,14 +1325,15 @@
                         <w>ὁ</w>
                         <w>δὲ</w>
                         <w>τοῦ</w>
-                        <w>Πειραιῶς</w>
+                        <placeName ref="http://pleiades.stoa.org/places/580062" nymRef="Πειραιεύς">Πειραιῶς</placeName>
                         <w>περίβολος</w>
                         <w>σταδίων</w>
                         <w>π</w>
                         <w>(ἔστι</w>
                         <w>δὲ</w>
                         <w>ὁ</w>
-                        <w>Πειραιεὺς</w>
+                        
+                        <placeName ref="http://pleiades.stoa.org/places/580062" nymRef="Πειραιεύς">Πειραιεὺς</placeName>
                         <w>λιμὴν</w>
                         <w>εἰς</w>
                         <w>δύο</w>
@@ -1342,13 +1345,13 @@
                         <w>μέν</w>
                         <w>τι</w>
                         <w>μέρος</w>
-                        <w>Μουνυχία,</w>
+                        <placeName ref="http://pleiades.stoa.org/places/580029" nymRef="Μουνυχία">Μουνυχία</placeName>,
                         <w>τὰ</w>
                         <w>δεξιὰ</w>
                         <w>δὲ</w>
                         <w>ἄκρα</w>
                         <w>τοῦ</w>
-                        <w>Πειραιῶς</w>
+                        <placeName ref="http://pleiades.stoa.org/places/580062" nymRef="Πειραιεύς">Πειραιῶς</placeName>
                         <w>ᾑ</w>
                         <w>ἐστιν</w>
                         <w>ἔτι</w>
@@ -1359,17 +1362,17 @@
                         <w>δέ</w>
                         <w>ἐστιν</w>
                         <w>ἐν</w>
-                        <w>Πειραιεῖ,</w>
+                        <placeName ref="http://pleiades.stoa.org/places/580062" nymRef="Πειραιεύς">Πειραιεῖ</placeName>,
                         <w>ἐφ’</w>
                         <w>ὅν</w>
                         <w>τὸ</w>
                         <w>τῆς</w>
-                        <w>Ἀρτέμιδος</w>
+                        <name>Ἀρτέμιδος</name>
                         <w>ἱερὸν</w>
                         <w>ἵδρυται).</w>
                         <w>τὸ</w>
                         <w>δὲ</w>
-                        <w>Φαληρικὸν</w>
+                        <placeName ref="http://pleiades.stoa.org/places/580071" nymRef="φάληρον">Φαληρικὸν</placeName>
                         <w>τεῖχος</w>
                         <w>ἐκτίσθη</w>
                         <w>σταδίων</w>
@@ -1394,7 +1397,7 @@
                 <div type="textpart" subtype="section" n="6">
                     <p n="1"><w>Ὁ</w>
                         <w>δὲ</w>
-                        <w>Θεμιστοκλῆς</w>
+                        <name>Θεμιστοκλῆς</name>
                         <w>διὰ</w>
                         <w>τὴν</w>
                         <w>ὑπερβάλλουσαν</w>
@@ -1409,7 +1412,7 @@
                         <w>καὶ</w>
                         <w>παρεγένετο</w>
                         <w>εἰς</w>
-                        <w>Ἄργος.</w>
+                        <placeName ref="http://pleiades.stoa.org/places/570106" nymRef="Ἄργος">Ἄργος</placeName>.
                     </p>
                     <p n="2">
                         <placeName ref="http://pleiades.stoa.org/places/570406" type="ethnic" nymRef="Λακεδαίμων">Λακεδαιμόνιοι</placeName>
@@ -1420,7 +1423,7 @@
                         <w>τῆς</w>
                         <w>ἐγκεχειρισμένης</w>
                         <w>προδοσίας</w>
-                        <w>Παυσανίαι,</w>
+                        <name>Παυσανίαι,</name>
                         <w>πέμψαντες</w>
                         <w>αὐτῷ</w>
                         <w>τὴν</w>
@@ -1433,11 +1436,11 @@
                     <p n="3">
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <w>Παυσανίας</w>
+                        <name>Παυσανίας</name>
                         <w>ἐλθὼν</w>
                         <w>εἰς</w>
                         <w>τὴν</w>
-                        <w>Σπάρτην</w>
+                        <placeName ref="http://pleiades.stoa.org/places/570685" nymRef="Σπάρτη">Σπάρτην</placeName>
                         <w>ἀπελογήσατο,</w>
                         <w>καὶ</w>
                         <w>ἀπατήσας</w>
@@ -1470,7 +1473,7 @@
                         <w>τυραννεῖσθαι</w>
                         <w>ὑπὸ</w>
                         <w>τοῦ</w>
-                        <w>Παυσανίου</w>
+                        <name>Παυσανίου</name>
                         <w>προσετίθεντο</w>
                         <w>τοῖς</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναίοις,</placeName>
@@ -1492,13 +1495,14 @@
                         <w>θησαυροφυλάκιον</w>
                         <w>ἐποιήσαντο</w>
                         <w>ἐν</w>
-                        <w>Δήλῳ,</w>
+                        <placeName nymRef="Δήλος" ref="http://pleiades.stoa.org/places/599587">Δήλῳ,</placeName>
                         <supplied reason="omitted" cert="low">ὕστερον δὲ</supplied>
                         <gap reason="lost" unit="chars" quantity="12"/>
                         <w>τάλαντα</w>
                         <w>ἐκ</w>
                         <w>τῆς</w>
-                        <w>Δήλου</w>
+                        
+                        <placeName nymRef="Δήλος" ref="http://pleiades.stoa.org/places/599587">Δήλου</placeName>
                         <w>τὰ</w>
                         <w>συναχθέντα</w>
                         <w>μετεκόμισαν</w>
@@ -1515,10 +1519,10 @@
                 <div type="textpart" subtype="section" n="8">
                     <p n="1"><w>῾Ο</w>
                         <w>δὲ</w>
-                        <w>Παυσανίας</w>
+                        <name>Παυσανίας</name>
                         <w>ὑπάρχων</w>
                         <w>ἐν</w>
-                        <w>Βυζαντίῳ</w>
+                        <placeName ref="http://pleiades.stoa.org/places/77402394" rend="Βυζαντίος">Βυζαντίῳ</placeName>
                         <w>ἀναφανδὸν</w>
                         <w>ἐμήδιζεν</w>
                         <w>καὶ</w>
@@ -1535,24 +1539,24 @@
                         <w>ἐπιχωρίου</w>
                         <w>τινὸς</w>
                         <w>θυγάτηρ</w>
-                        <w>Κορωνίδου</w>
+                        <name>Κορωνίδου</name>
                         <w>ὄνομα,</w>
                         <w>ἐφ’</w>
                         <w>ἣν</w>
                         <w>ἔπεμψεν</w>
                         <w>ὁ</w>
-                        <w>Παυσανίας</w>
+                        <name>Παυσανίας</name>
                         <w>ἐξαιτῶν</w>
                         <w>τὸν</w>
                         <w>πατέρα·</w>
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <w>Κορωνίδης</w>
+                        <name>Κορωνίδης</name>
                         <w>δεδοικὼς</w>
                         <w>τὴν</w>
                         <w>ὠμότητα</w>
                         <w>τοῦ</w>
-                        <w>Παυσανίου</w>
+                        <name>Παυσανίου</name>
                         <w>ἔπεμψεν</w>
                         <w>αὐτῷ</w>
                         <w>τὴν</w>
@@ -1566,13 +1570,13 @@
                         <w>οἴκημα,</w>
                         <w>κοιμωμένου</w>
                         <w>τοῦ</w>
-                        <w>Παυσανίου,</w>
+                        <name>Παυσανίου,</name>
                         <w>καὶ</w>
                         <w>παραστάσης,</w>
                         <w>περίυπνος</w>
                         <w>γενόμενος</w>
                         <w>ὁ</w>
-                        <w>Παυσανίας</w>
+                        <name>Παυσανίας</name>
                         <w>δόξας</w>
                         <w>τε</w>
                         <w>κατ’</w>
@@ -1625,7 +1629,7 @@
                         <w>γράψας</w>
                         <w>ἐπιστολὰς</w>
                         <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξῃ</name>
-                        <w>Ἀργιλίῳ</w>
+                        <name>Ἀργιλίῳ</name>
                         <w>ἀγαπωμένῳ</w>
                         <w>ἑαυτοῦ</w>
                         <w>δίδωσι</w>
@@ -1636,7 +1640,7 @@
                         <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξην</name>.
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <w>Ἀργίλιος</w>
+                        <name>Ἀργίλιος</name>
                         <w>δεδοικὼς</w>
                         <w>περὶ</w>
                         <w>αὑτοῦ,</w>
@@ -1654,7 +1658,7 @@
                         <w>ἐλθὼν</w>
                         <w>δὲ</w>
                         <w>εἰς</w>
-                        <w>Σπάρτην</w>
+                        <placeName ref="http://pleiades.stoa.org/places/570685" nymRef="Σπάρτη">Σπάρτην</placeName>
                         <w>τοῖς</w>
                         <w>ἐφόροις</w>
                         <w>ἐμήνυσε</w>
@@ -1665,19 +1669,19 @@
                         <w>κατάφωρον</w>
                         <w>δείξειν</w>
                         <w>τὸν</w>
-                        <w>Παυσανίαν.</w>
+                        <name>Παυσανίαν</name>.
                         <w>καὶ</w>
                         <w>συνθέμενος</w>
                         <w>περὶ</w>
                         <w>τούτων</w>
                         <w>ἦλθεν</w>
                         <w>εἰς</w>
-                        <w>Ταίναρον</w>
+                        <placeName ref="http://pleiades.stoa.org/places/570702" nymRef="Ταίναρον">Ταίναρον</placeName>
                         <w>ἔν</w>
                         <w>τε</w>
                         <w>τῷ</w>
                         <w>τοῦ</w>
-                        <w>Ποσειδῶνος</w>
+                        <name>Ποσειδῶνος</name>
                         <w>τεμένει</w>
                         <milestone unit="section" type="filostratus" n="2"/>
                         <!--not sure. how to say here there is another text before the page breaks? 
@@ -1714,12 +1718,12 @@
                         <w>ἐπιστάμενος</w>
                         <w>δὲ</w>
                         <w>ὁ</w>
-                        <w>Παυσανίας</w>
+                        <name>Παυσανίας</name>
                         <w>ταῦτα,</w>
                         <w>ἀκούσας</w>
                         <w>δὲ</w>
                         <w>τὸν</w>
-                        <w>Ἀργίλιον</w>
+                        <name>Ἀργίλιον</name>
                         <w>ἱκετεύοντα,</w>
                         <w>παρεγένετο</w>
                         <w>πρὸς</w>
@@ -1766,7 +1770,7 @@
                         <w>αὐτὸν</w>
                         <w>ἐλθόντα</w>
                         <w>εἰς</w>
-                        <w>Σπάρτην</w>
+                        <placeName ref="http://pleiades.stoa.org/places/570685" nymRef="Σπάρτη">Σπάρτην</placeName>
                         <w>ἐβούλοντο</w>
                         <w>συλλαμβάνεσθαι·</w>
                         <w>ὁ</w>
@@ -1776,7 +1780,7 @@
                         <w>εἰς</w>
                         <w>τὸ</w>
                         <w>τῆς</w>
-                        <w>Χαλκιοίκου</w>
+                        <name>Χαλκιοίκου</name>
                         <placeName nymRef="Ἀθῆναι" ref="http://pleiades.stoa.org/places/579885">Ἀθηνᾶς</placeName>
                         <w>τέμενος</w>
                         <w>καὶ</w>
@@ -1798,7 +1802,7 @@
                         <w>ἡ</w>
                         <w>μήτηρ</w>
                         <w>τοῦ</w>
-                        <w>Παυσανίου</w>
+                        <name>Παυσανίου</name>
                         <w>βαστάσασα</w>
                         <w>πλίνθον</w>
                         <w>ἔθηκεν</w>
@@ -1825,7 +1829,7 @@
                         <w>λιμῷ</w>
                         <w>διαφθαρέντος</w>
                         <w>τοῦ</w>
-                        <w>Παυσανίου,</w>
+                        <name>Παυσανίου,</name>
                         <w>ἀνελόντες</w>
                         <w>τὴν</w>
                         <w>στέγην,</w>
@@ -1835,7 +1839,7 @@
                         <w>ἔτι</w>
                         <w>ἐμπνέοντα</w>
                         <w>τὸν</w>
-                        <w>Παυσανίαν</w>
+                        <name>Παυσανίαν</name>
                         <w>καὶ</w>
                         <w>ἐξέρριψαν.</w>
                     </p>
@@ -1854,7 +1858,7 @@
                         <w>τοὺς</w>
                         <w>δαίμονας</w>
                         <w>τοῦ</w>
-                        <w>Παυσανίου,</w>
+                        <name>Παυσανίου,</name>
                         <w>παύσασθαι</w>
                         <w>τὸν</w>
                         <w>λοιμόν,</w>
@@ -1911,7 +1915,7 @@
                         <w>ἐπειδὴ</w>
                         <w>τὰ</w>
                         <w>τοῦ</w>
-                        <w>Παυσανίου</w>
+                        <name>Παυσανίου</name>
                         <w>ἐπονειδίστως</w>
                         <w>ἐκεχωρήκει,</w>
                         <w>τοὺς</w>
@@ -1920,13 +1924,13 @@
                         <w>λέγοντες</w>
                         <w>ἐν</w>
                         <w>ταῖς</w>
-                        <w>Παυσανίου</w>
+                        <name>Παυσανίου</name>
                         <w>ἐπιστολαῖς</w>
                         <w>κοινωνὸν</w>
                         <w>εὑρηκέναι</w>
                         <w>τῆς</w>
                         <w>προδοσίας</w>
-                        <w>Θεμιστοκλέα.</w>
+                        <name>Θεμιστοκλέα.</name>
                         <w>ὁ</w>
                         <w>δὲ</w>
                         <w>Θεμιστοκλῆς</w>
@@ -1937,16 +1941,16 @@
                         <w>ἔμεινεν</w>
                         <w>ἐν</w>
                         <w>τῷ</w>
-                        <w>Ἄργει</w>
+                        <placeName ref="http://pleiades.stoa.org/places/570106" nymRef="Ἄργος">Ἄργει</placeName>
                         <w>ἀλλὰ</w>
                         <w>παρεγένετο</w>
                         <w>εἰς</w>
-                        <w>Κέρκυραν</w>
+                        <placeName ref="http://pleiades.stoa.org/places/530835" nymRef="Κέρκυρα">Κέρκυραν</placeName>
                         <w>κἀκεῖθεν</w>
                         <w>εἰς</w>
-                        <w>Μολοσσοὺς</w>
+                        <placeName ref="http://pleiades.stoa.org/places/531003" nymRef="Μολοσσοὺς" type="ethnic">Μολοσσοὺς</placeName>
                         <w>πρὸς</w>
-                        <w>Ἄδμητον</w>
+                        <name>Ἄδμητον</name>
                         <w>βασιλεύοντα</w>
                         <w>καὶ</w>
                         <w>ἐχθρὸν</w>
@@ -1960,16 +1964,16 @@
                         <w>παραγενομένων</w>
                         <w>πρὸς</w>
                         <w>τὸν</w>
-                        <w>Ἄδμητον</w>
+                        <name>Ἄδμητον</name>
                         <w>καὶ</w>
                         <w>ἐξαιτούντων</w>
                         <w>αὐτόν,</w>
                         <w>ἡ</w>
                         <w>γυνὴ</w>
                         <w>τοῦ</w>
-                        <w>Ἀδμήτου</w>
+                        <name>Ἀδμήτου</name>
                         <w>ὑπέθετο</w>
-                        <w>Θεμιστοκλεῖ</w>
+                        <name>Θεμιστοκλεῖ</name>
                         <w>ἁρπάσαι</w>
                         <w>τὸν</w>
                         <w>τοῦ</w>
@@ -1984,9 +1988,9 @@
                         <w>πράξαντος</w>
                         <w>δὲ</w>
                         <w>τοῦ</w>
-                        <w>Θεμιστοκλέους,</w>
+                        <name>Θεμιστοκλέους,</name>
                         <w>ὁ</w>
-                        <w>Ἄδμητος</w>
+                        <name>Ἄδμητος</name>
                         <w>κατελεήσας</w>
                         <w>αὐτὸν</w>
                         <w>οὐκ</w>
@@ -1994,7 +1998,7 @@
                         <w>ἀλλ’</w>
                         <w>ἀπεκρίθη</w>
                         <w>τοῖς</w>
-                        <w>Πελοποννησίοις</w>
+                        <placeName ref="http://pleiades.stoa.org/places/570577" type="ethnic" nymRef="Πελοποννήσος">Πελοποννησίοις</placeName>
                         <w>μὴ</w>
                         <w>ὅσιον</w>
                         <w>εἶναι</w>
@@ -2005,14 +2009,15 @@
                     <p n="3">
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <w>Θεμιστοκλῆς</w>
+                        <name>Θεμιστοκλῆς</name>
                         <w>οὐκ</w>
                         <w>ἔχων</w>
                         <w>ὅπου</w>
                         <w>ὑποστρέψει</w>
                         <w>ἐπὶ</w>
                         <w>τὴν</w>
-                        <w>Περσίδα</w>
+                        
+                            <placeName nymRef="Πέρσις " type="ethinc" ref="http://pleiades.stoa.org/places/922698">Περσίδα</placeName>
                         <w>ἔπλει.</w>
                         <w>ἐκινδύνευσε</w>
                         <w>δὲ</w>
@@ -2021,7 +2026,7 @@
                         <w>ἁλῶναι</w>
                         <w>καὶ</w>
                         <w>παραληφθῆναι.</w>
-                        <w>Νάξον</w>
+                        <placeName ref="http://pleiades.stoa.org/places/599822" nymRef="Νάξος">Νάξον</placeName>
                         <w>γὰρ</w>
                         <w>πολεμούντων</w>
                         <w>τῶν</w>
@@ -2029,15 +2034,15 @@
                         <w>ἡ</w>
                         <w>ναῦς</w>
                         <w>τοῦ</w>
-                        <w>Θεμιστοκλέους</w>
+                        <name>Θεμιστοκλέους</name>
                         <w>χειμῶνος</w>
                         <w>ἐπιγενομένου</w>
                         <w>προσήγετο</w>
                         <w>τῇ</w>
-                        <w>Νάξῳ·</w>
+                        <placeName ref="http://pleiades.stoa.org/places/599822" nymRef="Νάξος">Νάξῳ</placeName>·
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <w>Θεμιστοκλῆς</w>
+                        <name>Θεμιστοκλῆς</name>
                         <w>δεδοικὼς</w>
                         <w>μήποτε</w>
                         <w>συλληφθῇ</w>
@@ -2072,12 +2077,13 @@
                         <w>ἀνέμοις·</w>
                         <w>καὶ</w>
                         <w>οὕτω</w>
-                        <w>Θεμιστοκλῆς</w>
+                        <name>Θεμιστοκλῆς</name>
                         <w>διασωθεὶς</w>
                         <w>παρεγένετο</w>
                         <w>εἰς</w>
                         <w>τὴν</w>
-                        <w>Περσίδα.</w></p>
+                        
+                        <placeName nymRef="Πέρσις " type="ethinc" ref="http://pleiades.stoa.org/places/922698">Περσίδα</placeName>.</p>
                     <p n="4">
                         <w>καὶ</w>
                         <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξην</name>
@@ -2085,7 +2091,7 @@
                         <w>οὐ</w>
                         <w>κατέλαβε</w>
                         <w>ζῶντα,</w>
-                        <w>Ἀρταξέρξην</w>
+                        <name>Ἀρταξέρξην</name>
                         <w>δὲ</w>
                         <w>τὸν</w>
                         <w>υἱὸν</w>
@@ -2099,13 +2105,13 @@
                         <w>καὶ</w>
                         <w>μαθὼν</w>
                         <w>τὴν</w>
-                        <w>Περσικὴν</w>
+                        <placeName nymRef="Πέρσις " type="ethinc" ref="http://pleiades.stoa.org/places/922698">Περσικὴν</placeName>
                         <w>γλῶσσαν,</w>
                         <w>τότε</w>
                         <w>παρεγένετο</w>
                         <w>πρὸς</w>
                         <w>τὸν</w>
-                        <w>Ἀρταξέρξην,</w>
+                        <name>Ἀρταξέρξην,</name>
                         <w>καὶ</w>
                         <w>ὑπέμνησεν</w>
                         <w>αὐτὸν</w>
@@ -2129,7 +2135,8 @@
                         <unclear>ὑπο</unclear><w>δείξας</w>
                         <w>λύ</w><supplied reason="omitted">σο</supplied><w>ντας</w>
                         <w>τοὺς</w>
-                        <supplied reason="omitted">Ἕλλ</supplied><w>ηνας</w>
+                        
+                        <placeName  nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896"><supplied reason="omitted">Ἕλλ</supplied>ηνας</placeName>
                         <w>τὸ</w>
                         <w>ζεῦγμα.</w>
                         <w>ὑπέσχετο</w>
@@ -2145,7 +2152,7 @@
                     <p n="5">
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <w>Ἀρταξέρξης</w>
+                        <name>Ἀρταξέρξης</name>
                         <w>προσσχὼν</w>
                         <w>τοῖς</w>
                         <w>εἰρημένοις</w>
@@ -2157,25 +2164,26 @@
                         <w>πόλεις</w>
                         <w>εἰς</w>
                         <w>χορηγίαν,</w>
-                        <w>Μαγνησίαν</w>
+                        <placeName ref="http://pleiades.stoa.org/places/550706" nymRef="Μαγνησία">Μαγνησίαν</placeName>
                         <w>μὲν</w>
                         <w>εἰς</w>
                         <w>σῖτον,</w>
-                        <w>Λάμψακον</w>
+                        <placeName ref="http://pleiades.stoa.org/places/501570" nymRef="Λάμψακος">Λάμψακον</placeName>
                         <w>δὲ</w>
                         <w>εἰς</w>
                         <w>οἶνον,</w>
-                        <w>Μυοῦντα</w>
+                        <placeName nymRef="Μυοῦς" ref="http://pleiades.stoa.org/places/599813">Μυοῦντα</placeName>
                         <w>δὲ</w>
                         <w>εἰς</w>
                         <w>ὄψον.</w>
                         <w>λαβὼν</w>
                         <w>δὲ</w>
-                        <w>Θεμιστοκλῆς</w>
+                        <name>Θεμιστοκλῆς</name>
                         <w>καὶ</w>
                         <w>παραγενόμενος</w>
                         <w>εἰς</w>
-                        <w>Μαγνησίαν,</w>
+                        
+                        <placeName ref="http://pleiades.stoa.org/places/550706" nymRef="Μαγνησία">Μαγνησίαν</placeName>,
                         <w>ἐγγὺς</w>
                         <w>ἤδη</w>
                         <w>γενόμενος</w>
@@ -2192,7 +2200,7 @@
                         <w>δὲ</w>
                         <w>τῇ</w>
                         <w>Λευκοφρύνῃ</w>
-                        <w>Ἀρτέμιδι,</w>
+                        <name>Ἀρτέμιδι,</name>
                         <w>σφαττομένου</w>
                         <w>ταύρου</w>
                         <w>ὑποσχὼν</w>
@@ -2217,7 +2225,7 @@
                         <w>τὸν</w>
                         <w>ἅμα</w>
                         <w>τῷ</w>
-                        <w>Θεμιστοκλεῖ,</w>
+                        <name>Θεμιστοκλεῖ,</name>
                         <w>καὶ</w>
                         <w>παραγενόμενοι</w>
                         <w>δὲ</w>
@@ -2225,7 +2233,7 @@
                         <w>καὶ</w>
                         <w>ἀντεπεστράτευον</w>
                         <w>τῷ</w>
-                        <w>Ἀρταξέρξῃ</w>
+                        <name>Ἀρταξέρξῃ</name>
                         <w>εὐθέως</w>
                         <w>τε</w>
                         <w>τὰς</w>
@@ -2239,25 +2247,25 @@
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναῖοι</placeName>.
                     </p>
                     <p n="2">
-                        <w>Κίμωνος</w>
+                        <name>Κίμωνος</name>
                         <w>δὲ</w>
                         <w>τοῦ</w>
-                        <w>Μιλτιάδου</w>
+                        <name>Μιλτιάδου</name>
                         <w>στρατηγοῦντος</w>
                         <w>ἀνέπλευσαν</w>
                         <w>ἐπὶ</w>
                         <w>τὴν</w>
-                        <w>Παμφυλίαν</w>
+                        <placeName ref="http://pleiades.stoa.org/places/639034" nymRef="Παμφυλία">Παμφυλίαν</placeName>
                         <w>κατὰ</w>
                         <w>τὸν</w>
                         <w>λεγόμενον</w>
-                        <w>Εὐρυμέδοντα</w>
+                        <placeName ref="http://pleiades.stoa.org/places/638836" nymRef="Εὐρυμέδων">Εὐρυμέδοντα</placeName>
                         <w>ποταμὸν</w>
                         <w>καὶ</w>
                         <w>ἐναυμάχησαν</w>
                         <w>Φοίνιξι</w>
                         <w>καὶ</w>
-                        <w>Πέρσαις</w>
+                        <placeName nymRef="Πέρσις " type="ethinc" ref="http://pleiades.stoa.org/places/922698">Πέρσαις</placeName>
                         <w>καὶ</w>
                         <w>λαμπρὰ</w>
                         <w>ἔργα</w>
@@ -2285,20 +2293,20 @@
                         <w>δὲ</w>
                         <w>καὶ</w>
                         <w>κατὰ</w>
-                        <w>Κύπρον</w>
+                        <placeName ref="http://pleiades.stoa.org/places/707498" nymRef="Κύπρος">Κύπρον</placeName>
                         <w>καὶ</w>
                         <w>ἐπ’</w>
-                        <w>Αἴγυπτον.</w>
+                        <placeName ref="http://pleiades.stoa.org/places/766" nymRef="Αἴγυπτος">Αἴγυπτον</placeName>.
                         <w>ἐβασίλευσε</w>
                         <w>δὲ</w>
                         <w>τῆς</w>
-                        <w>Αἰγύπτου</w>
-                        <w>Ἴναρος</w>
+                        <placeName ref="http://pleiades.stoa.org/places/766" nymRef="Αἴγυπτος">Αἰγύπτου</placeName>
+                        <name>Ἴναρος</name>
                         <w>υἱὸς</w>
-                        <w>Ψαμμητίχου,</w>
+                        <name>Ψαμμητίχου,</name>
                         <w>ὃς</w>
                         <w>ἀποστὰς</w>
-                        <w>Ἀρταξέρξου</w>
+                        <name>Ἀρταξέρξου</name>
                         <w>βοηθοὺς</w>
                         <w>ἐπηγάγετο</w>
                         <w>αὑτῷ</w>
@@ -2318,19 +2326,19 @@
                         <w>μετὰ</w>
                         <w>δὲ</w>
                         <w>ταῦτα</w>
-                        <w>Μεγάβυξος</w>
+                        <name>Μεγάβυξος</name>
                         <w>ὁ</w>
-                        <w>Ζωπύρου</w>
+                        <name>Ζωπύρου</name>
                         <w>καταπεμφθεὶς</w>
                         <w>ὑπὸ</w>
-                        <w>Ἀρταξέρξου,</w>
+                        <name>Ἀρταξέρξου,</name>
                         <w>ὡρμημένων</w>
                         <w>τῶν</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναίων</placeName>
                         <w>ἐν</w>
                         <w>τῇ</w>
                         <w>καλουμένῃ</w>
-                        <w>Προσωπίτιδι</w>
+                        <placeName ref="http://pleiades.stoa.org/places/727206" nymRef="Προσωπίς">Προσωπίτιδι</placeName>
                         <w>νήσῳ</w>
                         <w>ἐπί</w>
                         <w>τινος</w>
@@ -2352,14 +2360,14 @@
                         <w>δὲ</w>
                         <w>ν</w>
                         <w>νεῶν</w>
-                        <w>Ἀττικῶν</w>
+                        <placeName ref="http://pleiades.stoa.org/places/579888" nymRef="Ἀττική">Ἀττικῶν</placeName>
                         <w>προσπλεουσῶν</w>
                         <w>τῇ</w>
-                        <w>Αἰγύπτῳ</w>
+                        <placeName ref="http://pleiades.stoa.org/places/766" nymRef="Αἴγυπτος">Αἰγύπτῳ</placeName>
                         <w>οἱ</w>
                         <w>περὶ</w>
                         <w>τὸν</w>
-                        <w>Μεγάβυξον</w>
+                        <name>Μεγάβυξον</name>
                         <w>καὶ</w>
                         <w>ταύτας</w>
                         <w>παρέλαβον</w>
@@ -2397,7 +2405,7 @@
                         <w>καὶ</w>
                         <placeName ref="http://pleiades.stoa.org/places/570406" type="ethnic" nymRef="Λακεδαίμων">Λακεδαιμονίων</placeName>
                         <w>ἐν</w>
-                        <w>Τανάγραι.</w>
+                        <placeName ref="http://pleiades.stoa.org/places/580114" nymRef="Τανάγρᾳ">Τανάγραι</placeName>.
                         <w>καὶ</w>
                         <w>οἱ</w>
                         <w>μὲν</w>
@@ -2421,44 +2429,44 @@
                         <w>δὲ</w>
                         <w>πάλιν</w>
                         <w>ἐν</w>
-                        <w>Οἰνοφύτοις,</w>
+                        <placeName ref="http://pleiades.stoa.org/places/540975" nymRef="Οἰνοφύτα">Οἰνοφύτοις</placeName>,
                         <w>στρατηγοῦντος</w>
                         <w>αὐτῶν</w>
-                        <w>Τολμίδου</w>
+                        <name>Τολμίδου</name>
                         <w>καὶ</w>
-                        <w>Μυρωνίδου,</w>
+                        <name>Μυρωνίδου,</name>
                         <w>ἐνίκησαν</w>
-                        <w>Βοιωτοὺς</w>
+                        <placeName ref="http://pleiades.stoa.org/places/540689" nymRef="Βοιωτία">Βοιωτοὺς</placeName>
                         <w>καὶ</w>
                         <w>κατέσχον</w>
-                        <w>Βοιωτίαν.</w>
+                        <placeName ref="http://pleiades.stoa.org/places/540689" nymRef="Βοιωτία">Βοιωτίαν</placeName>.
                     </p>
                 </div>
                 <div type="textpart" subtype="section" n="13">
                     <p n="1"><w>Εὐθὺς</w>
                         <w>ἐστράτευσαν</w>
                         <w>ἐπὶ</w>
-                        <w>Κύπρον,</w>
+                        <placeName ref="http://pleiades.stoa.org/places/707498" nymRef="Κύπρος">Κύπρον</placeName>,
                         <w>στρατηγοῦντος</w>
                         <w>αὐτῶν</w>
-                        <w>Κίμωνος</w>
+                        <name>Κίμωνος</name>
                         <w>τοῦ</w>
-                        <w>Μιλτιάδου.</w>
+                        <name>Μιλτιάδου.</name>
                         <w>ἐνταῦθα</w>
                         <w>λιμῷ</w>
                         <w>συνεσχέθησαν,</w>
                         <w>καὶ</w>
-                        <w>Κίμων</w>
+                        <name>Κίμων</name>
                         <w>νοσήσας</w>
                         <w>ἐν</w>
-                        <w>Κιτίῳ</w>
+                        <placeName ref="http://pleiades.stoa.org/places/707534" nymRef="Κιτίον">Κιτίῳ</placeName>
                         <w>πόλει</w>
                         <w>τῆς</w>
-                        <w>Κύπρου</w>
+                        <placeName ref="http://pleiades.stoa.org/places/707498" nymRef="Κύπρος">Κύπρου</placeName>
                         <w>τελευτᾶι.</w>
                         <w>οἱ</w>
                         <w>δὲ</w>
-                        <w>Πέρσαι</w>
+                        <placeName nymRef="Πέρσις " type="ethinc" ref="http://pleiades.stoa.org/places/922698">Πέρσαι</placeName>
                         <w>ὁρῶντες</w>
                         <w>κεκακωμένους</w>
                         <w>τοὺς</w>
@@ -2481,24 +2489,24 @@
                         <w>καὶ</w>
                         <w>στρατηγὸν</w>
                         <w>αἱροῦνται</w>
-                        <w>Καλλίαν</w>
+                        <name>Καλλίαν</name>
                         <w>τὸν</w>
                         <w>ἐπίκλην</w>
-                        <w>Λακκόπλουτον,</w>
+                        <name>Λακκόπλουτον,</name>
                         <w>ἐπεὶ</w>
                         <w>θησαυρὸν</w>
                         <w>εὑρὼν</w>
                         <w>ἐν</w>
-                        <w>Μαραθῶνι</w>
+                        <placeName nymRef="Μαραθῶν" ref="http://pleiades.stoa.org/places/580022">Μαραθῶνι</placeName>
                         <w>ἀνελόμενος</w>
                         <w>αὐτὸν</w>
                         <w>ἐπλούτησεν.</w>
                         <w>οὗτος</w>
                         <w>ὁ</w>
-                        <w>Καλλίας</w>
+                        <name>Καλλίας</name>
                         <w>ἐσπείσατο</w>
                         <w>πρὸς</w>
-                        <w>Ἀρταξέρξην</w>
+                        <name>Ἀρταξέρξην</name>
                         <w>καὶ</w>
                         <w>τοὺς</w>
                         <w>λοιποὺς</w>
@@ -2512,24 +2520,24 @@
                         <w>ἐφ’</w>
                         <w>ᾧ</w>
                         <w>ἐντὸς</w>
-                        <w>Κυανέων</w>
+                        <placeName ref="http://pleiades.stoa.org/places/521064" nymRef="Κυανέαι">Κυανέων</placeName>
                         <w>καὶ</w>
-                        <w>Νέσσου</w>
+                        <placeName nymRef="Νέσσος">Νέσσου</placeName>
                         <w>(?)</w>
                         <w>ποταμοῦ</w>
                         <w>καὶ</w>
-                        <w>Φασηλίδος,</w>
+                        <placeName ref="http://pleiades.stoa.org/places/639051" nymRef="Φασήλις">Φασηλίδος,</placeName>
                         <w>ἥτις</w>
                         <w>ἐστὶν</w>
                         <w>πόλις</w>
-                        <w>Παμφυλίας,</w>
+                        <placeName ref="http://pleiades.stoa.org/places/639034" nymRef="Παμφυλία">Παμφυλίας</placeName>,
                         <w>καὶ</w>
-                        <w>Χελιδονέων</w>
+                        <placeName ref="http://pleiades.stoa.org/places/638800" nymRef="Χελιδονέων">Χελιδονέων</placeName>
                         <w>μὴ</w>
                         <w>μακροῖς</w>
                         <w>πλοίοις</w>
                         <w>καταπλέωσι</w>
-                        <w>Πέρσαι,</w>
+                        <placeName nymRef="Πέρσις " type="ethinc" ref="http://pleiades.stoa.org/places/922698">Πέρσαι</placeName>,
                         <w>καὶ</w>
                         <w>ἐντὸς</w>
                         <w>τριῶν</w>
@@ -2560,21 +2568,21 @@
                         <w>τοιαύτης</w>
                         <placeName ref="http://pleiades.stoa.org/places/570406" type="ethnic" nymRef="Λακεδαίμων">Λακεδαιμόνιοι</placeName>
                         <w>ἀφελόμενοι</w>
-                        <w>Φωκέων</w>
+                        <placeName ref="http://pleiades.stoa.org/places/541048" type="ethnic" nymRef="Φωκίς">Φωκέων</placeName>
                         <w>τὸ</w>
                         <w>ἐν</w>
-                        <w>Δελφοῖς</w>
+                        <placeName nymRef="Δελφοί" ref="http://pleiades.stoa.org/places/540726">Δελφοῖς</placeName>
                         <w>ἱερὸν</w>
                         <w>παρέδοσαν</w>
-                        <w>Λοκροῖς,</w>
+                        <placeName ref="http://pleiades.stoa.org/places/540918" nymRef="Λοκρίς" type="ethnic">Λοκροῖς</placeName>,
                         <w>καὶ</w>
-                        <supplied reason="omitted">Ἀθηναῖοι</supplied>
+                        <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885"><supplied reason="omitted">Ἀθηναῖοι</supplied></placeName>
                         <w>ἀφελόμενοι</w>
                         <w>αὐτοὺς</w>
                         <w>ἀπέδοσαν</w>
                         <w>πάλιν</w>
                         <w>τοῖς</w>
-                        <w>Φωκεῦσιν.</w>
+                        <placeName ref="http://pleiades.stoa.org/places/541048" type="ethnic" nymRef="Φωκίς">Φωκεῦσιν</placeName>.
                     </p>
                     <p n="2"><w>ὑποστρεφόντων</w>
                         <w>δὲ</w>
@@ -2585,16 +2593,17 @@
                         <w>μάχης,</w>
                         <w>στρατηγοῦντος</w>
                         <w>αὐτῶν</w>
-                        <w>Τολμίδου,</w>
+                        <name>Τολμίδου,</name>
                         <w>καὶ</w>
                         <w>γενομένων</w>
                         <w>κατὰ</w>
-                        <w>Κορώνειαν,</w>
+                        <placeName ref="http://pleiades.stoa.org/places/543756" nymRef="Κορώνεια">Κορώνειαν</placeName>,
                         <w>ἐπιθέμενοι</w>
                         <pb n="οα" facs="184"/>
                         <w>αὐτοῖς</w>
                         <w>ἄφνω</w>
-                        <w>Βοιωτοὶ</w>
+                        
+                        <placeName ref="http://pleiades.stoa.org/places/540689" nymRef="Βοιωτία" type="ethnic">Βοιωτοὶ</placeName>
                         <w>οὖσιν</w>
                         <w>ἀπαρασκεύοις</w>
                         <w>ἐτρέψαντο</w>
@@ -2612,7 +2621,8 @@
                         <w>ἀπέδοσαν</w>
                         <w>ἢ</w>
                         <w>τὴν</w>
-                        <w>Βοιωτίαν</w>
+                        
+                        <placeName ref="http://pleiades.stoa.org/places/540689" nymRef="Βοιωτία">Βοιωτίαν</placeName>
                         <w>ἀπολαβεῖν.</w></p>
                 </div>
                 <div type="textpart" subtype="section" n="15">
@@ -2623,22 +2633,22 @@
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναῖοι</placeName>
                         <w>περιπλεύσαντες</w>
                         <w>τὴν</w>
-                        <w>Πελοπόννησον</w>
-                        <w>Γύθειον</w>
+                        <placeName ref="http://pleiades.stoa.org/places/570577" nymRef="Πελοποννήσος">Πελοπόννησον</placeName>
+                        <placeName ref="http://pleiades.stoa.org/places/570268" nymRef="Γύθειον">Γύθειον</placeName>
                         <w>εἷλον·</w>
                         <w>καὶ</w>
-                        <w>Τολμίδης</w>
+                        <name>Τολμίδης</name>
                         <w>χιλίους</w>
                         <w>ἔχων</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναίους</placeName>
                         <w>ἐπιλέκτους</w>
                         <w>διῆλθε</w>
                         <w>τὴν</w>
-                        <w>Πελοπόννησον.</w></p>
+                        <placeName ref="http://pleiades.stoa.org/places/570577" nymRef="Πελοποννήσος">Πελοπόννησον</placeName>.</p>
                     <p n="2">
                         <w>καὶ</w>
                         <w>πάλιν</w>
-                        <w>Εὔβοιαν</w>
+                        <placeName ref="http://pleiades.stoa.org/places/540775" nymRef="Εὔβοια">Εὔβοιαν</placeName>
                         <w>ἀποστᾶσαν</w>
                         <w>εἷλον</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναῖοι</placeName>.</p>
@@ -2657,14 +2667,14 @@
                         <w>δὲ</w>
                         <w>ἔτει</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναῖοι</placeName>
-                        <w>Σάμον</w>
+                        <placeName ref="http://pleiades.stoa.org/places/599926" nymRef="Σάμος">Σάμον</placeName>
                         <w>πολιορκήσαντες</w>
                         <w>εἷλον,</w>
                         <w>στρατηγοῦντος</w>
                         <w>αὐτῶν</w>
-                        <w>Περικλέους</w>
+                        <name>Περικλέους</name>
                         <w>καὶ</w>
-                        <w>Σοφοκλέους.</w>
+                        <name>Σοφοκλέους.</name>
                         <w>Ἐν</w>
                         <w>δὲ</w>
                         <w>τῷ</w>
@@ -2697,7 +2707,7 @@
                         <w>δὲ</w>
                         <w>ἡ</w>
                         <w>κατὰ</w>
-                        <w>Περικλέα.</w>
+                        <name>Περικλέα.</name>
                         <w>φασὶ</w>
                         <w>γὰρ</w>
                         <w>ὅτι</w>
@@ -2711,18 +2721,18 @@
                         <w>ἀποδειξάντων</w>
                         <w>ἐργεπιστάτην</w>
                         <w>τὸν</w>
-                        <w>Περικλέα,</w>
+                        <name>Περικλέα,</name>
                         <w>τεχνίτην</w>
                         <w>δὲ</w>
-                        <w>Φειδίαν,</w>
+                        <name>Φειδίαν,</name>
                         <w>ἁλόντος</w>
                         <w>τοῦ</w>
-                        <w>Φειδίου</w>
+                        <name>Φειδίου</name>
                         <w>ἐπὶ</w>
                         <w>νοσφισμῷ,</w>
                         <w>εὐλαβηθεὶς</w>
                         <w>ὁ</w>
-                        <w>Περικλῆς</w>
+                        <name>Περικλῆς</name>
                         <w>μὴ</w>
                         <w>καὶ</w>
                         <w>αὐτὸς</w>
@@ -2739,7 +2749,7 @@
                         <w>γράψας</w>
                         <w>τὸ</w>
                         <w>κατὰ</w>
-                        <w>Μεγαρέων</w>
+                        <placeName ref="http://pleiades.stoa.org/places/570468" nymRef="Μέγαρα" type="ethnic">Μεγαρέων</placeName>
                         <w>ψήφισμα.</w></p>
                     <p n="2">
                         <w>διαπιστοῦται</w>
@@ -2757,10 +2767,11 @@
                             <lg>
                                 <l>ὦ <supplied reason="omitted">λι</supplied>περνῆτες γεωργοί, τἀμὰ
                                     δὴ συνίετε ῥημάτια εἰ βούλοισθ’ ἀκοῦσαι τήνδ’ ὅπωςἀπώλετο.
-                                    πρῶτον μὲν γὰρ ἤρξατ’αὐτῆς Φειδίας πράξας κακῶς· εἶτα Περικλέης
+                                    πρῶτον μὲν γὰρ ἤρξατ’αὐτῆς <name>Φειδίας</name> πράξας κακῶς· εἶτα <name>Περικλέης</name>
                                     φοβηθεὶς μὴ μετάσχοι τῆς τύχης, τὰς φύσεις ὑμῶν δεδοικὼς καὶ τὸν
                                     αὐθάδη τρόπον, ἐμβαλὼν σπινθῆρα μικρὸν Μεγαρικοῦ ψηφίσματος
-                                    ἐξεφύσησεν τοσοῦτον πόλεμον ὥστ’ ἐκ τοῦ καπνοῦ πάντας Ἕλληνας
+                                    ἐξεφύσησεν τοσοῦτον πόλεμον ὥστ’ ἐκ τοῦ καπνοῦ πάντας 
+                                    <placeName  nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλληνας</placeName>
                                     δακρῦσαι τούς τ’ ἐκεῖ τούς τ’ ἐνθάδε.</l>
                             </lg></quote><!--LINES NOT ENTERED!!! needs to be checked -->
                     </p>
@@ -2769,13 +2780,18 @@
                         <w>πάλιν</w>
                         <w>ὑποβάς·</w>
                         <quote><lg>
-                                <l>πόρνην εἰς μέθην ἰοῦσαν Μεγαρίδα νεανίαι κλέπτουσι
-                                    μεθυσοκότταβοι· κἄιπειθ’ οἱ Μεγαρῆς ὀδύναις πεφυσιγγωμένοι
-                                        ἀντ<surplus>ἐξ</surplus>έκλεψαν Ἀσπασίας πόρνας δύο.
-                                    ἐνθένδ’ὁ πόλεμος ἐμφανῶς κατερράγη Ἕλλησι πᾶσιν ἐκ τριῶν
-                                    λαικαστριῶν. ἐνθένδε μέντοι Περικλέης Ὀλύμπιος ἤστραπτ’,
-                                    ἐβρόντα, συνεκύκα τὴν Ἑλλάδα, ἐτίθει νόμους ὥσπερ σκόλια
-                                    γεγραμμένους, ὡς χρὴ Μεγαρέας μήτ’ ἐν ἀγορᾷ μήτ’ ἐν ἠπείρῳ
+                            <l>πόρνην εἰς μέθην ἰοῦσαν 
+                                <placeName ref="http://pleiades.stoa.org/places/570468" nymRef="Μέγαρα" type="ethnic">Μεγαρίδα</placeName> νεανίαι κλέπτουσι
+                                μεθυσοκότταβοι· κἄιπειθ’ οἱ 
+                                <placeName ref="http://pleiades.stoa.org/places/570468" nymRef="Μέγαρα" type="ethnic">Μεγαρῆς</placeName> ὀδύναις πεφυσιγγωμένοι
+                                        ἀντ<surplus>ἐξ</surplus>έκλεψαν <name>Ἀσπασίας</name> πόρνας δύο.
+                                    ἐνθένδ’ὁ πόλεμος ἐμφανῶς κατερράγη 
+                                    <placeName  nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησι</placeName> πᾶσιν ἐκ τριῶν
+                                    λαικαστριῶν. ἐνθένδε μέντοι <name>Περικλέης</name> Ὀλύμπιος ἤστραπτ’,
+                                ἐβρόντα, συνεκύκα τὴν 
+                                <placeName  nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἑλλάδα</placeName>, ἐτίθει νόμους ὥσπερ σκόλια
+                                    γεγραμμένους, ὡς χρὴ 
+                                <placeName ref="http://pleiades.stoa.org/places/570468" nymRef="Μέγαρα" type="ethnic">Μεγαρέας</placeName> μήτ’ ἐν ἀγορᾷ μήτ’ ἐν ἠπείρῳ
                                     μένειν. </l>
                             </lg></quote><!--LINES NOT ENTERED!!! needs to be checked --></p>
                     <p n="4">
@@ -2783,7 +2799,7 @@
                         <w>δὲ</w>
                         <w>ὅτι</w>
                         <w>τοῦ</w>
-                        <w>Περικλέους</w>
+                        <name>Περικλέους</name>
                         <w>σκεπτομένου</w>
                         <w>περὶ</w>
                         <w>τῆς</w>
@@ -2793,9 +2809,9 @@
                         <w>ὑπὲρ</w>
                         <w>τῆς</w>
                         <w>ἐργεπιστασίας</w>
-                        <w>Ἀλκιβιάδης</w>
+                        <name>Ἀλκιβιάδης</name>
                         <w>ὁ</w>
-                        <w>Κλεινίου,</w>
+                        <name>Κλεινίου,</name>
                         <w>ἐπιτροπευόμενος</w>
                         <w>ὑπ’</w>
                         <w>αὐτοῦ</w>
@@ -2819,19 +2835,22 @@
                         <w>αἰτία</w>
                         <w>φέρεται</w>
                         <w>καὶ</w>
-                        <w>Κερκυραίων</w>
+                        <placeName ref="http://pleiades.stoa.org/places/530835" type="ethnic" nymRef="Κέρκυρα">Κερκυραίων</placeName>
                         <w>καὶ</w>
-                        <w>Ἐπιδαμνίων</w>
+                        <placeName ref="http://pleiades.stoa.org/places/481818" type="ethnic" nymRef="Ἐπίδαμνος">Ἐπιδαμνίων</placeName>
                         <w>τοιαύτη.</w>
-                        <w>Ἐπίδαμνος</w>
+                        
+                        <placeName ref="http://pleiades.stoa.org/places/481818" nymRef="Ἐπίδαμνος">Ἐπίδαμνος</placeName>
                         <w>ἦν</w>
                         <w>πόλις</w>
-                        <w>Κερκυραίων</w>
+                        
+                        <placeName ref="http://pleiades.stoa.org/places/530835"  type="ethnic" nymRef="Κέρκυρα">Κερκυραίων</placeName>
                         <w>ἄποικος,</w>
                         <w>ἡ</w>
                         <w>δὲ</w>
-                        <w>Κέρκυρα</w>
-                        <w>Κορινθίων.</w>
+                        
+                        <placeName ref="http://pleiades.stoa.org/places/530835" nymRef="Κέρκυρα">Κέρκυρα</placeName>
+                        <placeName ref="http://pleiades.stoa.org/places/570182" nymRef="Κόρινθος" type="ethnic">Κορινθίων</placeName>.
                         <w>πλημμελούμενοι</w>
                         <w>οὖν</w>
                         <w>κατ’</w>
@@ -2842,24 +2861,24 @@
                         <w>ὑπερηφανευόμενοι</w>
                         <w>ὑπὸ</w>
                         <w>τῶν</w>
-                        <w>Κερκυραίων</w>
+                        <placeName ref="http://pleiades.stoa.org/places/530835"  type="ethnic" nymRef="Κέρκυρα">Κερκυραίων</placeName>
                         <w>οἱ</w>
-                        <w>Ἐπιδάμνιοι,</w>
+                        <placeName ref="http://pleiades.stoa.org/places/481818"  type="ethnic" nymRef="Ἐπίδαμνος">Ἐπιδάμνιοι,</placeName>
                         <w>προσποιησάμενοι</w>
                         <w>συμμάχους</w>
                         <w>τοὺς</w>
-                        <w>Κορινθίους</w>
+                        <placeName ref="http://pleiades.stoa.org/places/570182" nymRef="Κόρινθος" type="ethnic">Κορινθίους</placeName>
                         <w>ὡς</w>
                         <w>μητροπολίτας,</w>
                         <w>ἐστράτευσαν</w>
                         <w>ἐπὶ</w>
-                        <w>Κέρκυραν</w>
+                        <placeName ref="http://pleiades.stoa.org/places/530835" nymRef="Κέρκυρα">Κέρκυραν</placeName>
                         <w>καὶ</w>
                         <w>ἐπολέμουν.</w></p>
                     <p n="2">
                         <w>πιεζόμενοι</w>
                         <w>δὲ</w>
-                        <w>Κερκυραῖοι</w>
+                        <placeName ref="http://pleiades.stoa.org/places/530835" nymRef="Κέρκυρα">Κερκυραῖοι</placeName>
                         <w>τῷ</w>
                         <w>πολέμῳ</w>
                         <w>ἔπεμψαν</w>
@@ -2874,7 +2893,7 @@
                         <w>δὲ</w>
                         <w>καὶ</w>
                         <w>οἱ</w>
-                        <w>Κορίνθιοι</w>
+                        <placeName ref="http://pleiades.stoa.org/places/570182" nymRef="Κόρινθος" type="ethnic">Κορίνθιοι</placeName>
                         <w>ἔπεμψαν</w>
                         <w>πρὸς</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναίους</placeName>,
@@ -2883,7 +2902,8 @@
                         <w>καὶ</w>
                         <w>μὴ</w>
                         <w>τοῖς</w>
-                        <w>Κερκυραίοις</w>
+                        
+                        <placeName ref="http://pleiades.stoa.org/places/530835"  type="ethnic" nymRef="Κέρκυρα">Κερκυραίοις</placeName>
                         <w>βοηθεῖν</w>
                         <w>αὐτούς.</w>
                         <w>οἱ</w>
@@ -2893,11 +2913,12 @@
                         <w>μᾶλλον</w>
                         <w>βοηθεῖν</w>
                         <w>τοῖς</w>
-                        <w>Κερκυραίοις·</w>
+                        
+                        <placeName ref="http://pleiades.stoa.org/places/530835"  type="ethnic" nymRef="Κέρκυρα">Κερκυραίοις</placeName>·
                         <w>καὶ</w>
                         <w>ἐναυμάχησαν</w>
                         <w>τοῖς</w>
-                        <w>Κορινθίοις</w>
+                        <placeName ref="http://pleiades.stoa.org/places/570182" nymRef="Κόρινθος" type="ethnic">Κορινθίοις</placeName>
                         <w>οὖσιν</w>
                         <w>ἐνσπόνδοις.</w>
                         <w>καὶ</w>
@@ -2913,13 +2934,14 @@
                         <w>αἰτία</w>
                         <w>φέρεται</w>
                         <w>τοιαύτη.</w>
-                        <w>Ποτίδαια</w>
+                        <placeName ref="http://pleiades.stoa.org/places/491701" nymRef="Ποτείδαια">Ποτίδαια</placeName>
                         <w>πόλις</w>
                         <w>ἄποικος</w>
-                        <w>Κορινθίων</w>
+                        
+                        <placeName ref="http://pleiades.stoa.org/places/570182" nymRef="Κόρινθος" type="ethnic">Κορινθίων</placeName>
                         <w>ἦν</w>
                         <w>ἐπὶ</w>
-                        <w>Θρᾴκης.</w>
+                        <placeName ref="http://pleiades.stoa.org/places/501638" nymRef="Θρᾴκη">Θρᾴκης.</placeName>
                         <w>ἐπὶ</w>
                         <w>ταύτην</w>
                         <w>ἔπεμψαν</w>
@@ -2929,10 +2951,12 @@
                         <w>αὐτήν.</w>
                         <w>οἱ</w>
                         <w>δὲ</w>
-                        <w>Ποτιδαιᾶται</w>
+                        
+                        <placeName ref="http://pleiades.stoa.org/places/491701" type="ethnic" nymRef="Ποτείδαια">Ποτιδαιᾶται</placeName>
                         <w>προσέθεντο</w>
                         <w>τοῖς</w>
-                        <w>Κορινθίοις,</w>
+                        
+                        <placeName ref="http://pleiades.stoa.org/places/570182" nymRef="Κόρινθος" type="ethnic">Κορινθίοις</placeName>,
                         <w>καὶ</w>
                         <w>διὰ</w>
                         <w>τοῦτο</w>
@@ -2940,10 +2964,11 @@
                         <w>ἐγένετο</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναίων</placeName>
                         <w>καὶ</w>
-                        <w>Κορινθίων,</w>
+                        <placeName ref="http://pleiades.stoa.org/places/570182" nymRef="Κόρινθος" type="ethnic">Κορινθίων</placeName>,
                         <w>καὶ</w>
                         <w>ἐξεπολιόρκησαν</w>
-                        <supplied reason="omitted">τὴν Ποτίδαιαν</supplied>
+                        <supplied reason="omitted">τὴν 
+                            <placeName ref="http://pleiades.stoa.org/places/491701" nymRef="Ποτείδαια">Ποτίδαιαν</placeName></supplied>
                         <w>οἱ</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναῖοι</placeName>.
                     </p>
