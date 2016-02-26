@@ -235,7 +235,7 @@ meant to be run in a folder with other data locally referred
 
 
         <!--        pelagios rdf-->
-        <xsl:result-document   href="rdf/void.ttl" method="text">
+        <xsl:result-document   href="rdf/void.ttl" method="text" >
             @prefix : &lt;http://pietroliuzzo.github.io/Aristodemo/&gt; .
             @prefix void: &lt;http://rdfs.org/ns/void#&gt; .
             @prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
@@ -260,45 +260,57 @@ meant to be run in a folder with other data locally referred
             @prefix relations: &lt;http://pelagios.github.io/vocab/relations#&gt; .
             @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema&gt; .
             
-            &lt;http://pietroliuzzo.github.io/Aristodemo/index.html&gt;
-            a pelagios:AnnotatedThing ;
+          <xsl:choose><xsl:when test="//t:objectType = 'Manuscript'">  
+            &lt;http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript&gt;
+            a pelagios:AnnotatedThing' ;
             dcterms:title "Edizione di FGrHist 104 [Aristodemo]" ;
             foaf:homepage &lt;http://pietroliuzzo.github.io/Aristodemo/index.html&gt; ;
-            # Everything else OPTIONAL (but highly encouraged
-            dcterms:description "Honorific inscription, findspot Ostia" ;
-            
-            # Use ISO 8601 (YYYY[-MM-DD) or time interval (&lt;start&gt;/&lt;end&gt;)
-            # to express date information
-            dcterms:temporal "366/402" ;
-            
-            # Additionally, we encourage the use of (one or multiple)
-            # PeriodO identifiers to denote time periods 
-            dcterms:temporal &lt;http://n2t.net/ark:/99152/p03wskd389m&gt; ; # Greco-Roman
-            
-            # To express an object's language (e.g. in case of literature, 
-            # inscriptions, etc.), use RFC 5646 format
-            dcterms:language "la" ;
-            
-            # Feel free to assign 'tags' to your data
-            dcterms:subject "inscription" ;
+            dcterms:description "The edition of a fascicule of Cod. Par. Suppl. Gr. 607, containing an historical work by an anonymous author, collected by Felix Jacoby in Die Fragmente der Griechischer Historiker under number 104 with the name of Aristodemus." ;
+            dcterms:temporal "1423" ;
+            dcterms:language "grc" ;
+            dcterms:subject "manuscript" ;
             .
             
-            
-            # Objects are 'annotated' with any number of gazetteer references
-            &lt;http://example.org/pelagios/dump.ttl#items/00l/annotations/01&gt;
+             <xsl:for-each-group select="//t:placeName" group-by="@ref">
+                 <xsl:sort select="@ref" />
+                 <xsl:variable name="rank" select="position()" />
+                 &lt;http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/<xsl:value-of select="$rank"/>&gt;
             a oa:Annotation ;
+            oa:hasTarget &lt;http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript&gt; ;
+            oa:hasBody &lt;<xsl:value-of select="normalize-space(@ref)"/>&gt; ;
+            oa:annotatedAt "<xsl:value-of select="current-dateTime()"/>"^^xsd:date ;
+                 .
+              </xsl:for-each-group>
+           
             
-            # MANDATORY: the 'annotation target' is the URI of your object;
-            # the 'annotation body' is the gazetteer reference
-            oa:hasTarget &lt;http://example.org/pelagios/dump.ttl#items/00l&gt; ;
-            oa:hasBody &lt;http://pleiades.stoa.org/places/422995&gt; ;
             
-            # OPTIONAL: extra metadata about the nature of the place reference
-            pelagios:relation relations:foundAt ;
-            oa:hasBody [ cnt:chars "POINT (41.755740099 12.290938199)";
-            dcterms:format "application/wkt" ] ;
-            oa:annotatedAt "2014-11-05T10:18:00Z"^^xsd:date ;
-            .
+            </xsl:when>
+          <xsl:otherwise>
+              &lt;http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#papyrus&gt;
+              a pelagios:AnnotatedThing' ;
+              dcterms:title "Edizione di FGrHist 104 [Aristodemo]" ;
+              foaf:homepage &lt;http://pietroliuzzo.github.io/Aristodemo/index.html&gt; ;
+              dcterms:description "The edition of a papyrus P.Oxy 27.2469, containing a fragment of an historical work by an anonymous author, collected by Felix Jacoby in Die Fragmente der Griechischer Historiker under number 104 with the name of Aristodemus." ;
+              dcterms:temporal "101/200" ;
+              dcterms:language "grc" ;
+              dcterms:subject "papyrus" ;
+              .
+              
+              
+              <xsl:for-each-group select="//t:placeName" group-by="@ref">
+                  <xsl:sort select="@ref" />
+                  <xsl:variable name="rank" select="position()" />
+                  &lt;http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#papyrus/annotations/<xsl:value-of select="$rank" />&gt;
+                  a oa:Annotation ;
+                  oa:hasTarget &lt;http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#papyrus&gt; ;
+                  oa:hasBody &lt;<xsl:value-of select="normalize-space(@ref)"/>&gt; ;
+                  oa:annotatedAt "<xsl:value-of select="current-dateTime()"/>"^^xsd:date ;
+                  .
+              </xsl:for-each-group>
+              
+          </xsl:otherwise>
+          </xsl:choose>
+            
         </xsl:result-document>
         
         <!--this document is the leaflet script which creates the map and is called by the div[@id='map']-->

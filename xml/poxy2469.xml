@@ -49,7 +49,7 @@
                                     per il verbo.  </p>
                                     
                                     
-                                    <objectType>Manuscript</objectType><!--possono essere inseriti valori dal vocabolario Object Type di EAGLE-->
+                                    <objectType>Papyrus</objectType><!--possono essere inseriti valori dal vocabolario Object Type di EAGLE-->
                                     <material/>
                                     <dimensions>
                                         <height unit="cm"/>

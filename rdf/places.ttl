@@ -8,43 +8,449 @@
             @prefix relations: <http://pelagios.github.io/vocab/relations#> .
             @prefix xsd: <http://www.w3.org/2001/XMLSchema> .
             
-            <http://pietroliuzzo.github.io/Aristodemo/index.html>
-            a pelagios:AnnotatedThing ;
+            
+            <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript>
+            a pelagios:AnnotatedThing' ;
             dcterms:title "Edizione di FGrHist 104 [Aristodemo]" ;
             foaf:homepage <http://pietroliuzzo.github.io/Aristodemo/index.html> ;
-            # Everything else OPTIONAL (but highly encouraged
-            dcterms:description "Honorific inscription, findspot Ostia" ;
-            
-            # Use ISO 8601 (YYYY[-MM-DD) or time interval (<start>/<end>)
-            # to express date information
-            dcterms:temporal "366/402" ;
-            
-            # Additionally, we encourage the use of (one or multiple)
-            # PeriodO identifiers to denote time periods 
-            dcterms:temporal <http://n2t.net/ark:/99152/p03wskd389m> ; # Greco-Roman
-            
-            # To express an object's language (e.g. in case of literature, 
-            # inscriptions, etc.), use RFC 5646 format
-            dcterms:language "la" ;
-            
-            # Feel free to assign 'tags' to your data
-            dcterms:subject "inscription" ;
+            dcterms:description "The edition of a fascicule of Cod. Par. Suppl. Gr. 607, containing an historical work by an anonymous author, collected by Felix Jacoby in Die Fragmente der Griechischer Historiker under number 104 with the name of Aristodemus." ;
+            dcterms:temporal "1423" ;
+            dcterms:language "grc" ;
+            dcterms:subject "manuscript" ;
             .
             
-            
-            # Objects are 'annotated' with any number of gazetteer references
-            <http://example.org/pelagios/dump.ttl#items/00l/annotations/01>
+             
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/1>
             a oa:Annotation ;
-            
-            # MANDATORY: the 'annotation target' is the URI of your object;
-            # the 'annotation body' is the gazetteer reference
-            oa:hasTarget <http://example.org/pelagios/dump.ttl#items/00l> ;
-            oa:hasBody <http://pleiades.stoa.org/places/422995> ;
-            
-            # OPTIONAL: extra metadata about the nature of the place reference
-            pelagios:relation relations:foundAt ;
-            oa:hasBody [ cnt:chars "POINT (41.755740099 12.290938199)";
-            dcterms:format "application/wkt" ] ;
-            oa:annotatedAt "2014-11-05T10:18:00Z"^^xsd:date ;
-            .
-        
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/599636> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/2>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/580094> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/3>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/1001887> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/4>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/1001896> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/5>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/481818> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/6>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/491701> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/7>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/501434> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/8>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/501570> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/9>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/501609> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/10>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/501638> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/11>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/521064> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/12>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/530835> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/13>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/531003> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/14>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/540689> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/15>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/540726> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/16>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/540775> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/17>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/540918> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/18>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/540975> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/19>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/541048> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/20>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/541063> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/21>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/541138> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/22>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/541140> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/23>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/543756> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/24>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/550706> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/25>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/570106> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/26>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/570182> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/27>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/570268> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/28>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/570406> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/29>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/570468> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/30>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/570577> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/31>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/570685> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/32>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/570702> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/33>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/579853> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/34>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/579885> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/35>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/579888> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/36>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/579920> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/37>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/580022> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/38>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/580029> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/39>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/580059> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/40>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/580062> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/41>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/580071> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/42>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/580101> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/43>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/580114> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/44>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/580122> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/45>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/599587> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/46>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/599799> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/47>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/599805> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/48>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/599813> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/49>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/599822> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/50>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/599926> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/51>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/638800> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/52>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/638836> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/53>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/639034> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/54>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/639051> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/55>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/707498> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/56>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/707534> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/57>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/727206> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/58>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/766> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/59>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/77402394> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/60>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/903080> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/61>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/922698> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
+                 <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript/annotations/62>
+            a oa:Annotation ;
+            oa:hasTarget <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl#manuscript> ;
+            oa:hasBody <http://pleiades.stoa.org/places/981531> ;
+            oa:annotatedAt "2016-02-26T17:00:12.608Z"^^xsd:date ;
+                 .
+              
