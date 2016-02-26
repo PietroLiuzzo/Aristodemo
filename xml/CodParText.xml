@@ -20,7 +20,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p> ... </p>
-                                    <objectType>Manuscript</objectType><!--possono essere inseriti valori dal vocabolario Object Type di EAGLE-->
+                                    <objectType>Manuscript</objectType>
                                     <material/>
                                     <dimensions>
                                         <height unit="cm"/>
@@ -76,12 +76,6 @@
     <text>
         <body>
             <div type="bibliography">
-                <!--                ids in bibl need to match the apparatus, targets in the ptrs need to match the bibliography in Zotero
-                
-                update Zotero on computer from personal account and add in there the biblatex with the latest corrections plus the stuff read afterwards
-                
-                Klio 2014, Nemeth, etc.
-                -->
                 <bibl/>
 
             </div>
