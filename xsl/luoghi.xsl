@@ -13,151 +13,8 @@
  WORK IN PROGRESS file structure for EAGLE / Epidoc Workshop 
 meant to be run in a folder with other data locally referred
   -->
+        
 
-   <!-- Called from htm-tpl-structure.xsl -->
-
-
-<!--this document is the leaflet script which creates the map and is called by the div[@id='map']-->
-<xsl:result-document href="js/map.js" method="text">
-    L.mapbox.accessToken = 'pk.eyJ1IjoicGlldHJvbGl1enpvIiwiYSI6ImNpbDB6MjE0bDAwOGl4MW0wa2JvMDd0cHMifQ.wuV3-VuvmCzY69kWRf6CHA';
-    
-    var 
-    ancientworld = L.mapbox.tileLayer('isawnyu.map-knmctlkh')
-    grayscale   = L.mapbox.tileLayer('mapbox.light'),
-    streets  = L.mapbox.tileLayer('mapbox.streets'),
-    roads = L.mapbox.tileLayer('isawnyu.awmc-roads');
-    
-    
-    var map = L.map('map', 
-    {
-    center: [35.92464, 36.60645],
-    zoom: 5,
-    layers: [roads, ancientworld, grayscale, streets],
-    fullscreenControl: true,
-    // OR
-    fullscreenControl: {
-    pseudoFullscreen: false // if true, fullscreen to page width and height
-    }
-    }
-    );
-    
-    
-    
-    
-    
-    function onEachFeature(feature, layer) {
-    
-    var popupContent = "See more information about Pleaides place " + feature.properties.snippet +" " + feature.properties.link ;
-    
-    
-    
-    layer.bindPopup(popupContent);
-    }
-    
-    
-    <xsl:for-each-group select="//t:placeName" group-by="@ref">
-      
-        <xsl:variable name="pleiadesid"><xsl:value-of select="substring-after(@ref,'http://pleiades.stoa.org/places/')"/></xsl:variable>
-                <xsl:variable name="pleaidesjson"><xsl:value-of select="unparsed-text(concat(normalize-space(@ref),'/json'))"/></xsl:variable>
-                <xsl:variable name="varnNme"><xsl:text>geojsonFeature</xsl:text><xsl:value-of select="$pleiadesid"/></xsl:variable>
-        
-        <xsl:choose>
-                    
-                    <xsl:when test="contains($pleaidesjson, 'Polygon')">
-                        var <xsl:value-of select="$varnNme"/> =
-                        <xsl:value-of select="$pleaidesjson"/>
-                        
-                        ;
-                        
-                        var v<xsl:value-of select="$pleiadesid"/> = L.geoJson(<xsl:value-of select="$varnNme"/>).addTo(map);
-                        
-                    </xsl:when>
-                    
-                    <xsl:otherwise>
-                        
-                        var <xsl:value-of select="$varnNme"/> =
-                        <xsl:value-of select="$pleaidesjson"/>
-                        
-                        ;
-                        
-                        var v<xsl:value-of select="$pleiadesid"/> =  L.geoJson(<xsl:value-of select="$varnNme"/>, {
-                        
-                        
-                        onEachFeature: onEachFeature,
-                        
-                        pointToLayer: function (feature, latlng) {
-                        return L.circleMarker(latlng, {
-                        radius: 8,
-                        fillColor: "green",
-                        color: "#000",
-                        weight: 1,
-                        opacity: 0.3,
-                        fillOpacity: 0.2
-                        });
-                        }
-                        }).addTo(map);  
-                    </xsl:otherwise></xsl:choose>
-        
-        
-           </xsl:for-each-group>
-            
-            var points = L.layerGroup([
-    <xsl:for-each-group select="//t:placeName" group-by="@ref"> 
-        
-        <xsl:variable name="pleiadesid"><xsl:value-of select="substring-after(@ref,'http://pleiades.stoa.org/places/')"/></xsl:variable>
-        <xsl:variable name="pleaidesjson"><xsl:value-of select="unparsed-text(concat(normalize-space(@ref),'/json'))"/></xsl:variable>
-        <xsl:variable name="varnNme"><xsl:text>geojsonFeature</xsl:text><xsl:value-of select="substring-after(@ref,'http://pleiades.stoa.org/places/')"/></xsl:variable>
-        <xsl:choose>
-            
-            <xsl:when test="contains($pleaidesjson, 'Polygon')">
-                
-            </xsl:when>
-            
-            <xsl:otherwise>
-                <xsl:text>v</xsl:text><xsl:value-of select="$pleiadesid"/><xsl:if test="not(position()=last())"><xsl:text>, </xsl:text></xsl:if>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:for-each-group> 
-        ]);
-    
-    var poligons = L.layerGroup([
-    <xsl:for-each-group select="//t:placeName" group-by="@ref"> 
-        
-        <xsl:variable name="pleiadesid"><xsl:value-of select="substring-after(@ref,'http://pleiades.stoa.org/places/')"/></xsl:variable>
-        <xsl:variable name="pleaidesjson"><xsl:value-of select="unparsed-text(concat(normalize-space(@ref),'/json'))"/></xsl:variable>
-        <xsl:variable name="varnNme"><xsl:text>geojsonFeature</xsl:text><xsl:value-of select="substring-after(@ref,'http://pleiades.stoa.org/places/')"/></xsl:variable>
-        <xsl:choose>
-            
-            <xsl:when test="contains($pleaidesjson, 'Polygon')">
-                
-                <xsl:text>v</xsl:text><xsl:value-of select="$pleiadesid"/><xsl:if test="not(position()=last())"><xsl:text>, </xsl:text></xsl:if>
-            </xsl:when>
-            </xsl:choose>
-    </xsl:for-each-group> 
-    ]);
-   
-   var baseMaps ={
-   "Grayscale": grayscale,
-   "Streets": streets,
-   "ancient world": ancientworld
-   
-   
-   }
-   var overlayMaps = {
-   "places": points,
-   "regions": poligons,
-   "roads": roads
-   };
-   
-   L.control.layers(baseMaps, overlayMaps).addTo(map);
-   
-   function onMapClick(e) {
-   alert("You clicked the map at " + e.latlng);
-   }
-   
-   map.on('click', onMapClick);
-   
-</xsl:result-document>
 
       <html lang="en">
          <head>
@@ -375,9 +232,221 @@ meant to be run in a folder with other data locally referred
       </html>
 
 
+
+
+        <!--        pelagios rdf-->
+        <xsl:result-document   href="rdf/void.ttl" method="text">
+            @prefix : &lt;http://pietroliuzzo.github.io/Aristodemo/&gt; .
+            @prefix void: &lt;http://rdfs.org/ns/void#&gt; .
+            @prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+            @prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+            
+            :Edizione digitale di FGrHist 104 [Aristodemo] a void:Dataset;
+            dcterms:title "Edizione digitale di FGrHist 104 [Aristodemo]";
+            dcterms:publisher "Edizione digitale di FGrHist 104 [Aristodemo]";
+            foaf:homepage &lt;http://pietroliuzzo.github.io/Aristodemo/index&gt;;
+            dcterms:description "An edition of an ancient text, witnessed by a manuscript and a papyrus, by an anonymous author";
+            dcterms:license &lt;http://opendatacommons.org/licenses/odbl/1.0/&gt;;
+            void:dataDump &lt;http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl&gt; ;
+            .</xsl:result-document>
+        
+        <xsl:result-document  href="rdf/places.ttl" method="text">
+            
+            @prefix cnt: &lt;http://www.w3.org/2011/content#&gt; . 
+            @prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
+            @prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+            @prefix oa: &lt;http://www.w3.org/ns/oa#&gt; .
+            @prefix pelagios: &lt;http://pelagios.github.io/vocab/terms#&gt; .
+            @prefix relations: &lt;http://pelagios.github.io/vocab/relations#&gt; .
+            @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema&gt; .
+            
+            &lt;http://pietroliuzzo.github.io/Aristodemo/index.html&gt;
+            a pelagios:AnnotatedThing ;
+            dcterms:title "Edizione di FGrHist 104 [Aristodemo]" ;
+            foaf:homepage &lt;http://pietroliuzzo.github.io/Aristodemo/index.html&gt; ;
+            # Everything else OPTIONAL (but highly encouraged
+            dcterms:description "Honorific inscription, findspot Ostia" ;
+            
+            # Use ISO 8601 (YYYY[-MM-DD) or time interval (&lt;start&gt;/&lt;end&gt;)
+            # to express date information
+            dcterms:temporal "366/402" ;
+            
+            # Additionally, we encourage the use of (one or multiple)
+            # PeriodO identifiers to denote time periods 
+            dcterms:temporal &lt;http://n2t.net/ark:/99152/p03wskd389m&gt; ; # Greco-Roman
+            
+            # To express an object's language (e.g. in case of literature, 
+            # inscriptions, etc.), use RFC 5646 format
+            dcterms:language "la" ;
+            
+            # Feel free to assign 'tags' to your data
+            dcterms:subject "inscription" ;
+            .
+            
+            
+            # Objects are 'annotated' with any number of gazetteer references
+            &lt;http://example.org/pelagios/dump.ttl#items/00l/annotations/01&gt;
+            a oa:Annotation ;
+            
+            # MANDATORY: the 'annotation target' is the URI of your object;
+            # the 'annotation body' is the gazetteer reference
+            oa:hasTarget &lt;http://example.org/pelagios/dump.ttl#items/00l&gt; ;
+            oa:hasBody &lt;http://pleiades.stoa.org/places/422995&gt; ;
+            
+            # OPTIONAL: extra metadata about the nature of the place reference
+            pelagios:relation relations:foundAt ;
+            oa:hasBody [ cnt:chars "POINT (41.755740099 12.290938199)";
+            dcterms:format "application/wkt" ] ;
+            oa:annotatedAt "2014-11-05T10:18:00Z"^^xsd:date ;
+            .
+        </xsl:result-document>
+        
+        <!--this document is the leaflet script which creates the map and is called by the div[@id='map']-->
+        <xsl:result-document href="js/map.js" method="text">
+            L.mapbox.accessToken = 'pk.eyJ1IjoicGlldHJvbGl1enpvIiwiYSI6ImNpbDB6MjE0bDAwOGl4MW0wa2JvMDd0cHMifQ.wuV3-VuvmCzY69kWRf6CHA';
+            
+            var 
+            ancientworld = L.mapbox.tileLayer('isawnyu.map-knmctlkh')
+            grayscale   = L.mapbox.tileLayer('mapbox.light'),
+            streets  = L.mapbox.tileLayer('mapbox.streets'),
+            roads = L.mapbox.tileLayer('isawnyu.awmc-roads');
+            
+            
+            var map = L.map('map', 
+            {
+            center: [35.92464, 36.60645],
+            zoom: 5,
+            layers: [roads, ancientworld, grayscale, streets],
+            fullscreenControl: true,
+            // OR
+            fullscreenControl: {
+            pseudoFullscreen: false // if true, fullscreen to page width and height
+            }
+            }
+            );
+            
+            
+            
+            
+            
+            function onEachFeature(feature, layer) {
+            
+            var popupContent = "See more information about Pleaides place " + feature.properties.snippet +" " + feature.properties.link ;
+            
+            
+            
+            layer.bindPopup(popupContent);
+            }
+            
+            
+            <xsl:for-each-group select="//t:placeName" group-by="@ref">
+                
+                <xsl:variable name="pleiadesid"><xsl:value-of select="substring-after(@ref,'http://pleiades.stoa.org/places/')"/></xsl:variable>
+                <xsl:variable name="pleaidesjson"><xsl:value-of select="unparsed-text(concat(normalize-space(@ref),'/json'))"/></xsl:variable>
+                <xsl:variable name="varnNme"><xsl:text>geojsonFeature</xsl:text><xsl:value-of select="$pleiadesid"/></xsl:variable>
+                
+                <xsl:choose>
+                    
+                    <xsl:when test="contains($pleaidesjson, 'Polygon')">
+                        var <xsl:value-of select="$varnNme"/> =
+                        <xsl:value-of select="$pleaidesjson"/>
+                        
+                        ;
+                        
+                        var v<xsl:value-of select="$pleiadesid"/> = L.geoJson(<xsl:value-of select="$varnNme"/>).addTo(map);
+                        
+                    </xsl:when>
+                    
+                    <xsl:otherwise>
+                        
+                        var <xsl:value-of select="$varnNme"/> =
+                        <xsl:value-of select="$pleaidesjson"/>
+                        
+                        ;
+                        
+                        var v<xsl:value-of select="$pleiadesid"/> =  L.geoJson(<xsl:value-of select="$varnNme"/>, {
+                        
+                        
+                        onEachFeature: onEachFeature,
+                        
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, {
+                        radius: 8,
+                        fillColor: "green",
+                        color: "#000",
+                        weight: 1,
+                        opacity: 0.3,
+                        fillOpacity: 0.2
+                        });
+                        }
+                        }).addTo(map);  
+                    </xsl:otherwise></xsl:choose>
+                
+                
+            </xsl:for-each-group>
+            
+            var points = L.layerGroup([
+            <xsl:for-each-group select="//t:placeName" group-by="@ref"> 
+                
+                <xsl:variable name="pleiadesid"><xsl:value-of select="substring-after(@ref,'http://pleiades.stoa.org/places/')"/></xsl:variable>
+                <xsl:variable name="pleaidesjson"><xsl:value-of select="unparsed-text(concat(normalize-space(@ref),'/json'))"/></xsl:variable>
+                <xsl:variable name="varnNme"><xsl:text>geojsonFeature</xsl:text><xsl:value-of select="substring-after(@ref,'http://pleiades.stoa.org/places/')"/></xsl:variable>
+                <xsl:choose>
+                    
+                    <xsl:when test="contains($pleaidesjson, 'Polygon')">
+                        
+                    </xsl:when>
+                    
+                    <xsl:otherwise>
+                        <xsl:text>v</xsl:text><xsl:value-of select="$pleiadesid"/><xsl:if test="not(position()=last())"><xsl:text>, </xsl:text></xsl:if>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each-group> 
+            ]);
+            
+            var poligons = L.layerGroup([
+            <xsl:for-each-group select="//t:placeName" group-by="@ref"> 
+                
+                <xsl:variable name="pleiadesid"><xsl:value-of select="substring-after(@ref,'http://pleiades.stoa.org/places/')"/></xsl:variable>
+                <xsl:variable name="pleaidesjson"><xsl:value-of select="unparsed-text(concat(normalize-space(@ref),'/json'))"/></xsl:variable>
+                <xsl:variable name="varnNme"><xsl:text>geojsonFeature</xsl:text><xsl:value-of select="substring-after(@ref,'http://pleiades.stoa.org/places/')"/></xsl:variable>
+                <xsl:choose>
+                    
+                    <xsl:when test="contains($pleaidesjson, 'Polygon')">
+                        
+                        <xsl:text>v</xsl:text><xsl:value-of select="$pleiadesid"/><xsl:if test="not(position()=last())"><xsl:text>, </xsl:text></xsl:if>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:for-each-group> 
+            ]);
+            
+            var baseMaps ={
+            "Grayscale": grayscale,
+            "Streets": streets,
+            "ancient world": ancientworld
+            
+            
+            }
+            var overlayMaps = {
+            "places": points,
+            "regions": poligons,
+            "roads": roads
+            };
+            
+            L.control.layers(baseMaps, overlayMaps).addTo(map);
+            
+            function onMapClick(e) {
+            alert("You clicked the map at " + e.latlng);
+            }
+            
+            map.on('click', onMapClick);
+            
+        </xsl:result-document>
    
 
 </xsl:template>
+
+
 
   
 </xsl:stylesheet>

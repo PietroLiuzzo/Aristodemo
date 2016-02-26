@@ -1,41 +1,41 @@
 
-    L.mapbox.accessToken = 'pk.eyJ1IjoicGlldHJvbGl1enpvIiwiYSI6ImNpbDB6MjE0bDAwOGl4MW0wa2JvMDd0cHMifQ.wuV3-VuvmCzY69kWRf6CHA';
-    
-    var 
-    ancientworld = L.mapbox.tileLayer('isawnyu.map-knmctlkh')
-    grayscale   = L.mapbox.tileLayer('mapbox.light'),
-    streets  = L.mapbox.tileLayer('mapbox.streets'),
-    roads = L.mapbox.tileLayer('isawnyu.awmc-roads');
-    
-    
-    var map = L.map('map', 
-    {
-    center: [35.92464, 36.60645],
-    zoom: 5,
-    layers: [roads, ancientworld, grayscale, streets],
-    fullscreenControl: true,
-    // OR
-    fullscreenControl: {
-    pseudoFullscreen: false // if true, fullscreen to page width and height
-    }
-    }
-    );
-    
-    
-    
-    
-    
-    function onEachFeature(feature, layer) {
-    
-    var popupContent = "See more information about Pleaides place " + feature.properties.snippet +" " + feature.properties.link ;
-    
-    
-    
-    layer.bindPopup(popupContent);
-    }
-    
-    
-    
+            L.mapbox.accessToken = 'pk.eyJ1IjoicGlldHJvbGl1enpvIiwiYSI6ImNpbDB6MjE0bDAwOGl4MW0wa2JvMDd0cHMifQ.wuV3-VuvmCzY69kWRf6CHA';
+            
+            var 
+            ancientworld = L.mapbox.tileLayer('isawnyu.map-knmctlkh')
+            grayscale   = L.mapbox.tileLayer('mapbox.light'),
+            streets  = L.mapbox.tileLayer('mapbox.streets'),
+            roads = L.mapbox.tileLayer('isawnyu.awmc-roads');
+            
+            
+            var map = L.map('map', 
+            {
+            center: [35.92464, 36.60645],
+            zoom: 5,
+            layers: [roads, ancientworld, grayscale, streets],
+            fullscreenControl: true,
+            // OR
+            fullscreenControl: {
+            pseudoFullscreen: false // if true, fullscreen to page width and height
+            }
+            }
+            );
+            
+            
+            
+            
+            
+            function onEachFeature(feature, layer) {
+            
+            var popupContent = "See more information about Pleaides place " + feature.properties.snippet +" " + feature.properties.link ;
+            
+            
+            
+            layer.bindPopup(popupContent);
+            }
+            
+            
+            
                         var geojsonFeature1001896 =
                         {"connectsWith": [], "recent_changes": [{"modified": "2015-09-04T19:15:42Z", "principal": "jbecker"}, {"modified": "2012-02-15T02:07:35Z", "principal": "admin"}], "description": "An ancient place, cited: BAtlas 102 D4 no. 10 (Hellas)", "title": "Hellas", "reprPoint": [22.5, 37.5], "features": [{"geometry": {"type": "Polygon", "coordinates": [[[20.0, 35.0], [20.0, 40.0], [25.0, 40.0], [25.0, 35.0], [20.0, 35.0]]]}, "type": "Feature", "properties": {"snippet": "Unknown", "link": "http://pleiades.stoa.org/places/1001896/batlas-location", "description": "", "location_precision": "rough", "title": "Barrington Atlas location"}, "id": "batlas-location"}], "names": ["\u0395\u03bb\u03bb\u03ac\u03c2", "\u0395\u03bb\u03bb\u03ac\u03b4\u03b1", "Hellas"], "type": "FeatureCollection", "id": "1001896", "bbox": [20.0, 35.0, 25.0, 40.0]}
                         
@@ -262,7 +262,7 @@
                     
                         
                         var geojsonFeature540689 =
-                        {"connectsWith": ["540987", "540787", "541146", "540791", "541179", "543884", "809327743", "540801", "580114", "541138", "540913"], "recent_changes": [{"modified": "2015-10-28T16:18:15Z", "principal": "jbecker"}, {"modified": "2015-09-07T11:52:41Z", "principal": "pmotylewicz"}], "description": "A region of central Greece inhabited since prehistoric times. ", "title": "Boeotia", "reprPoint": [23.183585500000003, 38.345856133333335], "features": [], "names": ["Boeotia", "\u0392\u03bf\u03b9\u03c9\u03c4\u03af\u03b1"], "type": "FeatureCollection", "id": "540689", "bbox": [22.746666999999999, 38.256503000000002, 23.586234000000001, 38.493319]}
+                        {"connectsWith": ["540987", "540787", "541146", "540791", "541179", "543884", "809327743", "540801", "580114", "541138", "540913"], "recent_changes": [{"modified": "2015-10-28T16:18:15Z", "principal": "jbecker"}, {"modified": "2015-09-07T11:52:41Z", "principal": "pmotylewicz"}], "description": "A region of central Greece inhabited since prehistoric times. ", "title": "Boeotia", "reprPoint": [23.1835855, 38.345856133333342], "features": [], "names": ["Boeotia", "\u0392\u03bf\u03b9\u03c9\u03c4\u03af\u03b1"], "type": "FeatureCollection", "id": "540689", "bbox": [22.746666999999999, 38.256503000000002, 23.586234000000001, 38.493319]}
                         
                         ;
                         
@@ -602,7 +602,7 @@
                     
                         
                         var geojsonFeature570577 =
-                        {"connectsWith": ["570181", "570654", "570103", "570495", "570407", "570123", "570185", "570175", "570184", "copy_of_570756", "570067", "570104", "570101", "570390", "570756", "570556", "570182", "570555", "570702", "570229", "570274", "570455", "570483", "570540", "570703", "570096", "570310", "570487", "570371"], "recent_changes": [{"modified": "2015-09-05T16:03:37Z", "principal": "jbecker"}], "description": "The large peninsula protuding into the Mediterranean Sea that constitutes the southern part of Greece. It is largely separated from mainland Greece on the north by the Corinthian Gulf, joining it only in the northeast via the narrow Isthmus of Corinth. ", "title": "Peloponnesus/Peloponnesos/Peloponnese", "reprPoint": [22.352045428571422, 37.298833214285715], "features": [], "names": ["\u03a0\u03b5\u03bb\u03bf\u03c0\u03cc\u03bd\u03bd\u03b7\u03c3\u03bf\u03c2", "\u03a0\u03b5\u03bb\u03bf\u03c0\u03bf\u03bd\u03bd\u03ae\u03c3\u03bf\u03c2", "\u1f08\u03c0\u03af\u03b1", "\u2019\u0399\u03bd\u03b1\u03c7\u1f77\u03b1", "\u03a0\u03b5\u03bb\u03bf\u03c0\u03cc\u03bd\u03bd\u03b1\u03c3\u03bf\u03c2"], "type": "FeatureCollection", "id": "570577", "bbox": [21.143868999999999, 36.387566999999997, 24.0, 38.316670000000002]}
+                        {"connectsWith": ["570181", "570654", "570103", "570495", "570407", "570123", "570185", "570175", "570184", "copy_of_570756", "570067", "570104", "570101", "570390", "570756", "570556", "570182", "570555", "570702", "570229", "570274", "570455", "570483", "570540", "570703", "570096", "570310", "570487", "570371"], "recent_changes": [{"modified": "2015-09-05T16:03:37Z", "principal": "jbecker"}], "description": "The large peninsula protuding into the Mediterranean Sea that constitutes the southern part of Greece. It is largely separated from mainland Greece on the north by the Corinthian Gulf, joining it only in the northeast via the narrow Isthmus of Corinth. ", "title": "Peloponnesus/Peloponnesos/Peloponnese", "reprPoint": [22.352045428571433, 37.298833214285715], "features": [], "names": ["\u03a0\u03b5\u03bb\u03bf\u03c0\u03cc\u03bd\u03bd\u03b7\u03c3\u03bf\u03c2", "\u03a0\u03b5\u03bb\u03bf\u03c0\u03bf\u03bd\u03bd\u03ae\u03c3\u03bf\u03c2", "\u1f08\u03c0\u03af\u03b1", "\u2019\u0399\u03bd\u03b1\u03c7\u1f77\u03b1", "\u03a0\u03b5\u03bb\u03bf\u03c0\u03cc\u03bd\u03bd\u03b1\u03c3\u03bf\u03c2"], "type": "FeatureCollection", "id": "570577", "bbox": [21.143868999999999, 36.387566999999997, 24.0, 38.316670000000002]}
                         
                         ;
                         
@@ -772,7 +772,7 @@
                     
                         
                         var geojsonFeature579888 =
-                        {"connectsWith": ["585903", "540756", "560221", "579879", "579863", "580097", "579885", "579958", "606653928"], "recent_changes": [{"modified": "2015-09-07T17:40:04Z", "principal": "jbecker"}, {"modified": "2012-02-15T06:40:40Z", "principal": "admin"}], "description": "Historical region of Greece, centered on the Attic peninsula.", "title": "Attica", "reprPoint": [23.804119940441854, 38.037841368230843], "features": [], "names": ["\u1f08\u03c4\u03c4\u03b9\u03ba\u03ae", "Attica"], "type": "FeatureCollection", "id": "579888", "bbox": [23.374905999999999, 37.823770000000003, 24.028009000000001, 38.222726999999999]}
+                        {"connectsWith": ["585903", "540756", "560221", "579879", "579863", "580097", "579885", "579958", "606653928"], "recent_changes": [{"modified": "2015-09-07T17:40:04Z", "principal": "jbecker"}, {"modified": "2012-02-15T06:40:40Z", "principal": "admin"}], "description": "Historical region of Greece, centered on the Attic peninsula.", "title": "Attica", "reprPoint": [23.804119940441851, 38.037841368230843], "features": [], "names": ["\u1f08\u03c4\u03c4\u03b9\u03ba\u03ae", "Attica"], "type": "FeatureCollection", "id": "579888", "bbox": [23.374905999999999, 37.823770000000003, 24.028009000000001, 38.222726999999999]}
                         
                         ;
                         
@@ -1134,31 +1134,32 @@
                     
             
             var points = L.layerGroup([
-    v580101, v501434, v579885, v579853, v599636, v579920, v541138, v541063, v540689, v541140, v599799, v599805, v501609, v540726, v580062, v570106, v570685, v599587, v570702, v530835, v570577, v599822, v550706, v501570, v599813, v638836, v579888, v580114, v540975, v707534, v639051, v638800, v543756, v570268, v540775, v599926, v570468, v481818, v570182, v491701,  
-        ]);
-    
-    var poligons = L.layerGroup([
-    v1001896, v580059, v580094, v580122, v981531, v922698, v570406, v1001887, v903080, v580029, v580071, v77402394, v531003, v639034, v707498, v766, v727206, v580022, v521064, v541048, v540918, v501638 
-    ]);
-   
-   var baseMaps ={
-   "Grayscale": grayscale,
-   "Streets": streets,
-   "ancient world": ancientworld
-   
-   
-   }
-   var overlayMaps = {
-   "places": points,
-   "regions": poligons,
-   "roads": roads
-   };
-   
-   L.control.layers(baseMaps, overlayMaps).addTo(map);
-   
-   function onMapClick(e) {
-   alert("You clicked the map at " + e.latlng);
-   }
-   
-   map.on('click', onMapClick);
-   
+            v580101, v501434, v579885, v579853, v599636, v579920, v541138, v541063, v540689, v541140, v599799, v599805, v501609, v540726, v580062, v570106, v570685, v599587, v570702, v530835, v570577, v599822, v550706, v501570, v599813, v638836, v579888, v580114, v540975, v707534, v639051, v638800, v543756, v570268, v540775, v599926, v570468, v481818, v570182, v491701,  
+            ]);
+            
+            var poligons = L.layerGroup([
+            v1001896, v580059, v580094, v580122, v981531, v922698, v570406, v1001887, v903080, v580029, v580071, v77402394, v531003, v639034, v707498, v766, v727206, v580022, v521064, v541048, v540918, v501638 
+            ]);
+            
+            var baseMaps ={
+            "Grayscale": grayscale,
+            "Streets": streets,
+            "ancient world": ancientworld
+            
+            
+            }
+            var overlayMaps = {
+            "places": points,
+            "regions": poligons,
+            "roads": roads
+            };
+            
+            L.control.layers(baseMaps, overlayMaps).addTo(map);
+            
+            function onMapClick(e) {
+            alert("You clicked the map at " + e.latlng);
+            }
+            
+            map.on('click', onMapClick);
+            
+        

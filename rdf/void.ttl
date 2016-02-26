@@ -1,0 +1,14 @@
+
+            @prefix : <http://pietroliuzzo.github.io/Aristodemo/> .
+            @prefix void: <http://rdfs.org/ns/void#> .
+            @prefix dcterms: <http://purl.org/dc/terms/> .
+            @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+            
+            :Edizione digitale di FGrHist 104 [Aristodemo] a void:Dataset;
+            dcterms:title "Edizione digitale di FGrHist 104 [Aristodemo]";
+            dcterms:publisher "Edizione digitale di FGrHist 104 [Aristodemo]";
+            foaf:homepage <http://pietroliuzzo.github.io/Aristodemo/index>;
+            dcterms:description "An edition of an ancient text, witnessed by a manuscript and a papyrus, by an anonymous author";
+            dcterms:license <http://opendatacommons.org/licenses/odbl/1.0/>;
+            void:dataDump <http://pietroliuzzo.github.io/Aristodemo/rdf/places.ttl> ;
+            .

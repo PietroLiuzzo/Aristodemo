@@ -17,59 +17,84 @@
         </fileDesc>
         <profileDesc>
             <particDesc>
-<listPerson type="historical">
-    
-    <personGrp xml:id="PXXX"/>
-<person xml:id="pers173">
-    
-    <persName xml:lang="grc">Χαρίτου</persName>
-    <persName xml:lang="en">Charito
-        <surname>Hancock</surname>
-        <forename>Antony</forename>
-        <forename>Aloysius</forename>
-        <forename>St John</forename>
-    </persName>
-    <floruit notBefore="0401"> Fifth-sixth century or later </floruit>
-    <affiliation ref="http://pleiades.stoa.org/places/638753">Aphrodisias</affiliation>
-    <listBibl>
-        <bibl corresp="http://insaph.kcl.ac.uk/ala2004/inscription/eAla170.html">ALA 170</bibl>
-        <relation ref="snap:WifeOf" active="#pers173" passive="#pers124">
-            <desc>wife of Narses</desc>
-        </relation>
-    </listBibl>
-    <idno type="ala">http://insaph.kcl.ac.uk/ala2004/search/alist/prosop/charito1.html</idno>
+                <listPerson type="historical">
+                    <personGrp xml:id="Persians"/>
+
+                    <person xml:id="arist-p1">
+                        <persName xml:lang="grc">Ξέρξης</persName>
+                        <persName xml:lang="en">Xerxes <forename>Xerxes</forename>
+                        </persName>
+                        <persName xml:lang="it">Serse <forename>Serse</forename>
+                        </persName>
+                        <birth when="-0518"><placeName ref="http://pleiades.stoa.org/places/912936">
+                                <settlement type="city">Susa</settlement>
+                                <country>Persia</country>
+                            </placeName>
+                        </birth>
+                        <death notBefore="-0466" notAfter="-0465">465 a.C.<placeName
+                                ref="http://pleiades.stoa.org/places/922695">
+                                <settlement type="city">Persepoli</settlement>
+                                <country>Persia</country>
+                            </placeName>
+                        </death>
+                        <event type="Incoronation" when="-0486-10">
+                            <desc>Alla morte di Dario succede essendo stato precedentemente
+                                preferito ai fratelli maggiori non figli di Atossa.</desc>
+                        </event>
+
+                        <!--    <floruit notBefore="" notAfter=""> </floruit>-->
+                        <affiliation ref="http://pleiades.stoa.org/places/912936"
+                            >Aphrodisias</affiliation>
+                        <listBibl>
+                            <bibl corresp="index.html#edition1">ALA 170</bibl>
+                            <relation ref="snap:FatherOf" active="#arist-p2">
+                                <desc>padre di Artaserse</desc>
+                            </relation>
+                        </listBibl>
+                        <!--  <idno type="ala">http://insaph.kcl.ac.uk/ala2004/search/alist/prosop/charito1.html</idno>
     <idno type="lgpn-hr">V.B Χαρίτω 1</idno>
-    <idno type="lgpn">http://www.lgpn.ox.ac.uk/id/V5b-13550</idno>
-    <residence notAfter="1959">
+    <idno type="lgpn">http://www.lgpn.ox.ac.uk/id/V5b-13550</idno>-->
+                        <!--   <residence notAfter="1959">
         <address>
             <street>Railway Cuttings</street>
             <settlement>East Cheam</settlement>
         </address>
     </residence>
-    <occupation>comedian</occupation>
-    
-   
-</person>
-    
- <listRelation>
-        <relation type="personal" name="spouse"
-            mutual="#P1234 #P4332"/>
-    </listRelation>
-    
-</listPerson>
-               
-<listPerson type="mythological">
-    <person>
-        
-    </person>
-    
-</listPerson>
+    <occupation>comedian</occupation>-->
+
+                    </person>
+                    <person xml:id="arist-p2">
+                        <persName xml:lang="it">Artaserse <forename>Artaserse</forename>
+                        </persName>
+
+                    </person>
+
+                    <person xml:id="arist-p3">
+                        <persName xml:lang="it">Amestris <forename>Amestris</forename>
+                        </persName>
+
+                    </person>
+
+                    <listRelation>
+                        <relation type="personal" name="spouse" mutual="#arist-p3"/>
+                    </listRelation>
+
+                </listPerson>
+
+                <listPerson type="mythological">
+                    <person> </person>
+
+                </listPerson>
+                <listPerson type="modern">
+                    <person> </person>
+
+                </listPerson>
             </particDesc>
         </profileDesc>
     </teiHeader>
-<text>    
-    <body>
-        <ab/>
-    </body>
-</text>
+    <text>
+        <body>
+            <ab/>
+        </body>
+    </text>
 </TEI>
