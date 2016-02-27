@@ -72,7 +72,7 @@ meant to be run in a folder with other data locally referred
                                          <a href="https://www.zotero.org/pietroliuzzo/items/collectionKey/APXN4VU6">Bibliografia</a>
                                      </li>
                                      <li>
-                                         <a href="https://github.com/PietroLiuzzo/Aristodemo">GIT repo</a>
+                                         <a href="https://github.com/PietroLiuzzo/Aristodemo/tree/gh-pages">GIT repo</a>
                                      </li>
                                      <li><a href="contact.html">Contatti</a></li>
                                      
