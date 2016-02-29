@@ -10,21 +10,6 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xml/CodParText.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>luoghi</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>xsl/luoghi.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -40,7 +25,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xml/Aristodemo.xml</String>
+                                    <String>xml/CodParText.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -60,6 +45,21 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>poxy2469</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>xml/Aristodemo.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>luoghi</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
