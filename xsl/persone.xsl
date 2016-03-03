@@ -287,26 +287,56 @@ meant to be run in a folder with other data locally referred
         </html>
 
 
-        <xsl:result-document href="rdf/people.rdf" method="text">
+        <xsl:result-document href="rdf/people.ttl" method="text">
+
+@base &lt;http://purl.org/dc/terms/&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix cito: &lt;http://purl.org/spar/cito&gt; .
+@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix ctn: &lt;http://www.w3.org/2011/content#&gt; .
+@prefix lawd: &lt;http://lawd.info/ontology/&gt; .
+@prefix prov: &lt;http://www.w3.org/ns/prov#&gt; .
+@prefix snap: &lt;http://onto.snapdrgn.net/snap#&gt; .
 
             <xsl:for-each-group select="//t:name" group-by="@nymRef">
                 <xsl:sort order="descending" select="lower-case(@nymRef)"/>
                 <xsl:variable name="rank" select="position()"/>
                     &lt;http://pietroliuzzo.github.io/Aristodemo/persone.html#<xsl:value-of
-                    select="@nymRef"/>&gt; rdf:type lawd:Person .
-                    &lt;http://pietroliuzzo.github.io/Aristodemo/persone.html#<xsl:value-of
+                        select="@nymRef"/>&gt; rdf:type <xsl:choose><xsl:when test="@type='divine'">lawd:Deity</xsl:when><xsl:otherwise>lawd:Person</xsl:otherwise></xsl:choose> 
+                .
+                
+                  <xsl:choose>
+                      <xsl:when test="@type='unattested'"/>
+                      
+                        
+                      <xsl:otherwise>  &lt;http://pietroliuzzo.github.io/Aristodemo/persone.html#<xsl:value-of
                     select="@nymRef"/>&gt; rdf:type lawd:PersonalName ; lawd:primaryForm
-                    "<xsl:value-of select="@nymRef"/>"@grc . <xsl:for-each-group
+                    "<xsl:value-of select="@nymRef"/>"@grc 
+                . 
+                      
+                      </xsl:otherwise>
+                  </xsl:choose>
+                
+                <xsl:for-each-group
                     select="current-group()" group-by="parent::t:div[@subtype = 'section']/@n">
                         &lt;http://pietroliuzzo.github.io/Aristodemo/persone.html#<xsl:value-of
                         select="@nymRef"/>&gt; cito:citesAsEvidence
                         &lt;http://pietroliuzzo.github.io/Aristodemo/#<xsl:value-of
-                        select="parent::t:div[@subtype = 'section']/@n"/>&gt; . </xsl:for-each-group>
+                        select="parent::t:div[@subtype = 'section']/@n"/>&gt; 
+                        
+                        . 
+                
+                </xsl:for-each-group>
+                
                 <xsl:for-each-group select="current-group()" group-by="@ref">
                         &lt;http://pietroliuzzo.github.io/Aristodemo/persone.html#<xsl:value-of
-                        select="@nymRef"/>&gt; dc:identifier &lt;<xsl:value-of select="@ref"/>&gt; .
+                        select="@nymRef"/>&gt; dc:identifier &lt;<xsl:value-of select="@ref"/>&gt; 
+                    
+                    .
                 </xsl:for-each-group>
             </xsl:for-each-group>
+            
+            
 
             <xsl:for-each select="//t:persName">
                     &lt;http://pietroliuzzo.github.io/Aristodemo/persone.html#<xsl:value-of
@@ -320,23 +350,42 @@ meant to be run in a folder with other data locally referred
                 cnt:ContentAsText ; snap:bond-with
                     &lt;http://pietroliuzzo.github.io/Aristodemo/persone.html#<xsl:value-of
                     select="./t:name[position() = 2]/@nymRef"/>&gt; ; cnt:chars “Father:
-                    <xsl:value-of select="./t:name[position() = 2]/@nymRef"/>” . </xsl:for-each>
+                    <xsl:value-of select="./t:name[position() = 2]/@nymRef"/>” 
+                . 
+            
+            </xsl:for-each>
 
-            <!--                hand fixes
+            <!--        required postprocess 
+                hand fixes
             
-           - amenias has also two brothers
+           - amenias has also two brothers V
             
-           - a relation between Xerxes and Artaxerxes can be added
+           - a relation between Xerxes and Artaxerxes can be added V
             
-           - a person for the wife of Admetus can be added, with a relation, without a name for the person
+           - a person for the wife of Admetus can be added, with a relation, without a name for the person entered a persname, needs a different id
            
-          -  a person for the daughter of koronides can be added, with a relation, without a name for the person
+          -  a person for the daughter of koronides can be added, with a relation, without a name for the person (marked with empty name)
+          
+          - for argilios no persname. entered name link to lgpn
            
            - a person for the mother of Pausanias can be added, with a relation, without a name for the person
+           
+           type = unattested
+           no ref forwife of admetus and mother of pausanias
             
           -  a relation between sicinnos and temistocles might be added
             
           -  a relation between argilios and pausanias
+          
+          - the transformation will give a wrong value for alexander first, which is ANCESTOR of Philip, CHANGE RELATION TYPE
+          
+          - relation paus-kleomb might turn out twice
+          
+          - add type=divine to artemis, poseidon, apollo etc. licofron artemis?<persName></persName>
+          
+          - epithet like lakkoploutos?
+          
+          - santippo figlio di ...  e padre di pericle
             -->
 
         </xsl:result-document>

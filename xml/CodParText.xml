@@ -168,7 +168,7 @@
                         <w>ἧκεν</w>
                         <w>κατὰ</w>
                         <w>τὸ</w>
-                        <placeName nymRef="Ἡράκλειον">Ἡράκλειον</placeName> <!--place added to pleiades and openstreetmap waiting for review-->
+                        <placeName nymRef="Ἡράκλειον" ref="http://pleiades.stoa.org/places/245682332">Ἡράκλειον</placeName> <!--place added to pleiades and openstreetmap waiting for review-->
                         <w>ἐπειδὴ</w>
                         <w>δὲ</w>
                         <w>ἀδύνατον</w>
@@ -249,13 +249,13 @@
                         <w>τῶν</w>
                         <w>βαρβάρων</w>
                         <w>ἀνασώζεσθαι.</w>
-                        <persName><name>Ἀριστείδης</name>
+                        <persName><name ref="http://www.lgpn.ox.ac.uk/id/V2-8009" nymRef="Ἀριστείδης">Ἀριστείδης</name>
                         <w>δὲ</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναῖος,</placeName>
                         <w>υἱὸς</w>
-                        <name>Λυσιμάχου</name></persName>,
+                            <name ref="http://www.lgpn.ox.ac.uk/id/V2-42902" nymRef="Λυσίμαχος">Λυσιμάχου</name>,
                         <w>καλούμενος</w>
-                        <w>δίκαιος,</w>
+                        <w>δίκαιος</w>,</persName>
                         <w>ἐξωστρακισμένος</w>
                         <w>ἐκ</w>
                         <w>τῶν</w>
@@ -295,7 +295,7 @@
                         <w>ἔδωκε.</w>
                         <w>Λαβὼν</w>
                         <w>δὲ</w>
-                        <name>Ἀριστείδης</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-8009" nymRef="Ἀριστείδης">Ἀριστείδης</name>
                         <w>ἐπέβη</w>
                         <w>εἰς</w>
                         <w>τὴν</w>
@@ -323,7 +323,7 @@
                         <w>ναυμαχίᾳ</w>
                         <w>καὶ</w>
                         <w>ἠρίστευσεν</w>
-                        <name>Ἀμεινίας,</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-4170" nymRef="Ἀμεινίας">Ἀμεινίας,</name>
                         <w>τῶν</w>
                         <w>δὲ</w>
                         <w>βαρβάρων</w>
@@ -334,7 +334,7 @@
                         <w>γένος,</w>
                         <w>ὄνομα</w>
                         <w>δὲ</w>
-                        <name>Ἀρτεμισία,</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V5b-3416" nymRef="Ἀρτεμισία">Ἀρτεμισία</name>,
                         <w>ἥτις</w>
                         <w>διωκομένης</w>
                         <w>τῆς</w>
@@ -351,7 +351,7 @@
                         <w>ἐβύθισεν·</w>
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <name>Ἀμεινίας</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-4170" nymRef="Ἀμεινίας">Ἀμεινίας</name>
                         <w>δόξας</w>
                         <w>σύμμαχον</w>
                         <w>εἶναι</w>
@@ -482,10 +482,10 @@
                         <w>συνεμάχησαν</w>
                         <w>τοῖς</w>
                         <placeName  nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησιν.</placeName>
-                        <name>Δίκαιος</name>
+                        <persName><name ref="http://www.lgpn.ox.ac.uk/id/V2-16768" nymRef="Δίκαιος">Δίκαιος</name>
                         <w>γὰρ</w>
                         <w>ὁ</w>
-                        <name>Θεοκύδους,</name>
+                            <name nymRef="Θεοκύδης" ref="http://www.lgpn.ox.ac.uk/id/V2-32502">Θεοκύδους</name></persName>,
                         <w>ἀνὴρ</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναῖος</placeName>,
                         <w>ἔφη</w>
@@ -522,9 +522,9 @@
                         <w>δὲ</w>
                         <w>τοῦ</w>
                         <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξου</name>
-                        <name>Μαρδόνιος,</name>
+                        <persName><name ref="https://www.wikidata.org/wiki/Q155063" nymRef="Μαρδόνιος">Μαρδόνιος</name>,
                         <w>υἱὸς</w>
-                        <name>Γωβρύου</name>
+                            <name ref="https://www.wikidata.org/wiki/Q454695" nymRef="Γωβρύας">Γωβρύου</name></persName>
                         <w>τοῦ</w>
                         <w>καὶ</w>
                         <w>αὐτοῦ</w>
@@ -566,16 +566,16 @@
                         <w>λαβὼν</w>
                         <w>δὲ</w>
                         <w>ὁ</w>
-                        <name>Μαρδόνιος</name>
+                        <name ref="https://www.wikidata.org/wiki/Q155063" nymRef="Μαρδόνιος">Μαρδόνιος</name>
                         <w>ἔπεμψε</w>
                         <w>πρῶτον</w>
                         <w>πρὸς</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναίους</placeName>
-                        <name>Ἀλέξανδρον</name>
+                        <persName><name ref="http://www.lgpn.ox.ac.uk/id/V4-24489" nymRef="Ἀλέξανδρος">Ἀλέξανδρον</name>
                         <w>τὸν</w>
                         <placeName ref="http://pleiades.stoa.org/places/981531" nymRef="Μακεδών">Μακεδόνα,</placeName>
                         <w>τὸν</w>
-                        <name>Φιλίππου</name>
+                            <name ref="http://www.lgpn.ox.ac.uk/id/V4-34810" nymRef="Φιλίππος">Φιλίππου</name></persName>
                         <w>πρόγονον,</w>
                         <w>ὑπισχνούμενος</w>
                         <w>δώσειν</w>
@@ -612,7 +612,7 @@
                         <w>ἐπειδὴ</w>
                         <w>δὲ</w>
                         <w>ὁ</w>
-                        <w>Ἀλέξανδρος</w>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V4-24489" nymRef="Ἀλέξανδρος">Ἀλέξανδρος</name>
                         <w>παρεγένετο</w>
                         <w>εἰς</w>
                         <w>τὰς</w>
@@ -629,12 +629,12 @@
                         <w>ὑβρίσαντές</w>
                         <w>τε</w>
                         <w>τὸν</w>
-                        <w>Ἀλέξανδρον</w>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V4-24489" nymRef="Ἀλέξανδρος">Ἀλέξανδρον</name>
                         <w>ἀπεπέμψαντο.</w></p>
                     <p n="3">
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <name>Μαρδόνιος</name>
+                        <name ref="https://www.wikidata.org/wiki/Q155063" nymRef="Μαρδόνιος">Μαρδόνιος</name>
                         <w>ἀποτυχὼν</w>
                         <w>ἐν</w>
                         <w>τούτοις</w>
@@ -675,7 +675,7 @@
                         <w>π.</w>
                         <w>συνπαρετάσσοντο</w>
                         <w>δὲ</w>
-                        <name>Μαρδονίῳ</name>
+                        <name ref="https://www.wikidata.org/wiki/Q155063" nymRef="Μαρδόνιος">Μαρδονίῳ</name>
                         <placeName nymRef="Βοιωτία" type="ethnic" ref="http://pleiades.stoa.org/places/540689">Βοιωτῶν</placeName>
                         <w>μυριάδες</w>
                         <w>δ.</w></p>
@@ -688,7 +688,7 @@
                         <w>κέρας</w>
                         <placeName nymRef="Πέρσις " ref="http://pleiades.stoa.org/places/922698">Πέρσαι</placeName>
                         <w>καὶ</w>
-                        <name>Μαρδόνιος,</name>
+                        <name ref="https://www.wikidata.org/wiki/Q155063" nymRef="Μαρδόνιος">Μαρδόνιος</name>,
                         <w>τὸ</w>
                         <w>δὲ</w>
                         <w>εὐώνυμον</w>
@@ -724,7 +724,7 @@
                         <w>ἐν</w>
                         <w>δὲ</w>
                         <w>τούτῳ</w>
-                        <name>Μαρδόνιος</name>
+                        <name ref="https://www.wikidata.org/wiki/Q155063" nymRef="Μαρδόνιος">Μαρδόνιος</name>
                         <w>δεδοικὼς</w>
                         <w>μάχεσθαι</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναίοις</placeName>
@@ -746,13 +746,13 @@
                         <w>δὲ</w>
                         <placeName ref="http://pleiades.stoa.org/places/570406" type="ethnic" nymRef="Λακεδαίμων">Λακεδαιμονίων</placeName>
                         <w>μὲν</w>
-                        <name>Παυσανίας</name>
+                        <persName><name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίας</name>
                         <w>ὁ</w>
-                        <name>Κλεομβρότου,</name>
+                            <name ref="http://www.lgpn.ox.ac.uk/id/V3a-10542" nymRef="Κλεόμβροτος">Κλεομβρότου</name>,</persName>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναίων</placeName>
                         
                         <w>δὲ</w>
-                        <name>Ἀριστείδης</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-8009" nymRef="Ἀριστείδης">Ἀριστείδης</name>
                         <w>ὁ</w>
                         <w>δίκαιος.</w>
                         <w>Γενομένης</w>
@@ -769,7 +769,7 @@
                         <w>ἐνίκησαν.</w></p>
                     <p n="5">
                         <w>ἐνταῦθα</w>
-                        <name>Μαρδόνιος</name>
+                        <name ref="https://www.wikidata.org/wiki/Q155063" nymRef="Μαρδόνιος">Μαρδόνιος</name>
                         <w>ἔπεσεν</w>
                         <w>γυμνῇ</w>
                         <w>τῇ</w>
@@ -777,14 +777,14 @@
                         <w>μαχόμενος,</w>
                         <w>ἀναιρεθεὶς</w>
                         <w>ὑπὸ</w>
-                        <name>Ἀειμνήστου</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-8208" nymRef="Ἀείμναστος">Ἀειμνήστου</name>
                         <w>ἀνδρὸς</w>
                         <placeName ref="http://pleiades.stoa.org/places/570406" type="ethnic" nymRef="Λακεδαίμων">Λακεδαιμονίου</placeName>.
                         <w>ἠρίστευσε</w>
                         <w>δὲ</w>
                         <w>ἐνταῦθα</w>
                         <w>καὶ</w>
-                        <name>Ἀριστόδημος</name>
+                        <name nymRef="Ἀριστοδήμος" ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ἀριστοδήμος">Ἀριστόδημος</name>
                         <w>ὁ</w>
                         <w>ὑποστρέψας</w>
                         <w>ἀπὸ</w>
@@ -828,7 +828,7 @@
                         <w>δὲ</w>
                         <w>ἔπεσεν</w>
                         <w>ὁ</w>
-                        <name>Μαρδόνιος,</name>
+                        <name ref="https://www.wikidata.org/wiki/Q155063" nymRef="Μαρδόνιος">Μαρδόνιος,</name>
                         <w>οἱ</w>
                         <placeName nymRef="Πέρσις " ref="http://pleiades.stoa.org/places/922698">Πέρσαι</placeName>
                         <w>ἔφυγον</w>
@@ -850,7 +850,7 @@
                         <w>ἐπὶ</w>
                         <w>τὴν</w>
                         <w>οἰκείαν,</w>
-                        <name>Ἀλέξανδρος</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V4-24489" nymRef="Ἀλέξανδρος">Ἀλέξανδρος</name>
                         <w>ὁ</w>
                         <placeName ref="http://pleiades.stoa.org/places/981531" nymRef="Μακεδών">Μακεδών</placeName>,
                         <w>ἴδιος</w>
@@ -862,7 +862,7 @@
                         <w>ὧν</w>
                         <w>ἀπεστάλη</w>
                         <w>ὑπὸ</w>
-                        <name>Μαρδονίου,</name>
+                        <name ref="https://www.wikidata.org/wiki/Q155063" nymRef="Μαρδόνιος">Μαρδονίου,</name>
                         <w>πάντας</w>
                         <w>αὐτοὺς</w>
                         <w>γενομένους</w>
@@ -967,17 +967,17 @@
                         <placeName ref="http://pleiades.stoa.org/places/599805" nymRef="Μυκάλης">Μυκάλης</placeName>
                         <placeName ref="http://pleiades.stoa.org/places/570406" type="ethnic" nymRef="Λακεδαίμων">Λακεδαιμονίων</placeName>
                         <w>μὲν</w>
-                        <name>Λεωτυχίδας</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-10748" nymRef="Λεωτυχίδας">Λεωτυχίδας</name>
                         <w>ὁ</w>
                         <w>βασιλεύς,</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναίων</placeName>
                         <w>δὲ</w>
-                        <name>Ξάνθιππος</name>
+                        <persName><name ref="http://www.lgpn.ox.ac.uk/id/V2-49699" nymRef="Ξάνθιππος">Ξάνθιππος</name>
                         <w>ὁ</w>
-                        <name>Ἀρίφρονος,</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-9657" nymRef="Ἀρίφρων">Ἀρίφρονος,</name>
                         <w>ὁ</w>
-                        <name>Περικλέους</name>
-                        <w>πατήρ.</w>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-52446" nymRef="Περικλῆς">Περικλέους</name>
+                        <w>πατήρ.</w></persName>
                     </p>
                     <p n="4">
                         <w>οἱ</w>
@@ -1029,9 +1029,9 @@
                         <w>προσέμενον</w>
                         <w>προσπολεμοῦντες,</w>
                         <gap reason="lost" quantity="2" unit="chars"/><w>καὶ</w>
-                        <name>Παυσανίας</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίας</name>
                         <w>ὁ</w>
-                        <name>Κλεομβρότου,</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-10542" nymRef="Κλεόμβροτος">Κλεομβρότου</name>,
                         <w>ὁ</w>
                         <w>τῶν</w>
                         <placeName ref="http://pleiades.stoa.org/places/570406" type="ethnic" nymRef="Λακεδαίμων">Λακεδαιμονίων</placeName>
@@ -1078,7 +1078,7 @@
                         <w>τῷ</w>
                         <w>ἐν</w>
                         <placeName nymRef="Δελφοί" ref="http://pleiades.stoa.org/places/540726">Δελφοῖς</placeName>
-                        <name>Ἀπόλλωνι</name>
+                        <name type="divine" ref="https://www.wikidata.org/wiki/Q37340" nymRef="Ἀπόλλων">Ἀπόλλωνι</name>
                         <w>ἐπίγραμμα</w>
                         <w>ἔγραψε</w>
                         <w>πρὸς</w>
@@ -1090,7 +1090,7 @@
                         <w>στρατὸν</w>
                         <w>ὤλεσε</w>
                         <placeName type="ethnic" ref="http://pleiades.stoa.org/places/903080" nymRef="Μῆδος">Μήδων</placeName>
-                        <name>Παυσανίας</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίας</name>
                         <w>Φοίβῳ</w>
                         <w>μνῆμ’</w>
                         <w>ἀνέθηκε</w>
@@ -1141,7 +1141,7 @@
                         <w>ὑπὸ</w>
                         <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξου</name>
                         <w>καὶ</w>
-                        <name>Μαρδονίου,</name>
+                        <name ref="https://www.wikidata.org/wiki/Q155063" nymRef="Μαρδόνιος">Μαρδονίου</name>,
                         <w>ἐβουλεύοντο</w>
                         <w>τειχίζειν</w>
                         <w>αὐτήν,</w>
@@ -1359,9 +1359,9 @@
                         <w>ἐφ’</w>
                         <w>ὅν</w>
                         <w>τὸ</w>
-                        <w>τῆς</w>
-                        <name>Ἀρτέμιδος</name>
-                        <w>ἱερὸν</w>
+                        <placeName><w>τῆς</w>
+                            <name ref="https://www.wikidata.org/wiki/Q39503" nymRef="Ἀρτημις" type="divine">Ἀρτέμιδος</name>
+                        <w>ἱερὸν</w></placeName>
                         <w>ἵδρυται).</w>
                         <w>τὸ</w>
                         <w>δὲ</w>
@@ -1416,7 +1416,7 @@
                         <w>τῆς</w>
                         <w>ἐγκεχειρισμένης</w>
                         <w>προδοσίας</w>
-                        <name>Παυσανίαι,</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίαι</name>,
                         <w>πέμψαντες</w>
                         <w>αὐτῷ</w>
                         <w>τὴν</w>
@@ -1429,7 +1429,7 @@
                     <p n="3">
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <name>Παυσανίας</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίας</name>
                         <w>ἐλθὼν</w>
                         <w>εἰς</w>
                         <w>τὴν</w>
@@ -1466,7 +1466,7 @@
                         <w>τυραννεῖσθαι</w>
                         <w>ὑπὸ</w>
                         <w>τοῦ</w>
-                        <name>Παυσανίου</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίου</name>
                         <w>προσετίθεντο</w>
                         <w>τοῖς</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναίοις,</placeName>
@@ -1512,7 +1512,7 @@
                 <div type="textpart" subtype="section" n="8">
                     <p n="1"><w>῾Ο</w>
                         <w>δὲ</w>
-                        <name>Παυσανίας</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίας</name>
                         <w>ὑπάρχων</w>
                         <w>ἐν</w>
                         <placeName ref="http://pleiades.stoa.org/places/77402394" rend="Βυζαντίος">Βυζαντίῳ</placeName>
@@ -1531,25 +1531,25 @@
                         <w>ἦν</w>
                         <w>ἐπιχωρίου</w>
                         <w>τινὸς</w>
-                        <w>θυγάτηρ</w>
-                        <name>Κορωνίδου</name>
-                        <w>ὄνομα,</w>
+                        <persName><name ref="http://www.lgpn.ox.ac.uk/id/V4-8646" type="unattested"/><!--no name in the text, but the person is known--><w>θυγάτηρ</w>
+                            <name ref="http://www.lgpn.ox.ac.uk/id/V4-8772" nymRef="Κορωνίδας">Κορωνίδου</name></persName>
+                        <w>ὄνομα</w>,
                         <w>ἐφ’</w>
                         <w>ἣν</w>
                         <w>ἔπεμψεν</w>
                         <w>ὁ</w>
-                        <name>Παυσανίας</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίας</name>
                         <w>ἐξαιτῶν</w>
                         <w>τὸν</w>
                         <w>πατέρα·</w>
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <name>Κορωνίδης</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V4-8772" nymRef="Κορωνίδας">Κορωνίδης</name>
                         <w>δεδοικὼς</w>
                         <w>τὴν</w>
                         <w>ὠμότητα</w>
                         <w>τοῦ</w>
-                        <name>Παυσανίου</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίου</name>
                         <w>ἔπεμψεν</w>
                         <w>αὐτῷ</w>
                         <w>τὴν</w>
@@ -1563,13 +1563,13 @@
                         <w>οἴκημα,</w>
                         <w>κοιμωμένου</w>
                         <w>τοῦ</w>
-                        <name>Παυσανίου,</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίου</name>,
                         <w>καὶ</w>
                         <w>παραστάσης,</w>
                         <w>περίυπνος</w>
                         <w>γενόμενος</w>
                         <w>ὁ</w>
-                        <name>Παυσανίας</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίας</name>
                         <w>δόξας</w>
                         <w>τε</w>
                         <w>κατ’</w>
@@ -1622,7 +1622,7 @@
                         <w>γράψας</w>
                         <w>ἐπιστολὰς</w>
                         <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξῃ</name>
-                        <name>Ἀργιλίῳ</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/name/Ἀργίλιος" nymRef="Ἀργίλιος">Ἀργιλίῳ</name>
                         <w>ἀγαπωμένῳ</w>
                         <w>ἑαυτοῦ</w>
                         <w>δίδωσι</w>
@@ -1633,7 +1633,7 @@
                         <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξην</name>.
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <name>Ἀργίλιος</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/name/Ἀργίλιος" nymRef="Ἀργίλιος">Ἀργίλιος</name>
                         <w>δεδοικὼς</w>
                         <w>περὶ</w>
                         <w>αὑτοῦ,</w>
@@ -1662,7 +1662,7 @@
                         <w>κατάφωρον</w>
                         <w>δείξειν</w>
                         <w>τὸν</w>
-                        <name>Παυσανίαν</name>.
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίαν</name>.
                         <w>καὶ</w>
                         <w>συνθέμενος</w>
                         <w>περὶ</w>
@@ -1674,7 +1674,7 @@
                         <w>τε</w>
                         <w>τῷ</w>
                         <w>τοῦ</w>
-                        <name>Ποσειδῶνος</name>
+                        <name type="divine" nymRef="Ποσειδῶν" ref="https://www.wikidata.org/wiki/Q41127">Ποσειδῶνος</name>
                         <w>τεμένει</w>
                         <milestone unit="section" type="filostratus" n="2"/>
                         <!--not sure. how to say here there is another text before the page breaks? 
@@ -1711,12 +1711,12 @@
                         <w>ἐπιστάμενος</w>
                         <w>δὲ</w>
                         <w>ὁ</w>
-                        <name>Παυσανίας</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίας</name>
                         <w>ταῦτα,</w>
                         <w>ἀκούσας</w>
                         <w>δὲ</w>
                         <w>τὸν</w>
-                        <name>Ἀργίλιον</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/name/Ἀργίλιος" nymRef="Ἀργίλιος">Ἀργίλιον</name>
                         <w>ἱκετεύοντα,</w>
                         <w>παρεγένετο</w>
                         <w>πρὸς</w>
@@ -1772,10 +1772,10 @@
                         <w>εἰσέδραμεν</w>
                         <w>εἰς</w>
                         <w>τὸ</w>
-                        <w>τῆς</w>
-                        <name>Χαλκιοίκου</name>
+                        <placeName><w>τῆς</w>
+                            <name type="divine" ref="https://www.wikidata.org/wiki/Q37122" nymRef="Ἀθηνᾶ">Χαλκιοίκου</name>
                         <placeName nymRef="Ἀθῆναι" ref="http://pleiades.stoa.org/places/579885">Ἀθηνᾶς</placeName>
-                        <w>τέμενος</w>
+                        <w>τέμενος</w></placeName>
                         <w>καὶ</w>
                         <w>ἱκέτευεν.</w>
                     </p>
@@ -1792,10 +1792,10 @@
                         <w>τὸν</w>
                         <w>θεὸν</w>
                         <w>θρησκείαν,</w>
-                        <w>ἡ</w>
+                        <persName><name type="unattested" ref="http://www.lgpn.ox.ac.uk/id/V3a-8203"/><w>ἡ</w>
                         <w>μήτηρ</w>
                         <w>τοῦ</w>
-                        <name>Παυσανίου</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίου</name></persName>
                         <w>βαστάσασα</w>
                         <w>πλίνθον</w>
                         <w>ἔθηκεν</w>
@@ -1822,7 +1822,7 @@
                         <w>λιμῷ</w>
                         <w>διαφθαρέντος</w>
                         <w>τοῦ</w>
-                        <name>Παυσανίου,</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίου</name>,
                         <w>ἀνελόντες</w>
                         <w>τὴν</w>
                         <w>στέγην,</w>
@@ -1832,7 +1832,7 @@
                         <w>ἔτι</w>
                         <w>ἐμπνέοντα</w>
                         <w>τὸν</w>
-                        <name>Παυσανίαν</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίαν</name>
                         <w>καὶ</w>
                         <w>ἐξέρριψαν.</w>
                     </p>
@@ -1851,7 +1851,7 @@
                         <w>τοὺς</w>
                         <w>δαίμονας</w>
                         <w>τοῦ</w>
-                        <name>Παυσανίου,</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίου</name>,
                         <w>παύσασθαι</w>
                         <w>τὸν</w>
                         <w>λοιμόν,</w>
@@ -1908,7 +1908,7 @@
                         <w>ἐπειδὴ</w>
                         <w>τὰ</w>
                         <w>τοῦ</w>
-                        <name>Παυσανίου</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίου</name>
                         <w>ἐπονειδίστως</w>
                         <w>ἐκεχωρήκει,</w>
                         <w>τοὺς</w>
@@ -1917,7 +1917,7 @@
                         <w>λέγοντες</w>
                         <w>ἐν</w>
                         <w>ταῖς</w>
-                        <name>Παυσανίου</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-11614" nymRef="Παυσανίας">Παυσανίου</name>
                         <w>ἐπιστολαῖς</w>
                         <w>κοινωνὸν</w>
                         <w>εὑρηκέναι</w>
@@ -1943,7 +1943,7 @@
                         <w>εἰς</w>
                         <placeName ref="http://pleiades.stoa.org/places/531003" nymRef="Μολοσσοὺς" type="ethnic">Μολοσσοὺς</placeName>
                         <w>πρὸς</w>
-                        <name>Ἄδμητον</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-51603" nymRef="῎Αδματος">Ἄδμητον</name>
                         <w>βασιλεύοντα</w>
                         <w>καὶ</w>
                         <w>ἐχθρὸν</w>
@@ -1957,14 +1957,14 @@
                         <w>παραγενομένων</w>
                         <w>πρὸς</w>
                         <w>τὸν</w>
-                        <name>Ἄδμητον</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-51603" nymRef="῎Αδματος">Ἄδμητον</name>
                         <w>καὶ</w>
                         <w>ἐξαιτούντων</w>
                         <w>αὐτόν,</w>
-                        <w>ἡ</w>
+                        <persName><name type="unattested"/><w>ἡ</w>
                         <w>γυνὴ</w>
                         <w>τοῦ</w>
-                        <name>Ἀδμήτου</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-51603" nymRef="῎Αδματος">Ἀδμήτου</name></persName>
                         <w>ὑπέθετο</w>
                         <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλεῖ</name>
                         <w>ἁρπάσαι</w>
@@ -1983,7 +1983,7 @@
                         <w>τοῦ</w>
                         <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλέους</name>,
                         <w>ὁ</w>
-                        <name>Ἄδμητος</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V3a-51603" nymRef="῎Αδματος">Ἄδμητος</name>
                         <w>κατελεήσας</w>
                         <w>αὐτὸν</w>
                         <w>οὐκ</w>
@@ -2084,7 +2084,7 @@
                         <w>οὐ</w>
                         <w>κατέλαβε</w>
                         <w>ζῶντα,</w>
-                        <name>Ἀρταξέρξην</name>
+                        <name ref="https://www.wikidata.org/wiki/Q189689" nymRef="Ἀρταξέρξης">Ἀρταξέρξην</name>
                         <w>δὲ</w>
                         <w>τὸν</w>
                         <w>υἱὸν</w>
@@ -2104,7 +2104,7 @@
                         <w>παρεγένετο</w>
                         <w>πρὸς</w>
                         <w>τὸν</w>
-                        <name>Ἀρταξέρξην,</name>
+                        <name ref="https://www.wikidata.org/wiki/Q189689" nymRef="Ἀρταξέρξης">Ἀρταξέρξην</name>,
                         <w>καὶ</w>
                         <w>ὑπέμνησεν</w>
                         <w>αὐτὸν</w>
@@ -2144,7 +2144,7 @@
                     <p n="5">
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <name>Ἀρταξέρξης</name>
+                        <name ref="https://www.wikidata.org/wiki/Q189689" nymRef="Ἀρταξέρξης">Ἀρταξέρξης</name>
                         <w>προσσχὼν</w>
                         <w>τοῖς</w>
                         <w>εἰρημένοις</w>
@@ -2191,8 +2191,8 @@
                         <w>θύων</w>
                         <w>δὲ</w>
                         <w>τῇ</w>
-                        <w>Λευκοφρύνῃ</w>
-                        <name>Ἀρτέμιδι,</name>
+                        <placeName ref="http://pleiades.stoa.org/places/599778" nymRef="Λευκοφρύς" type="ethnic">Λευκοφρύνῃ</placeName>
+                        <name ref="https://www.wikidata.org/wiki/Q39503" nymRef="Ἀρτημις" type="divine">Ἀρτέμιδι</name>,
                         <w>σφαττομένου</w>
                         <w>ταύρου</w>
                         <w>ὑποσχὼν</w>
@@ -2225,7 +2225,7 @@
                         <w>καὶ</w>
                         <w>ἀντεπεστράτευον</w>
                         <w>τῷ</w>
-                        <name>Ἀρταξέρξῃ</name>
+                        <name ref="https://www.wikidata.org/wiki/Q189689" nymRef="Ἀρταξέρξης">Ἀρταξέρξῃ</name>
                         <w>εὐθέως</w>
                         <w>τε</w>
                         <w>τὰς</w>
@@ -2239,10 +2239,10 @@
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναῖοι</placeName>.
                     </p>
                     <p n="2">
-                        <persName><name>Κίμωνος</name>
+                        <persName><name ref="http://www.lgpn.ox.ac.uk/id/V2-38164" nymRef="Κίμων">Κίμωνος</name>
                         <w>δὲ</w>
                         <w>τοῦ</w>
-                        <name>Μιλτιάδου</name></persName>
+                            <name ref="http://www.lgpn.ox.ac.uk/id/V2-45847" nymRef="Μιλτιάδης">Μιλτιάδου</name></persName>
                         <w>στρατηγοῦντος</w>
                         <w>ἀνέπλευσαν</w>
                         <w>ἐπὶ</w>
@@ -2293,12 +2293,12 @@
                         <w>δὲ</w>
                         <w>τῆς</w>
                         <placeName ref="http://pleiades.stoa.org/places/766" nymRef="Αἴγυπτος">Αἰγύπτου</placeName>
-                        <name>Ἴναρος</name>
+                        <persName><name ref="https://www.wikidata.org/wiki/Q668956" nymRef="Ἴναρος">Ἴναρος</name>
                         <w>υἱὸς</w>
-                        <name>Ψαμμητίχου,</name>
+                        <name ref="https://www.wikidata.org/wiki/Q1285804" nymRef="Ψαμμητίχος">Ψαμμητίχου</name></persName>,
                         <w>ὃς</w>
                         <w>ἀποστὰς</w>
-                        <name>Ἀρταξέρξου</name>
+                        <name ref="https://www.wikidata.org/wiki/Q189689" nymRef="Ἀρταξέρξης">Ἀρταξέρξου</name>
                         <w>βοηθοὺς</w>
                         <w>ἐπηγάγετο</w>
                         <w>αὑτῷ</w>
@@ -2318,12 +2318,12 @@
                         <w>μετὰ</w>
                         <w>δὲ</w>
                         <w>ταῦτα</w>
-                        <name>Μεγάβυξος</name>
+                        <persName><name nymRef="Μεγάβυξος" ref="https://www.wikidata.org/wiki/Q386532">Μεγάβυξος</name>
                         <w>ὁ</w>
-                        <name>Ζωπύρου</name>
+                        <name ref="https://www.wikidata.org/wiki/Q220454">Ζωπύρου</name></persName>
                         <w>καταπεμφθεὶς</w>
                         <w>ὑπὸ</w>
-                        <name>Ἀρταξέρξου,</name>
+                        <name ref="https://www.wikidata.org/wiki/Q189689" nymRef="Ἀρταξέρξης">Ἀρταξέρξου</name>,
                         <w>ὡρμημένων</w>
                         <w>τῶν</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναίων</placeName>
@@ -2359,7 +2359,7 @@
                         <w>οἱ</w>
                         <w>περὶ</w>
                         <w>τὸν</w>
-                        <name>Μεγάβυξον</name>
+                        <name nymRef="Μεγάβυξος" ref="https://www.wikidata.org/wiki/Q386532">Μεγάβυξον</name>
                         <w>καὶ</w>
                         <w>ταύτας</w>
                         <w>παρέλαβον</w>
@@ -2424,9 +2424,9 @@
                         <placeName ref="http://pleiades.stoa.org/places/540975" nymRef="Οἰνοφύτα">Οἰνοφύτοις</placeName>,
                         <w>στρατηγοῦντος</w>
                         <w>αὐτῶν</w>
-                        <name>Τολμίδου</name>
+                        <persName><name ref="http://www.lgpn.ox.ac.uk/id/V2-61424" nymRef="Τολμίδης">Τολμίδου</name>
                         <w>καὶ</w>
-                        <name>Μυρωνίδου,</name>
+                            <name ref="http://www.lgpn.ox.ac.uk/id/V2-47030" nymRef="Μυρωνίδης">Μυρωνίδου</name></persName>,
                         <w>ἐνίκησαν</w>
                         <placeName ref="http://pleiades.stoa.org/places/540689" nymRef="Βοιωτία">Βοιωτοὺς</placeName>
                         <w>καὶ</w>
@@ -2441,14 +2441,14 @@
                         <placeName ref="http://pleiades.stoa.org/places/707498" nymRef="Κύπρος">Κύπρον</placeName>,
                         <w>στρατηγοῦντος</w>
                         <w>αὐτῶν</w>
-                        <name>Κίμωνος</name>
+                        <persName><name ref="http://www.lgpn.ox.ac.uk/id/V2-38164" nymRef="Κίμων">Κίμωνος</name>
                         <w>τοῦ</w>
-                        <name>Μιλτιάδου.</name>
+                            <name ref="http://www.lgpn.ox.ac.uk/id/V2-45847" nymRef="Μιλτιάδης">Μιλτιάδου</name></persName>.
                         <w>ἐνταῦθα</w>
                         <w>λιμῷ</w>
                         <w>συνεσχέθησαν,</w>
                         <w>καὶ</w>
-                        <name>Κίμων</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-38164" nymRef="Κίμων">Κίμων</name>
                         <w>νοσήσας</w>
                         <w>ἐν</w>
                         <placeName ref="http://pleiades.stoa.org/places/707534" nymRef="Κιτίον">Κιτίῳ</placeName>
@@ -2481,10 +2481,10 @@
                         <w>καὶ</w>
                         <w>στρατηγὸν</w>
                         <w>αἱροῦνται</w>
-                        <name>Καλλίαν</name>
+                        <name nymRef="Καλλίας" ref="http://www.lgpn.ox.ac.uk/id/V2-36018">Καλλίαν</name>
                         <w>τὸν</w>
                         <w>ἐπίκλην</w>
-                        <name>Λακκόπλουτον,</name>
+                        <name>Λακκόπλουτον</name>,
                         <w>ἐπεὶ</w>
                         <w>θησαυρὸν</w>
                         <w>εὑρὼν</w>
@@ -2495,10 +2495,10 @@
                         <w>ἐπλούτησεν.</w>
                         <w>οὗτος</w>
                         <w>ὁ</w>
-                        <name>Καλλίας</name>
+                        <name nymRef="Καλλίας" ref="http://www.lgpn.ox.ac.uk/id/V2-36018">Καλλίας</name>
                         <w>ἐσπείσατο</w>
                         <w>πρὸς</w>
-                        <name>Ἀρταξέρξην</name>
+                        <name ref="https://www.wikidata.org/wiki/Q189689" nymRef="Ἀρταξέρξης">Ἀρταξέρξην</name>
                         <w>καὶ</w>
                         <w>τοὺς</w>
                         <w>λοιποὺς</w>
@@ -2585,7 +2585,7 @@
                         <w>μάχης,</w>
                         <w>στρατηγοῦντος</w>
                         <w>αὐτῶν</w>
-                        <name>Τολμίδου,</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-61424" nymRef="Τολμίδης">Τολμίδου</name>,
                         <w>καὶ</w>
                         <w>γενομένων</w>
                         <w>κατὰ</w>
@@ -2629,7 +2629,7 @@
                         <placeName ref="http://pleiades.stoa.org/places/570268" nymRef="Γύθειον">Γύθειον</placeName>
                         <w>εἷλον·</w>
                         <w>καὶ</w>
-                        <name>Τολμίδης</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-61424" nymRef="Τολμίδης">Τολμίδης</name>
                         <w>χιλίους</w>
                         <w>ἔχων</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναίους</placeName>
@@ -2664,9 +2664,9 @@
                         <w>εἷλον,</w>
                         <w>στρατηγοῦντος</w>
                         <w>αὐτῶν</w>
-                        <name>Περικλέους</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-52446" nymRef="Περικλῆς">Περικλέους</name>
                         <w>καὶ</w>
-                        <name>Σοφοκλέους.</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-56901" nymRef="Σοφοκλῆς">Σοφοκλέους</name>.
                         <w>Ἐν</w>
                         <w>δὲ</w>
                         <w>τῷ</w>
@@ -2699,7 +2699,7 @@
                         <w>δὲ</w>
                         <w>ἡ</w>
                         <w>κατὰ</w>
-                        <name>Περικλέα.</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-52446" nymRef="Περικλῆς">Περικλέα.</name>
                         <w>φασὶ</w>
                         <w>γὰρ</w>
                         <w>ὅτι</w>
@@ -2713,18 +2713,18 @@
                         <w>ἀποδειξάντων</w>
                         <w>ἐργεπιστάτην</w>
                         <w>τὸν</w>
-                        <name>Περικλέα,</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-52446" nymRef="Περικλῆς">Περικλέα</name>,
                         <w>τεχνίτην</w>
                         <w>δὲ</w>
-                        <name>Φειδίαν,</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-62559" nymRef="Φειδίας">Φειδίαν</name>,
                         <w>ἁλόντος</w>
                         <w>τοῦ</w>
-                        <name>Φειδίου</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-62559" nymRef="Φειδίας">Φειδίου</name>
                         <w>ἐπὶ</w>
                         <w>νοσφισμῷ,</w>
                         <w>εὐλαβηθεὶς</w>
                         <w>ὁ</w>
-                        <name>Περικλῆς</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-52446" nymRef="Περικλῆς">Περικλῆς</name>
                         <w>μὴ</w>
                         <w>καὶ</w>
                         <w>αὐτὸς</w>
@@ -2759,7 +2759,7 @@
                             <lg>
                                 <l>ὦ <supplied reason="omitted">λι</supplied>περνῆτες γεωργοί, τἀμὰ
                                     δὴ συνίετε ῥημάτια εἰ βούλοισθ’ ἀκοῦσαι τήνδ’ ὅπωςἀπώλετο.
-                                    πρῶτον μὲν γὰρ ἤρξατ’αὐτῆς <name>Φειδίας</name> πράξας κακῶς· εἶτα <name>Περικλέης</name>
+                                    πρῶτον μὲν γὰρ ἤρξατ’αὐτῆς <name ref="http://www.lgpn.ox.ac.uk/id/V2-62559" nymRef="Φειδίας">Φειδίας</name> πράξας κακῶς· εἶτα <name ref="http://www.lgpn.ox.ac.uk/id/V2-52446" nymRef="Περικλῆς">Περικλέης</name>
                                     φοβηθεὶς μὴ μετάσχοι τῆς τύχης, τὰς φύσεις ὑμῶν δεδοικὼς καὶ τὸν
                                     αὐθάδη τρόπον, ἐμβαλὼν σπινθῆρα μικρὸν Μεγαρικοῦ ψηφίσματος
                                     ἐξεφύσησεν τοσοῦτον πόλεμον ὥστ’ ἐκ τοῦ καπνοῦ πάντας 
@@ -2776,10 +2776,10 @@
                                 <placeName ref="http://pleiades.stoa.org/places/570468" nymRef="Μέγαρα" type="ethnic">Μεγαρίδα</placeName> νεανίαι κλέπτουσι
                                 μεθυσοκότταβοι· κἄιπειθ’ οἱ 
                                 <placeName ref="http://pleiades.stoa.org/places/570468" nymRef="Μέγαρα" type="ethnic">Μεγαρῆς</placeName> ὀδύναις πεφυσιγγωμένοι
-                                        ἀντ<surplus>ἐξ</surplus>έκλεψαν <name>Ἀσπασίας</name> πόρνας δύο.
+                                ἀντ<surplus>ἐξ</surplus>έκλεψαν <name ref="http://www.lgpn.ox.ac.uk/id/V5b-16630" nymRef="Ἀσπασία">Ἀσπασίας</name> πόρνας δύο.
                                     ἐνθένδ’ὁ πόλεμος ἐμφανῶς κατερράγη 
                                     <placeName  nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησι</placeName> πᾶσιν ἐκ τριῶν
-                                    λαικαστριῶν. ἐνθένδε μέντοι <name>Περικλέης</name> Ὀλύμπιος ἤστραπτ’,
+                                λαικαστριῶν. ἐνθένδε μέντοι <name ref="http://www.lgpn.ox.ac.uk/id/V2-52446" nymRef="Περικλῆς">Περικλέης</name> Ὀλύμπιος ἤστραπτ’,
                                 ἐβρόντα, συνεκύκα τὴν 
                                 <placeName  nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἑλλάδα</placeName>, ἐτίθει νόμους ὥσπερ σκόλια
                                     γεγραμμένους, ὡς χρὴ 
@@ -2791,7 +2791,7 @@
                         <w>δὲ</w>
                         <w>ὅτι</w>
                         <w>τοῦ</w>
-                        <name>Περικλέους</name>
+                        <name ref="http://www.lgpn.ox.ac.uk/id/V2-52446" nymRef="Περικλῆς">Περικλέους</name>
                         <w>σκεπτομένου</w>
                         <w>περὶ</w>
                         <w>τῆς</w>
@@ -2801,9 +2801,9 @@
                         <w>ὑπὲρ</w>
                         <w>τῆς</w>
                         <w>ἐργεπιστασίας</w>
-                        <name>Ἀλκιβιάδης</name>
+                        <persName><name ref="http://www.lgpn.ox.ac.uk/id/V2-3947" nymRef="Ἀλκιβιάδης">Ἀλκιβιάδης</name>
                         <w>ὁ</w>
-                        <name>Κλεινίου,</name>
+                            <name ref="http://www.lgpn.ox.ac.uk/id/V2-38458" nymRef="Κλεινίας">Κλεινίου</name>,</persName>
                         <w>ἐπιτροπευόμενος</w>
                         <w>ὑπ’</w>
                         <w>αὐτοῦ</w>

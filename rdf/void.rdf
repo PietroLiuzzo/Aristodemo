@@ -18,7 +18,7 @@
             <dcterms:description>RDF about people named in FGrHist
                                 104</dcterms:description>
             <dcterms:license rdf:resource="http://opendatacommons.org/licenses/pddl/"/>
-            <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-03-03T09:00:44.815Z</dcterms:created>
+            <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-03-03T11:47:52.214Z</dcterms:created>
             <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
             <void:uriSpace>http://pietroliuzzo.github.io/Aristodemo/</void:uriSpace>
             <void:uriRegexPattern>^http://pietroliuzzo\.github\.io/Aristodemo/persone.html#(.+)$</void:uriRegexPattern>

@@ -1,12 +1,37 @@
 
+
+@base <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ctn: <http://www.w3.org/2011/content#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix snap: <http://onto.snapdrgn.net/snap#> .
+
+            
+                 
+                         <http://pietroliuzzo.github.io/Aristodemo/persone.html#wifeOf῎Αδματος> rdf:type lawd:Person 
+                .
+                     
+                        <http://pietroliuzzo.github.io/Aristodemo/persone.html#motherOfΠαυσανίας> rdf:type lawd:Person 
+                .
+                
+                        <http://pietroliuzzo.github.io/Aristodemo/persone.html#daugtherOfΚορωνίδας> rdf:type lawd:Person 
+                .
+                 
+                 
+                        <http://pietroliuzzo.github.io/Aristodemo/persone.html#daugtherOfΚορωνίδας> dc:identifier <http://www.lgpn.ox.ac.uk/id/V4-8646> 
+                    
+                    .
+                
                     <http://pietroliuzzo.github.io/Aristodemo/persone.html#῎Αδματος> rdf:type lawd:Person 
                 .
                 
                     <http://pietroliuzzo.github.io/Aristodemo/persone.html#῎Αδματος> rdf:type lawd:PersonalName ; lawd:primaryForm
                     "῎Αδματος"@grc 
                 . 
-                      
-                      
+                
                         <http://pietroliuzzo.github.io/Aristodemo/persone.html#῎Αδματος> dc:identifier <http://www.lgpn.ox.ac.uk/id/V3a-51603> 
                     
                     .
@@ -540,14 +565,38 @@
                     .
                 
                     <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀμεινίας> snap:has-bond
-                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀμεινίας-rel-son-Εὐφορίων> .
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀμεινίας-rel-son-Εὐφορίων>;
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀμεινίας-rel-brother-Κυνέγειρος>;
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀμεινίας-rel-brother-Αἰσχύλος> .
+                    
                     <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀμεινίας-rel-son-Εὐφορίων> rdf:type snap:SonOf,
                 cnt:ContentAsText ; snap:bond-with
                     <http://pietroliuzzo.github.io/Aristodemo/persone.html#Εὐφορίων> ; cnt:chars “Father:
                     Εὐφορίων” 
                 . 
             
-            
+            <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀμεινίας-rel-brother-Κυνέγειρος>
+            rdf:type snap:BrotherOf,
+                cnt:ContentAsText ; snap:bond-with 
+                <http://pietroliuzzo.github.io/Aristodemo/persone.html#Κυνέγειρος> ; cnt:chars “Brother:
+                    Κυνέγειρος” 
+                . 
+                
+            <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀμεινίας-rel-brother-Αἰσχύλος>
+            rdf:type snap:BrotherOf,
+                cnt:ContentAsText ; snap:bond-with 
+                <http://pietroliuzzo.github.io/Aristodemo/persone.html#Αἰσχύλος> ; cnt:chars “Brother:
+                    Αἰσχύλος” 
+                . 
+                
+                 <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀρταξέρξης> snap:has-bond
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀρταξέρξης-rel-son-Ξέρξης> .
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀρταξέρξης-rel-son-Ξέρξης> rdf:type snap:SonOf,
+                cnt:ContentAsText ; snap:bond-with
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ξέρξης> ; cnt:chars “Father:
+                    Ξέρξης” 
+                . 
+                
                     <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀριστείδης> snap:has-bond
                     <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀριστείδης-rel-son-Λυσίμαχος> .
                     <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀριστείδης-rel-son-Λυσίμαχος> rdf:type snap:SonOf,
@@ -602,27 +651,27 @@
                 . 
             
             
-                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#> snap:has-bond
-                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#-rel-son-Κορωνίδας> .
-                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#-rel-son-Κορωνίδας> rdf:type snap:SonOf,
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#daugtherOfΚορωνίδας> snap:has-bond
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#daugtherOfΚορωνίδας-rel-son-Κορωνίδας> .
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#daugtherOfΚορωνίδας-rel-son-Κορωνίδας> rdf:type snap:SonOf,
                 cnt:ContentAsText ; snap:bond-with
                     <http://pietroliuzzo.github.io/Aristodemo/persone.html#Κορωνίδας> ; cnt:chars “Father:
                     Κορωνίδας” 
                 . 
             
             
-                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#> snap:has-bond
-                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#-rel-son-Παυσανίας> .
-                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#-rel-son-Παυσανίας> rdf:type snap:SonOf,
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#motherOfΠαυσανίας> snap:has-bond
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#motherOfΠαυσανίας-rel-son-Παυσανίας> .
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#motherOfΠαυσανίας-rel-son-Παυσανίας> rdf:type snap:SonOf,
                 cnt:ContentAsText ; snap:bond-with
                     <http://pietroliuzzo.github.io/Aristodemo/persone.html#Παυσανίας> ; cnt:chars “Father:
                     Παυσανίας” 
                 . 
             
             
-                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#> snap:has-bond
-                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#-rel-son-῎Αδματος> .
-                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#-rel-son-῎Αδματος> rdf:type snap:SonOf,
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#wifeOf῎Αδματος> snap:has-bond
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#wifeOf῎Αδματος-rel-son-῎Αδματος> .
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#wifeOf῎Αδματος-rel-son-῎Αδματος> rdf:type snap:SonOf,
                 cnt:ContentAsText ; snap:bond-with
                     <http://pietroliuzzo.github.io/Aristodemo/persone.html#῎Αδματος> ; cnt:chars “Father:
                     ῎Αδματος” 
