@@ -10,11 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xsl/luoghi.xsl</String>
+                                    <String>xml/CodParText.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>luoghi</String>
+                                        <String>persone</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -25,7 +25,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xml/CodParText.xml</String>
+                                    <String>xsl/luoghi.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -491,6 +491,7 @@
     <projectTree name="aristodemo.xpr">
         <folder path="assets/"/>
         <folder path="js/"/>
+        <folder path="rdf/"/>
         <folder path="xml/"/>
         <folder path="xsl/"/>
         <folder path="../example-p5-xsltpietro/"/>

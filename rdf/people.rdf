@@ -1,0 +1,53 @@
+
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀριστοδήμος> rdf:type lawd:Person .
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀριστοδήμος> rdf:type lawd:PersonalName ; lawd:primaryForm
+                    "Ἀριστοδήμος"@grc . 
+                        <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀριστοδήμος> dc:identifier <http://clas-lgpn2.classics.ox.ac.uk/name/Ἀριστοδήμος> .
+                
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀμεινίας> rdf:type lawd:Person .
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀμεινίας> rdf:type lawd:PersonalName ; lawd:primaryForm
+                    "Ἀμεινίας"@grc . 
+                        <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀμεινίας> dc:identifier <http://www.lgpn.ox.ac.uk/id/V2-4170> .
+                
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Σίκινος> rdf:type lawd:Person .
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Σίκινος> rdf:type lawd:PersonalName ; lawd:primaryForm
+                    "Σίκινος"@grc . 
+                        <http://pietroliuzzo.github.io/Aristodemo/persone.html#Σίκινος> dc:identifier <http://www.lgpn.ox.ac.uk/id/V1-53770> .
+                
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ξέρξης> rdf:type lawd:Person .
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ξέρξης> rdf:type lawd:PersonalName ; lawd:primaryForm
+                    "Ξέρξης"@grc . 
+                        <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ξέρξης> dc:identifier <https://en.wikipedia.org/wiki/Xerxes_I> .
+                
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Κυνέγειρος> rdf:type lawd:Person .
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Κυνέγειρος> rdf:type lawd:PersonalName ; lawd:primaryForm
+                    "Κυνέγειρος"@grc . 
+                        <http://pietroliuzzo.github.io/Aristodemo/persone.html#Κυνέγειρος> dc:identifier <http://www.lgpn.ox.ac.uk/id/V2-40023> .
+                
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Θεμιστοκλῆς> rdf:type lawd:Person .
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Θεμιστοκλῆς> rdf:type lawd:PersonalName ; lawd:primaryForm
+                    "Θεμιστοκλῆς"@grc . 
+                        <http://pietroliuzzo.github.io/Aristodemo/persone.html#Θεμιστοκλῆς> dc:identifier <http://www.lgpn.ox.ac.uk/id/V2-31577> .
+                
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Εὐφορίων> rdf:type lawd:Person .
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Εὐφορίων> rdf:type lawd:PersonalName ; lawd:primaryForm
+                    "Εὐφορίων"@grc . 
+                        <http://pietroliuzzo.github.io/Aristodemo/persone.html#Εὐφορίων> dc:identifier <http://www.lgpn.ox.ac.uk/id/V2-28109> .
+                
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Αἰσχύλος> rdf:type lawd:Person .
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Αἰσχύλος> rdf:type lawd:PersonalName ; lawd:primaryForm
+                    "Αἰσχύλος"@grc . 
+                        <http://pietroliuzzo.github.io/Aristodemo/persone.html#Αἰσχύλος> dc:identifier <http://www.lgpn.ox.ac.uk/id/V2-3179> .
+                
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀμεινίας> snap:has-bond
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀμεινίας-rel-son-Εὐφορίων> .
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀμεινίας-rel-son-Εὐφορίων> rdf:type snap:SonOf,
+                cnt:ContentAsText ; snap:bond-with
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#Εὐφορίων> ; cnt:chars “Father:
+                    Εὐφορίων” . 
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#> snap:has-bond
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#-rel-son-> .
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#-rel-son-> rdf:type snap:SonOf,
+                cnt:ContentAsText ; snap:bond-with
+                    <http://pietroliuzzo.github.io/Aristodemo/persone.html#> ; cnt:chars “Father:
+                    ” . 

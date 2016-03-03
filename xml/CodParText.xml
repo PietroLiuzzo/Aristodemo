@@ -116,14 +116,14 @@
                     <!--is this ok for the marks left by the scribe? it is in facts a pointer-->
                     <p n="1"><gap unit="lines" extent="unknown" reason="lost"/> <w>αἰτησάμενος</w> <w>γὰρ</w> <w>μίαν</w> <w>ἡμέραν</w> 
                         <w>μόνην</w> <w>ἔπεμψε</w> <w>κρύφα</w> <name ref="http://www.lgpn.ox.ac.uk/id/V1-53770" nymRef="Σίκινος">Σίκινον</name> <w>τὸν</w> <w>ἑαυτοῦ</w> 
-                        <w>παιδαγωγὸν</w> <w>πρὸς</w> <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξην</name>, 
+                        <w>παιδαγωγὸν</w> <w>πρὸς</w> <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξην</name>, 
                         <w>ἐγκελευσάμενος</w> <w>αὐτῷ</w> <w>ἐπιτίθεσθαι</w> <w>τοῖς</w> <placeName nymRef="Ἑλλάς" 
                             type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησιν</placeName> <w>καὶ</w> <w>ναυμαχεῖν,</w> 
                         <w>δηλῶν</w> <w>τὸν</w> <w>μέλλοντα</w> <w>δρασμὸν</w> <w>ἀπὸ</w> 
                         <placeName nymRef="Σαλαμῖνος" ref="http://pleiades.stoa.org/places/580101">Σαλαμῖνος.</placeName>
                         <w>Ὁ</w>
                         <w>δὲ</w>
-                        <name nymRef="Ξέρξης">Ξέρξης</name>
+                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξης</name>
                         <w>νομίσας</w>
                         <w>τὸν</w>
                         <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλέα</name>
@@ -147,7 +147,7 @@
                         <w>ἐσπούδασεν</w>
                         <w>δὲ</w>
                         <w>ὁ</w>
-                        <name nymRef="Ξέρξης">Ξέρξης</name>
+                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξης</name>
                         <w>ζεῦγμα</w>
                         <w>κατασκευάσας</w>
                         <w>πεζῇ</w>
@@ -168,7 +168,7 @@
                         <w>ἧκεν</w>
                         <w>κατὰ</w>
                         <w>τὸ</w>
-                        <placeName nymRef="Ἡράκλειον">Ἡράκλειον</placeName>
+                        <placeName nymRef="Ἡράκλειον">Ἡράκλειον</placeName> <!--place added to pleiades and openstreetmap waiting for review-->
                         <w>ἐπειδὴ</w>
                         <w>δὲ</w>
                         <w>ἀδύνατον</w>
@@ -194,16 +194,16 @@
                         <w>δὲ</w>
                         <w>τοῦ</w>
                         <w>ναυμαχεῖν</w>
-                        <name>Ἀμεινίας</name>
+                        <persName><name ref="http://www.lgpn.ox.ac.uk/id/V2-4170" nymRef="Ἀμεινίας">Ἀμεινίας</name>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναῖος,</placeName>
                         <w>υἱὸς</w>
                         <w>μὲν</w>
-                        <name>Εὐφορίωνος,</name>
+                            <name ref="http://www.lgpn.ox.ac.uk/id/V2-28109" nymRef="Εὐφορίων">Εὐφορίωνος,</name>
                         <w>ἀδελφὸς</w>
                         <w>δὲ</w>
-                        <name>Κυνεγείρου</name>
+                            <name ref="http://www.lgpn.ox.ac.uk/id/V2-40023" nymRef="Κυνέγειρος">Κυνεγείρου</name>
                         <w>καὶ</w>
-                        <name>Αἰσχύλου</name>
+                            <name ref="http://www.lgpn.ox.ac.uk/id/V2-3179" nymRef="Αἰσχύλος">Αἰσχύλου</name></persName>
                         <w>τοῦ</w>
                         <w>τραγῳδοποιοῦ.</w>
                         <w>ἐνίκων</w>
@@ -223,7 +223,7 @@
                         <w>τῆς</w>
                         <w>μάχης</w>
                         <w>ὁ</w>
-                        <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξης</name>
+                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξης</name>
                         <w>ἱκανὰς</w>
                         <w>μυριάδας</w>
                         <w>ἐπεβίβασεν</w>
@@ -272,7 +272,7 @@
                         <placeName  nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησιν</placeName>
                         <w>παρεγένετο</w>
                         <w>πρὸς</w>
-                        <name  nymRef="Θεμιστοκλῆς">Θεμιστοκλέα</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλέα</name>
                         <w>καὶ</w>
                         <w>στρατὸν</w>
                         <w>αὐτὸν</w>
@@ -362,7 +362,7 @@
                         <w>διώκειν.</w>
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <name nymRef="Ξέρξης">Ξέρξης</name>
+                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξης</name>
                         <w>θεασάμενος</w>
                         <w>τὸ</w>
                         <w>γενόμενον</w>
@@ -423,11 +423,11 @@
                         <w>ζεῦγμα</w>
                         <w>καὶ</w>
                         <w>καταλαμβάνεσθαι</w>
-                        <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξην</name>
+                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξην</name>
                         <w>ἐν</w>
                         <w>τῇ</w>
                         <placeName nymRef="Ἑλλάς" ref="http://pleiades.stoa.org/places/1001896">Ἑλλάδι,</placeName>
-                        <name  nymRef="Θεμιστοκλῆς">Θεμιστοκλῆς</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλῆς</name>
                         <w>δὲ</w>
                         <w>οὐκ</w>
                         <w>οἰόμενος</w>
@@ -454,7 +454,7 @@
                         <w>ἰσχύων</w>
                         <w>ἔπεμψε</w>
                         <w>κρύφα</w>
-                        <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξῃ</name>
+                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξῃ</name>
                         <w>δηλῶν</w>
                         <w>ὅτι</w>
                         <w>μέλλουσιν</w>
@@ -521,7 +521,7 @@
                     <p n="1"><w>Φεύγοντος</w>
                         <w>δὲ</w>
                         <w>τοῦ</w>
-                        <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξου</name>
+                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξου</name>
                         <name>Μαρδόνιος,</name>
                         <w>υἱὸς</w>
                         <name>Γωβρύου</name>
@@ -535,7 +535,7 @@
                         <w>συμπ</w><supplied reason="omitted">επει</supplied><w>κὼς</w>
                         <w>καὶ</w>
                         <w>αὐτὸς</w>
-                        <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξην</name>
+                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξην</name>
                         <w>στρατεῦσαι</w>
                         <w>ἐπὶ</w>
                         <w>τὴν</w>
@@ -885,7 +885,7 @@
                         <w>τὸ</w>
                         <w>ναυτικὸν</w>
                         <w>τὸ</w>
-                        <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξου</name>,
+                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξου</name>,
                         <w>πλεύσαντές</w>
                         <supplied reason="omitted">τε</supplied>
                         <w>σταδίους</w>
@@ -1139,7 +1139,7 @@
                         <w>τῆς</w>
                         <w>πόλεως</w>
                         <w>ὑπὸ</w>
-                        <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξου</name>
+                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξου</name>
                         <w>καὶ</w>
                         <name>Μαρδονίου,</name>
                         <w>ἐβουλεύοντο</w>
@@ -1171,7 +1171,7 @@
                         <w>πάλιν</w>
                         <w>αὐξηθῆναι·</w>
                         <w>οὓς</w>
-                        <name>Θεμιστοκλῆς</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλῆς</name>
                         <w>συνέσει</w>
                         <w>διαφέρων</w>
                         <w>κατεστρατήγησεν,</w>
@@ -1205,7 +1205,7 @@
                         <w>τὴν</w>
                         <w>πόλιν,</w>
                         <w>ἀντέλεγεν</w>
-                        <name>Θεμιστοκλῆς.</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλῆς</name>.
                         <w>ὡς</w>
                         <w>δὲ</w>
                         <w>οὐκ</w>
@@ -1235,7 +1235,7 @@
                         <w>ἄνδρας</w>
                         <w>καὶ</w>
                         <w>πεμψάντων,</w>
-                        <name>Θεμιστοκλῆς</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλῆς</name>
                         <w>κρύφα</w>
                         <w>ὑπέπεμπε</w>
                         <w>τοῖς</w>
@@ -1267,7 +1267,7 @@
                         <w>αἰσθόμενοι</w>
                         <w>τὴν</w>
                         <w>ἀπάτην</w>
-                        <name>Θεμιστοκλέους,</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλέους</name>,
                         <w>οὐδὲν</w>
                         <w>διέθεσαν</w>
                         <w>αὐτὸν</w>
@@ -1390,7 +1390,7 @@
                 <div type="textpart" subtype="section" n="6">
                     <p n="1"><w>Ὁ</w>
                         <w>δὲ</w>
-                        <name>Θεμιστοκλῆς</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλῆς</name>
                         <w>διὰ</w>
                         <w>τὴν</w>
                         <w>ὑπερβάλλουσαν</w>
@@ -1621,7 +1621,7 @@
                         <w>ἀλλὰ</w>
                         <w>γράψας</w>
                         <w>ἐπιστολὰς</w>
-                        <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξῃ</name>
+                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξῃ</name>
                         <name>Ἀργιλίῳ</name>
                         <w>ἀγαπωμένῳ</w>
                         <w>ἑαυτοῦ</w>
@@ -1630,7 +1630,7 @@
                         <w>ἐγκελευσάμενος</w>
                         <w>κομίζειν</w>
                         <w>πρὸς</w>
-                        <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξην</name>.
+                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξην</name>.
                         <w>ὁ</w>
                         <w>δὲ</w>
                         <name>Ἀργίλιος</name>
@@ -1645,7 +1645,7 @@
                         <w>πεμφθέντες</w>
                         <w>ἀπενόστησαν,</w>
                         <w>πρὸς</w>
-                        <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξην</name>
+                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξην</name>
                         <w>οὐ</w>
                         <w>παρεγένετο,</w>
                         <w>ἐλθὼν</w>
@@ -1730,7 +1730,7 @@
                         <w>τὰς</w>
                         <w>ἐπιστολὰς</w>
                         <w>πρὸς</w>
-                        <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξην</name>,
+                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξην</name>,
                         <w>ἄλλα</w>
                         <w>τέ</w>
                         <w>τινα</w>
@@ -1923,7 +1923,7 @@
                         <w>εὑρηκέναι</w>
                         <w>τῆς</w>
                         <w>προδοσίας</w>
-                        <name>Θεμιστοκλέα.</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλέα</name>.
                         <w>ὁ</w>
                         <w>δὲ</w>
                         <w>Θεμιστοκλῆς</w>
@@ -1966,7 +1966,7 @@
                         <w>τοῦ</w>
                         <name>Ἀδμήτου</name>
                         <w>ὑπέθετο</w>
-                        <name>Θεμιστοκλεῖ</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλεῖ</name>
                         <w>ἁρπάσαι</w>
                         <w>τὸν</w>
                         <w>τοῦ</w>
@@ -1981,7 +1981,7 @@
                         <w>πράξαντος</w>
                         <w>δὲ</w>
                         <w>τοῦ</w>
-                        <name>Θεμιστοκλέους,</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλέους</name>,
                         <w>ὁ</w>
                         <name>Ἄδμητος</name>
                         <w>κατελεήσας</w>
@@ -2002,7 +2002,7 @@
                     <p n="3">
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <name>Θεμιστοκλῆς</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλῆς</name>
                         <w>οὐκ</w>
                         <w>ἔχων</w>
                         <w>ὅπου</w>
@@ -2027,7 +2027,7 @@
                         <w>ἡ</w>
                         <w>ναῦς</w>
                         <w>τοῦ</w>
-                        <name>Θεμιστοκλέους</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλέους</name>
                         <w>χειμῶνος</w>
                         <w>ἐπιγενομένου</w>
                         <w>προσήγετο</w>
@@ -2035,7 +2035,7 @@
                         <placeName ref="http://pleiades.stoa.org/places/599822" nymRef="Νάξος">Νάξῳ</placeName>·
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <name>Θεμιστοκλῆς</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλῆς</name>
                         <w>δεδοικὼς</w>
                         <w>μήποτε</w>
                         <w>συλληφθῇ</w>
@@ -2070,7 +2070,7 @@
                         <w>ἀνέμοις·</w>
                         <w>καὶ</w>
                         <w>οὕτω</w>
-                        <name>Θεμιστοκλῆς</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλῆς</name>
                         <w>διασωθεὶς</w>
                         <w>παρεγένετο</w>
                         <w>εἰς</w>
@@ -2079,7 +2079,7 @@
                         <placeName nymRef="Πέρσις " type="ethnic" ref="http://pleiades.stoa.org/places/922698">Περσίδα</placeName>.</p>
                     <p n="4">
                         <w>καὶ</w>
-                        <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξην</name>
+                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξην</name>
                         <w>μὲν</w>
                         <w>οὐ</w>
                         <w>κατέλαβε</w>
@@ -2117,7 +2117,7 @@
                         <w>τὸν</w>
                         <w>πατέρα</w>
                         <w>αὐτοῦ</w>
-                        <name ref="http://clas-lgpn2.classics.ox.ac.uk/name/Ξέρξης" nymRef="Ξέρξης">Ξέρξην,</name>
+                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξην</name>,
                         <w>λέγων</w>
                         <w>καὶ</w>
                         <w>τῆς</w>
@@ -2128,7 +2128,6 @@
                         <unclear>ὑπο</unclear><w>δείξας</w>
                         <w>λύ</w><supplied reason="omitted">σο</supplied><w>ντας</w>
                         <w>τοὺς</w>
-                        
                         <placeName  nymRef="Ἑλλάς" type="ethnic" ref="http://pleiades.stoa.org/places/1001896"><supplied reason="omitted">Ἕλλ</supplied>ηνας</placeName>
                         <w>τὸ</w>
                         <w>ζεῦγμα.</w>
@@ -2171,7 +2170,7 @@
                         <w>ὄψον.</w>
                         <w>λαβὼν</w>
                         <w>δὲ</w>
-                        <name>Θεμιστοκλῆς</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλῆς</name>
                         <w>καὶ</w>
                         <w>παραγενόμενος</w>
                         <w>εἰς</w>
@@ -2218,7 +2217,7 @@
                         <w>τὸν</w>
                         <w>ἅμα</w>
                         <w>τῷ</w>
-                        <name>Θεμιστοκλεῖ,</name>
+                        <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλεῖ</name>
                         <w>καὶ</w>
                         <w>παραγενόμενοι</w>
                         <w>δὲ</w>
@@ -2235,15 +2234,15 @@
                         <w>τὰς</w>
                         <w>λοιπὰς</w>
                         <w>πόλεις</w>
-                        <w>Ἑλληνίδας</w>
+                        <placeName  nymRef="Ἑλλάς" ref="http://pleiades.stoa.org/places/1001896">Ἑλληνίδας</placeName>
                         <w>ἠλευθέρουν</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναῖοι</placeName>.
                     </p>
                     <p n="2">
-                        <name>Κίμωνος</name>
+                        <persName><name>Κίμωνος</name>
                         <w>δὲ</w>
                         <w>τοῦ</w>
-                        <name>Μιλτιάδου</name>
+                        <name>Μιλτιάδου</name></persName>
                         <w>στρατηγοῦντος</w>
                         <w>ἀνέπλευσαν</w>
                         <w>ἐπὶ</w>

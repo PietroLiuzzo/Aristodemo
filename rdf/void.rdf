@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:void="http://rdfs.org/ns/void#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dcterms="http://purl.org/dc/terms/">
+   <void:DatasetDescription rdf:about="http://www.paregorios.org/resources/roman-emperors/void">
+      <dcterms:title>A VoID Description of the people named in FGrHist 104
+                        Dataset</dcterms:title>
+      <dcterms:creator>
+         <foaf:Person>
+            <foaf:name>Pietro Maria Liuzzo</foaf:name>
+         </foaf:Person>
+      </dcterms:creator>
+      <foaf:primaryTopic>
+         <void:Dataset rdf:about="#FGrHist104">
+            <dcterms:title>People named in FGrHist 104</dcterms:title>
+            <dcterms:description>RDF about people named in FGrHist
+                                104</dcterms:description>
+            <dcterms:license rdf:resource="http://opendatacommons.org/licenses/pddl/"/>
+            <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-03-03T08:56:51.452Z</dcterms:created>
+            <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+            <void:uriSpace>http://pietroliuzzo.github.io/Aristodemo/</void:uriSpace>
+            <void:uriRegexPattern>^http://pietroliuzzo\.github\.io/Aristodemo/persone.html#(.+)$</void:uriRegexPattern>
+            <void:exampleResource rdf:resource="http://pietroliuzzo.github.io/Aristodemo/persone.html#Ἀριστοδήμος"/>
+            <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/"/>
+            <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+            <void:vocabulary rdf:resource="http://purl.org/ontology/bibo/"/>
+            <void:vocabulary rdf:resource="http://www.w3.org/2002/07/owl#"/>
+            <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+         </void:Dataset>
+      </foaf:primaryTopic>
+   </void:DatasetDescription>
+</rdf:RDF>
