@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
     <teiHeader>
         <fileDesc>
@@ -19,96 +19,86 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>
-                                    Rinvenuto ad Oxyrynchos (Bahnasa), il papiro, )Altezza: 19,2 cm. Larghezza:
-                                    3,5-4,5 cm. Margine destro: 1,6 cm.)
-                                    composto di quattro frammenti combacianti, è datato al II secolo d.C. sulla base della
-                                    stretta somiglianza. ''Ben oltre le pur accentuate
-                                    concordanze stilistiche'', secondo Cavallo1975. con P. Fay. 87P. Fay. 87, del 155 d.C. (l.1-2:
-                                    ἔτους ιη' Αὐτοκράτορος  Καίσαρος  Τίτου  Αἰλί[ο]υ | Ἁδριανοῦ Ἀντωνείνου Σεβαστοῦ Εὐσεβοῦς). Cavallo, nel suo prospetto cronologico
-                                    Cavallo1975 indica P.Oxy. 2469 prima di P. Fay. 87:
-                                    quest'ultimo sarà dunque da
-                                    ritenere come <emph>terminus ante
-                                    quem</emph>. 
-                                    
-                                </p><p> Il papiro riporta dunque una versione del testo molto più ristretta del codice, mancando di
-                                    interi sintagmi e frasi, come τὸν Φιλίππου πρόγονον} al primo
-                                    rigo, τὴν ἐλευθερίαν αὐτοῖς καὶ τὴν αὐτονομίαν} al quinto
-                                    μετέστησαν δὲ αὐτούς οἱ Λακεδαιμόνιοι, in
-                                    quest'ultimo caso anche a detrimento del senso.</p>
-                                    
-                                    
-                                    <p>Vi sono poi due luoghi del papiro che forniscono una versione leggermente più
-                                    dilatata, quando al rigo 22 si parla dei "Greci
-                                    medizzanti" assieme ai Beoti, e con
-                                    l'ἤδη del trentaduesimo rigo.</p>
-                                    
-                                    
-                                    <p>Al quinto rigo l'integrazione con αὐτονομίαν o
-                                    ἐλευθερίαν resta arbitraria, ma non c'è posto comunque
-                                    per il verbo.  </p>
-                                    
-                                    
-                                    <objectType>Papyrus</objectType><!--possono essere inseriti valori dal vocabolario Object Type di EAGLE-->
-                                    <material/>
-                                    <dimensions>
-                                        <height unit="cm"/>
-                                        <width unit="cm"/>
-                                    </dimensions>
-                                </support>
+                                <support> Rinvenuto ad Oxyrynchos (<placeName
+                                        ref="http://www.trismegistos.org/place/1524"
+                                        >Bahnasa</placeName>), il <objectType
+                                        ref="https://en.wikipedia.org/wiki/Papyrus"
+                                        >papiro</objectType>, (<dimensions>
+                                        <height unit="cm">19,2</height>
+                                        <width unit="cm">3,5-4,5</width>
+                                    </dimensions> Margine destro: 1,6 cm.) composto di quattro
+                                    frammenti combacianti, è datato al II secolo d.C. sulla base
+                                    della stretta somiglianza. ''Ben oltre le pur accentuate
+                                    concordanze stilistiche'', secondo Cavallo1975. con <ref
+                                        target="http://papyri.info/ddbdp/p.fay;;87">P. Fay.
+                                    87</ref>, del 155 d.C. (l.1-2: <foreign xml:lang="grc">ἔτους ιη'
+                                        Αὐτοκράτορος Καίσαρος Τίτου Αἰλί[ο]υ | Ἁδριανοῦ Ἀντωνείνου
+                                        Σεβαστοῦ Εὐσεβοῦς</foreign>). Cavallo, nel suo prospetto
+                                    cronologico <bibl><ptr target="#Cavallo1975"/></bibl> indica
+                                    P.Oxy. 2469 prima di P. Fay. 87: quest'ultimo sarà dunque da
+                                    ritenere come <emph>terminus ante quem</emph>. Il papiro riporta
+                                    dunque una versione del testo molto più ristretta del codice,
+                                    mancando di interi sintagmi e frasi, come <foreign
+                                        xml:lang="grc">τὸν Φιλίππου πρόγονον</foreign> al primo
+                                    rigo, <foreign xml:lang="grc">τὴν ἐλευθερίαν αὐτοῖς καὶ τὴν
+                                        αὐτονομίαν</foreign> al quinto <foreign xml:lang="grc"
+                                        >μετέστησαν δὲ αὐτούς οἱ Λακεδαιμόνιοι</foreign>, in
+                                    quest'ultimo caso anche a detrimento del senso. Vi sono poi due
+                                    luoghi del papiro che forniscono una versione leggermente più
+                                    dilatata, quando al rigo 22 si parla dei "Greci medizzanti"
+                                    assieme ai Beoti, e con l'<foreign xml:lang="grc">ἤδη</foreign>
+                                    del trentaduesimo rigo. Al quinto rigo l'integrazione con
+                                        <foreign xml:lang="grc">αὐτονομίαν</foreign> o <foreign
+                                        xml:lang="grc">ἐλευθερίαν</foreign> resta arbitraria, ma non
+                                    c'è posto comunque per il verbo. </support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout> </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p>Cavallo considera il nostro papiro il più antico testimone della cosiddetta
-                                        onciale copta, la scrittura probabilmente utilizzata da Fozio\index[n]{Fozio} per dare al suo
-                                        codice un'austerità maggiore. Ecco come la descriveva:
-                                        
-                                        
-                                       <quote> La scrittura, rigorosamente verticale, mostra nel complesso
-                                        spiccata tendenza al disegno fluido e ricurvo e alle occhiellature corpose,
-                                        sostituite, in certe manifestazioni, da grossi ispessimenti; gli effetti
-                                        chiaroscurali sono dovuti, quindi, non tanto ad un particolare angolo di
-                                        scrittura [...], ma piuttosto al ripiegarsi e sovrapporsi delle linee nel
-                                        gioco delle occhiellature o all'artificioso innestarsi degli
-                                        ispessimenti. Peculiare è anche la tendenza dei tratti orizzontali (superiori
-                                        o inferiori) ma soprattutto degli obliqui discendenti da sinistra a destra
-                                        (di regola arcuati) ad allungarsi, sì da dar vita ad un vero e proprio
-                                        sistema di pseudolegature che creano l'illusione di teorie
-                                        di lettere allacciate l'una
-                                        all'altra. (Cavallo1975)
-                                       </quote>
-                                    </p>
-                                    <p>
-                                        Si possono sicuramente osservare, anche nel nostro caso, il tratto orizzontale
-                                        lungo fino ad estendere il modulo al rettangolo, gli ''heavy bloblike
-                                        serifs'' (Rea 1962, 141) con cui le lettere sono rifinite e la tendenza a
-                                        prolungare i tratti obliqui discendenti sul rigo di base. 
-                                        
-                                        Per quel che riguarda l'aspetto del
-                                        supporto,  un lungo e profondo solco percorre il papiro verticalmente e
-                                        parallelamente al suo margine destro, probabilmente segno di una piegatura.
-                                        Il testo è sul
-                                        <emph>recto</emph>, il
-                                        <emph>verso</emph> è bianco. Le righe dalla 25 alla 30 sono ben conservate per la quasi
-                                        totale interezza, quindi offrono un buon riferimento per la larghezza delle
-                                        precedenti e permettono scelte congetturali molto
-                                        calibrate. La
-                                        ricostruzione sulla base di FGrHist 104 (2.2 e
-                                        2.4) è legittima, come si può notare mettendo i
-                                        testi a fronte l'uno dell'altro.
-                                        Penso sia innegabile
-                                        l'appartenenza dei testi alla medesima tradizione, sebbene
-                                        forse in rami diversi</p>
-                            
+                            <p>Cavallo considera il nostro papiro il più antico testimone della
+                                cosiddetta onciale copta, la scrittura probabilmente utilizzata da
+                                Fozio per dare al suo codice un'austerità maggiore. Ecco come la
+                                descriveva: 
+                                
+                                <quote> La scrittura, rigorosamente verticale, mostra
+                                    nel complesso spiccata tendenza al disegno fluido e ricurvo e
+                                    alle occhiellature corpose, sostituite, in certe manifestazioni,
+                                    da grossi ispessimenti; gli effetti chiaroscurali sono dovuti,
+                                    quindi, non tanto ad un particolare angolo di scrittura [...],
+                                    ma piuttosto al ripiegarsi e sovrapporsi delle linee nel gioco
+                                    delle occhiellature o all'artificioso innestarsi degli
+                                    ispessimenti. Peculiare è anche la tendenza dei tratti
+                                    orizzontali (superiori o inferiori) ma soprattutto degli obliqui
+                                    discendenti da sinistra a destra (di regola arcuati) ad
+                                    allungarsi, sì da dar vita ad un vero e proprio sistema di
+                                    pseudolegature che creano l'illusione di teorie di lettere
+                                    allacciate l'una all'altra. (<bibl><ptr target="#Cavallo1975"/></bibl>) </quote>
+                                
+                            </p>
+                            <p> Si possono sicuramente osservare, anche nel nostro caso, il tratto
+                                orizzontale lungo fino ad estendere il modulo al rettangolo, gli
+                                ''heavy bloblike serifs'' (Rea 1962, 141) con cui le lettere sono
+                                rifinite e la tendenza a prolungare i tratti obliqui discendenti sul
+                                rigo di base. Per quel che riguarda l'aspetto del supporto, un lungo
+                                e profondo solco percorre il papiro verticalmente e parallelamente
+                                al suo margine destro, probabilmente segno di una piegatura. Il
+                                testo è sul <emph>recto</emph>, il <emph>verso</emph> è bianco. Le
+                                righe dalla 25 alla 30 sono ben conservate per la quasi totale
+                                interezza, quindi offrono un buon riferimento per la larghezza delle
+                                precedenti e permettono scelte congetturali molto calibrate. La
+                                ricostruzione sulla base di FGrHist 104 (<ref type="edition" target="#2">2.2</ref> e <ref  type="edition" target="#2">2.4</ref>) è legittima,
+                                come si può notare mettendo i testi a fronte l'uno dell'altro. Penso
+                                sia innegabile l'appartenenza dei testi alla medesima tradizione,
+                                sebbene forse in rami diversi</p>
+
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace/>
-                            <origDate when="1423">1423</origDate>
+                            <origDate notAfter-custom="0155" datingMethod="Julian">II d.C.</origDate>
                         </origin>
                         <provenance type="found"/>
                     </history>
@@ -133,6 +123,8 @@
         </profileDesc>
         <revisionDesc>
             <change when="2015-12-09" who="Pietro Liuzzo">migrated LateX to prototype XML</change>
+            
+            <change when="2016-03-03" who="Pietro Liuzzo">fnished markup</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -145,76 +137,134 @@
     <text>
         <body>
             <div type="bibliography">
-                 <bibl>
-                     Rea, P.Oxy. 27.2469 1962 <citedRange unit="page">141-145</citedRange></bibl> 
-                
+                <listBibl><bibl> Rea, P.Oxy. 27.2469 1962 <citedRange unit="page">141-145</citedRange></bibl>
                 <bibl><ptr target="#Mette1978"/><citedRange unit="page">15-16</citedRange></bibl>
                 <bibl>MP 137;</bibl>
-                <bibl><ptr target="#Zuntz1938"/> <citedRange unit="page">658-677</citedRange></bibl>
-                <bibl><ptr target="#Cavallo1975"/> <citedRange unit="page">32s</citedRange></bibl>
-                <bibl>LDAB n°4733.</bibl>
-                
-                
+                <bibl><ptr target="#Zuntz1938"/>
+                    <citedRange unit="page">658-677</citedRange></bibl>
+                <bibl><ptr target="#Cavallo1975"/>
+                    <citedRange unit="page">32s</citedRange></bibl>
+                <bibl>LDAB n°4733.</bibl></listBibl>
+
+
 
             </div>
-        <div type="edition">
-            <ab>
-                <lb n="1"/>  <supplied reason="lost">ὁ Μαρδόνιος ἔπε</supplied>μψ<supplied reason="lost">εν}<lb n="2"/>
-                <supplied reason="lost">Ἀλέξανδρον τὸν</supplied> Μακεδ<supplied reason="lost">ό-</supplied>}<lb n="3"/>
-                <supplied reason="lost">να εἰς Ἀθήνας ὑπισ</supplied>χνού<supplied reason="lost">με-</supplied>}<lb n="4"/>
-                    <supplied reason="lost">νος δώσειν μ</supplied>ύρια τάλα<supplied reason="lost">ν-</supplied>}<lb n="5" break="no"/>
-                <supplied reason="lost">τα καὶ ἐλευθερ</supplied>ίαν αὐτ<supplied reason="lost">οις κα</supplied>}<lb n="6"/>
-                <supplied reason="lost">ὶ αὐτονομίαν, εἰ</supplied> μένοιεν}.}<lb n="7"/>
-                    <supplied reason="lost">ἐφ’ ἑαυτῶν κα</supplied>ὶ μὴ συμ-}<lb n="8" break="no"/>
-                <supplied reason="lost">μαχοῖεν τοῖς</supplied> Ἕλλησ\d{ι}<supplied reason="lost">ν</supplied>}<lb n="9"/>
-                <supplied reason="lost">οἱ δὲ Ἀθηναῖοι</supplied> ἐξέβαλον} <lb n="10"/>
-                    <supplied reason="lost">τὸν ἄνδρα. διόπ</supplied>ερ Μαρδό-}<lb n="11" break="no"/>
-                <supplied reason="lost">νιος εἰς Ἀθήνας ἐνέ</supplied>βαλεν}<lb n="12"/>
-                    <supplied reason="lost">τὴν στρατιὰν κ</supplied>αὶ τὰ λε<supplied reason="lost">ι-</supplied>}<lb n="13" break="no"/>
-                <supplied reason="lost">πόμενα μέρη ἐ</supplied>νέπρησεν.}<lb n="14"/>
-                    <supplied reason="lost">ἔπειτα δὲ περὶ Θ</supplied>ήβας ἐστρα-}<lb n="15" break="no"/>
-                    <supplied reason="lost">τοπεδεύσατο, οἱ δ</supplied>ὲ Ἕλλη-}<lb n="16" break="no"/>
-                <supplied reason="lost">νες ἐστρατ</supplied>οπεδεύσαν}<lb n="17"/>
-                <supplied reason="lost">το περὶ Πλαται</supplied>άς. μεταξὺ}<lb n="18"/> 
-                <supplied reason="lost">δὲ τούτων ἔστιν</supplied> ἐν μέσω\Ladd{ι}}<lb n="19"/>
-                <supplied reason="lost">στάδια .......</supplied>ήκοντα.}<lb n="20"/> 
-                    <supplied reason="lost">συνπαρετάσσον</supplied>το δὲ Μαρ-}<lb n="21" break="no"/>
-                <supplied reason="lost">δονίῳ Βοιωτῶ</supplied>ν καὶ τῶν}<lb n="22"/>
-                    <supplied reason="lost">Ἑλλήνων τ</supplied>ῶν μηδισάν-}<lb n="23" break="no"/>
-                <supplied reason="lost">των μυρ</supplied>ιάδες τέσσαρες}. <lb n="24"/>
-                <supplied reason="lost">εἶχον δὲ</supplied> τὸ μὲν δεξιὸν}<lb n="25"/>
-                    <supplied reason="lost">κέρας Πέρσ</supplied>\d{α}\d{ι}, τὸ δὲ εὐώνυ-}<lb n="26" break="no"/>
-                <supplied reason="lost">μον οἱ μ</supplied>ηδείσαντες}<lb n="27"/>
-                <supplied reason="lost">ληνες. τῶ</supplied>ν δὲ Ἑλλήνων}<lb n="28"/>
-                    <supplied reason="lost">τὸ μὲν δε</supplied>\d{ξ}ιὸν κέρας Ἀθη-}<lb n="29" break="no"/>
-                    <supplied reason="lost">ναῖοι κα</supplied>τεῖχον, Λακε-}<lb n="30" break="no"/>
-                <supplied reason="lost">δαιμόνιο</supplied>ι δὲ θάτερον, φή-}<lb n="31" break="no"/>
-                <supplied reason="lost">σαντες Ἀθ</supplied>ηναίους ἐμπε<supplied reason="lost">ί-</supplied>}<lb n="32"/>
-                <supplied reason="lost">ροτέρους</supplied> εἶν\Ladd{αι}} ἤδη πρὸς}<lb n="33"/>
-                <supplied reason="lost">τὸ μάχεσθα</supplied>ι τοῖς Πέρσαις.}<lb n="34"/>
-                ἐν δὲ τούτῳ</supplied>  Μαρδόνιος <supplied reason="lost">\ ...</supplied>
-            </ab>
-        </div> 
+            <div type="edition">
+                <ab>
+                    <lb n="1"/><supplied reason="lost">ὁ Μαρδόνιος ἔπε</supplied>μψ<supplied
+                        reason="lost">εν</supplied>
+                    <lb n="2"/><supplied reason="lost">Ἀλέξανδρον τὸν</supplied> Μακεδ<supplied
+                        reason="lost">ό</supplied><lb break="no" n="3"/><supplied reason="lost">να
+                        εἰς Ἀθήνας ὑπισ</supplied>χνού<supplied reason="lost">με</supplied><lb
+                        break="no" n="4"/><supplied reason="lost">νος δώσειν μ</supplied>ύρια
+                        τάλα<supplied reason="lost">ν</supplied><lb n="5" break="no"/>
+                    <supplied reason="lost">τα καὶ ἐλευθερ</supplied>ίαν αὐτ<supplied reason="lost"
+                        >οις κα</supplied><lb break="no" n="6"/><supplied reason="lost">ὶ αὐτονομίαν
+                        εἰ</supplied> μένοι<choice>
+                        <corr>ε</corr>
+                        <sic>η</sic>
+                    </choice>ν <lb n="7"/><supplied reason="lost">ἐφ’ ἑαυτῶν κα</supplied>ὶ μὴ
+                        συμ<lb n="8" break="no"/><supplied reason="lost">μαχοῖεν τοῖς</supplied>
+                        Ἕλλησ<unclear>ι</unclear><supplied reason="lost">ν</supplied>
+                    <lb n="9"/><supplied reason="lost">οἱ δὲ Ἀθηναῖοι</supplied> ἐξέβαλον <lb n="10"
+                        /><supplied reason="lost">τὸν ἄνδρα διόπ</supplied>ερ Μαρδό<lb n="11"
+                        break="no"/><supplied reason="lost">νιος εἰς Ἀθήνας ἐνέ</supplied>βαλεν <lb
+                        n="12"/><supplied reason="lost">τὴν στρατιὰν κ</supplied>αὶ τὰ λε<supplied
+                        reason="lost">ι</supplied><lb n="13" break="no"/><supplied reason="lost"
+                        >πόμενα μέρη ἐ</supplied>νέπρησεν <lb n="14"/><supplied reason="lost">ἔπειτα
+                        δὲ περὶ Θ</supplied>ήβας ἐστρα<lb n="15" break="no"/><supplied reason="lost"
+                        >τοπεδεύσατο, οἱ δ</supplied>ὲ Ἕλλη<lb n="16" break="no"/><supplied
+                        reason="lost">νες ἐστρατ</supplied>οπεδεύσαν <lb n="17"/><supplied
+                        reason="lost">το περὶ Πλαται</supplied>άς μεταξὺ <lb n="18"/><supplied
+                        reason="lost">δὲ τούτων ἔστιν</supplied> ἐν μέσω<supplied reason="omitted"
+                        >ι</supplied>
+                    <lb n="19"/><supplied reason="lost">στάδια</supplied><gap reason="lost"
+                        unit="characters" quantity="7" precision="low"/>ήκοντα <lb n="20"/><supplied
+                        reason="lost">συνπαρετάσσον</supplied>το δὲ Μαρ<lb n="21" break="no"
+                        /><supplied reason="lost">δονίῳ Βοιωτῶ</supplied>ν καὶ τῶν <lb n="22"
+                        /><supplied reason="lost">Ἑλλήνων τ</supplied>ῶν μηδισάν<lb n="23"
+                        break="no"/><supplied reason="lost">των μυρ</supplied>ιάδες τέσσαρες <lb
+                        n="24"/><supplied reason="lost">εἶχον δὲ</supplied> τὸ μὲν δεξιὸν <lb n="25"
+                        /><supplied reason="lost">κέρας Πέρσ</supplied><unclear>αι</unclear> τὸ δὲ
+                        εὐώνυ<lb n="26" break="no"/><supplied reason="lost">μον οἱ
+                    μ</supplied>ηδείσαντες <lb n="27"/><supplied reason="lost">ληνες τῶ</supplied>ν
+                    δὲ Ἑλλήνων <lb n="28"/><supplied reason="lost">τὸ μὲν
+                        δε</supplied><unclear>ξ</unclear>ιὸν κέρας Ἀθη<lb n="29" break="no"
+                        /><supplied reason="lost">ναῖοι κα</supplied>τεῖχον Λακε<lb n="30"
+                        break="no"/><supplied reason="lost">δαιμόνιο</supplied>ι δὲ θάτερον φή<lb
+                        n="31" break="no"/><supplied reason="lost">σαντες Ἀθ</supplied>ηναίους
+                        ἐμπε<supplied reason="lost">ί</supplied><lb break="no" n="32"/><supplied
+                        reason="lost">ροτέρους</supplied> εἶν<supplied reason="omitted"
+                        >αι</supplied> ἤδη πρὸς <lb n="33"/><supplied reason="lost">τὸ
+                        μάχεσθα</supplied>ι τοῖς Πέρσαις <lb n="34"/><supplied reason="lost">ἐν δὲ
+                        τούτῳ</supplied> Μαρδόνιος <gap reason="lost" unit="characters"
+                        extent="unknown"/>
+                </ab>
+            </div>
             <div type="apparatus">
                 <listApp>
-                    <app loc="1">\footnote{<supplied reason="lost">ἔπε</supplied>μψ<supplied reason="lost">εν</supplied>} Rea; ...<supplied reason="lost">λαβὼν δὲ ὁ Μαρδόνιος πρῶτον ἔπε</supplied>μψ<supplied reason="lost">εν</supplied>} Mette} </app>
-                    <app loc="5">\footnote{<supplied reason="lost">τα καὶ αὐτονομ</supplied>ίαν αὐτ<supplied reason="lost">οῖ-</supplied>\|<supplied reason="lost">ς τηρήσειν, εἰ</supplied>} Rea; <supplied reason="lost">καὶ</supplied> \| <supplied reason="lost">ἐλευθερίαν καὶ αὐτονομ</supplied>ίαν αὐτ<supplied reason="lost">οῖς</supplied> \| <supplied reason="lost">τηρήσειν, εἰ</supplied>} Mette.}</app>
-                    <app loc="6">\footnote{Corretta da un η}</app>
-                    <app loc="8">\footnote{<supplied reason="lost">μαχοῖεν τοῖς</supplied> Ἕλλησιν} Rea, <supplied reason="lost">μαχ</supplied>\Ladd{οῖεν} <supplied reason="lost">τοῖς</supplied> Ἕλλησιν} Mette.}</app>
-                    <app loc="10">\footnote{διόπ</supplied>ερ ὁ Μαρδό-} Rea, Mette}</app>
-                    <app loc="12">\footnote{<supplied reason="lost">τὴν στρατιὰν κ</supplied>αὶ τὰ λει-} Rea;  <supplied reason="lost">τὴν στρατιὰν</supplied> <supplied reason="lost">κ</supplied>αὶ τὰ \Ladd{περι}λει} Mette.}</app>
-                    <app loc="13">\footnote{<supplied reason="lost">πόμενα προσενέ</supplied>πρησεν} Rea, Mette.}</app>
-                    <app loc="18">\footnote{Mette}</app>
-                    <app loc="19">\footnote{<supplied reason="lost">στάδια ὀγδο</supplied>ήκοντα} Rea, Mette.}</app>
-                    <app loc="23">\footnote{Rea; <supplied reason="lost">των</supplied> <supplied reason="lost">μυρ</supplied>ιάδες τέσσαρες} Mette.}</app>
-                    <app loc="26">\footnote{Mette.} Ἕλ-}</app>
-                    <app loc="30">\footnote{Rea. \Ladd{μετέστησαν δὲ Ἀθηναίους οἱ Λακεδαιμόνιοι} φή-}}</app>
-                    <app loc="32">\footnote{Mette; ἐμπεί<supplied reason="lost">ρους ὑπάρχ</supplied>ειν} Rea.}</app>
+                    <app loc="1">
+                        <rdg resp="#Rea"><supplied reason="lost">ἔπε</supplied>μψ<supplied
+                                reason="lost">εν</supplied></rdg>
+                        <rdg resp="#Mette"><supplied reason="lost">λαβὼν δὲ ὁ Μαρδόνιος πρῶτον
+                                ἔπε</supplied>μψ<supplied reason="lost">εν</supplied></rdg>
+                    </app>
+                    <app loc="5">
+                        <rdg resp="#Rea"><supplied reason="lost">τα καὶ αὐτονομ</supplied>ίαν
+                                αὐτ<supplied reason="lost">οῖ</supplied><lb break="no"/><supplied
+                                reason="lost">ς τηρήσειν, εἰ</supplied></rdg>
+                        <rdg resp="#Mette"><supplied reason="lost">καὶ</supplied>
+                            <lb/>
+                            <supplied reason="lost">ἐλευθερίαν καὶ αὐτονομ</supplied>ίαν
+                                αὐτ<supplied reason="lost">οῖς</supplied>
+                            <lb/>
+                            <supplied reason="lost">τηρήσειν, εἰ</supplied></rdg>
+                    </app>
+                    <app loc="8">
+                        <rdg resp="#Rea"><supplied reason="lost">μαχοῖεν τοῖς</supplied>
+                            Ἕλλησιν</rdg>
+                        <rdg resp="#Mette"><supplied reason="lost">μαχ</supplied><supplied
+                                reason="omitted">οῖεν</supplied>
+                            <supplied reason="lost">τοῖς</supplied> Ἕλλησιν</rdg>
+                    </app>
+                    <app loc="10">
+                        <rdg resp="#Mette #Rea"><supplied reason="lost">διόπ</supplied>ερ ὁ
+                            Μαρδό-</rdg>
+                    </app>
+                    <app loc="12">
+                        <rdg resp="#Rea"><supplied reason="lost">τὴν στρατιὰν κ</supplied>αὶ τὰ
+                            λει-</rdg>
+                        <rdg resp="#Mette"><supplied reason="lost">τὴν στρατιὰν</supplied>
+                            <supplied reason="lost">κ</supplied>αὶ τὰ <supplied reason="omitted"
+                                >περι</supplied>λει</rdg>
+                    </app>
+                    <app loc="13">
+                        <rdg resp="#Mette #Rea"><supplied reason="lost">πόμενα
+                            προσενέ</supplied>πρησεν</rdg>
+                    </app>
+                    <app loc="19">
+                        <rdg resp="#Mette #Rea"><supplied reason="lost">στάδια
+                            ὀγδο</supplied>ήκοντα</rdg>
+                    </app>
+                    <app loc="23">
+                        <rdg resp="#Mette"><supplied reason="lost">των</supplied>
+                            <supplied reason="lost">μυρ</supplied>ιάδες τέσσαρες</rdg>
+                    </app>
+                    <app loc="26">
+                        <rdg resp="#Mette">Ἕλ-</rdg>
+                    </app>
+                    <app loc="30">
+                        <rdg resp="#Rea"><supplied reason="omitted">μετέστησαν δὲ Ἀθηναίους οἱ
+                                Λακεδαιμόνιοι</supplied> φή-</rdg>
+                    </app>
+                    <app loc="32">
+                        <rdg resp="#Rea">ἐμπεί<supplied reason="lost">ρους ὑπάρχ</supplied>ειν</rdg>
+                    </app>
                 </listApp>
-            </div> 
+            </div>
             <div type="translation">
                 <!--?-->
-            </div> 
+            </div>
         </body>
     </text>
 </TEI>

@@ -21,6 +21,12 @@ body {
     column-count: 3;
     }
 
+.linenumber {
+    left: -4em;
+    padding-right: 0.2em;
+    position: absolute;
+    }
+
 .navbar-wrapper {
   position: absolute;
   top: 0;
