@@ -116,14 +116,14 @@
                     <!--is this ok for the marks left by the scribe? it is in facts a pointer-->
                     <p n="1"><gap unit="lines" extent="unknown" reason="lost"/> <w>αἰτησάμενος</w> <w>γὰρ</w> <w>μίαν</w> <w>ἡμέραν</w> 
                         <w>μόνην</w> <w>ἔπεμψε</w> <w>κρύφα</w> <name ref="http://www.lgpn.ox.ac.uk/id/V1-53770" nymRef="Σίκινος">Σίκινον</name> <w>τὸν</w> <w>ἑαυτοῦ</w> 
-                        <w>παιδαγωγὸν</w> <w>πρὸς</w> <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξην</name>, 
+                        <w>παιδαγωγὸν</w> <w>πρὸς</w> <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξην</name>, 
                         <w>ἐγκελευσάμενος</w> <w>αὐτῷ</w> <w>ἐπιτίθεσθαι</w> <w>τοῖς</w> <placeName nymRef="Ἑλλάς" 
                             type="ethnic" ref="http://pleiades.stoa.org/places/1001896">Ἕλλησιν</placeName> <w>καὶ</w> <w>ναυμαχεῖν,</w> 
                         <w>δηλῶν</w> <w>τὸν</w> <w>μέλλοντα</w> <w>δρασμὸν</w> <w>ἀπὸ</w> 
                         <placeName nymRef="Σαλαμῖνος" ref="http://pleiades.stoa.org/places/580101">Σαλαμῖνος.</placeName>
                         <w>Ὁ</w>
                         <w>δὲ</w>
-                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξης</name>
+                        <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξης</name>
                         <w>νομίσας</w>
                         <w>τὸν</w>
                         <name nymRef="Θεμιστοκλῆς" ref="http://www.lgpn.ox.ac.uk/id/V2-31577">Θεμιστοκλέα</name>
@@ -147,7 +147,7 @@
                         <w>ἐσπούδασεν</w>
                         <w>δὲ</w>
                         <w>ὁ</w>
-                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξης</name>
+                        <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξης</name>
                         <w>ζεῦγμα</w>
                         <w>κατασκευάσας</w>
                         <w>πεζῇ</w>
@@ -223,7 +223,7 @@
                         <w>τῆς</w>
                         <w>μάχης</w>
                         <w>ὁ</w>
-                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξης</name>
+                        <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξης</name>
                         <w>ἱκανὰς</w>
                         <w>μυριάδας</w>
                         <w>ἐπεβίβασεν</w>
@@ -249,11 +249,11 @@
                         <w>τῶν</w>
                         <w>βαρβάρων</w>
                         <w>ἀνασώζεσθαι.</w>
-                        <name>Ἀριστείδης</name>
+                        <persName><name>Ἀριστείδης</name>
                         <w>δὲ</w>
                         <placeName nymRef="Ἀθῆναι" type="ethnic" ref="http://pleiades.stoa.org/places/579885">Ἀθηναῖος,</placeName>
                         <w>υἱὸς</w>
-                        <name>Λυσιμάχου,</name>
+                        <name>Λυσιμάχου</name></persName>,
                         <w>καλούμενος</w>
                         <w>δίκαιος,</w>
                         <w>ἐξωστρακισμένος</w>
@@ -362,7 +362,7 @@
                         <w>διώκειν.</w>
                         <w>ὁ</w>
                         <w>δὲ</w>
-                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξης</name>
+                        <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξης</name>
                         <w>θεασάμενος</w>
                         <w>τὸ</w>
                         <w>γενόμενον</w>
@@ -423,7 +423,7 @@
                         <w>ζεῦγμα</w>
                         <w>καὶ</w>
                         <w>καταλαμβάνεσθαι</w>
-                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξην</name>
+                        <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξην</name>
                         <w>ἐν</w>
                         <w>τῇ</w>
                         <placeName nymRef="Ἑλλάς" ref="http://pleiades.stoa.org/places/1001896">Ἑλλάδι,</placeName>
@@ -454,7 +454,7 @@
                         <w>ἰσχύων</w>
                         <w>ἔπεμψε</w>
                         <w>κρύφα</w>
-                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξῃ</name>
+                        <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξῃ</name>
                         <w>δηλῶν</w>
                         <w>ὅτι</w>
                         <w>μέλλουσιν</w>
@@ -521,7 +521,7 @@
                     <p n="1"><w>Φεύγοντος</w>
                         <w>δὲ</w>
                         <w>τοῦ</w>
-                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξου</name>
+                        <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξου</name>
                         <name>Μαρδόνιος,</name>
                         <w>υἱὸς</w>
                         <name>Γωβρύου</name>
@@ -535,7 +535,7 @@
                         <w>συμπ</w><supplied reason="omitted">επει</supplied><w>κὼς</w>
                         <w>καὶ</w>
                         <w>αὐτὸς</w>
-                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξην</name>
+                        <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξην</name>
                         <w>στρατεῦσαι</w>
                         <w>ἐπὶ</w>
                         <w>τὴν</w>
@@ -885,7 +885,7 @@
                         <w>τὸ</w>
                         <w>ναυτικὸν</w>
                         <w>τὸ</w>
-                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξου</name>,
+                        <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξου</name>,
                         <w>πλεύσαντές</w>
                         <supplied reason="omitted">τε</supplied>
                         <w>σταδίους</w>
@@ -1139,7 +1139,7 @@
                         <w>τῆς</w>
                         <w>πόλεως</w>
                         <w>ὑπὸ</w>
-                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξου</name>
+                        <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξου</name>
                         <w>καὶ</w>
                         <name>Μαρδονίου,</name>
                         <w>ἐβουλεύοντο</w>
@@ -1621,7 +1621,7 @@
                         <w>ἀλλὰ</w>
                         <w>γράψας</w>
                         <w>ἐπιστολὰς</w>
-                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξῃ</name>
+                        <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξῃ</name>
                         <name>Ἀργιλίῳ</name>
                         <w>ἀγαπωμένῳ</w>
                         <w>ἑαυτοῦ</w>
@@ -1630,7 +1630,7 @@
                         <w>ἐγκελευσάμενος</w>
                         <w>κομίζειν</w>
                         <w>πρὸς</w>
-                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξην</name>.
+                        <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξην</name>.
                         <w>ὁ</w>
                         <w>δὲ</w>
                         <name>Ἀργίλιος</name>
@@ -1645,7 +1645,7 @@
                         <w>πεμφθέντες</w>
                         <w>ἀπενόστησαν,</w>
                         <w>πρὸς</w>
-                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξην</name>
+                        <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξην</name>
                         <w>οὐ</w>
                         <w>παρεγένετο,</w>
                         <w>ἐλθὼν</w>
@@ -1730,7 +1730,7 @@
                         <w>τὰς</w>
                         <w>ἐπιστολὰς</w>
                         <w>πρὸς</w>
-                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξην</name>,
+                        <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξην</name>,
                         <w>ἄλλα</w>
                         <w>τέ</w>
                         <w>τινα</w>
@@ -2079,7 +2079,7 @@
                         <placeName nymRef="Πέρσις " type="ethnic" ref="http://pleiades.stoa.org/places/922698">Περσίδα</placeName>.</p>
                     <p n="4">
                         <w>καὶ</w>
-                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξην</name>
+                        <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξην</name>
                         <w>μὲν</w>
                         <w>οὐ</w>
                         <w>κατέλαβε</w>
@@ -2117,7 +2117,7 @@
                         <w>τὸν</w>
                         <w>πατέρα</w>
                         <w>αὐτοῦ</w>
-                        <name ref="https://en.wikipedia.org/wiki/Xerxes_I" nymRef="Ξέρξης">Ξέρξην</name>,
+                        <name ref="https://www.wikidata.org/wiki/Q129165" nymRef="Ξέρξης">Ξέρξην</name>,
                         <w>λέγων</w>
                         <w>καὶ</w>
                         <w>τῆς</w>

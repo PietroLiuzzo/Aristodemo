@@ -27,12 +27,12 @@ The LaTeX version is the one I have started from, as [my thesis](http://amsdotto
 ### Transformations
 To produce all the output a series of transformation is run on the main texts (in xml folder). 
 * loughi.xsl produces the page with the map, the map javascript and the pelagios rdf output
-* persone.xsl produces the people index page, and the snap rdf output (forthcoming)
+* persone.xsl produces the people index page, and the snap rdf output found in the RDF folder
 There are other xslt which I initially copied here which where not yet useful.
 the bibliography is handled pointing to Zotero, but this is also a modification to the epidoc example xslt on my local drive
 
 ### Layout and Graphic
-This is fully [Bootstrap](http://getbootstrap.com/) stuff, the carousel theme, sligthly adapted. The dist folder contains a copy of what I needed downloading the repo. I have created with this html a template within the [epidoc example XSLT](https://sourceforge.net/p/epidoc/wiki/Stylesheets/) and used the same to produce the static pages.
+This is fully [Bootstrap](http://getbootstrap.com/) stuff, the carousel theme, sligthly adapted. The dist folder contains a copy of what I needed downloading the repo. I have created with this html a template within the [epidoc example XSLT](https://sourceforge.net/p/epidoc/wiki/Stylesheets/) and used the same to produce the static pages. The table sorting function used in persone.html is done using [Tablesorter 2.0](http://tablesorter.com/docs/)
 
 #### Images
 The images of the manuscript are kindly offered via [International Image Interoperability Framework (IIIF)](http://iiif.io/) from [Gallica](http://gallica.bnf.fr/). I use [Openseadragon](https://openseadragon.github.io/) as a viewer of the images.
@@ -42,6 +42,7 @@ The images of the manuscript are kindly offered via [International Image Interop
 
 ### Places and People
 Places are given an id from [Pleiades](http://pleiades.stoa.org/). This is used to create the map and the pelagios annotation, to show links, and activate the popups. Is wonderfully useful.
+IDs for people are taken where possible from the [Lexicon of Greek Personal Names](http://clas-lgpn2.classics.ox.ac.uk/) or from Wikidata. 
 
 #### Popups
 In the places page, popups with the little map and links to pleiades and pelagios come from the [ADWL.js](http://isawnyu.github.com/awld-js/awld-test.html), which you will see copied in this folder.
