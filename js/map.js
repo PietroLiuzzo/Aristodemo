@@ -90,6 +90,582 @@
                         }
                         }).addTo(map);  
                     
+                        
+                        var geojsonFeature245682332 =
+                        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<!-- Propagates search term wildcard, a smelly hack -->
+
+
+
+<!-- Customize to send a site message on every page -->
+<!--tal:b 
+  condition="python:request and context.plone_utils.addPortalMessage((u'Site will be read-only while undergoing maintenance from 17:00-24:00 US Mountain Time on February 15.'))" 
+    /-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us"
+      lang="en-us">
+
+  
+    
+    
+    
+    
+    
+    
+
+  
+
+  <head>
+
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+
+    
+      <base href="http://pleiades.stoa.org/" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <link rel="kss-base-url" href="http://pleiades.stoa.org" />
+
+  
+  
+    
+    
+    
+      <style type="text/css" media="screen">@import url(http://pleiades.stoa.org/portal_css/Notre%20Dame/++resource++plone.app.discussion.stylesheets/discussion.css);</style>
+    
+    
+    
+  
+
+  
+    
+    
+    
+      <style type="text/css">@import url(http://pleiades.stoa.org/portal_css/Notre%20Dame/base-cachekey7033.css);</style>
+    
+    
+    
+  
+
+
+  
+  
+    
+    
+      <script type="text/javascript"
+              src="http://pleiades.stoa.org/portal_javascripts/Notre%20Dame/jquery-cachekey7400.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://pleiades.stoa.org/portal_javascripts/Notre%20Dame/jquery-integration-cachekey8548.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://pleiades.stoa.org/portal_javascripts/Notre%20Dame/resourcebase2-dom-fp-cachekey3291.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://pleiades.stoa.org/portal_javascripts/Notre%20Dame/referencebrowser-cachekey0885.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://pleiades.stoa.org/portal_javascripts/Notre%20Dame/ga_pleiades-cachekey3113.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://pleiades.stoa.org/portal_javascripts/Notre%20Dame/resourceplone.app.discussion.javascriptscomments-cachekey5201.js">
+      </script>
+    
+    
+    
+  
+
+
+  
+  <link rel="kinetic-stylesheet" type="text/css"
+        href="http://pleiades.stoa.org/portal_kss/Notre%20Dame/at-cachekey7518.kss" />
+
+
+
+<title>Pleiades</title>
+
+    <meta content="Pleiades gives scholars, students, and enthusiasts worldwide the ability to use, 
+create, and share historical geographic information about the Greek and Roman World in digital form.
+"
+          name="description" />
+
+    <!-- Internet Explorer CSS Fixes -->
+    <!--[if IE]>
+        <style type="text/css" media="all">@import url(http://pleiades.stoa.org/IEFixes.css);</style>
+    <![endif]-->
+
+    
+    <link rel="author"
+          href="http://pleiades.stoa.org/author/"
+          title="Author information" />
+
+
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="http://pleiades.stoa.org/favicon.ico" />
+
+
+
+
+
+
+    <link rel="search"
+          href="http://pleiades.stoa.org/search_form"
+          title="Search this site" />
+
+
+
+    <link rel="home" href="http://pleiades.stoa.org/home"
+          title="Front page" />
+
+    <link rel="contents"
+          href="http://pleiades.stoa.org/sitemap"
+          title="Site Map" />
+
+
+    <!-- Disable IE6 image toolbar -->
+    <meta http-equiv="imagetoolbar" content="no" />
+
+    
+    
+
+    
+    
+
+    
+    
+      <style type="text/css" media="all">
+        input.openidUrl {
+          background: White url(openid-icon.gif) 2px 3px no-repeat;
+          padding-left: 18px;
+        }
+      </style>
+    
+
+    
+    <script type="text/javascript">
+    </script>
+
+  </head>
+
+  <body class=" template-login_form" dir="ltr">
+    <div id="visual-portal-wrapper">
+      <div id="visual-padded-portal-wrapper">
+
+        <div id="portal-top">
+          <ul id="portal-siteactions">
+
+    <li id="siteaction-accessibility"><a
+    href="http://pleiades.stoa.org/accessibility-info"
+    accesskey="0" title="Accessibility">Accessibility</a></li>
+    <li id="siteaction-contact"><a
+    href="http://pleiades.stoa.org/feedback" accesskey="9"
+    title="Feedback">Feedback</a></li>
+    <li id="siteaction-help"><a
+    href="http://pleiades.stoa.org/help" accesskey=""
+    title="Help">Help</a></li>
+    <li id="siteaction-join"><a
+    href="http://pleiades.stoa.org/welcome" accesskey=""
+    title="Join/Login">Join/Login</a></li>
+    <li id="siteaction-site-status"><a
+    href="http://pleiades-site-status.tumblr.com/"
+    accesskey="" title="Site Status">Site Status</a></li>
+
+</ul>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Personal tools</h5>
+
+<ul id="portal-personaltools" class="visualInline">
+   
+
+    
+        <li>
+            <a href="http://pleiades.stoa.org/login_form">Log in</a>
+        </li>
+    
+
+</ul>
+</div>
+
+
+
+        </div>
+  
+        <div id="portal-header">
+          <a id="portal-logo" accesskey="1"
+   href="http://pleiades.stoa.org">
+    <img src="http://pleiades.stoa.org/pleiades-logo-neg-tag.png" alt="" title="" height="130" width="340" /></a>
+
+
+    <h5 class="hiddenStructure">Sections</h5>
+
+    <ul id="portal-globalnav">
+        <li id="portaltab-index_html" class="selected"><a
+    href="http://pleiades.stoa.org/home" title="">Home</a></li>
+        <li id="portaltab-places" class="plain"><a
+    href="http://pleiades.stoa.org/places" title="">Browse Places</a></li>
+        <li id="portaltab-downloads" class="plain"><a
+    href="http://pleiades.stoa.org/downloads"
+    title="Data to download">Download Data</a></li>
+        <li id="portaltab-blog" class="plain"><a
+    href="http://pleiades.stoa.org/news/blog" title="">Blog</a></li>
+        <li id="portaltab-credits" class="plain"><a
+    href="http://pleiades.stoa.org/credits" title="">Credits</a></li>
+        <li id="portaltab-docs" class="plain"><a
+    href="http://pleiades.stoa.org/docs" title="">Documentation</a></li>
+        <li id="portaltab-vocabs" class="plain"><a
+    href="http://pleiades.stoa.org/vocabularies"
+    title="Controlled vocabularies">Vocabs</a></li>
+    </ul>
+
+        </div>
+  
+        <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+  
+        <div id="portal-columns">
+          
+          
+          
+  
+          
+          
+          
+  
+          
+          <div id="portal-column-content" class="sr">
+            <div id="portal-content-wrapper">
+                
+
+      
+                
+                <div class="visualPadding">
+                  <div class="">
+      
+                    <div id="region-content" class="documentContent">
+      
+                      <span id="contentTopLeft"></span>
+                      <span id="contentTopRight"></span>
+      
+                      <a name="documentContent"></a>
+      
+                      
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+      
+                      <div id="viewlet-above-content"></div>
+      
+                      
+                      
+                      
+                        
+                        <div>
+ 
+
+
+<div id="login-form">
+    <dl class="enableFormTabbing">
+
+        
+            <dt id="fieldsetlegend-site-login">
+            Site login
+            </dt>
+
+            <dd id="fieldset-site-login">
+                <form method="post" id="login_form"
+                      action="http://pleiades.stoa.org/login_form">
+ 
+                <div id="enable_cookies_message"
+                     class="portalMessage"
+                     style="display:none">
+                 Cookies are not enabled. You must <span> <a href="enabling_cookies">enable cookies</a></span> before you can log in.
+                </div>
+ 
+                
+
+ 
+                   <input type="hidden" name="came_from"
+                          value="http://pleiades.stoa.org/places/245682332/json" />
+ 
+                   <input type="hidden" name="form.submitted" value="1" />
+                   <input type="hidden" name="js_enabled" id="js_enabled" value="0" />
+                   <input type="hidden" name="cookies_enabled" id="cookies_enabled" value="" />
+                   <input type="hidden" name="login_name" id="login_name" value="" />
+                   <input type="hidden" name="pwd_empty" id="pwd_empty" value="0" />
+ 
+                   <div class="field">
+ 
+                     <label for="__ac_name">Username</label>
+ 
+                     <div></div>
+ 
+                     <input type="text" size="15"
+                            name="__ac_name" value=""
+                            id="__ac_name" />
+ 
+                   </div>
+ 
+                   <div class="field">
+ 
+                     <label for="__ac_password">Password</label>
+ 
+                     <div></div>
+ 
+                     <input type="password" size="15"
+                            name="__ac_password"
+                            id="__ac_password" />
+                   </div>
+ 
+                   
+ 
+                   <div class="formControls">
+                     <input class="context" type="submit"
+                            name="submit" value="Log in" />
+                   </div>
+                <div>
+                    <h4>
+                        Forgot your password?
+                    </h4>
+                    <p>
+                        If you have forgotten your password,
+                        <span> <a href="mail_password_form?userid=">click here to retrieve it</a></span>.
+                    </p>
+                </div>
+ 
+<div>
+    <h4>
+    New user?
+    </h4>
+    <p>
+    If you want a full-featured account, please see the
+    <span> <a href="/welcome">registration instructions</a></span>.
+    Else, you may log in to comment via OpenId.
+    </p>
+</div>
+
+                </form>
+            </dd>
+        
+
+        
+            <dt id="fieldsetlegend-openid-login">
+                OpenID login
+            </dt>
+
+            <dd id="fieldset-openid-login">
+
+                <form class="enableAutoFocus" method="post"
+                      action="http://pleiades.stoa.org/login_form">
+
+                 <input type="hidden" name="form.submitted" value="1" />
+                 <input type="hidden" name="came_from"
+                        value="http://pleiades.stoa.org/places/245682332/json" />
+
+
+                   <div class="field">
+
+                     <label for="__ac_identity_url">OpenID URL</label>
+
+                     <div class="formHelp">
+                       Please type your OpenID URL below to log in.
+                     </div>
+
+                     <div></div>
+
+                     <input type="text" size="25"
+                            class="openidUrl"
+                            name="__ac_identity_url"
+                            value="" id="__ac_identity_url" />
+                   </div>
+
+                   <div class="formControls">
+                       <input class="context" type="submit"
+    name="openid_submit" value="Log in" />
+                       <a href="http://openid.net"
+                          class="discreet link-plain">What is OpenID?</a>
+                  </div>
+
+                   <p class="discreet">
+                      To get an OpenID, check this list of  
+                      <a href="https://openid.net/get-an-openid/" class="link-plain" target="_blank">providers</a>. You may already have one.
+                   </p>
+
+               </form>
+           </dd>
+       
+
+    </dl>
+</div>
+
+
+</div>
+                      
+                      
+      
+                      
+      
+                        
+
+      
+                      
+      
+                      <span id="contentBottomLeft"></span>
+                      <span id="contentBottomRight"></span>
+      
+                    </div>
+      
+                  </div>
+      
+              </div>
+    	      
+            </div>
+            <div class="visualClear" id="clear-space-after-portal-wrapper"><!-- --></div>
+          </div>
+          
+        </div>
+        
+  
+        <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+  
+        
+  
+        
+  
+          <div id="portal-footer">
+
+<p>
+Copyright © Ancient World Mapping Center and Institute for the Study of the Ancient World. 
+Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).
+Please see our <a href="http://pleiades.stoa.org/credits">credits</a>.
+</p>
+
+</div>
+
+  <div id="portal-colophon">
+      
+
+      
+
+      <div class="colophonWrapper">
+      <ul>
+        <li>
+          <a href="http://plone.org"
+             title="This site was built using Plone CMS, the Open Source Content Management System. Click for more information.">
+            Powered by Plone</a>
+        </li>
+        <li>
+          <a href="http://validator.w3.org/check/referer"
+             title="This site is valid XHTML.">
+            Valid XHTML</a>
+        </li>
+        <li>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer?warning=no&amp;profile=css3&amp;usermedium=all"
+             title="This site was built with valid CSS.">
+            Valid CSS</a>
+        </li>
+        <li>
+          <a href="http://www.section508.gov"
+             title="This site conforms to the US Government Section 508 Accessibility Guidelines.">
+            Section 508</a>
+        </li>
+        <li>
+          <a href="http://www.w3.org/WAI/WCAG1AA-Conformance"
+             title="This site conforms to the W3C-WAI Web Content Accessibility Guidelines.">
+            WCAG</a>
+        </li>
+      </ul>
+      </div>
+
+    </div>
+
+
+  
+        
+  
+        <div class="visualClear"><!-- --></div>
+      </div>
+    </div>
+
+    <script type="text/javascript"
+            src="http://pleiades.stoa.org/hide_columns.js"></script>
+    <div id="kss-spinner"><img alt=""
+    src="http://pleiades.stoa.org/spinner.gif" /></div>
+</body>
+</html>
+
+
+
+                        
+                        ;
+                        
+                        var v245682332 =  L.geoJson(geojsonFeature245682332, {
+                        
+                        
+                        onEachFeature: onEachFeature,
+                        
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, {
+                        radius: 8,
+                        fillColor: "green",
+                        color: "#000",
+                        weight: 1,
+                        opacity: 0.3,
+                        fillOpacity: 0.2
+                        });
+                        }
+                        }).addTo(map);  
+                    
                         var geojsonFeature580059 =
                         {"connectsWith": [], "recent_changes": [{"modified": "2012-02-15T06:44:54Z", "principal": "admin"}], "description": "An ancient place, cited: BAtlas 59 B2 Parnes M.", "title": "Parnes M.", "reprPoint": [23.625, 38.125], "features": [{"geometry": {"type": "Polygon", "coordinates": [[[23.5, 38.0], [23.5, 38.25], [23.75, 38.25], [23.75, 38.0], [23.5, 38.0]]]}, "type": "Feature", "properties": {"snippet": "Unknown", "link": "http://pleiades.stoa.org/places/580059/batlas-location", "description": "", "location_precision": "rough", "title": "Barrington Atlas location"}, "id": "batlas-location"}], "names": ["Parnes M."], "type": "FeatureCollection", "id": "580059", "bbox": [23.5, 38.0, 23.75, 38.25]}
                         
@@ -262,7 +838,7 @@
                     
                         
                         var geojsonFeature540689 =
-                        {"connectsWith": ["540987", "540787", "541146", "540791", "541179", "543884", "809327743", "540801", "580114", "541138", "540913"], "recent_changes": [{"modified": "2015-10-28T16:18:15Z", "principal": "jbecker"}, {"modified": "2015-09-07T11:52:41Z", "principal": "pmotylewicz"}], "description": "A region of central Greece inhabited since prehistoric times. ", "title": "Boeotia", "reprPoint": [23.1835855, 38.345856133333328], "features": [], "names": ["Boeotia", "\u0392\u03bf\u03b9\u03c9\u03c4\u03af\u03b1"], "type": "FeatureCollection", "id": "540689", "bbox": [22.746666999999999, 38.256503000000002, 23.586234000000001, 38.493319]}
+                        {"connectsWith": ["540987", "540787", "541146", "540791", "541179", "543884", "809327743", "540801", "580114", "541138", "540913"], "recent_changes": [{"modified": "2015-10-28T16:18:15Z", "principal": "jbecker"}, {"modified": "2015-09-07T11:52:41Z", "principal": "pmotylewicz"}], "description": "A region of central Greece inhabited since prehistoric times. ", "title": "Boeotia", "reprPoint": [23.1835855, 38.345856133333335], "features": [], "names": ["Boeotia", "\u0392\u03bf\u03b9\u03c9\u03c4\u03af\u03b1"], "type": "FeatureCollection", "id": "540689", "bbox": [22.746666999999999, 38.256503000000002, 23.586234000000001, 38.493319]}
                         
                         ;
                         
@@ -432,7 +1008,7 @@
                     
                         
                         var geojsonFeature580062 =
-                        {"connectsWith": ["580029", "580136", "579966", "579988", "570654", "579903", "580078", "582867", "582868", "116035285"], "recent_changes": [{"modified": "2015-07-30T15:16:04Z", "principal": "jbecker"}, {"modified": "2012-10-20T21:55:17Z", "principal": "sgillies"}], "description": "The ancient, fortified port settlement (and deme) of ancient Athens.", "title": "Peiraieus/Piraeus", "reprPoint": [23.644608999999999, 37.937221999999998], "features": [{"geometry": {"type": "Point", "coordinates": [23.644608999999999, 37.937221999999998]}, "type": "Feature", "properties": {"snippet": "Settlement; 750 BC - AD 640", "link": "http://pleiades.stoa.org/places/580062/dare-location", "description": "Representative point location, site precision", "location_precision": "precise", "title": "DARE Location"}, "id": "dare-location"}, {"geometry": {"type": "Point", "coordinates": [23.644639000000002, 37.937277999999999]}, "type": "Feature", "properties": {"snippet": "Theatre, ; 330 BC - 30 BC", "link": "http://pleiades.stoa.org/places/580062/theater-of-zea", "description": "Visible remains of a Hellenistic theater located to the west of the Zea Harbor in Piraeus, dating ca. 200 BC.", "location_precision": "precise", "title": "Theater of Zea"}, "id": "theater-of-zea"}, {"geometry": {"type": "Point", "coordinates": [23.645455999999999, 37.938183000000002]}, "type": "Feature", "properties": {"snippet": "Unknown; 750 BC - AD 640", "link": "http://pleiades.stoa.org/places/580062/darmc-location-21312", "description": "Point location", "location_precision": "precise", "title": "DARMC location 21312"}, "id": "darmc-location-21312"}], "names": ["\u03a0\u03b5\u03b9\u03c1\u03b1\u03b9\u03b5\u03cd\u03c2", "Piraeus", "Piraeea", "Piraeeus", "\u03a0\u03b5\u03b9\u03c1\u03b1\u03b5\u1f50\u03c2"], "type": "FeatureCollection", "id": "580062", "bbox": [23.644608999999999, 37.937221999999998, 23.644608999999999, 37.937221999999998]}
+                        {"connectsWith": ["580029", "580136", "579966", "579988", "570654", "579903", "580078", "582867", "582868", "116035285", "245682332"], "recent_changes": [{"modified": "2015-07-30T15:16:04Z", "principal": "jbecker"}, {"modified": "2012-10-20T21:55:17Z", "principal": "sgillies"}], "description": "The ancient, fortified port settlement (and deme) of ancient Athens.", "title": "Peiraieus/Piraeus", "reprPoint": [23.644608999999999, 37.937221999999998], "features": [{"geometry": {"type": "Point", "coordinates": [23.644608999999999, 37.937221999999998]}, "type": "Feature", "properties": {"snippet": "Settlement; 750 BC - AD 640", "link": "http://pleiades.stoa.org/places/580062/dare-location", "description": "Representative point location, site precision", "location_precision": "precise", "title": "DARE Location"}, "id": "dare-location"}, {"geometry": {"type": "Point", "coordinates": [23.644639000000002, 37.937277999999999]}, "type": "Feature", "properties": {"snippet": "Theatre, ; 330 BC - 30 BC", "link": "http://pleiades.stoa.org/places/580062/theater-of-zea", "description": "Visible remains of a Hellenistic theater located to the west of the Zea Harbor in Piraeus, dating ca. 200 BC.", "location_precision": "precise", "title": "Theater of Zea"}, "id": "theater-of-zea"}, {"geometry": {"type": "Point", "coordinates": [23.645455999999999, 37.938183000000002]}, "type": "Feature", "properties": {"snippet": "Unknown; 750 BC - AD 640", "link": "http://pleiades.stoa.org/places/580062/darmc-location-21312", "description": "Point location", "location_precision": "precise", "title": "DARMC location 21312"}, "id": "darmc-location-21312"}], "names": ["\u03a0\u03b5\u03b9\u03c1\u03b1\u03b9\u03b5\u03cd\u03c2", "Piraeus", "Piraeea", "Piraeeus", "\u03a0\u03b5\u03b9\u03c1\u03b1\u03b5\u1f50\u03c2"], "type": "FeatureCollection", "id": "580062", "bbox": [23.644608999999999, 37.937221999999998, 23.644608999999999, 37.937221999999998]}
                         
                         ;
                         
@@ -602,7 +1178,7 @@
                     
                         
                         var geojsonFeature570577 =
-                        {"connectsWith": ["570181", "570654", "570103", "570495", "570407", "570123", "570185", "570175", "570184", "copy_of_570756", "570067", "570104", "570101", "570390", "570756", "570556", "570182", "570555", "570702", "570229", "570274", "570455", "570483", "570540", "570703", "570096", "570310", "570487", "570371"], "recent_changes": [{"modified": "2015-09-05T16:03:37Z", "principal": "jbecker"}], "description": "The large peninsula protuding into the Mediterranean Sea that constitutes the southern part of Greece. It is largely separated from mainland Greece on the north by the Corinthian Gulf, joining it only in the northeast via the narrow Isthmus of Corinth. ", "title": "Peloponnesus/Peloponnesos/Peloponnese", "reprPoint": [22.352045428571433, 37.298833214285708], "features": [], "names": ["\u03a0\u03b5\u03bb\u03bf\u03c0\u03cc\u03bd\u03bd\u03b7\u03c3\u03bf\u03c2", "\u03a0\u03b5\u03bb\u03bf\u03c0\u03bf\u03bd\u03bd\u03ae\u03c3\u03bf\u03c2", "\u1f08\u03c0\u03af\u03b1", "\u2019\u0399\u03bd\u03b1\u03c7\u1f77\u03b1", "\u03a0\u03b5\u03bb\u03bf\u03c0\u03cc\u03bd\u03bd\u03b1\u03c3\u03bf\u03c2"], "type": "FeatureCollection", "id": "570577", "bbox": [21.143868999999999, 36.387566999999997, 24.0, 38.316670000000002]}
+                        {"connectsWith": ["570181", "570654", "570103", "570495", "570407", "570123", "570185", "570175", "570184", "copy_of_570756", "570067", "570104", "570101", "570390", "570756", "570556", "570182", "570555", "570702", "570229", "570274", "570455", "570483", "570540", "570703", "570096", "570310", "570487", "570371"], "recent_changes": [{"modified": "2015-09-05T16:03:37Z", "principal": "jbecker"}], "description": "The large peninsula protuding into the Mediterranean Sea that constitutes the southern part of Greece. It is largely separated from mainland Greece on the north by the Corinthian Gulf, joining it only in the northeast via the narrow Isthmus of Corinth. ", "title": "Peloponnesus/Peloponnesos/Peloponnese", "reprPoint": [22.352045428571433, 37.298833214285715], "features": [], "names": ["\u03a0\u03b5\u03bb\u03bf\u03c0\u03cc\u03bd\u03bd\u03b7\u03c3\u03bf\u03c2", "\u03a0\u03b5\u03bb\u03bf\u03c0\u03bf\u03bd\u03bd\u03ae\u03c3\u03bf\u03c2", "\u1f08\u03c0\u03af\u03b1", "\u2019\u0399\u03bd\u03b1\u03c7\u1f77\u03b1", "\u03a0\u03b5\u03bb\u03bf\u03c0\u03cc\u03bd\u03bd\u03b1\u03c3\u03bf\u03c2"], "type": "FeatureCollection", "id": "570577", "bbox": [21.143868999999999, 36.387566999999997, 24.0, 38.316670000000002]}
                         
                         ;
                         
@@ -715,6 +1291,29 @@
                         }
                         }).addTo(map);  
                     
+                        
+                        var geojsonFeature599778 =
+                        {"connectsWith": [], "recent_changes": [{"modified": "2015-09-10T14:28:22Z", "principal": "jbecker"}, {"modified": "2012-10-20T20:38:05Z", "principal": "sgillies"}], "description": "An ancient place, cited: BAtlas 61 F2 Magnesia ad Maeandrum/Leukophrys", "title": "Magnesia ad Maeandrum/Leukophrys", "reprPoint": [27.518986999999999, 37.848005999999998], "features": [{"geometry": {"type": "Point", "coordinates": [27.518986999999999, 37.848005999999998]}, "type": "Feature", "properties": {"snippet": "Settlement; 550 BC - AD 640", "link": "http://pleiades.stoa.org/places/599778/dare-location", "description": "Representative point location, site precision", "location_precision": "precise", "title": "DARE Location"}, "id": "dare-location"}, {"geometry": {"type": "Point", "coordinates": [27.533090999999999, 37.853090999999999]}, "type": "Feature", "properties": {"snippet": "Unknown; 550 BC - AD 640", "link": "http://pleiades.stoa.org/places/599778/darmc-location-13587", "description": "500K scale point location", "location_precision": "precise", "title": "DARMC location 13587"}, "id": "darmc-location-13587"}], "names": ["Magnesia ad Maeandrum", "Leukophrys"], "type": "FeatureCollection", "id": "599778", "bbox": [27.518986999999999, 37.848005999999998, 27.518986999999999, 37.848005999999998]}
+                        
+                        ;
+                        
+                        var v599778 =  L.geoJson(geojsonFeature599778, {
+                        
+                        
+                        onEachFeature: onEachFeature,
+                        
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, {
+                        radius: 8,
+                        fillColor: "green",
+                        color: "#000",
+                        weight: 1,
+                        opacity: 0.3,
+                        fillOpacity: 0.2
+                        });
+                        }
+                        }).addTo(map);  
+                    
                         var geojsonFeature639034 =
                         {"connectsWith": ["639109"], "recent_changes": [{"modified": "2014-01-19T18:19:06Z", "principal": "jbecker"}, {"modified": "2012-02-15T07:30:37Z", "principal": "admin"}], "description": "An ancient place, cited: BAtlas 65 E4 Pamphylia", "title": "Pamphylia", "reprPoint": [30.98638, 36.990721000000001], "features": [{"geometry": {"type": "Polygon", "coordinates": [[[30.5, 36.5], [30.5, 37.0], [31.0, 37.0], [31.0, 36.5], [30.5, 36.5]]]}, "type": "Feature", "properties": {"snippet": "Unknown", "link": "http://pleiades.stoa.org/places/639034/batlas-location", "description": "", "location_precision": "rough", "title": "Barrington Atlas location"}, "id": "batlas-location"}], "names": ["Pamphylia"], "type": "FeatureCollection", "id": "639034", "bbox": [30.98638, 36.990721000000001, 30.98638, 36.990721000000001]}
                         
@@ -747,7 +1346,7 @@
                         }).addTo(map);  
                     
                         var geojsonFeature707498 =
-                        {"connectsWith": ["1043", "668339", "648602", "707532", "707534", "707517", "707437", "707617", "707502", "13818291", "13818292", "707468", "707445", "707462", "707526", "797419069", "707644", "707503", "707553", "172140914", "448083500", "790744210", "807160605", "707604", "707556", "707636", "707634", "707635", "707623", "707613", "707594", "707579", "707578", "707571", "707564", "707563", "707561", "707538", "707531", "707510", "707504", "707487", "707466", "707471", "707464", "707632", "707477", "751079112", "707459", "657559696", "707638", "707633", "707622", "707621", "707615", "707618", "707610", "707608", "707606", "707593", "707590", "707584", "707581", "707575", "707576", "707572", "707569", "707573", "707566", "707530", "707513", "707512", "707511", "707484", "707490", "754796063", "707519", "707628", "707626", "707607", "707574", "707549", "707546", "707541", "707533", "707529", "707523", "707558", "707496", "707478", "442917179", "707483", "707470", "707449", "707619", "208278117", "707596", "540510822", "707586", "707620", "707609", "707583", "707582", "707580", "707570", "707567", "707554", "707550", "707545", "707542", "707544", "707539", "707540", "707524", "707508", "707505", "707501", "707469", "707476", "707475", "380086882", "981516", "707624", "707555", "707551", "707642", "707455", "707639"], "recent_changes": [{"modified": "2013-08-01T14:51:58Z", "principal": "jbecker"}, {"modified": "2012-05-14T19:14:09Z", "principal": "sgillies"}], "description": "Third largest island in the Mediterranean Sea.", "title": "Cyprus (island)", "reprPoint": [33.149695017592599, 35.043728009259269], "features": [{"geometry": {"type": "Polygon", "coordinates": [[[32.0, 34.5], [32.0, 36.0], [35.0, 36.0], [35.0, 34.5], [32.0, 34.5]]]}, "type": "Feature", "properties": {"snippet": "Unknown", "link": "http://pleiades.stoa.org/places/707498/undetermined", "description": "", "location_precision": "rough", "title": "Barrington Atlas grid location"}, "id": "undetermined"}], "names": ["Cyprus"], "type": "FeatureCollection", "id": "707498", "bbox": [19.999995699999999, 34.573988999999997, 34.586367000000003, 35.692703000000002]}
+                        {"connectsWith": ["1043", "668339", "648602", "707532", "707534", "707517", "707437", "707617", "707502", "13818291", "13818292", "707468", "707445", "707462", "707526", "797419069", "707644", "707503", "707553", "172140914", "448083500", "790744210", "807160605", "707604", "707556", "707636", "707634", "707635", "707623", "707613", "707594", "707579", "707578", "707571", "707564", "707563", "707561", "707538", "707531", "707510", "707504", "707487", "707466", "707471", "707464", "707632", "707477", "751079112", "707459", "657559696", "707638", "707633", "707622", "707621", "707615", "707618", "707610", "707608", "707606", "707593", "707590", "707584", "707581", "707575", "707576", "707572", "707569", "707573", "707566", "707530", "707513", "707512", "707511", "707484", "707490", "754796063", "707519", "707628", "707626", "707607", "707574", "707549", "707546", "707541", "707533", "707529", "707523", "707558", "707496", "707478", "442917179", "707483", "707470", "707449", "707619", "208278117", "707596", "540510822", "707586", "707620", "707609", "707583", "707582", "707580", "707570", "707567", "707554", "707550", "707545", "707542", "707544", "707539", "707540", "707524", "707508", "707505", "707501", "707469", "707476", "707475", "380086882", "981516", "707624", "707555", "707551", "707642", "707455", "707639"], "recent_changes": [{"modified": "2013-08-01T14:51:58Z", "principal": "jbecker"}, {"modified": "2012-05-14T19:14:09Z", "principal": "sgillies"}], "description": "Third largest island in the Mediterranean Sea.", "title": "Cyprus (island)", "reprPoint": [33.149695017592585, 35.043728009259269], "features": [{"geometry": {"type": "Polygon", "coordinates": [[[32.0, 34.5], [32.0, 36.0], [35.0, 36.0], [35.0, 34.5], [32.0, 34.5]]]}, "type": "Feature", "properties": {"snippet": "Unknown", "link": "http://pleiades.stoa.org/places/707498/undetermined", "description": "", "location_precision": "rough", "title": "Barrington Atlas grid location"}, "id": "undetermined"}], "names": ["Cyprus"], "type": "FeatureCollection", "id": "707498", "bbox": [19.999995699999999, 34.573988999999997, 34.586367000000003, 35.692703000000002]}
                         
                         ;
                         
@@ -1134,7 +1733,7 @@
                     
             
             var points = L.layerGroup([
-            v580101, v501434, v579885, v579853, v599636, v579920, v541138, v541063, v540689, v541140, v599799, v599805, v501609, v540726, v580062, v570106, v570685, v599587, v570702, v530835, v570577, v599822, v550706, v501570, v599813, v638836, v579888, v580114, v540975, v707534, v639051, v638800, v543756, v570268, v540775, v599926, v570468, v481818, v570182, v491701,  
+            v580101, v501434, v245682332, v579885, v579853, v599636, v579920, v541138, v541063, v540689, v541140, v599799, v599805, v501609, v540726, v580062, v570106, v570685, v599587, v570702, v530835, v570577, v599822, v550706, v501570, v599813, v599778, v638836, v579888, v580114, v540975, v707534, v639051, v638800, v543756, v570268, v540775, v599926, v570468, v481818, v570182, v491701,  
             ]);
             
             var poligons = L.layerGroup([

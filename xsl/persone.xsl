@@ -223,7 +223,16 @@ meant to be run in a folder with other data locally referred
                     <hr class="featurette-divider"/>
                     <!-- Three columns of text below the carousel -->
                     <div class="row" id="indexes">
-
+                        <!-- /.col-lg-4 -->
+                        <div class="col-lg-4">
+                            <img class="img-circle" src="images/thirdslide.png"
+                                alt="Generic placeholder image" width="140" height="140"/>
+                            <h2>Edizione</h2>
+                            <p>Testo e Traduzione</p>
+                            <p>
+                                <a class="btn btn-default" href="index.html" role="button">Vai all'edizione</a>
+                            </p>
+                        </div>
                         <div class="col-lg-4">
                             <img class="img-circle" src="images/firstslide.png"
                                 alt="Generic placeholder image" width="140" height="140"/>
@@ -246,6 +255,7 @@ meant to be run in a folder with other data locally referred
                             </p>
                         </div>
                         <!-- /.col-lg-4 -->
+                        
                     </div>
                     <!-- /.row -->
 
