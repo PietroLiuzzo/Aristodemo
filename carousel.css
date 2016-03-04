@@ -20,7 +20,10 @@ body {
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
     }
-
+sup { 
+    vertical-align: 70%;
+    font-size: 70%;
+}
 .linenumber {
     left: -4em;
     padding-right: 0.2em;
