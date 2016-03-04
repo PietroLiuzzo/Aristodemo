@@ -32,19 +32,19 @@
         <div type="textpart" subtype="chapter" n="1">
           <head>L'opera e l'autore</head>
           <div type="textpart" subtype="section">
-            <head><anchor type="bookmark-start" xml:id="id___RefHeading__31752_19231068"/>Notizie
-                sull'autore<anchor type="bookmark-end" corresp="#id___RefHeading__31752_19231068"
-              /></head>
+            <head>Notizie
+                sull'autore</head>
             <p>Müller e Jacoby offrono un catalogo delle varie ipotesi di volta in volta avanzate
               nelle varie edizioni per identificare Aristodemo, il presunto autore di FGrHist 104.
               L'analisi del codice, che si può trovare in <bibl><ptr target="#Liuzzo2015"
-                /></bibl>,<note place="foot" n="15">Vedi<ref
-                  target="#id___RefHeading__70369_1501267828" type="page"/>.</note> dimostra
+              /></bibl>,<note>La tesi di dottorato su cui si basa il presente testo è disponibile al seguente link <bibl><ptr target="#LiuzzoTesi2014"
+              /></bibl>. Cfr. anche <bibl><ptr target="#Liuzzo2014"
+              /></bibl>.</note> dimostra
               tuttavia come non si possano usare le annotazioni in margine alle pagine del
               manoscritto parigino per identificare l'autore, poiché fanno parte di un sistema di
               riferimenti legato ad eventi contestuali alla produzione del manoscritto. È solo
               incidentalmente che viene scelto Aristodemo come elemento di riferimento all'interno
-              del testo (2.5), forse per la particolare <emph>sententia</emph>. Risulta vano tentare
+              del testo (<ref target="urn:cts:greekLit:tlg2148.tlg001:2.2">2.5</ref>), forse per la particolare <emph>sententia</emph>. Risulta vano tentare
               un'attribuzione, o per lo meno cercare di individuare la tipologia del testo in
               questione. Lo stesso Jacoby riportava i tentativi senza eccessiva convinzione.<note
                 place="foot" n="16">Jacoby, FGrHist 104 <emph>Komm.</emph> 320. </note> L'ipotesi
@@ -59,15 +59,11 @@
                   /><citedRange>77</citedRange></bibl>). </note> Non esistono però testimonianze sul
               periodo storico di riferimento né dell'autore, né del suo testo, ma per quest'ultimo
               abbiamo dei riferimenti cronologici: il IV a.C. come <emph>terminus post quem</emph>,
-              per il riferimento a Filippo II (F1, 2.2); la metà del II d.C. come <emph>terminus
-                ante quem</emph> fornito dal ritrovamento di P.Oxy. 2469, contenente un testo della
-              medesima tradizione e paleograficamente databile con sufficiente sicurezza.<note
-                place="foot" n="19">Appendice 2 su P.Oxy. 2469, p.<ref
-                  target="#id___RefHeading__69795_1501267828" type="page"/>.</note> L'ipotesi è
-              incompatibile con la cronologia del testo a meno che non si consideri P.Oxy. 2469
-              parte di uno scolio.<note place="foot" n="20">Vedi<ref
-                  target="#id___RefHeading__69002_1501267828" type="page"/> e Appendice 2, p.<ref
-                  target="#id___RefHeading__69795_1501267828" type="page"/>. </note></p>
+              per il riferimento a Filippo II (<ref target="urn:cts:greekLit:tlg2148.tlg001:2.2">2.2</ref>); la metà del II d.C. come <emph>terminus
+                ante quem</emph> fornito dal ritrovamento di <ref target="textpap.html" type="papyrus">P.Oxy. 2469</ref>, contenente un testo della
+              medesima tradizione e paleograficamente databile con sufficiente sicurezza. L'ipotesi è
+              incompatibile con la cronologia del testo a meno che non si consideri <ref target="textpap.html" type="papyrus">P.Oxy. 2469</ref>
+              parte di uno scolio.</p>
             <p>L'unico modo per sapere qualcosa sull'“autore” resta dunque il suo testo. È opinione
               comune che le fonti “ultime” di FGrHist 104 siano Erodoto e Tucidide, ma questo è vero
               solo se ti tengono presenti alcune precisazioni per non incorrere in un ulteriore
@@ -79,25 +75,26 @@
               tradizioni contenute in FGrHist 104. Tucidide spesso sostiene una versione alternativa
               al nostro testo fino a far pensare, sulla base dei percorsi presi dalla trasmissione,
               ad una dipendenza comune per l'Ateniese e il nostro testo da Stesimbroto di Taso,
-              fonte di Plutarco in diversi passi paralleli.<note place="foot" n="23">Vedi <ref
-                  target="#id___RefHeading__69010_1501267828" type="page"/>.</note> La somiglianza
+              fonte di Plutarco in diversi passi paralleli. La somiglianza
                 <note place="foot" n="24">Non si può far risalire ad Ellanico, anche perché, come
-                sottolinea Ambaglio (1980, 56), la critica di Tucidide veniva mossa al τοῖς χρόνοις
+                sottolinea <bibl><ptr target="#Ambaglio1980"/><citedRange>56</citedRange></bibl>, la critica di Tucidide veniva mossa al τοῖς χρόνοις
                 οὐκ ἀκριβῶς cioè alla datazione per arconti.</note> con Tucidide è legata all'uso
               continuo di questo testo dal IV secolo in poi non solo come modello narrativo ma anche
               come fonte.<note place="foot" n="25">Momento al quale possono essere ricondotti
                 semplici meccanismi di ampliamento della tradizione con aneddoti ed episodi
                 particolari con intenti narrativi vari, biografici, locali, ecc. Le tradizioni
                 conservate dal solo FGrHist 104 sono numerose. Ricordo l'uso di μηδίζω per Serse
-                riguardo a Temistocle (1.1), il paragone con il ponte dell'Ellesponto e il molo
-                fallimentare (1.2), la dichiarazione del primato Ateniese (1.3), Aristide comandante
-                degli Egineti (1.4), Filippo in riferimento ad Alessandro, il numero delle truppe
-                beote (2.3), l'apologia del Filelleno (3.1), le misure delle mura (5.4), la storia
-                della figlia di Coronide insieme a quella di Argilio (8), la contemporaneità tra il
-                secondo richiamo di Pausania e la fuga di Temistocle ad Argo (6), il disco (9), la
-                promessa fatta ad Artaserse (10).</note> Solo la parte finale, il paragrafo 16 nello
+                riguardo a Temistocle (<ref target="urn:cts:greekLit:tlg2148.tlg001:1.1">1.1</ref>), il paragone con il ponte dell'Ellesponto e il molo
+                fallimentare (<ref target="urn:cts:greekLit:tlg2148.tlg001:1.2">1.2</ref>), la dichiarazione del primato Ateniese (1.3), Aristide comandante
+                degli Egineti (<ref target="urn:cts:greekLit:tlg2148.tlg001:1.4">1.4</ref>), Filippo in riferimento ad Alessandro, il numero delle truppe
+                beote (<ref target="urn:cts:greekLit:tlg2148.tlg001:2.3">2.3</ref>), l'apologia del Filelleno (<ref target="urn:cts:greekLit:tlg2148.tlg001:3.1">3.1</ref>), 
+                le misure delle mura (<ref target="urn:cts:greekLit:tlg2148.tlg001:5.4">5.4</ref>), la storia
+                della figlia di Coronide insieme a quella di Argilio (<ref target="urn:cts:greekLit:tlg2148.tlg001:8">8</ref>), la contemporaneità tra il
+                secondo richiamo di Pausania e la fuga di Temistocle ad Argo (<ref target="urn:cts:greekLit:tlg2148.tlg001:6">6</ref>), il disco 
+                (<ref target="urn:cts:greekLit:tlg2148.tlg001:9">9</ref>), la
+                promessa fatta ad Artaserse (<ref target="urn:cts:greekLit:tlg2148.tlg001:10">10</ref>).</note> Solo la parte finale, il paragrafo 16 nello
               specifico, è probabilmente di stampo eforeo, data la somiglianza letterale al testo di
-              Diodoro (12.40) dove lo storico di Cuma è citato per nome, ma la tradizione indiretta
+              Diodoro (<ref target="urn:cts:greekLit:tlg0060.tlg001:12.40">12.40</ref>) dove lo storico di Cuma è citato per nome, ma la tradizione indiretta
               permette di ricostruire un percorso meno lineare, che considera anche il ruolo di
               Filocoro. La stratificazione degli interventi nel testo che troviamo in FGrHist 104,
               lo ha modificato e complicato e non si può estendere l'osservazione sul paragrafo 16
@@ -106,7 +103,7 @@
                     /><citedRange>23-4</citedRange></bibl>.</note> per ridurre ad una soluzione
               questa complessità, come non si può fare leva sulla tradizione indiretta del testo per
               affermarne l'afferenza ad un generico filone di fonti lessicografiche.<note
-                place="foot" n="27">Propone questa ipotesi Pownall 2011 sulla base di <bibl><ptr
+                place="foot" n="27">Propone questa ipotesi <bibl><ptr target="#Pownall2011"/></bibl> sulla base di <bibl><ptr
                     target="#Pownall2004"/><citedRange>253-69</citedRange></bibl> dove smentisce la
                 posizione filoateniese di Eforo.</note>
             </p>
@@ -116,8 +113,7 @@
               Demostene senza essere in nessuno dei casi “filo-ateniese”.</p>
             <p>Un vaglio abbastanza accurato delle relazioni del testo di Aristodemo con gli altri
               testimoni, si trova in appendice all'edizione di Doenges dell'epistolario di
-                Temistocle.<note place="foot" n="28">Vedi <ref
-                  target="#id___RefHeading__35489_19231068" type="page"/>.</note> Per questo
+                Temistocle. Per questo
                 editore,<note place="foot" n="29"><bibl><ptr target="#Doenges1981"
                     /><citedRange>423s</citedRange></bibl>. </note> l'epistolografo non si sarebbe
               servito di FGrHist 104, ma di un testo abbastanza simile ad esso da poter essere
@@ -127,15 +123,18 @@
               anche a Suda ed agli scoli ad Aristofane e le differenze tra i quattro testi derivati
               indicherebbero appunto il fatto che FGrHist 104, non sia fonte diretta di alcuno degli
               altri tre. Le somiglianze con il testo di Diodoro<note place="foot" n="30">Ricordo
-                brevemente i passi su cui egli si basa 4.1, e Diod. 11.44.3, 8.2-4 e Diod.
-                11.45.4-6, e soprattutto la pace di Callia (13.2 = Diod. 12.4.5). </note> portano
+                brevemente i passi su cui egli si basa <ref target="urn:cts:greekLit:tlg2148.tlg001:4.1">4.1</ref>, 
+                e Diod. <ref target="urn:cts:greekLit:tlg0060.tlg001:11.44.3">11.44.3</ref>, 
+                <ref target="urn:cts:greekLit:tlg0060.tlg001:8.2-4">8.2-4</ref> e Diod.
+                <ref target="urn:cts:greekLit:tlg0060.tlg001:11.45.4-6">11.45.4-6</ref>, e soprattutto la pace di Callia (<ref target="urn:cts:greekLit:tlg2148.tlg001:13.2">13.2</ref> = 
+                <ref target="urn:cts:greekLit:tlg0060.tlg001:12.4.5">Diod. 12.4.5</ref>). </note> portano
               l'editore ad intendere che Eforo avesse usato la fonte di FGrHist 104, poiché la
               maggiore completezza e il minor approfondimento, farebbero pensare che la versione del
               nostro sia stata poi elaborata da Eforo. Lo scolio ad Aristoph. <emph>Pax </emph>605,
               infatti cita Filocoro (FGrHist 328 F 121) in riferimento alla vicenda di Fidia, anche
-              se è la versione contrastante, riportata dallo scolio (λέγουσι δέ τινες che Jacoby
+              se è la versione contrastante, riportata dallo scolio (<foreign xml:lang="grc">λέγουσι δέ τινες</foreign> che Jacoby
               riferisce a Eforo FGrHist 70 F 196), ad essere più vicina a quella di FGrHist 104. In
-              altri punti, come 14.1, FGrHist 104 si contrappone a Filocoro (FGrHist 328 F 34b)<note
+              altri punti, come <ref target="urn:cts:greekLit:tlg2148.tlg001:14.1">14.1</ref>, FGrHist 104 si contrappone a Filocoro (FGrHist 328 F 34b)<note
                 place="foot" n="31"><bibl><ptr target="#Doenges1981"
                   /><citedRange>447s</citedRange></bibl>. “It tells the story of the Persian wars
                 and the Pentekontaetia from an athenian point of view. It is, in fact, an Athenian
@@ -186,16 +185,14 @@
                 place="foot" n="33"><bibl><ptr target="#Frost2005"
                   /><citedRange>261</citedRange></bibl>.</note> ha ipotizzato che “<emph>Aristodemos
                 is trying to write history by looking things up in a dictionary or dictionaries as
-                he goes along</emph>“, forse pensando ai <emph>kephalaia</emph> di Schwartz,<note
-                place="foot" n="34">Vedi nota al testo, p.<ref
-                  target="#id___RefHeading__69002_1501267828" type="page"/>.</note> già tuttavia
+                he goes along</emph>“, forse pensando ai <emph>kephalaia</emph> di Schwartz, già tuttavia
               ritenuti esagerati da Jacoby, e sulla base di Arpocrazione, <emph>Lessico sui dieci
                 oratori</emph>,<note place="foot" n="35"><anchor type="bookmark-start"
                   xml:id="id_arpocraz"/>l.4 <emph>Ἀλέξανδρος</emph><emph>:</emph> Δημοσθένης ἐν ς'
                 Φιλιππικῶν φησὶν “ἡνίκα ἦλθεν Ἀλέξανδρος ὁ τούτων πρόγονος περὶ τούτων κῆρυξ. οὗτός
                 ἐστιν ὁ ἐπικαλούμενος φιλέλλην, υἱὸς μὲν Ἀμύντου...”<anchor type="bookmark-end"
                   corresp="#id_arpocraz.alexandros"/>.</note> che “cita” Demostene (6.11) in modo
-              simile ad FGrHist 104 (2.2). Gibson<note place="foot" n="36"><bibl><ptr
+              simile ad FGrHist 104 (<ref target="urn:cts:greekLit:tlg2148.tlg001:2.2">2.2</ref>). Gibson<note place="foot" n="36"><bibl><ptr
                     target="#Gibson2002"/><citedRange>68</citedRange></bibl>. L'autore pensa,
                 ammettendo di non poterlo provare, che il famoso commento di Didimo a Demostene
                 altro non sia che l'opera di uno storico che attinse ampi stralci anche dal commento
@@ -209,12 +206,10 @@
                 testo.<note place="foot" n="37">Questo testo è del IV-V secolo d.C. e potrebbe
                 dunque essere già una forma di riutilizzo per la compilazione di scolii del testo
                 dello storico di FGrHist 104, che tre secoli prima era stato estrapolato da
-                materiale affine a quello che troviamo in P.Oxy. 2469 (p.<ref
-                  target="#id___RefHeading__69795_1501267828" type="page"/>).</note> L'ampio uso di
+                materiale affine a quello che troviamo in <ref target="textpap.html" type="papyrus">P.Oxy. 2469</ref>.</note> L'ampio uso di
               FGrHist 104 nella letteratura scoliografica è attestato anche dagli scoli ad Ermogene
               di Planude, inseriti da Bücheler.<note place="foot" n="38">Jacoby FGrHist 104
-                  <emph>komm. </emph>321 e Vedi<ref target="#id___RefHeading__71071_1501267828"
-                  type="page">84</ref>. </note> Non è tuttavia possibile stabilire con quale
+                  <emph>komm. </emph>321. </note> Non è tuttavia possibile stabilire con quale
               criterio e riguardo a quali temi in generale venga usato il testo di FGrHist 104 e se
               ci sia una tendenza predominante come per l'uso dell'<emph>Athenaion Politeia</emph> e
               delle <emph>Atthis </emph>di Androzione e Filocoro, considerate preferenziali per
@@ -225,8 +220,9 @@
               individuare un percorso frequentato dalle informazioni nei secoli. Quest'ultimo non
               può certo essere reso evidente nei suoi dettagli ma può essere intravisto dal
               confronto e dall'incrocio con studi già effettuati su simili testi.<note place="foot"
-                n="40">Soprattutto Westlake 1977, Culasso Gastaldi 1990, Montana 1996, Gibson 2002,
-                Lenfant 2004, Dickey 2007.</note> Il compito da affrontare è dunque di analisi e
+                n="40">Soprattutto <bibl><ptr target="#Westlake1977"/></bibl>, <bibl><ptr target="#Gastaldi1990"/></bibl>, 
+                <bibl><ptr target="#Montana1996"/></bibl>, <bibl><ptr target="#Gibson2002"/></bibl>,
+                <bibl><ptr target="#Lenfant2004"/></bibl>, <bibl><ptr target="#Dickey2007"/></bibl>.</note> Il compito da affrontare è dunque di analisi e
               rilettura di tutte le fonti relative a queste tradizioni storiche, fin dove possibile
               per cercare di intravedere, oltre alla comunanza di temi con Tucidide ed Erodoto,
               troppo spesso confusi con gli argomenti da essi trattati, anche altri passaggi che
@@ -245,8 +241,10 @@
               FGrHist 104 presta poca attenzione alla cronologia, gradisce i dati numerici e gli
               aneddoti. FGrHist 104 tuttavia, pur essendo un testo "spoglio", nonostante il destino
               che la tradizione degli studi moderni gli ha attribuito, attenta ad un riordino
-              logico. Vi troviamo due sentenze altrimenti tradite (1.6 e 16.4) ma anche una che
-              altrimenti non avremmo (2.5), vi sono aneddoti ( 2.5 e 8.1) e “digressioni” a renderne
+              logico. Vi troviamo due sentenze altrimenti tradite (<ref target="urn:cts:greekLit:tlg2148.tlg001:1.6">1.6</ref> e 
+              <ref target="urn:cts:greekLit:tlg2148.tlg001:16.4">16.4</ref>) ma anche una che
+              altrimenti non avremmo (<ref target="urn:cts:greekLit:tlg2148.tlg001:2.5">2.5</ref>), vi sono aneddoti 
+              (<ref target="urn:cts:greekLit:tlg2148.tlg001:2.5">2.5</ref> e <ref target="urn:cts:greekLit:tlg2148.tlg001:8.1">8.1</ref>) e “digressioni” a renderne
               il tessuto narrativo piacevole, e non gli si imputerà una semplicioneria di cui non ha
               colpa per escluderlo dalle argomentazioni. Questi aspetti del testo hanno spinto
               Jacoby a calcare sull'elemento retorico alla sua base e a vedervi null'altro che una
@@ -281,12 +279,10 @@
               una serie di esempi di libraria informale ''con una pretesa di formalità''.</note> I
             fenomeni che ricorrono nel codice dimostrano come la nota in maiuscoletto in cima alla
             prima pagina sia un riferimento interno al fascicolo posto ad un determinato momento
-            della sua produzione per ovviare ad un errore.<note>Vedi p.<ref
-                target="#bkm:RefHeading704631501267828" type="page"/>.</note> Data la presenza di
+            della sua produzione per ovviare ad un errore. Data la presenza di
             Aristodemo ''il traditore'' all'interno del testo stesso, pensare ad un altro Aristodemo
             autore non è necessario. Nella riorganizzazione il copista identifica il testo grazie al
-            suo contenuto.<note>Così anche Müller e Cfr. p.<ref
-                target="#bkm:RefHeading703691501267828" type="page"/>.</note> Resta certo, il fatto
+            suo contenuto.<note>Così anche Müller.</note> Resta certo, il fatto
             che questo Aristodemo non è il tema centrale del nostro testo, ma era una pratica
             comune, per i compilatori delle enciclopedie, copiare frammenti ampi intorno alla
             porzione di testo interessante, copiare il contesto, e non credo debba sorprendere che
@@ -298,9 +294,7 @@
             conservato per una compilazione successiva e identificato ai fini della riorganizzazione
             del fascicolo, con uno dei suoi contenuti<note><bibl><ptr target="#Schepens2010"
                   /><citedRange>36</citedRange></bibl>.</note> ed a conferma resta il fatto che
-            FGrHist 104 è stato ampiamente usato in commenti, scoli e lessici.<note>Vedi p.<ref
-                target="#bkm:RefHeading704661501267828" type="page"/> e <ref
-                target="#bkm:RefHeading701261501267828" type="page"/>.</note> Già il testo da cui
+            FGrHist 104 è stato ampiamente usato in commenti, scoli e lessici. Già il testo da cui
             copia il nostro intellettuale bizantino presenta ripetizioni, che risultano "spontanee",
             proprio come ci si aspetterebbe da una serie di appunti quotidiani. </p>
 
@@ -333,13 +327,13 @@
                 target="urn:cts:greekLit:tlg2148.tlg001:1.2">FGrHist 104 1.2</ref>, <ref
                 target="urn:cts:greekLit:tlg2148.tlg001:2.3">FGrHist 104 2.3</ref>) </foreign>e
               <foreign xml:lang="grc">ὑπάρχων</foreign>, titolo generico probabilmente che troviamo
-            attribuito tanto ad Aristide (1.4) che a Pausania (<ref
+            attribuito tanto ad Aristide (<ref target="urn:cts:greekLit:tlg2148.tlg001:1.4">1.4</ref>) che a Pausania (<ref
               target="urn:cts:greekLit:tlg2148.tlg001:8">FGrHist 104 8</ref>). Anche
               l'<emph>hapax</emph>
             <foreign xml:lang="grc">περίυπνος</foreign>, forse frutto di mala divisione (<ref
               target="urn:cts:greekLit:tlg2148.tlg001:8">FGrHist 104 8</ref>) è probabilmente
             riconducibile ad un precedente tucidideo (Thuc. <ref
-              target="urn:cts:greekLit:tlg0003.tlg001:2.2.1">Tucidide 2.2.1</ref>: <foreign
+              target="urn:cts:greekLit:tlg0003.tlg001:2.2.1">2.2.1</ref>: <foreign
               xml:lang="grc">ἐσῆλθον περὶ πρῶτον ὕπνον</foreign>). È molto interessante l'uso
             particolare di particelle e connettori. Troviamo per esempio, lungo tutto il testo un
             uso di <foreign xml:lang="grc">δὲ</foreign> molto frequente a indicare i vari eventi
@@ -387,7 +381,7 @@
             entrambi.</p>
 
           <p>Il problema della relazione tra i manoscritti conservati, il Cod. Par. Suppl. Gr. 607 e
-            il frammento papiraceo P.Oxy. 2469, si pone in realtà soltanto in relazione alla
+            il frammento papiraceo <ref target="textpap.html" type="papyrus">P.Oxy. 2469</ref>, si pone in realtà soltanto in relazione alla
             possibile origine da una stessa opera, già in circolazione alla metà del secondo secolo.
             I testi conservati dai manoscritti e dalla tradizione scoliastica ad Aristofane sono
             afferenti a diversi rami della tradizione del testo. Zuntz<note><bibl><ptr
@@ -403,13 +397,13 @@
               target="urn:cts:greekLit:tlg5014.tlg002:84bII">84b II</ref>. Era già noto che un'opera
             come FGrHist 104 potesse essere alla base di Suda e degli scoliografi ad
               Aristofane,<note>Jacoby, FGrHist 104 <emph>Komm</emph>, 319-20.</note> ma Rea
-            escludeva, con diversi argomenti, la possibilità che anche P.Oxy. 2469 fosse uno scolio
+            escludeva, con diversi argomenti, la possibilità che anche <ref target="textpap.html" type="papyrus">P.Oxy. 2469</ref> fosse uno scolio
             formato con materiali tratti da FGrHist 104: l'elaborata scrittura, la minor
             corrispondenza di questi scoli con FGrHist 104 che non del nostro papiro con esso. Per
             Rea era persino difficile pensare ad un commentario e proponeva di collocare questo
             papiro in uno stadio recente della trasmissione del testo. Riproduco lo schema di Zunzt,
             leggermente modificato secondo l'ipotesi di Rea.<note>Rea ipotizzava anche X o B come
-              posizioni possibili per P.Oxy. 2469, mentre l'ho spostato su A.</note></p>
+              posizioni possibili per <ref target="textpap.html" type="papyrus">P.Oxy. 2469</ref>, mentre l'ho spostato su A.</note></p>
 
           <p>Nel <bibl><ptr target="#Fournet2002"/></bibl> Fournet pubblicò anche un frammento
             papiraceo conservato a Parigi (P. Acad. Inv. 3 d), che fu riconosciuto come il pezzo
@@ -427,10 +421,9 @@
             del passo dei <emph>Cavalieri</emph>. Tuttavia, la frase <foreign xml:lang="grc"
               >Δια[βάλλει το]ὺς Ἀθηναίους ὡς κακοὺς πρὸς τοὺς εὐεργέτ[ας ...</foreign> che si trova
             anche in Schol. <ref target="urn:cts:greekLit:tlg5014.tlg002:84bI">84b I</ref>, non è
-            presente in FGrHist 104.<note>Vedi p.<ref target="#bkm:scholiaaristofeq84b" type="page"
-              /></note>. È invece presente in Diodoro (<ref
+            presente in FGrHist 104. È invece presente in Diodoro (<ref
               target="urn:cts:greekLit:tlg0060.tlg001:11.58">Diod. 11.58</ref>). Questi due testi
-            non deriverebbero dunque direttamente né da FGrHist 104, né da P.Oxy. 2469, ''bensì da
+            non deriverebbero dunque direttamente né da FGrHist 104, né da <ref target="textpap.html" type="papyrus">P.Oxy. 2469</ref>, ''bensì da
             una fonte ipomnematica comune, nella quale la fonte storica era citata'' secondo
                   Montana.<note><bibl><ptr target="#Montana2006"
               /><citedRange>54</citedRange></bibl></note> Ci troveremmo in una situazione di questo
@@ -439,8 +432,8 @@
                   target="#Montana2000"/><citedRange>96</citedRange></bibl>. <bibl><ptr
                   target="#Montana2006"/><citedRange>48-9</citedRange></bibl> fornisce i criteri per
               la datazione di CLGP Aristoph n°5.</note>considerati il discreto pregio stilistico
-            della versione di P.Oxy. 2469; il fatto che essa stessa aggiunge alcuni termini rispetto
-            ad FGrHist 104; e la concomitanza cronologica attestata tra A e P.Oxy. 2469, non penso
+            della versione di <ref target="textpap.html" type="papyrus">P.Oxy. 2469</ref>; il fatto che essa stessa aggiunge alcuni termini rispetto
+            ad FGrHist 104; e la concomitanza cronologica attestata tra A e <ref target="textpap.html" type="papyrus">P.Oxy. 2469</ref>, non penso
             si possa del tutto escludere che essi coincidano. Quest'ultimo appare sicuramente
             compendiato, anche se ignoriamo con quale intento. Resta difficile ''ricostruire una
             relazione ''genetica'' diretta fra questi due diversi prodotti dall'esegesi antica.''
@@ -449,15 +442,14 @@
           <p>Si può però ricavare da questa tradizione, che il testo dell'autore di FGrHist 104
             circolò nel Fayyum almeno dal II al V secolo.</p>
 
-          <p>P.Oxy. 2469 invece è molto probabilmente un elemento della medesima tradizione del
-            testo nel codice,<note>Vedi p.<ref target="#bkm:RefHeading697951501267828" type="page"
-              />.</note> mentre gli altri papiri conservano un ramo della tradizione confluita in
+          <p><ref target="textpap.html" type="papyrus">P.Oxy. 2469</ref> invece è molto probabilmente un elemento della medesima tradizione del
+            testo nel codice, mentre gli altri papiri conservano un ramo della tradizione confluita in
             quella della scoliografia ad Aristofane.</p>
 
           <p>Nel testo <ref type="edition" target="#edition1"/> che di seguito riporto, ho scelto o
             proposto alcune lezioni, che la visione del microfilm del manoscritto alla Bibliothèque
             Nationale de France mi pare permetta di sostenere. Ho inserito nell'apparato critico una
-            lezione di P.Oxy. 2469. Per la direzione di marcia di Mardonio dopo il secondo sacco di
+            lezione di <ref target="textpap.html" type="papyrus">P.Oxy. 2469</ref>. Per la direzione di marcia di Mardonio dopo il secondo sacco di
             Atene, infatti, sia Diodoro sia FGrHist 104 riportano <foreign xml:lang="grc"
               >Ἀθήνας</foreign>, mentre nel papiro troviamo l'agognato <anchor xml:id="cheDindorf"
               /><foreign xml:lang="grc">Θή[βας</foreign> che Dindorf<note><bibl><ptr
@@ -472,7 +464,7 @@
             aggiunse nella sua edizione anche i frammenti 2 (<ref
               target="urn:cts:greekLit:tlg2047.tlg001:387.4">Waltz V, 387.4</ref>) e 3 (<ref
               target="urn:cts:greekLit:tlg2047.tlg001:378.9">Waltz V, 378.9</ref>) in corpo
-              minore.<note>Cfr. p.<ref target="#bkm:waltzV388" type="page"/>.</note> Sebbene di
+              minore. Sebbene di
             questi due si debba continuare a dubitare, <ref
               target="urn:cts:greekLit:tlg2047.tlg001:388">Waltz V, 388</ref>, conserva un testo
             innegabilmente afferente alla tradizione del testo di FGrHist 104, in una versione
@@ -904,7 +896,7 @@
               <item><ref target="urn:cts:greekLit:tlg2148.tlg001:8">8</ref>
                 <foreign xml:lang="grc">θυγάτηρ Κορωνίδου ὄνομα</foreign> La lettura è chiara così
                 come stampata da Jacoby. Effettivamente qui è caduto il nome della
-                    giovane.<note><foreign xml:lang="grc">Κλεονίκη</foreign>, p. 164.</note> Anche
+                    giovane.<note><foreign xml:lang="grc">Κλεονίκη</foreign></note> Anche
                 Müller dice sul passo di Coronide ''<emph>filiae nomen exciderit</emph>''. </item>
               <item><ref target="urn:cts:greekLit:tlg2148.tlg001:10">10</ref>
                 <foreign xml:lang="grc">βασιλεύοντα</foreign> Ho scelto di nuovo la lezione del
