@@ -29,7 +29,7 @@ To produce all the output a series of transformation is run on the main texts (i
 * loughi.xsl produces the page with the map, the map javascript and the pelagios rdf output
 * persone.xsl produces the people index page, and the snap rdf output found in the RDF folder
 There are other xslt which I initially copied here which where not yet useful.
-the bibliography is handled pointing to Zotero, but this is also a modification to the epidoc example xslt on my local drive
+the bibliography is handled pointing to [Zotero API](https://www.zotero.org/support/dev/web_api/v2/start), but this is also a modification to the epidoc example xslt on my local drive.
 
 ### Layout and Graphic
 This is fully [Bootstrap](http://getbootstrap.com/) stuff, the carousel theme, sligthly adapted. The dist folder contains a copy of what I needed downloading the repo. I have created with this html a template within the [epidoc example XSLT](https://sourceforge.net/p/epidoc/wiki/Stylesheets/) and used the same to produce the static pages. The table sorting function used in persone.html is done using [Tablesorter 2.0](http://tablesorter.com/docs/)
@@ -43,9 +43,10 @@ The images of the manuscript are kindly offered via [International Image Interop
 ### Places and People
 Places are given an id from [Pleiades](http://pleiades.stoa.org/). This is used to create the map and the pelagios annotation, to show links, and activate the popups. Is wonderfully useful.
 IDs for people are taken where possible from the [Lexicon of Greek Personal Names](http://clas-lgpn2.classics.ox.ac.uk/) or from Wikidata. 
+Citations of texts are encoded as [CTS urns](http://www.homermultitext.org/hmt-doc/cite/cts-urn-overview.html) in the introduction to the digital edition.
 
 #### Popups
-In the places page, popups with the little map and links to pleiades and pelagios come from the [ADWL.js](http://isawnyu.github.com/awld-js/awld-test.html), which you will see copied in this folder.
+In the places page, popups with the little map and links to pleiades and pelagios come from the [ADWL.js](http://isawnyu.github.com/awld-js/awld-test.html), which you will see copied in this folder. The same happens if you scroll on a citation in the introduction page (although not always!)
 
 #### Map
 The map in luoghi.html is done with [leaflet](http://leafletjs.com/examples/quick-start.html). During transformation a map.js file is generated which takes the JSON from pleiades and uses it to build the map.
