@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>FGrHist 104 [Aristodemo] - Introduzione</title>
+                <author>Pietro Liuzzo</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2012-04-09T21:09:38</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Written by OpenOffice</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <name/>
+                <date>2013-04-10T12:39:48</date>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body><div type="commentary">
+
+        </div>
+        </body>
+    </text>
+</TEI>
