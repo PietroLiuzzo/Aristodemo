@@ -24,6 +24,9 @@ This is a good case study because
 The XML of the text is in TEI. Potentially with minor modifications transformations and structure can be reused for any TEI text, although ids, links to external resources and static data need to be changed.
 The LaTeX version is the one I have started from, as [my thesis](http://amsdottorato.unibo.it/6257/) was written like that.
 
+### Commentary
+The Commentary has been transformed trom LaTeX to Markdown with regex find and replace. Then Comments have been entered as annotations with [hypothes.is](http://hypothes.is) to both allow further commenting from other people and a neat alignment to text. Users need to log in to Hypothesis and turn on the plugin to see the commentary.
+
 ### Transformations
 To produce all the output a series of transformation is run on the main texts (in xml folder). 
 * loughi.xsl produces the page with the map, the map javascript and the pelagios rdf output
