@@ -26,6 +26,7 @@ The LaTeX version is the one I have started from, as [my thesis](http://amsdotto
 
 ### Commentary
 The Commentary has been transformed trom LaTeX to Markdown with regex find and replace. Then Comments have been entered as annotations with [hypothes.is](http://hypothes.is) to both allow further commenting from other people and a neat alignment to text. Users need to log in to Hypothesis and turn on the plugin to see the commentary. References to Places and Persons in the Commentary and links to citations and bibliography will be done as well in the future. Currently only passages from Herodotus are linked to Perseus. These annotations will also be displayed in a continuous page as well as statistics on commentators.
+Places and persons might be in the form of reply annotations with a special tag person or place. bibliography should link to zotero items. citations might be a reply to a comment with a tag citationPrimary.
 
 ### Transformations
 To produce all the output a series of transformation is run on the main texts (in xml folder). 
