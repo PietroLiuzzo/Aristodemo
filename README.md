@@ -25,7 +25,7 @@ The XML of the text is in TEI. Potentially with minor modifications transformati
 The LaTeX version is the one I have started from, as [my thesis](http://amsdottorato.unibo.it/6257/) was written like that.
 
 ### Commentary
-The Commentary has been transformed trom LaTeX to Markdown with regex find and replace. Then Comments have been entered as annotations with [hypothes.is](http://hypothes.is) to both allow further commenting from other people and a neat alignment to text. Users need to log in to Hypothesis and turn on the plugin to see the commentary. References to Places and Persons in the Commentary and links to citations will be done as well in the future.
+The Commentary has been transformed trom LaTeX to Markdown with regex find and replace. Then Comments have been entered as annotations with [hypothes.is](http://hypothes.is) to both allow further commenting from other people and a neat alignment to text. Users need to log in to Hypothesis and turn on the plugin to see the commentary. References to Places and Persons in the Commentary and links to citations and bibliography will be done as well in the future. Currently only passages from Herodotus are linked to Perseus. These annotations will also be displayed in a continuous page as well as statistics on commentators.
 
 ### Transformations
 To produce all the output a series of transformation is run on the main texts (in xml folder). 
